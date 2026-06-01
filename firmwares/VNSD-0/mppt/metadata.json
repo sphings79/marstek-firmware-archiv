@@ -1,5 +1,5 @@
 {
-  "deviceType": "VNSA-0",
+  "deviceType": "VNSD-0",
   "firmwareType": "mppt",
   "version": "115",
   "releaseNotes": "Initial archive entry",
