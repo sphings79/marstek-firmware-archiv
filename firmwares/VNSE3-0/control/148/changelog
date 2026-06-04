@@ -1,0 +1,6 @@
+1. Neue Datenbackup-Funktion hinzugefügt.
+2. Erkennung von Stromzählertrennung und Phasenlage weiter optimiert.
+3. Anzeigeproblem des MQTT-Verbindungsstatus im Ethernet-Modus behoben.
+4. Stabilität der MQTT-Verbindung nach Netztrennung und anschließendem Neustart verbessert.
+5. Problem behoben, bei dem nach einer zweiten DOD-Konfiguration keine Entladung mehr möglich war.
+6. Verbindung zu Drittservern optimiert; Timeout-bedingtes automatisches Löschen deaktiviert.
