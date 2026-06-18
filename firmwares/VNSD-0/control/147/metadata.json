@@ -1,0 +1,10 @@
+{
+  "deviceType": "VNSD-0",
+  "firmwareType": "control",
+  "version": "147",
+  "releaseNotes": "在原有147基础上： 1、优化德国电表连接 2、优化以太网下的第三方服务器配置 3、优化http数据上报偶尔缺失问题",
+  "submittedAt": "2026-06-18T00:00:00.000Z",
+  "url": "https://static-eu.marstekenergy.com/uploads/ota/20260128/202601281721320b2053125.bin",
+  "crc": "42516",
+  "size": 372736
+}
