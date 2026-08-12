@@ -78,7 +78,9 @@ Oder ohne lokale Ausführung: den Workflow **Firmware Backfill** manuell starten
 - **Kanonische Typ-Ordner:** `Control`, `BMS`, `MPPT`, `Micro` (großgeschrieben).
 - **Flat-Geräte** (ohne Typ-Unterordner): `HME-3`, `HME-4`, `HMJ-2`
   (in `lib.js` → `FLAT_STRUCTURE_DEVICES`).
-- **`micro`-Ordner** aus dem Altbestand sind Duplikate der MPPT-Firmware
-  (identische `.bin`). `migrate-casing.js` meldet sie, löscht aber nichts.
+- **Firmware-Typ wird aus `apiResponse.data.<modul>` abgeleitet, nicht aus dem
+  Top-Feld.** Das Submission-Tool labelt die Microinverter-Firmware oben
+  fälschlich als „MPPT"; maßgeblich ist der Modul-Slot, dessen `url` zur
+  Download-URL passt (`mcu_type`). Siehe `deriveFirmwareType()` in `lib.js`.
 - **Manuelle `changelog`-Dateien** in Versionsordnern haben Vorrang vor der
   automatischen Übersetzung.

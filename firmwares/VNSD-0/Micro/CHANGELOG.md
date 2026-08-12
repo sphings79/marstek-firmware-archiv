@@ -1,4 +1,4 @@
-# Changelog — VNSD-0 / MPPT
+# Changelog — VNSD-0 / Micro
 
 ## v116 — 2026-08-12
 

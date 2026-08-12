@@ -28,6 +28,31 @@ const CANONICAL_TYPES = {
   charger: 'Charger',
 };
 
+// The submission tool's top-level "Firmware Type" field is UNRELIABLE: it labels
+// the microinverter firmware as "MPPT". The authoritative source is
+// apiResponse.data.<module> — the module slot whose `url` matches the download
+// URL is the real firmware type (its key / mcu_type). We always prefer that.
+function deriveFirmwareType(metadata, fallback) {
+  const data = metadata && metadata.apiResponse && metadata.apiResponse.data;
+  const base = (u) => (u ? String(u).split('/').pop().split('?')[0] : null);
+  if (data && typeof data === 'object') {
+    const topBase = base(metadata.url);
+    // 1) module whose url matches the top-level download url
+    for (const [k, v] of Object.entries(data)) {
+      if (v && typeof v === 'object' && v.url && topBase && base(v.url) === topBase) {
+        return normalizeFirmwareType(v.mcu_type || k);
+      }
+    }
+    // 2) exactly one populated module carrying a url
+    const populated = Object.entries(data).filter(([, v]) => v && typeof v === 'object' && v.url);
+    if (populated.length === 1) {
+      const [k, v] = populated[0];
+      return normalizeFirmwareType(v.mcu_type || k);
+    }
+  }
+  return normalizeFirmwareType(fallback);
+}
+
 function isFlatDevice(deviceType) {
   return FLAT_STRUCTURE_DEVICES.has(deviceType);
 }
@@ -83,7 +108,10 @@ function parseIssueBody(body) {
   return {
     deviceType,
     firmwareTypeRaw: firmwareTypeRaw && firmwareTypeRaw !== 'None' ? firmwareTypeRaw : null,
-    firmwareType: normalizeFirmwareType(firmwareTypeRaw),
+    // Derived from apiResponse when possible (fixes the tool's "MPPT" mislabel).
+    firmwareType: isFlatDevice(deviceType)
+      ? null
+      : deriveFirmwareType(metadata || {}, firmwareTypeRaw),
     version: String(version),
     metadata: metadata || {},
   };
@@ -141,6 +169,7 @@ module.exports = {
   CANONICAL_TYPES,
   isFlatDevice,
   normalizeFirmwareType,
+  deriveFirmwareType,
   targetDir,
   relPosix,
   parseIssueBody,

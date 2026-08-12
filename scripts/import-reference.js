@@ -16,6 +16,7 @@ const {
   relPosix,
   isFlatDevice,
   normalizeFirmwareType,
+  deriveFirmwareType,
   extractReleaseNote,
   sha256,
 } = require('./lib');
@@ -63,7 +64,7 @@ async function main() {
 
   for (const { dir, meta } of items) {
     const deviceType = meta.deviceType;
-    const firmwareType = isFlatDevice(deviceType) ? null : normalizeFirmwareType(meta.firmwareType);
+    const firmwareType = isFlatDevice(deviceType) ? null : deriveFirmwareType(meta, meta.firmwareType);
     const version = String(meta.version);
     if (!deviceType || !version || !meta.archivedFilename) {
       summary.skipped++;

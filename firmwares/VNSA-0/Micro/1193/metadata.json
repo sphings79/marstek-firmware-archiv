@@ -1,6 +1,6 @@
 {
   "deviceType": "VNSA-0",
-  "firmwareType": "MPPT",
+  "firmwareType": "Micro",
   "version": "1193",
   "url": "https://static-eu.marstekenergy.com/uploads/ota/20260514/VA_inv_app_1193_0512_ota_092355.bin",
   "remark": "低压抢救优化， 需要配合BMS V1105版本",
@@ -72,9 +72,12 @@
   "releaseNote": "低压抢救优化， 需要配合BMS V1105版本",
   "releaseNoteDE": "Optimierung der Niederspannungsrettung, muss mit der BMS V1105-Version zusammenarbeiten",
   "releaseNoteEN": "Low voltage rescue optimization, need to cooperate with BMS V1105 version",
-  "archivedAt": "2026-08-12T11:17:03Z",
+  "archivedAt": "2026-08-12T11:51:34Z",
   "archivedFilename": "VA_inv_app_1193_0512_ota_092355.bin",
   "archivedFilesize": 146432,
   "archivedSha256": "4735bbe75d698c964597c1c8fd755cc87e90093cc55b99b4d0c42abcfc79cf77",
+  "apiCrc": 56505,
+  "apiSize": 146432,
+  "verified": true,
   "issueNumber": 3
 }

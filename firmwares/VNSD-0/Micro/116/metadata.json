@@ -1,6 +1,6 @@
 {
   "deviceType": "VNSD-0",
-  "firmwareType": "MPPT",
+  "firmwareType": "Micro",
   "version": "116",
   "url": "https://static-eu.marstekenergy.com/uploads/ota/20260702/vd_inv_app_0116_0702_ota_163439.bin",
   "remark": "VD 2500w",
@@ -56,9 +56,12 @@
   "releaseNote": "VD 2500w",
   "releaseNoteDE": "VD 2500w",
   "releaseNoteEN": "VD 2500w",
-  "archivedAt": "2026-08-12T11:17:12Z",
+  "archivedAt": "2026-08-12T11:51:34Z",
   "archivedFilename": "vd_inv_app_0116_0702_ota_163439.bin",
   "archivedFilesize": 115712,
   "archivedSha256": "b81bb99f8213b98e11a082fba17603e5352d57b676ff6649e0323cac9f6fd860",
+  "apiCrc": 15647,
+  "apiSize": 115712,
+  "verified": true,
   "issueNumber": 18
 }

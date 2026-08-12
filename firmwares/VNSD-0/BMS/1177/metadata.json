@@ -56,9 +56,12 @@
   "releaseNote": "ota测试1177",
   "releaseNoteDE": "OTA-Test 1177",
   "releaseNoteEN": "ota test 1177",
-  "archivedAt": "2026-08-12T11:17:14Z",
+  "archivedAt": "2026-08-12T11:51:34Z",
   "archivedFilename": "20251010135647565eb2036.bin",
   "archivedFilesize": 106496,
   "archivedSha256": "69b18aa42831536f01546bbe707e36ee65b6faa84e6cf4e92f9fbfe237f67c77",
+  "apiCrc": null,
+  "apiSize": 106496,
+  "verified": true,
   "issueNumber": 19
 }

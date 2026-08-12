@@ -61,12 +61,12 @@ Community-Firmware-Archiv für Marstek Venus Geräte.
 | v1487 | 374 KB | 2026-08-12 | [📁 VNSA-0_app_1487_0511_1_155731.bin](firmwares/VNSA-0/Control/1487/VNSA-0_app_1487_0511_1_155731.bin) | [#2](../../issues/2) | 1. Einige Funktionen von OpenApi hinzugefügt (siehe Aktualisierung des OpenApi-Dokuments),… |
 | v149 | 374 KB | 2026-08-12 | [📁 VNSA-0_app_0149_0528_102448.bin](firmwares/VNSA-0/Control/149/VNSA-0_app_0149_0528_102448.bin) | [#23](../../issues/23) | 1. Einige Funktionen von OpenApi hinzugefügt und das Problem behoben, dass die von der ES-… |
 
-#### MPPT
+#### Micro
 
 | Version | Größe | Hinzugefügt | Download | Issue | Änderungen |
 |---------|-------|-------------|----------|-------|------------|
-| v1211 | 143 KB | 2026-08-12 | [📁 VA_inv_app_1211_0520_ota_193621.bin](firmwares/VNSA-0/MPPT/1211/VA_inv_app_1211_0520_ota_193621.bin) | [#24](../../issues/24) | Verbesserter netzunabhängiger VA-Anschluss mit RCD-Ladefunktion |
-| v1193 | 143 KB | 2026-08-12 | [📁 VA_inv_app_1193_0512_ota_092355.bin](firmwares/VNSA-0/MPPT/1193/VA_inv_app_1193_0512_ota_092355.bin) | [#3](../../issues/3) | Optimierung der Niederspannungsrettung, muss mit der BMS V1105-Version zusammenarbeiten |
+| v1211 | 143 KB | 2026-08-12 | [📁 VA_inv_app_1211_0520_ota_193621.bin](firmwares/VNSA-0/Micro/1211/VA_inv_app_1211_0520_ota_193621.bin) | [#24](../../issues/24) | Verbesserter netzunabhängiger VA-Anschluss mit RCD-Ladefunktion |
+| v1193 | 143 KB | 2026-08-12 | [📁 VA_inv_app_1193_0512_ota_092355.bin](firmwares/VNSA-0/Micro/1193/VA_inv_app_1193_0512_ota_092355.bin) | [#3](../../issues/3) | Optimierung der Niederspannungsrettung, muss mit der BMS V1105-Version zusammenarbeiten |
 
 ### VNSD-0
 
@@ -85,12 +85,12 @@ Community-Firmware-Archiv für Marstek Venus Geräte.
 | v149 | 376 KB | 2026-08-12 | [📁 VNSD-0_app_0149_0521_094621.bin](firmwares/VNSD-0/Control/149/VNSD-0_app_0149_0521_094621.bin) | [#4](../../issues/4) | 1. Einige Funktionen von OpenApi hinzugefügt und das Problem behoben, dass die von der ES-… |
 | v147 | 364 KB | 2026-08-12 | [📁 202601281721320b2053125.bin](firmwares/VNSD-0/Control/147/202601281721320b2053125.bin) | [#16](../../issues/16) | Basierend auf dem Original 147: 1. Optimierung der deutschen Stromzähleranbindung 2. Optim… |
 
-#### MPPT
+#### Micro
 
 | Version | Größe | Hinzugefügt | Download | Issue | Änderungen |
 |---------|-------|-------------|----------|-------|------------|
-| v116 | 113 KB | 2026-08-12 | [📁 vd_inv_app_0116_0702_ota_163439.bin](firmwares/VNSD-0/MPPT/116/vd_inv_app_0116_0702_ota_163439.bin) | [#18](../../issues/18) | VD 2500w |
-| v115 | 113 KB | 2026-08-12 | [📁 202601230921310c0e30687.bin](firmwares/VNSD-0/MPPT/115/202601230921310c0e30687.bin) | [#21](../../issues/21) | Anpassung an Zentralsteuerung 147 |
+| v116 | 113 KB | 2026-08-12 | [📁 vd_inv_app_0116_0702_ota_163439.bin](firmwares/VNSD-0/Micro/116/vd_inv_app_0116_0702_ota_163439.bin) | [#18](../../issues/18) | VD 2500w |
+| v115 | 113 KB | 2026-08-12 | [📁 202601230921310c0e30687.bin](firmwares/VNSD-0/Micro/115/202601230921310c0e30687.bin) | [#21](../../issues/21) | Anpassung an Zentralsteuerung 147 |
 
 ### VNSE3-0
 
@@ -114,16 +114,16 @@ Community-Firmware-Archiv für Marstek Venus Geräte.
 | v148 | 358 KB | 2026-08-12 | [📁 VNSEE3-0_app_0148_0331_093751.bin](firmwares/VNSE3-0/Control/148/VNSEE3-0_app_0148_0331_093751.bin) | [#20](../../issues/20) | 1. Datensicherungsfunktion hinzugefügt 2. Optimieren Sie die Erkennung von Zählerunterbrec… |
 | v144 | 346 KB | 2025-11-26 | [📁 20251118161530cc2d80857.bin](firmwares/VNSE3-0/Control/144/20251118161530cc2d80857.bin) | [↗ ref](https://github.com/rweijnen/marstek-firmware-archive) | Neue Funktionen: 1. Mit der Grundlinieneinstellung für die Anti-Rückfluss-Leistung können … |
 
-#### MPPT
+#### Micro
 
 | Version | Größe | Hinzugefügt | Download | Issue | Änderungen |
 |---------|-------|-------------|----------|-------|------------|
-| v119 | 117 KB | 2026-08-12 | [📁 inv_app_0119_0326_ota_152726.bin](firmwares/VNSE3-0/MPPT/119/inv_app_0119_0326_ota_152726.bin) | [#14](../../issues/14) | 1. Beheben Sie das Problem, dass kein Ladevorgang erzwungen wird, wenn der Ladezustand unt… |
+| v119 | 117 KB | 2026-08-12 | [📁 inv_app_0119_0326_ota_152726.bin](firmwares/VNSE3-0/Micro/119/inv_app_0119_0326_ota_152726.bin) | [#14](../../issues/14) | 1. Beheben Sie das Problem, dass kein Ladevorgang erzwungen wird, wenn der Ladezustand unt… |
 
 ---
 
 **Firmware-Dateien gesamt:** 35
-**Zuletzt aktualisiert:** 2026-08-12 11:40:31 UTC
+**Zuletzt aktualisiert:** 2026-08-12 11:51:50 UTC
 
 ## Changelogs
 

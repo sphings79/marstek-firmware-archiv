@@ -72,9 +72,12 @@
   "releaseNote": "1.安时积分修改为在定时器中断中用逆变器电流进行\n2.增加休眠时间计算",
   "releaseNoteDE": "1. Die Amperestunden-Integration wird geändert, um den Wechselrichterstrom im Timer-Interrupt zu verwenden.\n2. Schlafzeitberechnung hinzufügen",
   "releaseNoteEN": "1. The ampere-hour integration is modified to use the inverter current in the timer interrupt.\n2. Add sleep time calculation",
-  "archivedAt": "2026-08-12T11:17:10Z",
+  "archivedAt": "2026-08-12T11:51:34Z",
   "archivedFilename": "Ac3.0BmsAPP_V113_ota_175955.bin",
   "archivedFilesize": 97280,
   "archivedSha256": "da7ebe26b679704dc00b75edc589bbc5b4b8f33f5a89888e93328b8b40f86df9",
+  "apiCrc": 14590,
+  "apiSize": 97280,
+  "verified": true,
   "issueNumber": 13
 }

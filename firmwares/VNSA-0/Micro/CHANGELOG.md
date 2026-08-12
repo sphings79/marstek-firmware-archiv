@@ -1,4 +1,4 @@
-# Changelog — VNSA-0 / MPPT
+# Changelog — VNSA-0 / Micro
 
 ## v1211 — 2026-08-12
 

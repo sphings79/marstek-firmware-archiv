@@ -1,6 +1,6 @@
 {
   "deviceType": "VNSD-0",
-  "firmwareType": "MPPT",
+  "firmwareType": "Micro",
   "version": "115",
   "url": "https://static-eu.marstekenergy.com/uploads/ota/20260123/202601230921310c0e30687.bin",
   "remark": "适配中控147",
@@ -40,9 +40,12 @@
   "releaseNote": "适配中控147",
   "releaseNoteDE": "Anpassung an Zentralsteuerung 147",
   "releaseNoteEN": "Adapt to central control 147",
-  "archivedAt": "2026-08-12T11:17:14Z",
+  "archivedAt": "2026-08-12T11:51:34Z",
   "archivedFilename": "202601230921310c0e30687.bin",
   "archivedFilesize": 115712,
   "archivedSha256": "b2505973136f414928927df3211ce4ada90bdebcc100b5c770230cb5484c5c98",
+  "apiCrc": 9636,
+  "apiSize": 115712,
+  "verified": true,
   "issueNumber": 21
 }
