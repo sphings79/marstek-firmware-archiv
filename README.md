@@ -35,12 +35,6 @@ Community-Firmware-Archiv für Marstek Venus Geräte.
 | v1211 | 143 KB | 2026-08-12 | [📁 VA_inv_app_1211_0520_ota_193621.bin](firmwares/VNSA-0/MPPT/1211/VA_inv_app_1211_0520_ota_193621.bin) | [#24](../../issues/24) | Verbesserter netzunabhängiger VA-Anschluss mit RCD-Ladefunktion |
 | v1193 | 143 KB | 2026-08-12 | [📁 VA_inv_app_1193_0512_ota_092355.bin](firmwares/VNSA-0/MPPT/1193/VA_inv_app_1193_0512_ota_092355.bin) | [#3](../../issues/3) | Optimierung der Niederspannungsrettung, muss mit der BMS V1105-Version zusammenarbeiten |
 
-#### Micro
-
-| Version | Größe | Hinzugefügt | Download | Issue | Änderungen |
-|---------|-------|-------------|----------|-------|------------|
-| v1193 | - | - | - | - |  |
-
 ### VNSD-0
 
 #### BMS
@@ -65,12 +59,6 @@ Community-Firmware-Archiv für Marstek Venus Geräte.
 | v116 | 113 KB | 2026-08-12 | [📁 vd_inv_app_0116_0702_ota_163439.bin](firmwares/VNSD-0/MPPT/116/vd_inv_app_0116_0702_ota_163439.bin) | [#18](../../issues/18) | VD 2500w |
 | v115 | 113 KB | 2026-08-12 | [📁 202601230921310c0e30687.bin](firmwares/VNSD-0/MPPT/115/202601230921310c0e30687.bin) | [#21](../../issues/21) | Anpassung an Zentralsteuerung 147 |
 
-#### Micro
-
-| Version | Größe | Hinzugefügt | Download | Issue | Änderungen |
-|---------|-------|-------------|----------|-------|------------|
-| v115 | - | - | - | - |  |
-
 ### VNSE3-0
 
 #### BMS
@@ -94,16 +82,10 @@ Community-Firmware-Archiv für Marstek Venus Geräte.
 |---------|-------|-------------|----------|-------|------------|
 | v119 | 117 KB | 2026-08-12 | [📁 inv_app_0119_0326_ota_152726.bin](firmwares/VNSE3-0/MPPT/119/inv_app_0119_0326_ota_152726.bin) | [#14](../../issues/14) | 1. Beheben Sie das Problem, dass kein Ladevorgang erzwungen wird, wenn der Ladezustand unt… |
 
-#### Micro
-
-| Version | Größe | Hinzugefügt | Download | Issue | Änderungen |
-|---------|-------|-------------|----------|-------|------------|
-| v119 | - | - | - | - |  |
-
 ---
 
-**Firmware-Dateien gesamt:** 22
-**Zuletzt aktualisiert:** 2026-08-12 11:24:57 UTC
+**Firmware-Dateien gesamt:** 19
+**Zuletzt aktualisiert:** 2026-08-12 11:26:38 UTC
 
 ## Changelogs
 
