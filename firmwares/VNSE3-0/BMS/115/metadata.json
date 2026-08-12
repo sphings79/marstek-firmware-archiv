@@ -1,0 +1,48 @@
+{
+  "deviceType": "VNSE3-0",
+  "firmwareType": "BMS",
+  "version": "115",
+  "url": "https://static-eu.marstekenergy.com/uploads/ota/20260629/Ac3.0BmsAPP_V115_ota_110451.bin",
+  "remark": "1优化开机soc为100%或0%时的判断条件\n2.配合逆变进行超低压抢救\n3.修复满充后可能造成无法充放电的bug",
+  "chinese": "1优化开机soc为100%或0%时的判断条件\n2.配合逆变进行超低压抢救\n3.修复满充后可能造成无法充放电的bug",
+  "apiResponse": {
+    "code": 1,
+    "show": 0,
+    "msg": "success",
+    "data": {
+      "control": "",
+      "bms": {
+        "edition": 3853,
+        "devicetype": "",
+        "mcu_type": "bms",
+        "type": "VNSE3-0",
+        "url": "https://static-eu.marstekenergy.com/uploads/ota/20260629/Ac3.0BmsAPP_V115_ota_110451.bin",
+        "version": 115,
+        "english": "1.Optimize the decision logic for power-on SOC at 100% and 0%\n2.Develop ultra-low voltage rescue logic coordinated with the inverter module\n3.Resolve the bug where charge/discharge functions become unavailable after full charge",
+        "chinese": "1优化开机soc为100%或0%时的判断条件\n2.配合逆变进行超低压抢救\n3.修复满充后可能造成无法充放电的bug",
+        "japanese": "",
+        "remark": "1优化开机soc为100%或0%时的判断条件\n2.配合逆变进行超低压抢救\n3.修复满充后可能造成无法充放电的bug",
+        "is_boot": "N",
+        "is_http": "Y",
+        "crc": "30123",
+        "size": 83968,
+        "force_update": "N"
+      },
+      "mppt": "",
+      "micro": "",
+      "dcdc": "",
+      "bms_pack1": "",
+      "bms_pack2": "",
+      "led": "",
+      "charger": ""
+    }
+  },
+  "releaseNote": "1优化开机soc为100%或0%时的判断条件\n2.配合逆变进行超低压抢救\n3.修复满充后可能造成无法充放电的bug",
+  "releaseNoteDE": "1 Optimieren Sie die Beurteilungsbedingungen, wenn der Boot-SOC 100 % oder 0 % beträgt\n2. Arbeiten Sie mit dem Wechselrichter zusammen, um eine Rettung bei extrem niedriger Spannung zu gewährleisten\n3. Beheben Sie den Fehler, der dazu führen kann, dass das Gerät nach dem vollständigen Aufladen nicht geladen und entladen werden kann.",
+  "releaseNoteEN": "1 Optimize the judgment conditions when the boot SOC is 100% or 0%\n2. Cooperate with the inverter for ultra-low voltage rescue\n3. Fix the bug that may cause inability to charge and discharge after full charging.",
+  "archivedAt": "2026-08-12T11:17:18Z",
+  "archivedFilename": "Ac3.0BmsAPP_V115_ota_110451.bin",
+  "archivedFilesize": 83968,
+  "archivedSha256": "cb50cc792e247d490abfe8cbc45d611dae49e7b8a8e615000cc5962ece9af4be",
+  "issueNumber": 26
+}

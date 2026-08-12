@@ -1,0 +1,84 @@
+name: Firmware Archiver
+
+on:
+  issues:
+    types: [opened, edited, labeled]
+  workflow_dispatch:
+    inputs:
+      issue_number:
+        description: 'Issue-Nummer, die verarbeitet werden soll'
+        required: true
+        type: string
+
+# Ein Issue kann mehrere Events auslösen (opened + labeled). Pro Issue
+# serialisieren, damit sich zwei Läufe nicht beim git push in die Quere kommen.
+concurrency:
+  group: firmware-archiver-${{ github.event.issue.number || github.event.inputs.issue_number }}
+  cancel-in-progress: false
+
+jobs:
+  archive:
+    runs-on: ubuntu-latest
+    # Nur Submissions mit dem Label, und nur vom Repo-Owner oder dem Bot.
+    if: >
+      github.event_name == 'workflow_dispatch' ||
+      (contains(github.event.issue.labels.*.name, 'firmware-submission') &&
+       (github.event.issue.user.login == github.repository_owner ||
+        github.event.issue.user.login == 'marstek-fw-bot'))
+    permissions:
+      contents: write
+      issues: write
+    env:
+      GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      ISSUE_NUMBER: ${{ github.event.issue.number || github.event.inputs.issue_number }}
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+
+      - name: Firmware archivieren
+        id: archive
+        run: node scripts/archive-issue.js "$ISSUE_NUMBER"
+
+      - name: Changelogs & README neu generieren
+        if: steps.archive.outputs.status == 'archived'
+        run: |
+          node scripts/generate-changelogs.js
+          node scripts/update-readme.js
+
+      - name: Änderungen committen
+        if: steps.archive.outputs.status == 'archived'
+        run: |
+          git config user.name  "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add firmwares README.md CHANGELOG.md scripts/translation-cache.json
+          git commit -m "Archive: ${{ steps.archive.outputs.label }} (#${ISSUE_NUMBER})" || {
+            echo "Nichts zu committen"; exit 0; }
+          for i in 1 2 3; do
+            git push && break
+            echo "push fehlgeschlagen, rebase & retry ($i)"; git pull --rebase; done
+
+      - name: Issue kommentieren & schließen
+        if: always()
+        run: |
+          status="${{ steps.archive.outputs.status }}"
+          path="${{ steps.archive.outputs.path }}"
+          reason="${{ steps.archive.outputs.reason }}"
+          case "$status" in
+            archived)
+              gh issue comment "$ISSUE_NUMBER" --body "✅ **Firmware archiviert** – \`$path\`
+
+              Datei: \`${{ steps.archive.outputs.filename }}\`
+              [Im Archiv ansehen](https://github.com/${{ github.repository }}/tree/main/$path)"
+              gh issue close "$ISSUE_NUMBER" --reason completed ;;
+            exists)
+              gh issue comment "$ISSUE_NUMBER" --body "ℹ️ **Bereits archiviert** – \`$path\`. Issue wird geschlossen."
+              gh issue close "$ISSUE_NUMBER" --reason completed ;;
+            skipped)
+              echo "Kein Firmware-Submission-Issue, übersprungen." ;;
+            *)
+              gh issue comment "$ISSUE_NUMBER" --body "❌ **Archivierung fehlgeschlagen**: $reason"
+              gh issue edit "$ISSUE_NUMBER" --add-label error ;;
+          esac

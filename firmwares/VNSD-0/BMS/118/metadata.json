@@ -1,0 +1,48 @@
+{
+  "deviceType": "VNSD-0",
+  "firmwareType": "BMS",
+  "version": "118",
+  "url": "https://static-eu.marstekenergy.com/uploads/ota/20260119/20260119100535e43806957.bin",
+  "remark": "OTA测试",
+  "chinese": "OTA测试",
+  "apiResponse": {
+    "code": 1,
+    "show": 0,
+    "msg": "success",
+    "data": {
+      "control": "",
+      "bms": {
+        "edition": 2814,
+        "devicetype": "",
+        "mcu_type": "bms",
+        "type": "VNSD-0",
+        "url": "https://static-eu.marstekenergy.com/uploads/ota/20260119/20260119100535e43806957.bin",
+        "version": 118,
+        "english": "",
+        "chinese": "OTA测试",
+        "japanese": "",
+        "remark": "OTA测试",
+        "is_boot": "N",
+        "is_http": "Y",
+        "crc": "35086",
+        "size": 106496,
+        "force_update": "N"
+      },
+      "mppt": "",
+      "micro": "",
+      "dcdc": "",
+      "bms_pack1": "",
+      "bms_pack2": "",
+      "led": "",
+      "charger": ""
+    }
+  },
+  "releaseNote": "OTA测试",
+  "releaseNoteDE": "OTA-Test",
+  "releaseNoteEN": "OTA test",
+  "archivedAt": "2026-08-12T11:17:16Z",
+  "archivedFilename": "20260119100535e43806957.bin",
+  "archivedFilesize": 106496,
+  "archivedSha256": "fdcefaec7a8c0cac8850b3abb53a87acff38dafb92fa0af6f4f2f191d9fc7589",
+  "issueNumber": 25
+}

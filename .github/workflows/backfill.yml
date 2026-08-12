@@ -1,0 +1,41 @@
+name: Firmware Backfill
+
+# Manuell auslösbar: verarbeitet ALLE firmware-submission-Issues (offen UND
+# geschlossen) neu und archiviert fehlende Versionen. Idempotent.
+
+on:
+  workflow_dispatch:
+    inputs:
+      refresh:
+        description: 'Vorhandene Versionen neu einlesen (Metadaten + Übersetzung erneuern)'
+        type: boolean
+        default: false
+
+jobs:
+  backfill:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    env:
+      GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+
+      - name: Backfill
+        run: node scripts/backfill.js ${{ inputs.refresh && '--refresh' || '' }}
+
+      - name: Changelogs & README
+        run: |
+          node scripts/generate-changelogs.js
+          node scripts/update-readme.js
+
+      - name: Committen
+        run: |
+          git config user.name  "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add firmwares README.md CHANGELOG.md scripts/translation-cache.json
+          git commit -m "Backfill: alle Submissions neu verarbeitet" || echo "Nichts zu committen"
+          git push

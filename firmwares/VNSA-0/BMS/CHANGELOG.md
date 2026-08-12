@@ -1,0 +1,10 @@
+# Changelog — VNSA-0 / BMS
+
+## v1105 — 2026-08-12
+
+- Muss in Verbindung mit Wechselrichter 1193 und höher verwendet werden
+- Arbeiten Sie mit dem Wechselrichter zusammen, um die Rettung der Photovoltaik-Startupbatterie bei extrem niedriger Spannung durchzuführen
+- Optimierung der Zwangsladelogik
+
+<sub>Issue [#22](../../../../../issues/22) · Datei `VA50A_APP_V1105_ota_144658.bin` · SHA-256 `c642c7ea1e84…`</sub>
+

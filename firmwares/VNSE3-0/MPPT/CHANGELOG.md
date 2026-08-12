@@ -1,0 +1,8 @@
+# Changelog — VNSE3-0 / MPPT
+
+## v119 — 2026-08-12
+
+- Beheben Sie das Problem, dass kein Ladevorgang erzwungen wird, wenn der Ladezustand unter 6 % liegt.
+
+<sub>Issue [#14](../../../../../issues/14) · Datei `inv_app_0119_0326_ota_152726.bin` · SHA-256 `3c834d677e0d…`</sub>
+

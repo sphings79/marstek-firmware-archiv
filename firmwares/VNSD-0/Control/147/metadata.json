@@ -1,7 +1,7 @@
 {
   "deviceType": "VNSD-0",
   "firmwareType": "Control",
-  "version": 147,
+  "version": "147",
   "url": "https://static-eu.marstekenergy.com/uploads/ota/20260128/202601281721320b2053125.bin",
   "remark": "在原有147基础上： 1、优化德国电表连接 2、优化以太网下的第三方服务器配置 3、优化http数据上报偶尔缺失问题",
   "chinese": "在原有147基础上： 1、优化德国电表连接 2、优化以太网下的第三方服务器配置 3、优化http数据上报偶尔缺失问题",
@@ -29,23 +29,7 @@
       },
       "bms": "",
       "mppt": "",
-      "micro": {
-        "edition": 2835,
-        "devicetype": "",
-        "mcu_type": "micro",
-        "type": "VNSD-0",
-        "url": "https://static-eu.marstekenergy.com/uploads/ota/20260123/202601230921310c0e30687.bin",
-        "version": 115,
-        "english": "适配中控147",
-        "chinese": "适配中控147",
-        "japanese": "",
-        "remark": "适配中控147",
-        "is_boot": "N",
-        "is_http": "Y",
-        "crc": "9636",
-        "size": 115712,
-        "force_update": "N"
-      },
+      "micro": "",
       "dcdc": "",
       "bms_pack1": "",
       "bms_pack2": "",
@@ -53,7 +37,12 @@
       "charger": ""
     }
   },
-  "archivedAt": "2026-06-18T20:41:00Z",
+  "releaseNote": "在原有147基础上： 1、优化德国电表连接 2、优化以太网下的第三方服务器配置 3、优化http数据上报偶尔缺失问题",
+  "releaseNoteDE": "Basierend auf dem Original 147: 1. Optimierung der deutschen Stromzähleranbindung 2. Optimierung der Drittanbieter-Serverkonfiguration unter Ethernet 3. Optimierung des gelegentlich fehlenden Problems der HTTP-Datenberichterstattung",
+  "releaseNoteEN": "Based on the original 147: 1. Optimize the German electricity meter connection 2. Optimize the third-party server configuration under Ethernet 3. Optimize the occasional missing problem of http data reporting",
+  "archivedAt": "2026-08-12T11:17:11Z",
   "archivedFilename": "202601281721320b2053125.bin",
-  "archivedFilesize": 372736
+  "archivedFilesize": 372736,
+  "archivedSha256": "3435e0b98067b9ee5891c0ee31956079822729d70ba0bdc2983b6d3a397e20f3",
+  "issueNumber": 16
 }

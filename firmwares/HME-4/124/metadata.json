@@ -1,6 +1,33 @@
 {
   "deviceType": "HME-4",
+  "deviceName": "Marstek CT002",
   "version": "124",
-  "releaseNotes": "Initial archive entry",
-  "submittedAt": "2026-05-04 22:12:57"
+  "url": "https://eu-central-1-s3-common-bucket.s3.dualstack.eu-central-1.amazonaws.com/uploads/ota/20250915/20250915163554648799838.bin",
+  "otaWay": "otaSelfBoot",
+  "chinese": "udp协议v4 修复udp复位bug",
+  "english": "",
+  "apiResponse": {
+    "code": "1",
+    "content": "English",
+    "newVerion": "124",
+    "otaWay": "otaSelfBoot",
+    "data": "https://eu-central-1-s3-common-bucket.s3.dualstack.eu-central-1.amazonaws.com/uploads/ota/20250915/20250915163554648799838.bin",
+    "english": "",
+    "chinese": "udp协议v4 修复udp复位bug",
+    "japanese": "",
+    "remark": "udp协议v4 修复udp复位bug",
+    "is_boot": "N",
+    "is_http": "N",
+    "size": null,
+    "crc": ""
+  },
+  "firmwareType": null,
+  "releaseNote": "udp协议v4 修复udp复位bug",
+  "releaseNoteDE": "Das UDP-Protokoll v4 behebt den UDP-Reset-Fehler",
+  "releaseNoteEN": "UDP protocol v4 fixes UDP reset bug",
+  "archivedAt": "2026-08-12T11:17:08Z",
+  "archivedFilename": "20250915163554648799838.bin",
+  "archivedFilesize": 73728,
+  "archivedSha256": "9ea6f67d5d3cf5b2ddfcd2cadb653ae4c0fb9e94d93d67da94a107ce597dfe08",
+  "issueNumber": 9
 }
