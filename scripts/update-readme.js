@@ -50,6 +50,24 @@ Community-Firmware-Archiv für Marstek Venus Geräte.
 > Automatisch gepflegt. Neue Firmware wird über GitHub-Issues mit dem Label
 > \`firmware-submission\` eingereicht und per GitHub Action einsortiert.
 
+## 🔍 Firmware-Checker-Tool
+
+Mit dem **Marstek Firmware Checker** kannst du die aktuell verfügbare Firmware
+für deine Geräte direkt bei Marstek abfragen, sichern und automatisch hierher
+einreichen:
+
+- 🌐 **Tool (gehostet):** <https://sphings-dev.de/marstek/marstek-fw-checker/>
+- 💻 **Quellcode:** <https://github.com/sphings79/marstek-fw-checker>
+
+> [!IMPORTANT]
+> **Firmware kann nur gesichert werden, solange das Update noch nicht angestoßen
+> wurde.** Sobald du das Update auf dem Gerät startest, ist die Download-URL nicht
+> mehr abrufbar. Sichere die Firmware also **vor** dem Update.
+
+> [!NOTE]
+> Das Tool speichert **keine Logindaten**. Deine Marstek-Zugangsdaten werden nur
+> für die Abfrage verwendet und nicht gespeichert.
+
 ## Verfügbare Firmware
 
 `;
