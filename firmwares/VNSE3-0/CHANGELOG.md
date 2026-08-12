@@ -55,3 +55,38 @@
 
 <sub>Issue [#13](../../../../issues/13) · Datei `Ac3.0BmsAPP_V113_ota_175955.bin` · SHA-256 `da7ebe26b679…`</sub>
 
+## BMS v112 — 2026-07-07
+
+- Die Lade- und Entladeröhre wird extern gesteuert und muss an vns117 und ems147 angepasst werden
+
+<sub>Datei `20260121113157833696278.bin` · SHA-256 `b3193ced35dd…`</sub>
+
+## Control v1476 — 2026-03-13
+
+- Optimieren Sie die Stabilität der MQTT-Verbindung
+
+<sub>Datei `VNSEE3-0_app_1476_0312_182736.bin` · SHA-256 `a2f8dedfe489…`</sub>
+
+## BMS v110 — 2025-12-22
+
+- Firmware-Neuübertragung
+
+<sub>Datei `202512031001144fcbf8852.bin` · SHA-256 `7ea97e0fb136…`</sub>
+
+## Control v144 — 2025-11-26
+
+- Neue Funktionen:
+- Mit der Grundlinieneinstellung für die Anti-Rückfluss-Leistung können Benutzer die Leistung des mit dem Netz verbundenen Anschlusses einstellen und bei diesem Leistungswert stabil Strom aus dem Netz beziehen/einspeisen.
+- Anpassung an vier neue Stromzähler. Niederländischer Zählerableser: SMR-P1 Deutscher Zählerableser: SMR-IR Französischer Zählerleser: SMR-TIC Neue Version CT002: TPM2-100CT
+- DOD-Funktionseinstellung Ermöglichen Sie Kunden, den SOC-Nutzungsbereich des Geräts selbst festzulegen, und der Arbeitsbereich kann auf [(12 % ~ 70 %) – 100 %] eingestellt werden. Kunden in kalten Breitengraden wird empfohlen, den SOC-Arbeitsbereich entsprechend zu erhöhen, um die Batterielebensdauer zu verlängern.
+- Funktion zum Herunterfahren des Geräts über Bluetooth hinzugefügt. Geräte-Bluetooth kann über den Server oder die APP ausgeschaltet werden.
+- XID/VID kann eine Verbindung zu einem Drittanbieter-Server herstellen. Kann über APP-Einstellungen eine Verbindung zu einem Server eines Drittanbieters herstellen.
+
+<sub>Datei `20251118161530cc2d80857.bin` · SHA-256 `518a3b8e40c0…`</sub>
+
+## BMS v106 — 2025-10-27
+
+- Das SOC-Sprungproblem des Chuneng-Batterie-BMS wurde behoben.
+
+<sub>Datei `2025081814112994acd7498.bin` · SHA-256 `bf28fb5c786a…`</sub>
+

@@ -15,6 +15,7 @@ const {
   sha256,
 } = require('./lib');
 const { translateNote } = require('./translate');
+const { verifyBuffer } = require('./verify');
 
 function pickFilename(url) {
   let name = path.basename(new URL(url).pathname);
@@ -74,6 +75,17 @@ async function processIssue(issue, cache, opts = {}) {
     return { number: issue.number, status: 'error', label, reason: e.message };
   }
 
+  // Integrity guard: compare against the API's size + CRC-16/MODBUS.
+  const verification = verifyBuffer(buf, metadata, firmwareType);
+  if (verification.checked && !verification.ok && !opts.ignoreVerify) {
+    return {
+      number: issue.number,
+      status: 'error',
+      label,
+      reason: 'Integritätsprüfung fehlgeschlagen: ' + verification.errors.join('; '),
+    };
+  }
+
   // Translate the (usually Chinese) release note.
   const note = extractReleaseNote(metadata);
   let translations = { de: '', en: '' };
@@ -96,6 +108,9 @@ async function processIssue(issue, cache, opts = {}) {
     archivedFilename: filename,
     archivedFilesize: buf.length,
     archivedSha256: sha256(buf),
+    apiCrc: verification.checked ? verification.apiCrc : null,
+    apiSize: verification.checked ? verification.apiSize : null,
+    verified: verification.checked ? verification.ok : null,
     issueNumber: issue.number,
   });
   fs.writeFileSync(path.join(dir, 'metadata.json'), JSON.stringify(out, null, 2) + '\n');

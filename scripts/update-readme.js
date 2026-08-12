@@ -65,7 +65,11 @@ Community-Firmware-Archiv für Marstek Venus Geräte.
       devices[device][type].sort((a, b) => b.versionNum - a.versionNum);
       for (const fw of devices[device][type]) {
         const dl = fw.binRel ? `[📁 ${fw.filename}](${fw.binRel})` : '-';
-        const issue = fw.issueNumber ? `[#${fw.issueNumber}](../../issues/${fw.issueNumber})` : '-';
+        const issue = fw.issueNumber
+          ? `[#${fw.issueNumber}](../../issues/${fw.issueNumber})`
+          : fw.importedFrom
+          ? `[↗ ref](https://github.com/${fw.importedFrom})`
+          : '-';
         md += `| v${fw.version} | ${fmtSize(fw.filesize)} | ${fmtDate(fw.archivedAt)} | ${dl} | ${issue} | ${shortDesc(fw)} |\n`;
         total++;
       }

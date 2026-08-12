@@ -161,3 +161,114 @@ Alle archivierten Firmware-Versionen, chronologisch (neueste zuerst).
 
 <sub>Issue [#2](issues/2) · [VNSA-0_app_1487_0511_1_155731.bin](firmwares/VNSA-0/Control/1487/VNSA-0_app_1487_0511_1_155731.bin)</sub>
 
+## HMG-50 — Control v156 — 2026-07-31
+
+- Bluetooth-Broadcast-Umschaltfunktion hinzugefügt
+- Funktion zum Konfigurieren von Servern von Drittanbietern hinzugefügt
+- Optimieren Sie die Stabilität der OpenApi-Schnittstelle
+
+<sub>[20251118172129117290445.bin](firmwares/HMG-50/Control/156/20251118172129117290445.bin)</sub>
+
+## HMJ-2 — v110 — 2026-07-24
+
+_Keine Release Notes._
+
+<sub>[20250523160631745d66082.bin](firmwares/HMJ-2/110/20250523160631745d66082.bin)</sub>
+
+## VNSE3-0 — BMS v112 — 2026-07-07
+
+- Die Lade- und Entladeröhre wird extern gesteuert und muss an vns117 und ems147 angepasst werden
+
+<sub>[20260121113157833696278.bin](firmwares/VNSE3-0/BMS/112/20260121113157833696278.bin)</sub>
+
+## VNSE3-0 — Control v1476 — 2026-03-13
+
+- Optimieren Sie die Stabilität der MQTT-Verbindung
+
+<sub>[VNSEE3-0_app_1476_0312_182736.bin](firmwares/VNSE3-0/Control/1476/VNSEE3-0_app_1476_0312_182736.bin)</sub>
+
+## VNSE3-0 — BMS v110 — 2025-12-22
+
+- Firmware-Neuübertragung
+
+<sub>[202512031001144fcbf8852.bin](firmwares/VNSE3-0/BMS/110/202512031001144fcbf8852.bin)</sub>
+
+## HME-3 — v122 — 2025-12-01
+
+- Das UDP-Protokoll v4 behebt den UDP-Reset-Fehler
+
+<sub>[2025091516373099b077494.bin](firmwares/HME-3/122/2025091516373099b077494.bin)</sub>
+
+## VNSE3-0 — Control v144 — 2025-11-26
+
+- Neue Funktionen:
+- Mit der Grundlinieneinstellung für die Anti-Rückfluss-Leistung können Benutzer die Leistung des mit dem Netz verbundenen Anschlusses einstellen und bei diesem Leistungswert stabil Strom aus dem Netz beziehen/einspeisen.
+- Anpassung an vier neue Stromzähler. Niederländischer Zählerableser: SMR-P1 Deutscher Zählerableser: SMR-IR Französischer Zählerleser: SMR-TIC Neue Version CT002: TPM2-100CT
+- DOD-Funktionseinstellung Ermöglichen Sie Kunden, den SOC-Nutzungsbereich des Geräts selbst festzulegen, und der Arbeitsbereich kann auf [(12 % ~ 70 %) – 100 %] eingestellt werden. Kunden in kalten Breitengraden wird empfohlen, den SOC-Arbeitsbereich entsprechend zu erhöhen, um die Batterielebensdauer zu verlängern.
+- Funktion zum Herunterfahren des Geräts über Bluetooth hinzugefügt. Geräte-Bluetooth kann über den Server oder die APP ausgeschaltet werden.
+- XID/VID kann eine Verbindung zu einem Drittanbieter-Server herstellen. Kann über APP-Einstellungen eine Verbindung zu einem Server eines Drittanbieters herstellen.
+
+<sub>[20251118161530cc2d80857.bin](firmwares/VNSE3-0/Control/144/20251118161530cc2d80857.bin)</sub>
+
+## HME-3 — v116 — 2025-11-14
+
+- BLE und MQTT fügen ABC3-Phasen- und Konjunktionsdaten Now-Daten hinzu
+- Bluetooth fügt eine passwortlose WLAN-Konfiguration hinzu
+- Verschlüsseln Sie mit dem neuen Mqtt-Serverzertifikat
+- Das UDP-Protokoll fügt Leistungsdaten hinzu
+
+<sub>[20250610173327b6ce85859.bin](firmwares/HME-3/116/20250610173327b6ce85859.bin)</sub>
+
+## HME-3 — v118 — 2025-10-27
+
+- Optimieren Sie SML-Messwerte
+
+<sub>[2025071415581563c0d7425.bin](firmwares/HME-3/118/2025071415581563c0d7425.bin)</sub>
+
+## HMG-50 — Control v155 — 2025-10-27
+
+- Akkumulationsfunktion beim Laden und Entladen hinzugefügt; Unterstützung für die Ausgabe von Netzanschlussstandards hinzugefügt
+
+<sub>[202509161548003ff722863.bin](firmwares/HMG-50/Control/155/202509161548003ff722863.bin)</sub>
+
+## VNSE3-0 — BMS v106 — 2025-10-27
+
+- Das SOC-Sprungproblem des Chuneng-Batterie-BMS wurde behoben.
+
+<sub>[2025081814112994acd7498.bin](firmwares/VNSE3-0/BMS/106/2025081814112994acd7498.bin)</sub>
+
+## HMG-50 — BMS v216 — 2025-09-08
+
+- Das Problem mit dem SOC-Sprung bei niedrigem Batteriestand wurde behoben.
+
+<sub>[20250902100339408038111.bin](firmwares/HMG-50/BMS/216/20250902100339408038111.bin)</sub>
+
+## HME-3 — v117 — 2025-08-25
+
+- Optimierter UDP-Empfang und Neustartoptimierung
+- Fügen Sie den Befehl zum Bluetooth-Upgrade des Quectel-Moduls hinzu
+- CT3 behebt den 7E1-Konfigurationsfehler, optimiert das SML-Protokoll-Parsing und fügt eine SML-Protokoll-Druckfunktion hinzu
+
+<sub>[20250702110345eebe62348.bin](firmwares/HME-3/117/20250702110345eebe62348.bin)</sub>
+
+## HME-4 — v120 — 2025-08-25
+
+- Optimierter UDP-Empfang und Neustartoptimierung
+- Fügen Sie den Befehl zum Bluetooth-Upgrade des Quectel-Moduls hinzu
+- Ändern Sie die Verbindung der Slave-Maschine auf 15 Einheiten
+
+<sub>[202507021110400569f6547.bin](firmwares/HME-4/120/202507021110400569f6547.bin)</sub>
+
+## HMG-50 — Control v153 — 2025-08-25
+
+- Unterstützt die Netzwerkverteilungsfunktion für passwortloses WLAN;
+- Optimieren Sie einige bekannte Probleme
+
+<sub>[202505301136007a5b57023.bin](firmwares/HMG-50/Control/153/202505301136007a5b57023.bin)</sub>
+
+## HMG-50 — BMS v215 — 2025-08-25
+
+- Die volle Leistungshysterese wird von 97 auf 99 angepasst, um die Stabilität von Upgrades zu optimieren.
+
+<sub>[20250806112046448ef9739.bin](firmwares/HMG-50/BMS/215/20250806112046448ef9739.bin)</sub>
+

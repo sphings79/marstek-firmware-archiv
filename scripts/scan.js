@@ -42,6 +42,8 @@ function entryFrom(deviceType, firmwareType, version, dir) {
     sha256: meta.archivedSha256 || null,
     archivedAt: meta.archivedAt || null,
     issueNumber: meta.issueNumber || null,
+    importedFrom: meta.importedFrom || null,
+    verified: meta.verified === undefined ? null : meta.verified,
     note: meta.releaseNote || meta.chinese || meta.remark || meta.english || '',
     noteDE: meta.releaseNoteDE || '',
     noteEN: meta.releaseNoteEN || '',

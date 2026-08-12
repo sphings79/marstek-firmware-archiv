@@ -29,6 +29,34 @@ Node ≥ 18 wegen `fetch`). Zwei GitHub Actions rufen diese Skripte auf.
 | `update-readme.js` | README.md erzeugen |
 | `generate-changelogs.js` | Global + pro Gerät + pro Modul CHANGELOG.md |
 | `migrate-casing.js` | Einmalig: Ordner auf kanonische Schreibweise + Duplikat-Report |
+| `verify.js` | Integritätsprüfung: CRC-16/MODBUS + Größe gegen die Marstek-API-Werte |
+| `import-reference.js` | Einmalig: alle Firmware + Changelogs aus einem anderen Archiv übernehmen |
+
+## Integritätsprüfung
+
+Nach dem Download vergleicht der Archiver die Datei mit den Werten aus der
+Marstek-API im Issue (`apiResponse.data.<modul>`):
+
+- **Größe** = `size` (exakte Byte-Anzahl)
+- **Prüfsumme** = `crc` → **CRC-16/MODBUS** über die gesamte `.bin`
+
+Stimmt etwas nicht, wird das Issue **nicht** archiviert, sondern als Fehler
+markiert. Fehlen die API-Werte (ältere Submissions/Importe), wird die Prüfung
+übersprungen. Ergebnis landet in `metadata.json` als `apiCrc`, `apiSize`,
+`verified` (`true`/`false`/`null`).
+
+## Aus einem anderen Archiv importieren
+
+```bash
+git clone https://github.com/rweijnen/marstek-firmware-archive /tmp/ref
+node scripts/import-reference.js /tmp/ref
+node scripts/generate-changelogs.js && node scripts/update-readme.js
+git add -A && git commit && git push
+```
+
+Übernimmt nur fehlende Versionen (vorhandene bleiben unangetastet), vereinheitlicht
+Struktur + Metadaten (Übersetzung, SHA-256, CRC/Größe) und markiert Einträge mit
+`importedFrom` (in README als `↗ ref`-Link).
 
 ## Einmaliger Cleanup / Backfill (lokal)
 

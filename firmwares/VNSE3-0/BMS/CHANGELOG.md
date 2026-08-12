@@ -15,3 +15,21 @@
 
 <sub>Issue [#13](../../../../../issues/13) · Datei `Ac3.0BmsAPP_V113_ota_175955.bin` · SHA-256 `da7ebe26b679…`</sub>
 
+## v112 — 2026-07-07
+
+- Die Lade- und Entladeröhre wird extern gesteuert und muss an vns117 und ems147 angepasst werden
+
+<sub>Datei `20260121113157833696278.bin` · SHA-256 `b3193ced35dd…`</sub>
+
+## v110 — 2025-12-22
+
+- Firmware-Neuübertragung
+
+<sub>Datei `202512031001144fcbf8852.bin` · SHA-256 `7ea97e0fb136…`</sub>
+
+## v106 — 2025-10-27
+
+- Das SOC-Sprungproblem des Chuneng-Batterie-BMS wurde behoben.
+
+<sub>Datei `2025081814112994acd7498.bin` · SHA-256 `bf28fb5c786a…`</sub>
+

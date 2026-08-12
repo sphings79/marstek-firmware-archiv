@@ -1,0 +1,56 @@
+{
+  "apiResponse": {
+    "code": 1,
+    "data": {
+      "bms": {
+        "chinese": "满电回差由97调整到99，优化升级稳定性。",
+        "devicetype": "",
+        "edition": 2025,
+        "english": "",
+        "japanese": "",
+        "mcu_type": "bms",
+        "remark": "满电回差由97调整到99，优化升级稳定性。",
+        "type": "HMG-50",
+        "url": "https://eu-central-1-s3-common-bucket.s3.dualstack.eu-central-1.amazonaws.com/uploads/ota/20250806/20250806112046448ef9739.bin",
+        "version": 215
+      },
+      "bms_pack1": "",
+      "bms_pack2": "",
+      "control": {
+        "chinese": "1、支持对无密码WIFI进行配网功能；2、优化一些已知问题",
+        "devicetype": "",
+        "edition": 1458,
+        "english": "",
+        "japanese": "",
+        "mcu_type": "control",
+        "remark": "",
+        "type": "HMG",
+        "url": "https://eu-central-1-s3-common-bucket.s3.dualstack.eu-central-1.amazonaws.com/uploads/ota/20250530/202505301136007a5b57023.bin",
+        "version": 153
+      },
+      "dcdc": "",
+      "micro": "",
+      "mppt": ""
+    },
+    "msg": "success",
+    "show": 0
+  },
+  "chinese": "1、支持对无密码WIFI进行配网功能；2、优化一些已知问题",
+  "deviceType": "HMG-50",
+  "firmwareType": "Control",
+  "remark": "",
+  "url": "https://eu-central-1-s3-common-bucket.s3.dualstack.eu-central-1.amazonaws.com/uploads/ota/20250530/202505301136007a5b57023.bin",
+  "version": "153",
+  "archivedAt": "2025-08-25T09:47:54Z",
+  "archivedFilename": "202505301136007a5b57023.bin",
+  "archivedFilesize": 227328,
+  "releaseNote": "1、支持对无密码WIFI进行配网功能；2、优化一些已知问题",
+  "releaseNoteDE": "1. Unterstützt die Netzwerkverteilungsfunktion für passwortloses WLAN; 2. Optimieren Sie einige bekannte Probleme",
+  "releaseNoteEN": "1. Support network distribution function for passwordless WIFI; 2. Optimize some known issues",
+  "archivedSha256": "9fe4fcdfe0a8498f1f9332134b56ee57cf4914f9fac7e8ccd5acee9e65c1b2e7",
+  "apiCrc": null,
+  "apiSize": null,
+  "verified": null,
+  "issueNumber": null,
+  "importedFrom": "rweijnen/marstek-firmware-archive"
+}
