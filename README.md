@@ -100,6 +100,7 @@ einreichen:
 | Version | Größe | Hinzugefügt | Download | Issue | Änderungen |
 |---------|-------|-------------|----------|-------|------------|
 | v1492 | 376 KB | 2026-08-12 | [📁 VNSD-0_app_1492_0702_142136.bin](firmwares/VNSD-0/Control/1492/VNSD-0_app_1492_0702_142136.bin) | [#17](../../issues/17) | Lösen Sie das Problem der abnormalen Datenanzeige, die dadurch verursacht wird, dass HTTP-… |
+| v150 | 380 KB | 2026-08-13 | [📁 VNSD-0_app_0150_0805_115146.bin](firmwares/VNSD-0/Control/150/VNSD-0_app_0150_0805_115146.bin) | [#28](../../issues/28) | 1. Loacl-API-Sendeausnahme im Ethernet-Modus optimieren 2. HTTP-Upgrade-Fehlerproblem im E… |
 | v149 | 376 KB | 2026-08-12 | [📁 VNSD-0_app_0149_0521_094621.bin](firmwares/VNSD-0/Control/149/VNSD-0_app_0149_0521_094621.bin) | [#4](../../issues/4) | 1. Einige Funktionen von OpenApi hinzugefügt und das Problem behoben, dass die von der ES-… |
 | v147 | 364 KB | 2026-08-12 | [📁 202601281721320b2053125.bin](firmwares/VNSD-0/Control/147/202601281721320b2053125.bin) | [#16](../../issues/16) | Basierend auf dem Original 147: 1. Optimierung der deutschen Stromzähleranbindung 2. Optim… |
 
@@ -140,8 +141,8 @@ einreichen:
 
 ---
 
-**Firmware-Dateien gesamt:** 35
-**Zuletzt aktualisiert:** 2026-08-12 12:05:06 UTC
+**Firmware-Dateien gesamt:** 36
+**Zuletzt aktualisiert:** 2026-08-13 09:20:58 UTC
 
 ## Changelogs
 

@@ -1,0 +1,51 @@
+{
+  "deviceType": "VNSD-0",
+  "firmwareType": "Control",
+  "version": "150",
+  "url": "https://static-eu.marstekenergy.com/uploads/ota/20260805/VNSD-0_app_0150_0805_115146.bin",
+  "remark": "1、 优化以太网模式下Loacl API 发送异常 2、 优化以太网模式下Http升级失败问题 3、 新增Peak-shaving 功能 4、 优化Http数据过长导致数据丢失问题 5、 优化电表连接方式，采用CT_TYPE 连接",
+  "chinese": "1、 优化以太网模式下Loacl API 发送异常 2、 优化以太网模式下Http升级失败问题 3、 新增Peak-shaving 功能 4、 优化Http数据过长导致数据丢失问题 5、 优化电表连接方式，采用CT_TYPE 连接",
+  "apiResponse": {
+    "code": 1,
+    "show": 0,
+    "msg": "success",
+    "data": {
+      "control": {
+        "edition": 4230,
+        "devicetype": "",
+        "mcu_type": "control",
+        "type": "VNSD-0",
+        "url": "https://static-eu.marstekenergy.com/uploads/ota/20260805/VNSD-0_app_0150_0805_115146.bin",
+        "version": 150,
+        "english": "",
+        "chinese": "1、 优化以太网模式下Loacl API 发送异常 2、 优化以太网模式下Http升级失败问题 3、 新增Peak-shaving 功能 4、 优化Http数据过长导致数据丢失问题 5、 优化电表连接方式，采用CT_TYPE 连接",
+        "japanese": "",
+        "remark": "1、 优化以太网模式下Loacl API 发送异常 2、 优化以太网模式下Http升级失败问题 3、 新增Peak-shaving 功能 4、 优化Http数据过长导致数据丢失问题 5、 优化电表连接方式，采用CT_TYPE 连接",
+        "is_boot": "N",
+        "is_http": "Y",
+        "crc": "7326",
+        "size": 389120,
+        "force_update": "N"
+      },
+      "bms": "",
+      "mppt": "",
+      "micro": "",
+      "dcdc": "",
+      "bms_pack1": "",
+      "bms_pack2": "",
+      "led": "",
+      "charger": ""
+    }
+  },
+  "releaseNote": "1、 优化以太网模式下Loacl API 发送异常 2、 优化以太网模式下Http升级失败问题 3、 新增Peak-shaving 功能 4、 优化Http数据过长导致数据丢失问题 5、 优化电表连接方式，采用CT_TYPE 连接",
+  "releaseNoteDE": "1. Loacl-API-Sendeausnahme im Ethernet-Modus optimieren 2. HTTP-Upgrade-Fehlerproblem im Ethernet-Modus optimieren 3. Peak-Shaving-Funktion hinzufügen 4. Datenverlustproblem durch übermäßige HTTP-Daten optimieren 5. Messgerätverbindungsmethode optimieren, CT_TYPE-Verbindung verwenden",
+  "releaseNoteEN": "1. Optimize Loacl API sending exception in Ethernet mode 2. Optimize HTTP upgrade failure problem in Ethernet mode 3. Add Peak-shaving function 4. Optimize data loss problem caused by excessive HTTP data 5. Optimize meter connection method, use CT_TYPE connection",
+  "archivedAt": "2026-08-13T09:20:58Z",
+  "archivedFilename": "VNSD-0_app_0150_0805_115146.bin",
+  "archivedFilesize": 389120,
+  "archivedSha256": "4140e7a6d38ac90c8ceb6a5682f7704fd3ad4a45c2cb3fc1f05c95bfc1b71447",
+  "apiCrc": 7326,
+  "apiSize": 389120,
+  "verified": true,
+  "issueNumber": 28
+}

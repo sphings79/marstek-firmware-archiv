@@ -2,6 +2,16 @@
 
 Alle archivierten Firmware-Versionen, chronologisch (neueste zuerst).
 
+## VNSD-0 — Control v150 — 2026-08-13
+
+- Loacl-API-Sendeausnahme im Ethernet-Modus optimieren
+- HTTP-Upgrade-Fehlerproblem im Ethernet-Modus optimieren
+- Peak-Shaving-Funktion hinzufügen
+- Datenverlustproblem durch übermäßige HTTP-Daten optimieren
+- Messgerätverbindungsmethode optimieren, CT_TYPE-Verbindung verwenden
+
+<sub>Issue [#28](issues/28) · [VNSD-0_app_0150_0805_115146.bin](firmwares/VNSD-0/Control/150/VNSD-0_app_0150_0805_115146.bin)</sub>
+
 ## VNSD-0 — Control v1492 — 2026-08-12
 
 - Lösen Sie das Problem der abnormalen Datenanzeige, die dadurch verursacht wird, dass HTTP-Daten kein Intervall hochladen

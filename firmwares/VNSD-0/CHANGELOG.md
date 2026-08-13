@@ -1,5 +1,15 @@
 # Changelog — VNSD-0
 
+## Control v150 — 2026-08-13
+
+- Loacl-API-Sendeausnahme im Ethernet-Modus optimieren
+- HTTP-Upgrade-Fehlerproblem im Ethernet-Modus optimieren
+- Peak-Shaving-Funktion hinzufügen
+- Datenverlustproblem durch übermäßige HTTP-Daten optimieren
+- Messgerätverbindungsmethode optimieren, CT_TYPE-Verbindung verwenden
+
+<sub>Issue [#28](../../../../issues/28) · Datei `VNSD-0_app_0150_0805_115146.bin` · SHA-256 `4140e7a6d38a…`</sub>
+
 ## Control v1492 — 2026-08-12
 
 - Lösen Sie das Problem der abnormalen Datenanzeige, die dadurch verursacht wird, dass HTTP-Daten kein Intervall hochladen
