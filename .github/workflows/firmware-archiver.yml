@@ -1,8 +1,11 @@
 name: Firmware Archiver
 
 on:
+  # Nur auf das Setzen des Labels reagieren. Ein "opened + labeled + edited"-
+  # Trigger löste bisher bis zu drei parallele Läufe pro Submission aus, die
+  # sich beim git push gegenseitig überholten.
   issues:
-    types: [opened, edited, labeled]
+    types: [labeled]
   workflow_dispatch:
     inputs:
       issue_number:
@@ -10,8 +13,9 @@ on:
         required: true
         type: string
 
-# Ein Issue kann mehrere Events auslösen (opened + labeled). Pro Issue
-# serialisieren, damit sich zwei Läufe nicht beim git push in die Quere kommen.
+# Zusätzliche Absicherung: Läufe pro Issue serialisieren, damit sich zwei
+# Läufe nicht beim git push in die Quere kommen (greift z. B. wenn das Label
+# schnell hintereinander entfernt und neu gesetzt wird).
 concurrency:
   group: firmware-archiver-${{ github.event.issue.number || github.event.inputs.issue_number }}
   cancel-in-progress: false
@@ -19,10 +23,12 @@ concurrency:
 jobs:
   archive:
     runs-on: ubuntu-latest
-    # Nur Submissions mit dem Label, und nur vom Repo-Owner oder dem Bot.
+    # Nur wenn genau das 'firmware-submission'-Label gesetzt wurde, und nur
+    # vom Repo-Owner oder dem Bot. Über github.event.label statt der Labelliste,
+    # damit ein später gesetztes fremdes Label keinen erneuten Lauf auslöst.
     if: >
       github.event_name == 'workflow_dispatch' ||
-      (contains(github.event.issue.labels.*.name, 'firmware-submission') &&
+      (github.event.label.name == 'firmware-submission' &&
        (github.event.issue.user.login == github.repository_owner ||
         github.event.issue.user.login == 'marstek-fw-bot'))
     permissions:
@@ -50,15 +56,52 @@ jobs:
 
       - name: Änderungen committen
         if: steps.archive.outputs.status == 'archived'
+        env:
+          COMMIT_MSG: "Archive: ${{ steps.archive.outputs.label }} (#${{ github.event.issue.number || github.event.inputs.issue_number }})"
         run: |
           git config user.name  "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
+
           git add firmwares README.md CHANGELOG.md scripts/translation-cache.json
-          git commit -m "Archive: ${{ steps.archive.outputs.label }} (#${ISSUE_NUMBER})" || {
-            echo "Nichts zu committen"; exit 0; }
-          for i in 1 2 3; do
-            git push && break
-            echo "push fehlgeschlagen, rebase & retry ($i)"; git pull --rebase; done
+          if git diff --cached --quiet; then
+            echo "Nichts zu committen"; exit 0
+          fi
+          git commit -m "$COMMIT_MSG"
+
+          # Push mit Wiederholung. Bei einem parallelen Push auf main reicht ein
+          # git pull --rebase nicht: README/CHANGELOG/metadata.json führen dann zu
+          # add/add- bzw. Content-Konflikten. Da diese Dateien deterministisch aus
+          # dem Firmware-Baum generiert werden, integrieren wir konfliktfrei so:
+          #   1. eigene neu archivierte Firmware-Dateien sichern
+          #   2. hart auf origin/main zurücksetzen (übernimmt fremde Änderungen)
+          #   3. eigene Firmware wieder einspielen
+          #   4. generierte Dateien frisch neu erzeugen
+          #   5. neu committen und erneut pushen
+          for attempt in 1 2 3 4 5; do
+            if git push; then
+              echo "Push erfolgreich (Versuch $attempt)"; exit 0
+            fi
+            echo "Push abgelehnt (Versuch $attempt) – integriere Remote-Stand neu und regeneriere"
+            git fetch origin main
+
+            fwbackup="$(mktemp -d)"
+            git diff --name-only --diff-filter=d origin/main -- firmwares \
+              | tar -cf "$fwbackup/fw.tar" --files-from=- 2>/dev/null || true
+            git reset --hard origin/main
+            tar -xf "$fwbackup/fw.tar" 2>/dev/null || true
+            rm -rf "$fwbackup"
+
+            node scripts/generate-changelogs.js
+            node scripts/update-readme.js
+
+            git add firmwares README.md CHANGELOG.md scripts/translation-cache.json
+            if git diff --cached --quiet; then
+              echo "Nach Merge nichts mehr zu committen – Remote enthält diese Firmware bereits"; exit 0
+            fi
+            git commit -m "$COMMIT_MSG"
+          done
+
+          echo "Push nach mehreren Versuchen endgültig fehlgeschlagen"; exit 1
 
       - name: Issue kommentieren & schließen
         if: always()
