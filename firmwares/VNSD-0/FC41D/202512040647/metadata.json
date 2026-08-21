@@ -1,0 +1,27 @@
+{
+  "firmwareType": "FC41D",
+  "deviceName": "Haus Mahlsdorf L1",
+  "url": "https://static-eu.marstekenergy.com/uploads/ota/20251227/202512271054507d95a7957.rbl",
+  "apiResponse": {
+    "code": 1,
+    "show": 0,
+    "msg": "ok",
+    "data": {
+      "version": "202512040647",
+      "url": "https://static-eu.marstekenergy.com/uploads/ota/20251227/202512271054507d95a7957.rbl"
+    }
+  },
+  "deviceType": "VNSD-0",
+  "version": "202512040647",
+  "releaseNote": "",
+  "releaseNoteDE": "",
+  "releaseNoteEN": "",
+  "archivedAt": "2026-08-21T11:05:22Z",
+  "archivedFilename": "202512040647_fc41d_VNSD-0_202512271054507d95a7957.rbl",
+  "archivedFilesize": 682928,
+  "archivedSha256": "63c2f353130634ce55297be7e371b2121ef81954ab2c0deb35326edeedfdbe92",
+  "apiCrc": null,
+  "apiSize": null,
+  "verified": null,
+  "issueNumber": 31
+}

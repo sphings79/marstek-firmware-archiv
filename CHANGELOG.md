@@ -2,6 +2,12 @@
 
 Alle archivierten Firmware-Versionen, chronologisch (neueste zuerst).
 
+## VNSD-0 — FC41D v202512040647 — 2026-08-21
+
+_Keine Release Notes._
+
+<sub>Issue [#31](issues/31) · [202512040647_fc41d_VNSD-0_202512271054507d95a7957.rbl](firmwares/VNSD-0/FC41D/202512040647/202512040647_fc41d_VNSD-0_202512271054507d95a7957.rbl)</sub>
+
 ## VNSD-0 — Control v150 — 2026-08-13
 
 - Loacl-API-Sendeausnahme im Ethernet-Modus optimieren

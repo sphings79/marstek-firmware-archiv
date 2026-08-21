@@ -104,6 +104,12 @@ einreichen:
 | v149 | 376 KB | 2026-08-12 | [📁 149_control_VNSD-0_app_0149_0521_094621.bin](firmwares/VNSD-0/Control/149/149_control_VNSD-0_app_0149_0521_094621.bin) | [#4](../../issues/4) | 1. Einige Funktionen von OpenApi hinzugefügt und das Problem behoben, dass die von der ES-… |
 | v147 | 364 KB | 2026-08-12 | [📁 147_control_VNSD-0_202601281721320b2053125.bin](firmwares/VNSD-0/Control/147/147_control_VNSD-0_202601281721320b2053125.bin) | [#16](../../issues/16) | Basierend auf dem Original 147: 1. Optimierung der deutschen Stromzähleranbindung 2. Optim… |
 
+#### FC41D
+
+| Version | Größe | Hinzugefügt | Download | Issue | Änderungen |
+|---------|-------|-------------|----------|-------|------------|
+| v202512040647 | 666.92 KB | 2026-08-21 | [📁 202512040647_fc41d_VNSD-0_202512271054507d95a7957.rbl](firmwares/VNSD-0/FC41D/202512040647/202512040647_fc41d_VNSD-0_202512271054507d95a7957.rbl) | [#31](../../issues/31) |  |
+
 #### Micro
 
 | Version | Größe | Hinzugefügt | Download | Issue | Änderungen |
@@ -141,8 +147,8 @@ einreichen:
 
 ---
 
-**Firmware-Dateien gesamt:** 36
-**Zuletzt aktualisiert:** 2026-08-21 07:33:21 UTC
+**Firmware-Dateien gesamt:** 37
+**Zuletzt aktualisiert:** 2026-08-21 11:05:23 UTC
 
 ## Changelogs
 
