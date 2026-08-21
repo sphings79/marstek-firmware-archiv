@@ -1,4 +1,4 @@
-# Changelog — HME-3
+# Changelog — HME-3 (Marstek Smart Meter CT002 / P1)
 
 ## v122 — 2025-12-01
 

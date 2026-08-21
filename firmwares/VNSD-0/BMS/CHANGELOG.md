@@ -1,4 +1,4 @@
-# Changelog — VNSD-0 / BMS
+# Changelog — VNSD-0 (Marstek Venus D) / BMS
 
 ## v118 — 2026-08-12
 

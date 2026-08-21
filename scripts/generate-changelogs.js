@@ -8,7 +8,7 @@
 // Release-note preference per version:
 //   manual `changelog` file  >  translated German  >  original text.
 
-const { fs, path, REPO_ROOT, FIRMWARES_DIR, formatVersion } = require('./lib');
+const { fs, path, REPO_ROOT, FIRMWARES_DIR, formatVersion, deviceModel } = require('./lib');
 const { scanFirmwares } = require('./scan');
 
 function fmtDate(s) {
@@ -103,7 +103,10 @@ function main() {
     const list = devices[device];
 
     // per device (depth 2: firmwares/<device>/CHANGELOG.md)
-    let dmd = `# Changelog — ${device}\n\n`;
+    // Marktname mit in die Überschrift: die Geräte-Changelogs werden einzeln
+    // verlinkt und gefunden, "VNSD-0" allein sagt einem Suchenden nichts.
+    const model = deviceModel(device);
+    let dmd = `# Changelog — ${device}${model ? ` (${model})` : ''}\n\n`;
     const sorted = [...list].sort((a, b) => {
       const d = new Date(b.archivedAt || 0) - new Date(a.archivedAt || 0);
       return d || b.versionNum - a.versionNum;
@@ -119,7 +122,7 @@ function main() {
     }
     for (const type of Object.keys(byType)) {
       if (type === 'Firmware') continue; // flat device: covered by device-level changelog
-      let tmd = `# Changelog — ${device} / ${type}\n\n`;
+      let tmd = `# Changelog — ${device}${model ? ` (${model})` : ''} / ${type}\n\n`;
       const ts = byType[type].sort((a, b) => b.versionNum - a.versionNum);
       for (const fw of ts) tmd += section(fw, { depth: 3 });
       writeFile(path.join(FIRMWARES_DIR, device, type, 'CHANGELOG.md'), tmd);

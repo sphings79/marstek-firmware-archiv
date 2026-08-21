@@ -1,4 +1,4 @@
-# Changelog — VNSA-0 / BMS
+# Changelog — VNSA-0 (Marstek Venus A) / BMS
 
 ## v110.5 — 2026-08-12
 

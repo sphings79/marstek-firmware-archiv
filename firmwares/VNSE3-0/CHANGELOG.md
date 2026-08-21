@@ -1,4 +1,4 @@
-# Changelog — VNSE3-0
+# Changelog — VNSE3-0 (Marstek Venus E 3.0)
 
 ## Control v150 — 2026-08-12
 

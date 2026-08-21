@@ -1,4 +1,4 @@
-# Changelog — VNSD-0 / FC41D
+# Changelog — VNSD-0 (Marstek Venus D) / FC41D
 
 ## v202512040647 — 2026-08-21
 

@@ -1,4 +1,4 @@
-# Changelog — VNSE3-0 / BMS
+# Changelog — VNSE3-0 (Marstek Venus E 3.0) / BMS
 
 ## v115 — 2026-08-12
 

@@ -15,6 +15,26 @@ const FIRMWARES_DIR = path.join(REPO_ROOT, 'firmwares');
 // Everything else uses firmwares/<device>/<Type>/<version>/
 const FLAT_STRUCTURE_DEVICES = new Set(['HME-3', 'HME-4', 'HMJ-2']);
 
+// Marktnamen zu den Gerätecodes, die Marstek in der API/Firmware benutzt.
+// Quelle: Community-Referenz tomquist/hm2mqtt, gegengeprüft an den Release Notes
+// und `deviceName`-Werten in unseren eigenen metadata.json (HME-* meldet sich
+// z. B. als "CT002" bzw. "P1 Meter", VNSD-0 nennt sich in den Notes "Venus D").
+// Wird für README-Überschriften und die Geräteübersicht benutzt — wer sucht,
+// sucht nach "Venus E", nicht nach "VNSE3-0".
+const DEVICE_MODELS = {
+  'VNSE3-0': 'Marstek Venus E 3.0',
+  'VNSD-0': 'Marstek Venus D',
+  'VNSA-0': 'Marstek Venus A',
+  'HMG-50': 'Marstek Venus E Gen 1/2',
+  'HMJ-2': 'Marstek Saturn / B2500 v2',
+  'HME-3': 'Marstek Smart Meter CT002 / P1',
+  'HME-4': 'Marstek Smart Meter CT002 / P1',
+};
+
+function deviceModel(code) {
+  return DEVICE_MODELS[code] || '';
+}
+
 // Canonical, capitalized firmware-type folder names. The submission issues and
 // the old archive used mixed casing (control/Control, bms/BMS, micro). We pin a
 // single spelling so no duplicate folders (control + Control) can ever appear.
@@ -254,6 +274,8 @@ module.exports = {
   FIRMWARES_DIR,
   FLAT_STRUCTURE_DEVICES,
   CANONICAL_TYPES,
+  DEVICE_MODELS,
+  deviceModel,
   isFlatDevice,
   versionSortValue,
   formatVersion,

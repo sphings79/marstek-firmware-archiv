@@ -1,12 +1,46 @@
 # Marstek Firmware Archiv
 
-Community-Firmware-Archiv für Marstek Venus Geräte.
+[![Stars](https://img.shields.io/github/stars/sphings79/marstek-firmware-archiv?style=flat&logo=github&label=Sterne)](https://github.com/sphings79/marstek-firmware-archiv/stargazers)
+[![Firmware-Dateien](https://img.shields.io/badge/Firmware--Dateien-39-blue)](#verfügbare-firmware)
+[![Letzte Aktualisierung](https://img.shields.io/github/last-commit/sphings79/marstek-firmware-archiv?label=zuletzt%20aktualisiert)](https://github.com/sphings79/marstek-firmware-archiv/commits/main)
 
-> Automatisch gepflegt. Neue Firmware wird über GitHub-Issues mit dem Label
-> `firmware-submission` eingereicht und per GitHub Action einsortiert.
-> Zusätzlich gleicht ein täglicher Job das Archiv von
-> [rweijnen/marstek-firmware-archive](https://github.com/rweijnen/marstek-firmware-archive)
-> ab und schlägt fehlende Versionen per Pull Request vor (markiert mit ↗ ref).
+**Community-Archiv für originale Marstek-OTA-Firmware.** Hier findest du die
+Firmware-Dateien für **Marstek Venus E, Venus D, Venus A, Saturn/B2500** und die
+**CT002-/P1-Smart-Meter** zum Download — mit Release Notes auf Deutsch und
+Englisch, SHA-256-Prüfsumme, Dateigröße und Changelog pro Version.
+
+> ⭐ **Hilft dir das Archiv?** Ein Stern kostet einen Klick und sorgt dafür, dass
+> andere Marstek-Nutzer es überhaupt finden.
+
+## Warum ein Firmware-Archiv?
+
+- **Downgrade möglich machen.** Marstek liefert immer nur die *aktuelle* Version
+  aus. Wer nach einem Update Probleme hat, kommt ohne Archiv nicht zurück.
+- **Vor dem Update sichern.** Die Download-URL einer Version verschwindet,
+  sobald das Update auf dem Gerät angestoßen wurde.
+- **Nachvollziehen, was sich ändert.** Die Release Notes kommen von Marstek auf
+  Chinesisch — hier stehen sie übersetzt und versioniert nebeneinander.
+
+> [!WARNING]
+> Firmware-Updates auf eigene Gefahr. Die Dateien sind unveränderte Originale von
+> Marsteks Update-Servern, aber ein fehlgeschlagenes Update kann ein Gerät
+> unbrauchbar machen. Prüfe vor dem Flashen, dass Gerätecode **und** Modul
+> (Control, BMS, Micro, MPPT, FC41D) zu deinem Gerät passen.
+
+## Unterstützte Geräte
+
+| Gerätecode | Modell | Firmware |
+|------------|--------|----------|
+| `HME-3` | Marstek Smart Meter CT002 / P1 | [4 Version(en)](#hme-3--marstek-smart-meter-ct002--p1) |
+| `HME-4` | Marstek Smart Meter CT002 / P1 | [3 Version(en)](#hme-4--marstek-smart-meter-ct002--p1) |
+| `HMG-50` | Marstek Venus E Gen 1/2 | [5 Version(en)](#hmg-50--marstek-venus-e-gen-12) |
+| `HMJ-2` | Marstek Saturn / B2500 v2 | [1 Version(en)](#hmj-2--marstek-saturn--b2500-v2) |
+| `VNSA-0` | Marstek Venus A | [5 Version(en)](#vnsa-0--marstek-venus-a) |
+| `VNSD-0` | Marstek Venus D | [10 Version(en)](#vnsd-0--marstek-venus-d) |
+| `VNSE3-0` | Marstek Venus E 3.0 | [11 Version(en)](#vnse3-0--marstek-venus-e-30) |
+
+Der Gerätecode steht in der Marstek-App bzw. wird vom
+[Firmware-Checker](#-firmware-checker-tool) direkt mit ausgelesen.
 
 ## 🔍 Firmware-Checker-Tool
 
@@ -26,9 +60,27 @@ einreichen:
 > Das Tool speichert **keine Logindaten**. Deine Marstek-Zugangsdaten werden nur
 > für die Abfrage verwendet und nicht gespeichert.
 
+## English
+
+Community archive of **original Marstek OTA firmware** for the Marstek Venus E,
+Venus D, Venus A, Saturn/B2500 and the CT002 / P1 smart meters. Every version
+ships with the untouched `.bin`/`.rbl` file, its SHA-256 checksum, the original
+Chinese release notes plus English and German translations, and a per-device
+changelog. Marstek only serves the *latest* firmware, so this archive exists to
+make downgrades and rollbacks possible at all. The tables below are sorted newest
+first — column headings are German, but device codes, versions and filenames are
+not. Contributions are welcome via the
+[firmware submission issue template](../../issues/new?template=firmware-submission.md).
+
+> Automatisch gepflegt. Neue Firmware wird über GitHub-Issues mit dem Label
+> `firmware-submission` eingereicht und per GitHub Action einsortiert.
+> Zusätzlich gleicht ein täglicher Job das Archiv von
+> [rweijnen/marstek-firmware-archive](https://github.com/rweijnen/marstek-firmware-archive)
+> ab und schlägt fehlende Versionen per Pull Request vor (markiert mit ↗ ref).
+
 ## Verfügbare Firmware
 
-### HME-3
+### HME-3 — Marstek Smart Meter CT002 / P1
 
 | Version | Größe | Hinzugefügt | Download | Issue | Änderungen |
 |---------|-------|-------------|----------|-------|------------|
@@ -37,7 +89,7 @@ einreichen:
 | v117 | 72 KB | 2025-08-25 | [📁 117_HME-3_20250702110345eebe62348.bin](firmwares/HME-3/117/117_HME-3_20250702110345eebe62348.bin) | [↗ ref](https://github.com/rweijnen/marstek-firmware-archive) | 1. Optimierter UDP-Empfang und Neustartoptimierung 2. Fügen Sie den Befehl zum Bluetooth-U… |
 | v116 | 68 KB | 2025-11-14 | [📁 116_HME-3_20250610173327b6ce85859.bin](firmwares/HME-3/116/116_HME-3_20250610173327b6ce85859.bin) | [↗ ref](https://github.com/rweijnen/marstek-firmware-archive) | 1. BLE und MQTT fügen ABC3-Phasen- und Konjunktionsdaten Now-Daten hinzu 2. Bluetooth fügt… |
 
-### HME-4
+### HME-4 — Marstek Smart Meter CT002 / P1
 
 | Version | Größe | Hinzugefügt | Download | Issue | Änderungen |
 |---------|-------|-------------|----------|-------|------------|
@@ -45,7 +97,7 @@ einreichen:
 | v124 | 72 KB | 2026-08-12 | [📁 124_HME-4_20250915163554648799838.bin](firmwares/HME-4/124/124_HME-4_20250915163554648799838.bin) | [#9](../../issues/9) | Das UDP-Protokoll v4 behebt den UDP-Reset-Fehler |
 | v120 | 66 KB | 2025-08-25 | [📁 120_HME-4_202507021110400569f6547.bin](firmwares/HME-4/120/120_HME-4_202507021110400569f6547.bin) | [↗ ref](https://github.com/rweijnen/marstek-firmware-archive) | 1. Optimierter UDP-Empfang und Neustartoptimierung 2. Fügen Sie den Befehl zum Bluetooth-U… |
 
-### HMG-50
+### HMG-50 — Marstek Venus E Gen 1/2
 
 #### BMS
 
@@ -62,13 +114,13 @@ einreichen:
 | v155 | 232 KB | 2025-10-27 | [📁 155_control_HMG-50_202509161548003ff722863.bin](firmwares/HMG-50/Control/155/155_control_HMG-50_202509161548003ff722863.bin) | [↗ ref](https://github.com/rweijnen/marstek-firmware-archive) | Akkumulationsfunktion beim Laden und Entladen hinzugefügt; Unterstützung für die Ausgabe v… |
 | v153 | 222 KB | 2025-08-25 | [📁 153_control_HMG-50_202505301136007a5b57023.bin](firmwares/HMG-50/Control/153/153_control_HMG-50_202505301136007a5b57023.bin) | [↗ ref](https://github.com/rweijnen/marstek-firmware-archive) | 1. Unterstützt die Netzwerkverteilungsfunktion für passwortloses WLAN; 2. Optimieren Sie e… |
 
-### HMJ-2
+### HMJ-2 — Marstek Saturn / B2500 v2
 
 | Version | Größe | Hinzugefügt | Download | Issue | Änderungen |
 |---------|-------|-------------|----------|-------|------------|
 | v110 | 146 KB | 2026-07-24 | [📁 110_HMJ-2_20250523160631745d66082.bin](firmwares/HMJ-2/110/110_HMJ-2_20250523160631745d66082.bin) | [↗ ref](https://github.com/rweijnen/marstek-firmware-archive) |  |
 
-### VNSA-0
+### VNSA-0 — Marstek Venus A
 
 #### BMS
 
@@ -90,7 +142,7 @@ einreichen:
 | v121.1 | 143 KB | 2026-08-12 | [📁 1211_micro_VNSA-0_VA_inv_app_1211_0520_ota_193621.bin](firmwares/VNSA-0/Micro/1211/1211_micro_VNSA-0_VA_inv_app_1211_0520_ota_193621.bin) | [#24](../../issues/24) | Verbesserter netzunabhängiger VA-Anschluss mit RCD-Ladefunktion |
 | v119.3 | 143 KB | 2026-08-12 | [📁 1193_micro_VNSA-0_VA_inv_app_1193_0512_ota_092355.bin](firmwares/VNSA-0/Micro/1193/1193_micro_VNSA-0_VA_inv_app_1193_0512_ota_092355.bin) | [#3](../../issues/3) | Optimierung der Niederspannungsrettung, muss mit der BMS V1105-Version zusammenarbeiten |
 
-### VNSD-0
+### VNSD-0 — Marstek Venus D
 
 #### BMS
 
@@ -122,7 +174,7 @@ einreichen:
 | v116 | 113 KB | 2026-08-12 | [📁 116_micro_VNSD-0_vd_inv_app_0116_0702_ota_163439.bin](firmwares/VNSD-0/Micro/116/116_micro_VNSD-0_vd_inv_app_0116_0702_ota_163439.bin) | [#18](../../issues/18) | VD 2500w |
 | v115 | 113 KB | 2026-08-12 | [📁 115_micro_VNSD-0_202601230921310c0e30687.bin](firmwares/VNSD-0/Micro/115/115_micro_VNSD-0_202601230921310c0e30687.bin) | [#21](../../issues/21) | Anpassung an Zentralsteuerung 147 |
 
-### VNSE3-0
+### VNSE3-0 — Marstek Venus E 3.0
 
 #### BMS
 
@@ -153,7 +205,15 @@ einreichen:
 ---
 
 **Firmware-Dateien gesamt:** 39
-**Zuletzt aktualisiert:** 2026-08-21 13:09:43 UTC
+**Zuletzt aktualisiert:** 2026-08-21 13:32:12 UTC
+
+## Mitmachen
+
+Fehlt eine Version? Zieh sie mit dem
+[Firmware-Checker](#-firmware-checker-tool) und reiche sie über das
+[Issue-Template](../../issues/new?template=firmware-submission.md) ein — der Rest
+läuft automatisch. Jede Einsendung wird gegen die von Marstek gemeldete Größe und
+CRC-16/MODBUS-Prüfsumme verifiziert, bevor sie im Archiv landet.
 
 ## Changelogs
 

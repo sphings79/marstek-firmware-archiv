@@ -1,4 +1,4 @@
-# Changelog — VNSA-0 / Micro
+# Changelog — VNSA-0 (Marstek Venus A) / Micro
 
 ## v121.1 — 2026-08-12
 

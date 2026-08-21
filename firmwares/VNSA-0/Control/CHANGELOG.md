@@ -1,4 +1,4 @@
-# Changelog — VNSA-0 / Control
+# Changelog — VNSA-0 (Marstek Venus A) / Control
 
 ## v149 — 2026-08-12
 

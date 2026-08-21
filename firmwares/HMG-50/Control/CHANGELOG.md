@@ -1,4 +1,4 @@
-# Changelog — HMG-50 / Control
+# Changelog — HMG-50 (Marstek Venus E Gen 1/2) / Control
 
 ## v156 — 2026-07-31
 

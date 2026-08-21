@@ -1,4 +1,4 @@
-# Changelog — VNSD-0 / Micro
+# Changelog — VNSD-0 (Marstek Venus D) / Micro
 
 ## v116 — 2026-08-12
 

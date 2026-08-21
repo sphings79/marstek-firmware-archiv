@@ -1,4 +1,4 @@
-# Changelog — HMG-50 / BMS
+# Changelog — HMG-50 (Marstek Venus E Gen 1/2) / BMS
 
 ## v216 — 2025-09-08
 

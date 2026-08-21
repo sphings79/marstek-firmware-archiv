@@ -1,4 +1,4 @@
-# Changelog — HMJ-2
+# Changelog — HMJ-2 (Marstek Saturn / B2500 v2)
 
 ## v110 — 2026-07-24
 

@@ -1,4 +1,4 @@
-# Changelog — VNSD-0 / Control
+# Changelog — VNSD-0 (Marstek Venus D) / Control
 
 ## v150 — 2026-08-13
 

@@ -1,4 +1,4 @@
-# Changelog — VNSE3-0 / Micro
+# Changelog — VNSE3-0 (Marstek Venus E 3.0) / Micro
 
 ## v119 — 2026-08-12
 
