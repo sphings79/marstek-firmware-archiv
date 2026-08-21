@@ -30,6 +30,7 @@ Node ≥ 18 wegen `fetch`). Drei GitHub Actions rufen diese Skripte auf.
 | `generate-changelogs.js` | Global + pro Gerät + pro Modul, je EN + DE |
 | `migrate-casing.js` | Einmalig: Ordner auf kanonische Schreibweise + Duplikat-Report |
 | `verify.js` | Integritätsprüfung: CRC-16/MODBUS + Größe gegen die Marstek-API-Werte |
+| `social-preview.js` | Social-Preview-Bild (1280×640) für GitHubs Link-Vorschau |
 | `import-reference.js` | Firmware + Changelogs aus einem anderen Archiv übernehmen (nur Fehlendes) |
 | `sync-upstream.js` | Fremdarchiv klonen und `import-reference.js` darauf anwenden |
 
@@ -98,6 +99,22 @@ git add -A && git commit && git push
 
 Oder ohne lokale Ausführung: den Workflow **Firmware Backfill** manuell starten
 (Actions-Tab → Firmware Backfill → Run workflow).
+
+## Social-Preview-Bild
+
+`node scripts/social-preview.js` erzeugt `.github/social-preview.svg` und
+`.github/social-preview.png` (1280×640) mit der aktuellen Anzahl Firmware-Dateien
+und den Modellnamen aus `DEVICE_MODELS`.
+
+Hochladen ist Handarbeit — GitHub hat dafür keine API:
+**Settings → General → Social preview → Upload an image**. Danach zeigen
+WhatsApp, Discord, Reddit & Co. beim Teilen des Links dieses Bild statt des
+grauen Standardkärtchens.
+
+Das PNG entsteht über ein selbst geschriebenes PDF, das `sips` rastert: auf dem
+Mac ist ohne Zusatzsoftware nur Quick Look als Renderer da, und das skaliert
+2:1-SVGs nicht verlässlich. Ohne `sips` (z. B. auf Linux) schreibt das Skript nur
+das SVG und nennt den PDF-Pfad.
 
 ## Konventionen
 

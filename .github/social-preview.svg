@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="640" viewBox="0 0 1280 640" font-family="Helvetica Neue, Helvetica, Arial, sans-serif">
+  <rect x="0" y="0" width="1280" height="640" fill="#0b1220"/>
+  <rect x="0" y="0" width="1280" height="8" fill="#4ade80"/>
+  <rect x="1082" y="74" width="60" height="22" rx="7" fill="#4ade80" opacity="0.16"/>
+  <rect x="1040" y="96" width="144" height="232" rx="20" fill="#152238"/>
+  <rect x="1060" y="212" width="104" height="96" rx="10" fill="#4ade80" opacity="0.16"/>
+  <text x="80" y="148" font-size="24" fill="#4ade80" letter-spacing="6">COMMUNITY ARCHIVE</text>
+  <text x="80" y="244" font-size="66" fill="#e8eef7" font-weight="bold">Marstek Firmware Archive</text>
+  <text x="80" y="306" font-size="29" fill="#8fa3bf">Original OTA firmware — every version kept, so you can go back.</text>
+  <rect x="80" y="384" width="116.39999999999999" height="54" rx="27" fill="#152238" stroke="#24344f" stroke-width="2"/>
+  <text x="106" y="419" font-size="23" fill="#e8eef7">B2500</text>
+  <rect x="210.39999999999998" y="384" width="167.46" height="54" rx="27" fill="#152238" stroke="#24344f" stroke-width="2"/>
+  <text x="236.39999999999998" y="419" font-size="23" fill="#e8eef7">CT002 / P1</text>
+  <rect x="391.86" y="384" width="138.48000000000002" height="54" rx="27" fill="#152238" stroke="#24344f" stroke-width="2"/>
+  <text x="417.86" y="419" font-size="23" fill="#e8eef7">Venus A</text>
+  <rect x="544.34" y="384" width="138.48000000000002" height="54" rx="27" fill="#152238" stroke="#24344f" stroke-width="2"/>
+  <text x="570.34" y="419" font-size="23" fill="#e8eef7">Venus D</text>
+  <rect x="696.82" y="384" width="138.48000000000002" height="54" rx="27" fill="#152238" stroke="#24344f" stroke-width="2"/>
+  <text x="722.82" y="419" font-size="23" fill="#e8eef7">Venus E</text>
+  <rect x="849.3000000000001" y="384" width="176.2" height="54" rx="27" fill="#152238" stroke="#24344f" stroke-width="2"/>
+  <text x="875.3000000000001" y="419" font-size="23" fill="#e8eef7">Venus E 3.0</text>
+  <rect x="80" y="508" width="1120" height="2" fill="#24344f"/>
+  <text x="80" y="556" font-size="23" fill="#8fa3bf">39 firmware files · release notes EN/DE · SHA-256 verified · synced daily</text>
+  <text x="80" y="596" font-size="23" fill="#38bdf8">github.com/sphings79/marstek-firmware-archiv</text>
+</svg>
