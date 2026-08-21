@@ -69,7 +69,7 @@ jobs:
           git config user.email "github-actions[bot]@users.noreply.github.com"
 
           git checkout -b "$SYNC_BRANCH"
-          git add firmwares README.md CHANGELOG.md scripts/translation-cache.json
+          git add firmwares README.md README.de.md CHANGELOG.md scripts/translation-cache.json
           if git diff --cached --quiet; then
             echo "Nichts zu committen"; exit 0
           fi

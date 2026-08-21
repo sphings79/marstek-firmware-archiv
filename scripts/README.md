@@ -26,7 +26,7 @@ Node ≥ 18 wegen `fetch`). Drei GitHub Actions rufen diese Skripte auf.
 | `archive-issue.js` | CLI für die Action (ein Issue per Nummer) |
 | `backfill.js` | ALLE Issues (offen + geschlossen) neu verarbeiten |
 | `scan.js` | firmwares/-Baum einlesen |
-| `update-readme.js` | README.md erzeugen |
+| `update-readme.js` | README.md (EN) + README.de.md (DE) erzeugen |
 | `generate-changelogs.js` | Global + pro Gerät + pro Modul CHANGELOG.md |
 | `migrate-casing.js` | Einmalig: Ordner auf kanonische Schreibweise + Duplikat-Report |
 | `verify.js` | Integritätsprüfung: CRC-16/MODBUS + Größe gegen die Marstek-API-Werte |
