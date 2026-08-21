@@ -1,7 +1,7 @@
 # Automatisierung des Firmware-Archivs
 
 Alle Logik steckt in `scripts/` (reines Node.js, **keine npm-Abhängigkeiten**,
-Node ≥ 18 wegen `fetch`). Zwei GitHub Actions rufen diese Skripte auf.
+Node ≥ 18 wegen `fetch`). Drei GitHub Actions rufen diese Skripte auf.
 
 ## Ablauf bei neuer Firmware
 
@@ -30,7 +30,8 @@ Node ≥ 18 wegen `fetch`). Zwei GitHub Actions rufen diese Skripte auf.
 | `generate-changelogs.js` | Global + pro Gerät + pro Modul CHANGELOG.md |
 | `migrate-casing.js` | Einmalig: Ordner auf kanonische Schreibweise + Duplikat-Report |
 | `verify.js` | Integritätsprüfung: CRC-16/MODBUS + Größe gegen die Marstek-API-Werte |
-| `import-reference.js` | Einmalig: alle Firmware + Changelogs aus einem anderen Archiv übernehmen |
+| `import-reference.js` | Firmware + Changelogs aus einem anderen Archiv übernehmen (nur Fehlendes) |
+| `sync-upstream.js` | Fremdarchiv klonen und `import-reference.js` darauf anwenden |
 
 ## Integritätsprüfung
 
@@ -45,18 +46,43 @@ markiert. Fehlen die API-Werte (ältere Submissions/Importe), wird die Prüfung
 übersprungen. Ergebnis landet in `metadata.json` als `apiCrc`, `apiSize`,
 `verified` (`true`/`false`/`null`).
 
-## Aus einem anderen Archiv importieren
+## Abgleich mit dem Archiv von Remko Weijnen
+
+`.github/workflows/upstream-sync.yml` läuft **täglich um 04:37 UTC** (und per
+*Run workflow* von Hand) und ruft `sync-upstream.js` auf:
+
+1. klont `rweijnen/marstek-firmware-archive` flach in ein Temp-Verzeichnis,
+2. `import-reference.js` übernimmt jede Version, die dort liegt und hier fehlt,
+3. Changelogs + README werden neu erzeugt,
+4. das Ergebnis landet **als Pull Request** auf dem Branch `upstream-sync` —
+   nicht direkt auf `main`, damit Fremdinhalte vor dem Merge gesichtet werden.
+
+Der Branch ist rollend: ist der PR noch offen, aktualisiert ihn der nächste Lauf
+per Force-Push (er wird jedes Mal frisch von `main` gebaut und enthält damit den
+kompletten Rückstand), statt einen zweiten PR mit denselben Versionen zu öffnen.
+Ohne Neues passiert **gar nichts** — kein Branch, kein PR. Manuell dasselbe lokal:
 
 ```bash
-git clone https://github.com/rweijnen/marstek-firmware-archive /tmp/ref
-node scripts/import-reference.js /tmp/ref
+node scripts/sync-upstream.js --dry-run   # nur zeigen, was fehlen würde
+node scripts/sync-upstream.js             # importieren
 node scripts/generate-changelogs.js && node scripts/update-readme.js
-git add -A && git commit && git push
 ```
 
-Übernimmt nur fehlende Versionen (vorhandene bleiben unangetastet), vereinheitlicht
-Struktur + Metadaten (Übersetzung, SHA-256, CRC/Größe) und markiert Einträge mit
-`importedFrom` (in README als `↗ ref`-Link).
+Andere Quelle: `--repo owner/name`, eine volle URL, ein lokaler Repo-Pfad oder
+`UPSTREAM_REPO=…`. Wer ein bereits ausgechecktes Repo hat, kann
+`import-reference.js` auch direkt füttern:
+
+```bash
+node scripts/import-reference.js /pfad/zum/ref-repo [--dry-run] [--no-translate]
+```
+
+Beim Import gilt:
+
+- vorhandene Versionen bleiben unangetastet,
+- Dateien werden auf unser Namensschema `<version>_<typ>_<gerät>_<original>`
+  gebracht, Struktur/Metadaten vereinheitlicht (Übersetzung, SHA-256, CRC/Größe),
+- ein `deviceName` aus der Fremdquelle wird maskiert (`De******ku`),
+- Einträge werden mit `importedFrom` markiert (in README als `↗ ref`-Link).
 
 ## Einmaliger Cleanup / Backfill (lokal)
 

@@ -1,0 +1,98 @@
+name: Upstream Sync
+
+# Täglicher Abgleich mit dem Archiv von Remko Weijnen
+# (rweijnen/marstek-firmware-archive): jede Firmware-Version, die dort liegt und
+# hier fehlt, wird übernommen — nicht direkt auf main, sondern als Pull Request
+# zum Durchsehen. Idempotent: ein Lauf ohne Neues macht gar nichts.
+
+on:
+  schedule:
+    # 04:37 UTC. Krumme Minute absichtlich: zur vollen Stunde sind die
+    # GitHub-Runner am stärksten belegt, Cron-Läufe verzögern sich dann.
+    - cron: '37 4 * * *'
+  workflow_dispatch:
+    inputs:
+      dry_run:
+        description: 'Nur berichten, was fehlt (kein Branch, kein PR)'
+        type: boolean
+        default: false
+      repo:
+        description: 'Quell-Repo (owner/name)'
+        required: false
+        default: 'rweijnen/marstek-firmware-archive'
+
+concurrency:
+  group: upstream-sync
+  cancel-in-progress: false
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+      pull-requests: write
+    env:
+      UPSTREAM_REPO: ${{ inputs.repo || 'rweijnen/marstek-firmware-archive' }}
+      # Ein einziger, rollender Branch statt einem pro Lauf: solange der PR
+      # offen ist, aktualisiert ihn der nächste Lauf, statt einen zweiten PR
+      # mit denselben Versionen aufzumachen.
+      SYNC_BRANCH: upstream-sync
+    steps:
+      - uses: actions/checkout@v5
+
+      - uses: actions/setup-node@v5
+        with:
+          node-version: '22'
+
+      - name: Upstream abgleichen
+        id: sync
+        run: node scripts/sync-upstream.js ${{ inputs.dry_run && '--dry-run' || '' }}
+
+      - name: Changelogs & README neu generieren
+        if: steps.sync.outputs.count != '0' && !inputs.dry_run
+        run: |
+          node scripts/generate-changelogs.js
+          node scripts/update-readme.js
+
+      - name: Branch pushen & Pull Request öffnen
+        if: steps.sync.outputs.count != '0' && !inputs.dry_run
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          COUNT: ${{ steps.sync.outputs.count }}
+          LABELS: ${{ steps.sync.outputs.labels }}
+          UPSTREAM_SHA: ${{ steps.sync.outputs.upstream_sha }}
+          REPORT: ${{ steps.sync.outputs.report_file }}
+        run: |
+          set -euo pipefail
+
+          git config user.name  "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+
+          git checkout -b "$SYNC_BRANCH"
+          git add firmwares README.md CHANGELOG.md scripts/translation-cache.json
+          if git diff --cached --quiet; then
+            echo "Nichts zu committen"; exit 0
+          fi
+          git commit -m "Upstream-Sync: $COUNT Firmware(s) aus $UPSTREAM_REPO
+
+          Quelle: $UPSTREAM_REPO@$UPSTREAM_SHA
+          Übernommen: $LABELS"
+
+          # Force-Push: der Branch wird bei jedem Lauf frisch von main aus
+          # aufgebaut, sein Inhalt ist also immer der vollständige Rückstand.
+          git push --force --set-upstream origin "$SYNC_BRANCH"
+
+          title="Upstream-Sync: $COUNT Firmware(s) aus $UPSTREAM_REPO"
+          existing="$(gh pr list --head "$SYNC_BRANCH" --state open --json number --jq '.[0].number // empty')"
+          if [ -n "$existing" ]; then
+            gh pr edit "$existing" --title "$title" --body-file "$REPORT"
+            gh pr comment "$existing" --body "🔄 Aktualisiert – Stand \`$UPSTREAM_SHA\`, jetzt $COUNT Version(en)."
+            echo "PR #$existing aktualisiert"
+          else
+            gh pr create --base main --head "$SYNC_BRANCH" \
+              --title "$title" --body-file "$REPORT"
+          fi
+
+      - name: Kein PR nötig
+        if: steps.sync.outputs.count == '0'
+        run: echo "Archiv ist auf dem Stand von $UPSTREAM_REPO – nichts zu tun."

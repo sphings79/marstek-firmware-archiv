@@ -4,6 +4,9 @@ Community-Firmware-Archiv für Marstek Venus Geräte.
 
 > Automatisch gepflegt. Neue Firmware wird über GitHub-Issues mit dem Label
 > `firmware-submission` eingereicht und per GitHub Action einsortiert.
+> Zusätzlich gleicht ein täglicher Job das Archiv von
+> [rweijnen/marstek-firmware-archive](https://github.com/rweijnen/marstek-firmware-archive)
+> ab und schlägt fehlende Versionen per Pull Request vor (markiert mit ↗ ref).
 
 ## 🔍 Firmware-Checker-Tool
 
@@ -150,7 +153,7 @@ einreichen:
 ---
 
 **Firmware-Dateien gesamt:** 39
-**Zuletzt aktualisiert:** 2026-08-21 11:59:38 UTC
+**Zuletzt aktualisiert:** 2026-08-21 13:09:43 UTC
 
 ## Changelogs
 
