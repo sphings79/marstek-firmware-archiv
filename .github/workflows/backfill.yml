@@ -36,6 +36,6 @@ jobs:
         run: |
           git config user.name  "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-          git add firmwares README.md README.de.md CHANGELOG.md scripts/translation-cache.json
+          git add firmwares README.md README.de.md CHANGELOG.md CHANGELOG.de.md scripts/translation-cache.json
           git commit -m "Backfill: alle Submissions neu verarbeitet" || echo "Nichts zu committen"
           git push

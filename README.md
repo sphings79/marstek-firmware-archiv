@@ -195,7 +195,7 @@ automatically:
 ---
 
 **Firmware files in total:** 39
-**Last updated:** 2026-08-21 13:36:43 UTC
+**Last updated:** 2026-08-21 13:40:43 UTC
 
 ## Contributing
 
@@ -210,7 +210,7 @@ size and CRC-16/MODBUS checksum reported by Marstek before it enters the archive
 - Per device: `firmwares/<device>/CHANGELOG.md`
 - Per module: `firmwares/<device>/<type>/CHANGELOG.md`
 
-_Changelog files are written in German._
+German versions sit next to each file as `CHANGELOG.de.md`.
 
 ## Archive layout
 

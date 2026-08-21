@@ -1,77 +1,77 @@
-# Changelog — Marstek Firmware Archive
+# Changelog — Marstek Firmware Archiv
 
-🇬🇧 **English** · [🇩🇪 Deutsch](CHANGELOG.de.md)
+[🇬🇧 English](CHANGELOG.md) · 🇩🇪 **Deutsch**
 
-Every archived firmware version, newest first.
+Alle archivierten Firmware-Versionen, chronologisch (neueste zuerst).
 
 ## VNSD-0 — FC41D v202409090159 — 2026-08-21
 
-- Installed 2024 baseline version of the FC41D communication module, served from the static hamedata URL.
+- Installierte 2024er-Basisversion des FC41D-Kommunikationsmoduls, ausgeliefert über die statische hamedata-URL.
 
 <sub>[202409090159_fc41d_VNSD-0_HM_HIE_FC41D_remote_ota.rbl](firmwares/VNSD-0/FC41D/202409090159/202409090159_fc41d_VNSD-0_HM_HIE_FC41D_remote_ota.rbl)</sub>
 
 ## HME-4 — v202506141125 — 2026-08-21
 
-_No release notes._
+_Keine Release Notes._
 
 <sub>Issue [#32](issues/32) · [202506141125_HME-4_20250625175845d30f22583.rbl](firmwares/HME-4/202506141125/202506141125_HME-4_20250625175845d30f22583.rbl)</sub>
 
 ## VNSD-0 — FC41D v202512040647 — 2026-08-21
 
-_No release notes._
+_Keine Release Notes._
 
 <sub>Issue [#31](issues/31) · [202512040647_fc41d_VNSD-0_202512271054507d95a7957.rbl](firmwares/VNSD-0/FC41D/202512040647/202512040647_fc41d_VNSD-0_202512271054507d95a7957.rbl)</sub>
 
 ## VNSD-0 — Control v150 — 2026-08-13
 
-- Optimize Loacl API sending exception in Ethernet mode
-- Optimize HTTP upgrade failure problem in Ethernet mode
-- Add Peak-shaving function
-- Optimize data loss problem caused by excessive HTTP data
-- Optimize meter connection method, use CT_TYPE connection
+- Loacl-API-Sendeausnahme im Ethernet-Modus optimieren
+- HTTP-Upgrade-Fehlerproblem im Ethernet-Modus optimieren
+- Peak-Shaving-Funktion hinzufügen
+- Datenverlustproblem durch übermäßige HTTP-Daten optimieren
+- Messgerätverbindungsmethode optimieren, CT_TYPE-Verbindung verwenden
 
 <sub>Issue [#28](issues/28) · [150_control_VNSD-0_app_0150_0805_115146.bin](firmwares/VNSD-0/Control/150/150_control_VNSD-0_app_0150_0805_115146.bin)</sub>
 
 ## VNSE3-0 — Control v150 — 2026-08-12
 
-- Optimize Loacl API sending exception in Ethernet mode
-- Optimize HTTP upgrade failure problem in Ethernet mode
-- Add Peak-shaving function
-- Optimize data loss problem caused by excessive HTTP data
-- Optimize meter connection method, use CT_TYPE connection
+- Loacl-API-Sendeausnahme im Ethernet-Modus optimieren
+- HTTP-Upgrade-Fehlerproblem im Ethernet-Modus optimieren
+- Peak-Shaving-Funktion hinzufügen
+- Datenverlustproblem durch übermäßige HTTP-Daten optimieren
+- Messgerätverbindungsmethode optimieren, CT_TYPE-Verbindung verwenden
 
 <sub>Issue [#27](issues/27) · [150_control_VNSE3-0_app_0150_0804_151249.bin](firmwares/VNSE3-0/Control/150/150_control_VNSE3-0_app_0150_0804_151249.bin)</sub>
 
 ## VNSD-0 — Control v149.2 — 2026-08-12
 
-- Solve the problem of abnormal data display caused by http data not uploading interval
+- Lösen Sie das Problem der abnormalen Datenanzeige, die dadurch verursacht wird, dass HTTP-Daten kein Intervall hochladen
 
 <sub>Issue [#17](issues/17) · [1492_control_VNSD-0_app_1492_0702_142136.bin](firmwares/VNSD-0/Control/1492/1492_control_VNSD-0_app_1492_0702_142136.bin)</sub>
 
 ## VNSA-0 — Control v149 — 2026-08-12
 
-- Added some functions of OpenApi, and fixed the problem that the PV data obtained by the ES interface is 0 and the UPS switch manually displays the UPS abnormally.
-- Added a repair mechanism for IIC deadlock to solve the EEPROM read error problem
-- Added the ability to adapt to French electric meters
-- Added http data upload to increase IP and battery cumulative charge and discharge capacity (VE3 only)
-- Optimize the function of residual power access to the Internet
-- Solve DOD configuration delivery exception
-- Http data upload is modified to 5 minutes to fix the abnormality of VA battery cell voltage data.
-- Support maximum power configuration
+- Einige Funktionen von OpenApi hinzugefügt und das Problem behoben, dass die von der ES-Schnittstelle erhaltenen PV-Daten 0 sind und der USV-Schalter die USV manuell abnormal anzeigt.
+- Ein Reparaturmechanismus für IIC-Deadlocks hinzugefügt, um das EEPROM-Lesefehlerproblem zu lösen
+- Möglichkeit zur Anpassung an französische Stromzähler hinzugefügt
+- HTTP-Daten-Upload hinzugefügt, um IP und die kumulative Lade- und Entladekapazität des Akkus zu erhöhen (nur VE3)
+- Optimieren Sie die Funktion des Reststromzugangs zum Internet
+- Lösen Sie die Ausnahme bei der DOD-Konfigurationszustellung
+- Der HTTP-Daten-Upload wurde auf 5 Minuten geändert, um die Anomalie der VA-Batteriezellenspannungsdaten zu beheben.
+- Unterstützt die Konfiguration mit maximaler Leistung
 
 <sub>Issue [#23](issues/23) · [149_control_VNSA-0_app_0149_0528_102448.bin](firmwares/VNSA-0/Control/149/149_control_VNSA-0_app_0149_0528_102448.bin)</sub>
 
 ## VNSD-0 — Control v149 — 2026-08-12
 
-- Added some functions of OpenApi, and fixed the problem that the PV data obtained by the ES interface is 0 and the UPS switch manually displays the UPS abnormally.
-- Added a repair mechanism for IIC deadlock to solve the EEPROM read error problem
-- Added the ability to adapt to French electric meters
-- Added http data upload to increase IP and battery cumulative charge and discharge capacity (VE3 only)
-- Optimize the function of residual power access to the Internet
-- Solve DOD configuration delivery exception
-- Http data upload is modified to 5 minutes to fix the abnormality of VA battery cell voltage data.
-- Support maximum power configuration
-- Venus D supports a maximum power of 2500W
+- Einige Funktionen von OpenApi hinzugefügt und das Problem behoben, dass die von der ES-Schnittstelle erhaltenen PV-Daten 0 sind und der USV-Schalter die USV manuell abnormal anzeigt.
+- Ein Reparaturmechanismus für IIC-Deadlocks hinzugefügt, um das EEPROM-Lesefehlerproblem zu lösen
+- Möglichkeit zur Anpassung an französische Stromzähler hinzugefügt
+- HTTP-Daten-Upload hinzugefügt, um IP und die kumulative Lade- und Entladekapazität des Akkus zu erhöhen (nur VE3)
+- Optimieren Sie die Funktion des Reststromzugangs zum Internet
+- Lösen Sie die Ausnahme bei der DOD-Konfigurationszustellung
+- Der HTTP-Daten-Upload wurde auf 5 Minuten geändert, um die Anomalie der VA-Batteriezellenspannungsdaten zu beheben.
+- Unterstützt die Konfiguration mit maximaler Leistung
+- Venus D unterstützt eine maximale Leistung von 2500 W
 
 <sub>Issue [#4](issues/4) · [149_control_VNSD-0_app_0149_0521_094621.bin](firmwares/VNSD-0/Control/149/149_control_VNSD-0_app_0149_0521_094621.bin)</sub>
 
@@ -90,13 +90,13 @@ _No release notes._
 
 ## VNSA-0 — Control v148.7 — 2026-08-12
 
-- Added some functions of OpenApi (see OpenApi document update), fixed the problem of PV data obtained by ES interface being 0 and manual abnormal display of UPS when switching UPS.
-- Added a repair mechanism for IIC deadlock to solve the EEPROM read error problem
-- Newly adapted French electricity meters
-- Added http data upload to increase IP and battery cumulative charge and discharge capacity (VE3 only)
-- Optimize the function of using residual electricity to connect to the Internet
-- Solve the abnormal DOD delivery of APP configuration
-- Added multi-machine parallel upgrade function in wifi mode (special version available)
+- Einige Funktionen von OpenApi hinzugefügt (siehe Aktualisierung des OpenApi-Dokuments), das Problem behoben, dass die von der ES-Schnittstelle erhaltenen PV-Daten 0 sind und die USV beim Umschalten der USV manuell nicht ordnungsgemäß angezeigt wird.
+- Ein Reparaturmechanismus für IIC-Deadlocks hinzugefügt, um das EEPROM-Lesefehlerproblem zu lösen
+- Neu angepasste französische Stromzähler
+- HTTP-Daten-Upload hinzugefügt, um IP und die kumulative Lade- und Entladekapazität des Akkus zu erhöhen (nur VE3)
+- Optimieren Sie die Funktion der Nutzung von Reststrom für die Verbindung mit dem Internet
+- Beheben Sie die abnormale DOD-Zustellung der APP-Konfiguration
+- Parallele Upgrade-Funktion für mehrere Maschinen im WLAN-Modus hinzugefügt (spezielle Version verfügbar)
 
 <sub>Issue [#2](issues/2) · [1487_control_VNSA-0_app_1487_0511_1_155731.bin](firmwares/VNSA-0/Control/1487/1487_control_VNSA-0_app_1487_0511_1_155731.bin)</sub>
 
@@ -113,46 +113,46 @@ _No release notes._
 
 ## VNSD-0 — Control v147 — 2026-08-12
 
-- Based on the original 147:
-- Optimize the German electricity meter connection
-- Optimize the third-party server configuration under Ethernet
-- Optimize the occasional missing problem of http data reporting
+- Basierend auf dem Original 147:
+- Optimierung der deutschen Stromzähleranbindung
+- Optimierung der Drittanbieter-Serverkonfiguration unter Ethernet
+- Optimierung des gelegentlich fehlenden Problems der HTTP-Datenberichterstattung
 
 <sub>Issue [#16](issues/16) · [147_control_VNSD-0_202601281721320b2053125.bin](firmwares/VNSD-0/Control/147/147_control_VNSD-0_202601281721320b2053125.bin)</sub>
 
 ## HME-4 — v124 — 2026-08-12
 
-- UDP protocol v4: fixed the UDP reset bug.
+- UDP-Protokoll v4: Fehler bei UDP-Reset behoben.
 
 <sub>Issue [#9](issues/9) · [124_HME-4_20250915163554648799838.bin](firmwares/HME-4/124/124_HME-4_20250915163554648799838.bin)</sub>
 
 ## VNSA-0 — Micro v121.1 — 2026-08-12
 
-- Enhanced VA off-grid port with RCD loading capability
+- Verbesserter netzunabhängiger VA-Anschluss mit RCD-Ladefunktion
 
 <sub>Issue [#24](issues/24) · [1211_micro_VNSA-0_VA_inv_app_1211_0520_ota_193621.bin](firmwares/VNSA-0/Micro/1211/1211_micro_VNSA-0_VA_inv_app_1211_0520_ota_193621.bin)</sub>
 
 ## VNSA-0 — Micro v119.3 — 2026-08-12
 
-- Low voltage rescue optimization, need to cooperate with BMS V1105 version
+- Optimierung der Niederspannungsrettung, muss mit der BMS V1105-Version zusammenarbeiten
 
 <sub>Issue [#3](issues/3) · [1193_micro_VNSA-0_VA_inv_app_1193_0512_ota_092355.bin](firmwares/VNSA-0/Micro/1193/1193_micro_VNSA-0_VA_inv_app_1193_0512_ota_092355.bin)</sub>
 
 ## VNSE3-0 — Micro v119 — 2026-08-12
 
-- Fix the problem of no forced charging when SOC is lower than 6%
+- Beheben Sie das Problem, dass kein Ladevorgang erzwungen wird, wenn der Ladezustand unter 6 % liegt.
 
 <sub>Issue [#14](issues/14) · [119_micro_VNSE3-0_inv_app_0119_0326_ota_152726.bin](firmwares/VNSE3-0/Micro/119/119_micro_VNSE3-0_inv_app_0119_0326_ota_152726.bin)</sub>
 
 ## VNSD-0 — BMS v118 — 2026-08-12
 
-- OTA test
+- OTA-Test
 
 <sub>Issue [#25](issues/25) · [118_bms_VNSD-0_20260119100535e43806957.bin](firmwares/VNSD-0/BMS/118/118_bms_VNSD-0_20260119100535e43806957.bin)</sub>
 
 ## VNSD-0 — BMS v117.7 — 2026-08-12
 
-- ota test 1177
+- OTA-Test 1177
 
 <sub>Issue [#19](issues/19) · [1177_bms_VNSD-0_20251010135647565eb2036.bin](firmwares/VNSD-0/BMS/1177/1177_bms_VNSD-0_20251010135647565eb2036.bin)</sub>
 
@@ -164,15 +164,15 @@ _No release notes._
 
 ## VNSD-0 — Micro v115 — 2026-08-12
 
-- Adapt to central control 147
+- Anpassung an Zentralsteuerung 147
 
 <sub>Issue [#21](issues/21) · [115_micro_VNSD-0_202601230921310c0e30687.bin](firmwares/VNSD-0/Micro/115/115_micro_VNSD-0_202601230921310c0e30687.bin)</sub>
 
 ## VNSE3-0 — BMS v115 — 2026-08-12
 
-- Optimize the judgment conditions when the boot SOC is 100% or 0%
-- Cooperate with the inverter for ultra-low voltage rescue
-- Fix the bug that may cause inability to charge and discharge after full charging.
+- Optimieren Sie die Beurteilungsbedingungen, wenn der Boot-SOC 100 % oder 0 % beträgt
+- Arbeiten Sie mit dem Wechselrichter zusammen, um eine Rettung bei extrem niedriger Spannung zu gewährleisten
+- Beheben Sie den Fehler, der dazu führen kann, dass das Gerät nach dem vollständigen Aufladen nicht geladen und entladen werden kann.
 
 <sub>Issue [#26](issues/26) · [115_bms_VNSE3-0_Ac3.0BmsAPP_V115_ota_110451.bin](firmwares/VNSE3-0/BMS/115/115_bms_VNSE3-0_Ac3.0BmsAPP_V115_ota_110451.bin)</sub>
 
@@ -185,120 +185,120 @@ _No release notes._
 
 ## VNSA-0 — BMS v110.5 — 2026-08-12
 
-- Need to be used in conjunction with inverter 1193 and above
-- Cooperate with the inverter to carry out battery ultra-low voltage photovoltaic startup rescue
-- Optimization of forced charging logic
+- Muss in Verbindung mit Wechselrichter 1193 und höher verwendet werden
+- Arbeiten Sie mit dem Wechselrichter zusammen, um die Rettung der Photovoltaik-Startupbatterie bei extrem niedriger Spannung durchzuführen
+- Optimierung der Zwangsladelogik
 
 <sub>Issue [#22](issues/22) · [1105_bms_VNSA-0_VA50A_APP_V1105_ota_144658.bin](firmwares/VNSA-0/BMS/1105/1105_bms_VNSA-0_VA50A_APP_V1105_ota_144658.bin)</sub>
 
 ## HMG-50 — Control v156 — 2026-07-31
 
-- Added Bluetooth broadcast switch function
-- Added the function of configuring third-party servers
-- Optimize the stability of OpenApi interface
+- Bluetooth-Broadcast-Umschaltfunktion hinzugefügt
+- Funktion zum Konfigurieren von Servern von Drittanbietern hinzugefügt
+- Optimieren Sie die Stabilität der OpenApi-Schnittstelle
 
 <sub>[156_control_HMG-50_20251118172129117290445.bin](firmwares/HMG-50/Control/156/156_control_HMG-50_20251118172129117290445.bin)</sub>
 
 ## HMJ-2 — v110 — 2026-07-24
 
-_No release notes._
+_Keine Release Notes._
 
 <sub>[110_HMJ-2_20250523160631745d66082.bin](firmwares/HMJ-2/110/110_HMJ-2_20250523160631745d66082.bin)</sub>
 
 ## VNSE3-0 — BMS v112 — 2026-07-07
 
-- The charge and discharge tube is controlled externally and needs to be adapted to vns117 and ems147
+- Die Lade- und Entladeröhre wird extern gesteuert und muss an vns117 und ems147 angepasst werden
 
 <sub>[112_bms_VNSE3-0_20260121113157833696278.bin](firmwares/VNSE3-0/BMS/112/112_bms_VNSE3-0_20260121113157833696278.bin)</sub>
 
 ## VNSE3-0 — Control v147.6 — 2026-03-13
 
-- Optimize MQTT connection stability
+- Optimieren Sie die Stabilität der MQTT-Verbindung
 
 <sub>[1476_control_VNSE3-0_app_1476_0312_182736.bin](firmwares/VNSE3-0/Control/1476/1476_control_VNSE3-0_app_1476_0312_182736.bin)</sub>
 
 ## VNSE3-0 — BMS v110 — 2025-12-22
 
-- firmware retransmission
+- Firmware-Neuübertragung
 
 <sub>[110_bms_VNSE3-0_202512031001144fcbf8852.bin](firmwares/VNSE3-0/BMS/110/110_bms_VNSE3-0_202512031001144fcbf8852.bin)</sub>
 
 ## HME-3 — v122 — 2025-12-01
 
-- UDP protocol v4 fixes UDP reset bug
+- Das UDP-Protokoll v4 behebt den UDP-Reset-Fehler
 
 <sub>[122_HME-3_2025091516373099b077494.bin](firmwares/HME-3/122/122_HME-3_2025091516373099b077494.bin)</sub>
 
 ## VNSE3-0 — Control v144 — 2025-11-26
 
-- New features:
-- Anti-backflow power baseline setting allows users to set the power of the grid-connected port and stably draw/feed power from the grid at this power value.
-- Adaptation to four new electricity meters. Dutch meter reader: SMR-P1 German meter reader: SMR-IR French meter reader: SMR-TIC New version CT002: TPM2-100CT
-- DOD function setting Allow customers to set the device SOC usage range by themselves, and the working range can be set to [(12%~70%) - 100%]. It is recommended that customers in high-latitude cold zones appropriately increase the SOC working range to extend battery life.
-- Added device Bluetooth shutdown function. Device Bluetooth can be turned off through the server or APP.
-- XID/VID can connect to a third-party server. Can connect to a third-party server through APP settings.
+- Neue Funktionen:
+- Mit der Grundlinieneinstellung für die Anti-Rückfluss-Leistung können Benutzer die Leistung des mit dem Netz verbundenen Anschlusses einstellen und bei diesem Leistungswert stabil Strom aus dem Netz beziehen/einspeisen.
+- Anpassung an vier neue Stromzähler. Niederländischer Zählerableser: SMR-P1 Deutscher Zählerableser: SMR-IR Französischer Zählerleser: SMR-TIC Neue Version CT002: TPM2-100CT
+- DOD-Funktionseinstellung Ermöglichen Sie Kunden, den SOC-Nutzungsbereich des Geräts selbst festzulegen, und der Arbeitsbereich kann auf [(12 % ~ 70 %) – 100 %] eingestellt werden. Kunden in kalten Breitengraden wird empfohlen, den SOC-Arbeitsbereich entsprechend zu erhöhen, um die Batterielebensdauer zu verlängern.
+- Funktion zum Herunterfahren des Geräts über Bluetooth hinzugefügt. Geräte-Bluetooth kann über den Server oder die APP ausgeschaltet werden.
+- XID/VID kann eine Verbindung zu einem Drittanbieter-Server herstellen. Kann über APP-Einstellungen eine Verbindung zu einem Server eines Drittanbieters herstellen.
 
 <sub>[144_control_VNSE3-0_20251118161530cc2d80857.bin](firmwares/VNSE3-0/Control/144/144_control_VNSE3-0_20251118161530cc2d80857.bin)</sub>
 
 ## HME-3 — v116 — 2025-11-14
 
-- BLE and MQTT add ABC3 phase and conjunction data Now data
-- Bluetooth adds passwordless WIFI configuration
-- Encrypt using the new Mqtt server certificate
-- UDP protocol adds power data
+- BLE und MQTT fügen ABC3-Phasen- und Konjunktionsdaten Now-Daten hinzu
+- Bluetooth fügt eine passwortlose WLAN-Konfiguration hinzu
+- Verschlüsseln Sie mit dem neuen Mqtt-Serverzertifikat
+- Das UDP-Protokoll fügt Leistungsdaten hinzu
 
 <sub>[116_HME-3_20250610173327b6ce85859.bin](firmwares/HME-3/116/116_HME-3_20250610173327b6ce85859.bin)</sub>
 
 ## HME-3 — v118 — 2025-10-27
 
-- 优化SML读值
+- Optimieren Sie SML-Messwerte
 
 <sub>[118_HME-3_2025071415581563c0d7425.bin](firmwares/HME-3/118/118_HME-3_2025071415581563c0d7425.bin)</sub>
 
 ## HMG-50 — Control v155 — 2025-10-27
 
-- Added the accumulation function during charging and discharging; added support for issuing grid connection standards
+- Akkumulationsfunktion beim Laden und Entladen hinzugefügt; Unterstützung für die Ausgabe von Netzanschlussstandards hinzugefügt
 
 <sub>[155_control_HMG-50_202509161548003ff722863.bin](firmwares/HMG-50/Control/155/155_control_HMG-50_202509161548003ff722863.bin)</sub>
 
 ## VNSE3-0 — BMS v106 — 2025-10-27
 
-- Fixed the SOC jump problem of Chuneng battery BMS.
+- Das SOC-Sprungproblem des Chuneng-Batterie-BMS wurde behoben.
 
 <sub>[106_bms_VNSE3-0_2025081814112994acd7498.bin](firmwares/VNSE3-0/BMS/106/106_bms_VNSE3-0_2025081814112994acd7498.bin)</sub>
 
 ## HMG-50 — BMS v216 — 2025-09-08
 
-- Fixed low battery SOC jump issue.
+- Das Problem mit dem SOC-Sprung bei niedrigem Batteriestand wurde behoben.
 
 <sub>[216_bms_HMG-50_20250902100339408038111.bin](firmwares/HMG-50/BMS/216/216_bms_HMG-50_20250902100339408038111.bin)</sub>
 
 ## HME-3 — v117 — 2025-08-25
 
-- 优化了UDP接收和重启优化
-- 加入蓝牙升级移远模组命令
-- CT3修复7E1配置bug，优化了SML协议解析，以及加入SML协议打印功能
+- Optimierter UDP-Empfang und Neustartoptimierung
+- Fügen Sie den Befehl zum Bluetooth-Upgrade des Quectel-Moduls hinzu
+- CT3 behebt den 7E1-Konfigurationsfehler, optimiert das SML-Protokoll-Parsing und fügt eine SML-Protokoll-Druckfunktion hinzu
 
 <sub>[117_HME-3_20250702110345eebe62348.bin](firmwares/HME-3/117/117_HME-3_20250702110345eebe62348.bin)</sub>
 
 ## HME-4 — v120 — 2025-08-25
 
-- 优化了UDP接收和重启优化
-- 加入蓝牙升级移远模组命令
-- 连接从机改到15台
+- Optimierter UDP-Empfang und Neustartoptimierung
+- Fügen Sie den Befehl zum Bluetooth-Upgrade des Quectel-Moduls hinzu
+- Ändern Sie die Verbindung der Slave-Maschine auf 15 Einheiten
 
 <sub>[120_HME-4_202507021110400569f6547.bin](firmwares/HME-4/120/120_HME-4_202507021110400569f6547.bin)</sub>
 
 ## HMG-50 — Control v153 — 2025-08-25
 
-- Support network distribution function for passwordless WIFI;
-- Optimize some known issues
+- Unterstützt die Netzwerkverteilungsfunktion für passwortloses WLAN;
+- Optimieren Sie einige bekannte Probleme
 
 <sub>[153_control_HMG-50_202505301136007a5b57023.bin](firmwares/HMG-50/Control/153/153_control_HMG-50_202505301136007a5b57023.bin)</sub>
 
 ## HMG-50 — BMS v215 — 2025-08-25
 
-- The full power hysteresis is adjusted from 97 to 99 to optimize the stability of upgrades.
+- Die volle Leistungshysterese wird von 97 auf 99 angepasst, um die Stabilität von Upgrades zu optimieren.
 
 <sub>[215_bms_HMG-50_20250806112046448ef9739.bin](firmwares/HMG-50/BMS/215/215_bms_HMG-50_20250806112046448ef9739.bin)</sub>
 

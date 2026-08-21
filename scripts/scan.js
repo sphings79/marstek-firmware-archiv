@@ -22,12 +22,17 @@ function entryFrom(deviceType, firmwareType, version, dir) {
   const meta = readMeta(dir);
   if (!meta) return null;
 
-  // A pre-existing manual `changelog` file (plain text, usually German) wins.
-  let manualChangelog = '';
-  const clPath = path.join(dir, 'changelog');
-  if (fs.existsSync(clPath) && fs.statSync(clPath).isFile()) {
-    manualChangelog = fs.readFileSync(clPath, 'utf8').trim();
-  }
+  // A pre-existing manual `changelog` file (plain text) wins over the automatic
+  // translation. Sprachvarianten sind optional: `changelog.en` / `changelog.de`
+  // werden bevorzugt, wenn vorhanden, sonst gilt das sprachlose `changelog` für
+  // beide Fassungen.
+  const readManual = (name) => {
+    const p = path.join(dir, name);
+    return fs.existsSync(p) && fs.statSync(p).isFile() ? fs.readFileSync(p, 'utf8').trim() : '';
+  };
+  const manualChangelog = readManual('changelog');
+  const manualChangelogEN = readManual('changelog.en') || manualChangelog;
+  const manualChangelogDE = readManual('changelog.de') || manualChangelog;
 
   const filename = meta.archivedFilename || null;
   const binRel = filename ? relPosix(path.join(dir, filename)) : null;
@@ -48,6 +53,8 @@ function entryFrom(deviceType, firmwareType, version, dir) {
     noteDE: meta.releaseNoteDE || '',
     noteEN: meta.releaseNoteEN || '',
     manualChangelog,
+    manualChangelogEN,
+    manualChangelogDE,
     dirRel: relPosix(dir),
     binRel,
     hasBin: !!(filename && fs.existsSync(path.join(dir, filename))),

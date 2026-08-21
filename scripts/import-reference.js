@@ -161,10 +161,13 @@ async function importFrom(refRoot, opts = {}) {
     if (out.deviceName) out.deviceName = maskDeviceName(out.deviceName);
     fs.writeFileSync(path.join(dest, 'metadata.json'), JSON.stringify(out, null, 2) + '\n');
 
-    // Preserve a pre-existing manual `changelog` file from the reference, if any.
-    const refCl = path.join(dir, 'changelog');
-    if (fs.existsSync(refCl) && fs.statSync(refCl).isFile()) {
-      fs.copyFileSync(refCl, path.join(dest, 'changelog'));
+    // Preserve pre-existing manual changelog files from the reference, if any
+    // (sprachlos plus die optionalen Sprachvarianten).
+    for (const name of ['changelog', 'changelog.en', 'changelog.de']) {
+      const refCl = path.join(dir, name);
+      if (fs.existsSync(refCl) && fs.statSync(refCl).isFile()) {
+        fs.copyFileSync(refCl, path.join(dest, name));
+      }
     }
 
     summary.imported.push(label);

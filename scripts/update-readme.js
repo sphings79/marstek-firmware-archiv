@@ -148,7 +148,7 @@ size and CRC-16/MODBUS checksum reported by Marstek before it enters the archive
 - Per device: \`firmwares/<device>/CHANGELOG.md\`
 - Per module: \`firmwares/<device>/<type>/CHANGELOG.md\`
 
-_Changelog files are written in German._
+German versions sit next to each file as \`CHANGELOG.de.md\`.
 
 ## Archive layout
 
@@ -249,9 +249,9 @@ landet.
 
 ## Changelogs
 
-- Gesamt: [CHANGELOG.md](CHANGELOG.md)
-- Pro Gerät: \`firmwares/<Gerät>/CHANGELOG.md\`
-- Pro Modul: \`firmwares/<Gerät>/<Typ>/CHANGELOG.md\`
+- Gesamt: [CHANGELOG.de.md](CHANGELOG.de.md)
+- Pro Gerät: \`firmwares/<Gerät>/CHANGELOG.de.md\`
+- Pro Modul: \`firmwares/<Gerät>/<Typ>/CHANGELOG.de.md\`
 
 ## Archiv-Struktur
 

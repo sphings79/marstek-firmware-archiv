@@ -1,41 +1,43 @@
 # Changelog — VNSD-0 (Marstek Venus D) / Control
 
+🇬🇧 **English** · [🇩🇪 Deutsch](CHANGELOG.de.md)
+
 ## v150 — 2026-08-13
 
-- Loacl-API-Sendeausnahme im Ethernet-Modus optimieren
-- HTTP-Upgrade-Fehlerproblem im Ethernet-Modus optimieren
-- Peak-Shaving-Funktion hinzufügen
-- Datenverlustproblem durch übermäßige HTTP-Daten optimieren
-- Messgerätverbindungsmethode optimieren, CT_TYPE-Verbindung verwenden
+- Optimize Loacl API sending exception in Ethernet mode
+- Optimize HTTP upgrade failure problem in Ethernet mode
+- Add Peak-shaving function
+- Optimize data loss problem caused by excessive HTTP data
+- Optimize meter connection method, use CT_TYPE connection
 
-<sub>Issue [#28](../../../../../issues/28) · Datei `150_control_VNSD-0_app_0150_0805_115146.bin` · SHA-256 `4140e7a6d38a…`</sub>
+<sub>Issue [#28](../../../../../issues/28) · File `150_control_VNSD-0_app_0150_0805_115146.bin` · SHA-256 `4140e7a6d38a…`</sub>
 
 ## v149.2 — 2026-08-12
 
-- Lösen Sie das Problem der abnormalen Datenanzeige, die dadurch verursacht wird, dass HTTP-Daten kein Intervall hochladen
+- Solve the problem of abnormal data display caused by http data not uploading interval
 
-<sub>Issue [#17](../../../../../issues/17) · Datei `1492_control_VNSD-0_app_1492_0702_142136.bin` · SHA-256 `9b24db59c4db…`</sub>
+<sub>Issue [#17](../../../../../issues/17) · File `1492_control_VNSD-0_app_1492_0702_142136.bin` · SHA-256 `9b24db59c4db…`</sub>
 
 ## v149 — 2026-08-12
 
-- Einige Funktionen von OpenApi hinzugefügt und das Problem behoben, dass die von der ES-Schnittstelle erhaltenen PV-Daten 0 sind und der USV-Schalter die USV manuell abnormal anzeigt.
-- Ein Reparaturmechanismus für IIC-Deadlocks hinzugefügt, um das EEPROM-Lesefehlerproblem zu lösen
-- Möglichkeit zur Anpassung an französische Stromzähler hinzugefügt
-- HTTP-Daten-Upload hinzugefügt, um IP und die kumulative Lade- und Entladekapazität des Akkus zu erhöhen (nur VE3)
-- Optimieren Sie die Funktion des Reststromzugangs zum Internet
-- Lösen Sie die Ausnahme bei der DOD-Konfigurationszustellung
-- Der HTTP-Daten-Upload wurde auf 5 Minuten geändert, um die Anomalie der VA-Batteriezellenspannungsdaten zu beheben.
-- Unterstützt die Konfiguration mit maximaler Leistung
-- Venus D unterstützt eine maximale Leistung von 2500 W
+- Added some functions of OpenApi, and fixed the problem that the PV data obtained by the ES interface is 0 and the UPS switch manually displays the UPS abnormally.
+- Added a repair mechanism for IIC deadlock to solve the EEPROM read error problem
+- Added the ability to adapt to French electric meters
+- Added http data upload to increase IP and battery cumulative charge and discharge capacity (VE3 only)
+- Optimize the function of residual power access to the Internet
+- Solve DOD configuration delivery exception
+- Http data upload is modified to 5 minutes to fix the abnormality of VA battery cell voltage data.
+- Support maximum power configuration
+- Venus D supports a maximum power of 2500W
 
-<sub>Issue [#4](../../../../../issues/4) · Datei `149_control_VNSD-0_app_0149_0521_094621.bin` · SHA-256 `a8e5e9285e6c…`</sub>
+<sub>Issue [#4](../../../../../issues/4) · File `149_control_VNSD-0_app_0149_0521_094621.bin` · SHA-256 `a8e5e9285e6c…`</sub>
 
 ## v147 — 2026-08-12
 
-- Basierend auf dem Original 147:
-- Optimierung der deutschen Stromzähleranbindung
-- Optimierung der Drittanbieter-Serverkonfiguration unter Ethernet
-- Optimierung des gelegentlich fehlenden Problems der HTTP-Datenberichterstattung
+- Based on the original 147:
+- Optimize the German electricity meter connection
+- Optimize the third-party server configuration under Ethernet
+- Optimize the occasional missing problem of http data reporting
 
-<sub>Issue [#16](../../../../../issues/16) · Datei `147_control_VNSD-0_202601281721320b2053125.bin` · SHA-256 `3435e0b98067…`</sub>
+<sub>Issue [#16](../../../../../issues/16) · File `147_control_VNSD-0_202601281721320b2053125.bin` · SHA-256 `3435e0b98067…`</sub>
 

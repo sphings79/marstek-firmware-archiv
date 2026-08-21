@@ -195,7 +195,7 @@ einreichen:
 ---
 
 **Firmware-Dateien gesamt:** 39
-**Zuletzt aktualisiert:** 2026-08-21 13:36:43 UTC
+**Zuletzt aktualisiert:** 2026-08-21 13:40:43 UTC
 
 ## Mitmachen
 
@@ -207,9 +207,9 @@ landet.
 
 ## Changelogs
 
-- Gesamt: [CHANGELOG.md](CHANGELOG.md)
-- Pro Gerät: `firmwares/<Gerät>/CHANGELOG.md`
-- Pro Modul: `firmwares/<Gerät>/<Typ>/CHANGELOG.md`
+- Gesamt: [CHANGELOG.de.md](CHANGELOG.de.md)
+- Pro Gerät: `firmwares/<Gerät>/CHANGELOG.de.md`
+- Pro Modul: `firmwares/<Gerät>/<Typ>/CHANGELOG.de.md`
 
 ## Archiv-Struktur
 

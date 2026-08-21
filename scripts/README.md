@@ -27,7 +27,7 @@ Node ≥ 18 wegen `fetch`). Drei GitHub Actions rufen diese Skripte auf.
 | `backfill.js` | ALLE Issues (offen + geschlossen) neu verarbeiten |
 | `scan.js` | firmwares/-Baum einlesen |
 | `update-readme.js` | README.md (EN) + README.de.md (DE) erzeugen |
-| `generate-changelogs.js` | Global + pro Gerät + pro Modul CHANGELOG.md |
+| `generate-changelogs.js` | Global + pro Gerät + pro Modul, je EN + DE |
 | `migrate-casing.js` | Einmalig: Ordner auf kanonische Schreibweise + Duplikat-Report |
 | `verify.js` | Integritätsprüfung: CRC-16/MODBUS + Größe gegen die Marstek-API-Werte |
 | `import-reference.js` | Firmware + Changelogs aus einem anderen Archiv übernehmen (nur Fehlendes) |
@@ -109,4 +109,8 @@ Oder ohne lokale Ausführung: den Workflow **Firmware Backfill** manuell starten
   fälschlich als „MPPT"; maßgeblich ist der Modul-Slot, dessen `url` zur
   Download-URL passt (`mcu_type`). Siehe `deriveFirmwareType()` in `lib.js`.
 - **Manuelle `changelog`-Dateien** in Versionsordnern haben Vorrang vor der
-  automatischen Übersetzung.
+  automatischen Übersetzung. Eine sprachlose `changelog`-Datei gilt für beide
+  Fassungen; `changelog.en` / `changelog.de` daneben trennen sie sauber.
+- **Zweisprachig:** README und alle Changelogs werden in Englisch (`README.md`,
+  `CHANGELOG.md`) und Deutsch (`README.de.md`, `CHANGELOG.de.md`) erzeugt.
+  Englisch ist die Hauptsprache, weil GitHub `README.md` als Standard anzeigt.
