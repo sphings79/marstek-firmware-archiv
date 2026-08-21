@@ -1,5 +1,11 @@
 # Changelog — VNSD-0
 
+## FC41D v202409090159 — 2026-08-21
+
+- Installierte 2024er-Basisversion des FC41D-Kommunikationsmoduls, ausgeliefert über die statische hamedata-URL.
+
+<sub>Datei `202409090159_fc41d_VNSD-0_HM_HIE_FC41D_remote_ota.rbl` · SHA-256 `0d10d2a4d467…`</sub>
+
 ## FC41D v202512040647 — 2026-08-21
 
 _Keine Release Notes._

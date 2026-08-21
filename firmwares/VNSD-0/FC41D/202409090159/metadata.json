@@ -1,0 +1,18 @@
+{
+  "firmwareType": "FC41D",
+  "deviceType": "VNSD-0",
+  "version": "202409090159",
+  "url": "http://www.hamedata.com/app/download/neng/HM_HIE_FC41D_remote_ota.rbl",
+  "source": "Statische hamedata-Basis-URL — installierte 2024er-Version (nicht der App-Cloud-API-Rollout). Manuell importiert.",
+  "releaseNote": "",
+  "releaseNoteDE": "Installierte 2024er-Basisversion des FC41D-Kommunikationsmoduls, ausgeliefert über die statische hamedata-URL.",
+  "releaseNoteEN": "Installed 2024 baseline version of the FC41D communication module, served from the static hamedata URL.",
+  "archivedAt": "2026-08-21T11:59:25Z",
+  "archivedFilename": "202409090159_fc41d_VNSD-0_HM_HIE_FC41D_remote_ota.rbl",
+  "archivedFilesize": 679696,
+  "archivedSha256": "0d10d2a4d467a7edf791e35caa3ca6d4de69581f344fdaefa57e4e9ef7adb3a9",
+  "apiCrc": null,
+  "apiSize": null,
+  "verified": null,
+  "issueNumber": null
+}

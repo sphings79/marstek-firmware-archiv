@@ -2,6 +2,12 @@
 
 Alle archivierten Firmware-Versionen, chronologisch (neueste zuerst).
 
+## VNSD-0 — FC41D v202409090159 — 2026-08-21
+
+- Installierte 2024er-Basisversion des FC41D-Kommunikationsmoduls, ausgeliefert über die statische hamedata-URL.
+
+<sub>[202409090159_fc41d_VNSD-0_HM_HIE_FC41D_remote_ota.rbl](firmwares/VNSD-0/FC41D/202409090159/202409090159_fc41d_VNSD-0_HM_HIE_FC41D_remote_ota.rbl)</sub>
+
 ## HME-4 — v202506141125 — 2026-08-21
 
 _Keine Release Notes._

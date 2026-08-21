@@ -110,6 +110,7 @@ einreichen:
 | Version | Größe | Hinzugefügt | Download | Issue | Änderungen |
 |---------|-------|-------------|----------|-------|------------|
 | v202512040647 | 666.92 KB | 2026-08-21 | [📁 202512040647_fc41d_VNSD-0_202512271054507d95a7957.rbl](firmwares/VNSD-0/FC41D/202512040647/202512040647_fc41d_VNSD-0_202512271054507d95a7957.rbl) | [#31](../../issues/31) |  |
+| v202409090159 | 663.77 KB | 2026-08-21 | [📁 202409090159_fc41d_VNSD-0_HM_HIE_FC41D_remote_ota.rbl](firmwares/VNSD-0/FC41D/202409090159/202409090159_fc41d_VNSD-0_HM_HIE_FC41D_remote_ota.rbl) | - | Installierte 2024er-Basisversion des FC41D-Kommunikationsmoduls, ausgeliefert über die sta… |
 
 #### Micro
 
@@ -148,8 +149,8 @@ einreichen:
 
 ---
 
-**Firmware-Dateien gesamt:** 38
-**Zuletzt aktualisiert:** 2026-08-21 11:05:43 UTC
+**Firmware-Dateien gesamt:** 39
+**Zuletzt aktualisiert:** 2026-08-21 11:59:38 UTC
 
 ## Changelogs
 
