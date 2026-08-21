@@ -1,5 +1,11 @@
 # Changelog — HME-4
 
+## v202506141125 — 2026-08-21
+
+_Keine Release Notes._
+
+<sub>Issue [#32](../../../../issues/32) · Datei `202506141125_HME-4_20250625175845d30f22583.rbl` · SHA-256 `51d77a537c86…`</sub>
+
 ## v124 — 2026-08-12
 
 - UDP-Protokoll v4: Fehler bei UDP-Reset behoben.

@@ -38,6 +38,7 @@ einreichen:
 
 | Version | Größe | Hinzugefügt | Download | Issue | Änderungen |
 |---------|-------|-------------|----------|-------|------------|
+| v202506141125 | 662.03 KB | 2026-08-21 | [📁 202506141125_HME-4_20250625175845d30f22583.rbl](firmwares/HME-4/202506141125/202506141125_HME-4_20250625175845d30f22583.rbl) | [#32](../../issues/32) |  |
 | v124 | 72 KB | 2026-08-12 | [📁 124_HME-4_20250915163554648799838.bin](firmwares/HME-4/124/124_HME-4_20250915163554648799838.bin) | [#9](../../issues/9) | Das UDP-Protokoll v4 behebt den UDP-Reset-Fehler |
 | v120 | 66 KB | 2025-08-25 | [📁 120_HME-4_202507021110400569f6547.bin](firmwares/HME-4/120/120_HME-4_202507021110400569f6547.bin) | [↗ ref](https://github.com/rweijnen/marstek-firmware-archive) | 1. Optimierter UDP-Empfang und Neustartoptimierung 2. Fügen Sie den Befehl zum Bluetooth-U… |
 
@@ -147,8 +148,8 @@ einreichen:
 
 ---
 
-**Firmware-Dateien gesamt:** 37
-**Zuletzt aktualisiert:** 2026-08-21 11:05:23 UTC
+**Firmware-Dateien gesamt:** 38
+**Zuletzt aktualisiert:** 2026-08-21 11:05:43 UTC
 
 ## Changelogs
 

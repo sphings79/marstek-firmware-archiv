@@ -2,6 +2,12 @@
 
 Alle archivierten Firmware-Versionen, chronologisch (neueste zuerst).
 
+## HME-4 — v202506141125 — 2026-08-21
+
+_Keine Release Notes._
+
+<sub>Issue [#32](issues/32) · [202506141125_HME-4_20250625175845d30f22583.rbl](firmwares/HME-4/202506141125/202506141125_HME-4_20250625175845d30f22583.rbl)</sub>
+
 ## VNSD-0 — FC41D v202512040647 — 2026-08-21
 
 _Keine Release Notes._

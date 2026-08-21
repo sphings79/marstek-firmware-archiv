@@ -1,0 +1,27 @@
+{
+  "firmwareType": null,
+  "deviceName": "MST-TPM_f80c",
+  "url": "https://static-eu.marstekenergy.com/uploads/ota/20250625/20250625175845d30f22583.rbl",
+  "apiResponse": {
+    "code": 1,
+    "show": 0,
+    "msg": "ok",
+    "data": {
+      "version": "202506141125",
+      "url": "https://static-eu.marstekenergy.com/uploads/ota/20250625/20250625175845d30f22583.rbl"
+    }
+  },
+  "deviceType": "HME-4",
+  "version": "202506141125",
+  "releaseNote": "",
+  "releaseNoteDE": "",
+  "releaseNoteEN": "",
+  "archivedAt": "2026-08-21T11:05:43Z",
+  "archivedFilename": "202506141125_HME-4_20250625175845d30f22583.rbl",
+  "archivedFilesize": 677920,
+  "archivedSha256": "51d77a537c86f9e1655026878ff061026707b71ae12bb6a49188381660312150",
+  "apiCrc": null,
+  "apiSize": null,
+  "verified": null,
+  "issueNumber": 32
+}
