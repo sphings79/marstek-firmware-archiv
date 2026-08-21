@@ -8,7 +8,7 @@
 // Release-note preference per version:
 //   manual `changelog` file  >  translated German  >  original text.
 
-const { fs, path, REPO_ROOT, FIRMWARES_DIR } = require('./lib');
+const { fs, path, REPO_ROOT, FIRMWARES_DIR, formatVersion } = require('./lib');
 const { scanFirmwares } = require('./scan');
 
 function fmtDate(s) {
@@ -57,7 +57,7 @@ function asBullets(note) {
 
 function section(fw, opts = {}) {
   const date = fmtDate(fw.archivedAt);
-  const head = opts.withModule && fw.firmwareType ? `${fw.firmwareType} v${fw.version}` : `v${fw.version}`;
+  const head = opts.withModule && fw.firmwareType ? `${fw.firmwareType} v${formatVersion(fw.version)}` : `v${formatVersion(fw.version)}`;
   let s = `## ${head}${date ? ` — ${date}` : ''}\n\n`;
   s += asBullets(bestNote(fw)) + '\n\n';
   const bits = [];
@@ -84,7 +84,7 @@ function main() {
   let global = `# Changelog — Marstek Firmware Archiv\n\nAlle archivierten Firmware-Versionen, chronologisch (neueste zuerst).\n\n`;
   for (const fw of byDate) {
     const mod = fw.firmwareType ? `${fw.firmwareType} ` : '';
-    global += `## ${fw.deviceType} — ${mod}v${fw.version}${fw.archivedAt ? ` — ${fmtDate(fw.archivedAt)}` : ''}\n\n`;
+    global += `## ${fw.deviceType} — ${mod}v${formatVersion(fw.version)}${fw.archivedAt ? ` — ${fmtDate(fw.archivedAt)}` : ''}\n\n`;
     global += asBullets(bestNote(fw)) + '\n\n';
     const bits = [];
     if (fw.issueNumber) bits.push(`Issue [#${fw.issueNumber}](issues/${fw.issueNumber})`);

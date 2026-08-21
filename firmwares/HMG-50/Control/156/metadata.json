@@ -38,7 +38,7 @@
     }
   },
   "archivedAt": "2026-07-31T21:59:23Z",
-  "archivedFilename": "20251118172129117290445.bin",
+  "archivedFilename": "156_control_HMG-50_20251118172129117290445.bin",
   "archivedFilesize": 241664,
   "issueNumber": null,
   "releaseNote": "1.新增蓝牙广播开关功能\n2.新增配置第三方服务器功能\n3.优化OpenApi接口稳定性",

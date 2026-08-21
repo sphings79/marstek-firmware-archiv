@@ -12,16 +12,31 @@ const {
   findDownloadUrl,
   extractReleaseNote,
   isFlatDevice,
+  buildArchiveName,
   sha256,
 } = require('./lib');
 const { translateNote } = require('./translate');
 const { verifyBuffer } = require('./verify');
 
-function pickFilename(url) {
+// Firmware container extensions we archive as-is. `.bin` is the STM32 system
+// firmware; `.rbl` is the Realtek RBL container of the FC41D comm module.
+const FIRMWARE_EXTS = ['.bin', '.rbl'];
+
+function isFirmwareFile(name) {
+  const lower = String(name).toLowerCase();
+  return FIRMWARE_EXTS.some((ext) => lower.endsWith(ext));
+}
+
+// Archived filename = <version>_<type>_<device>_<original> (see buildArchiveName).
+// The opaque CDN basenames (e.g. 202512271054507d95a7957.rbl) only LOOK like a
+// date/version; prefixing the real version + device + type makes the file
+// self-describing once downloaded. The original name is kept as a suffix and the
+// source URL + SHA-256 live in metadata.json.
+function pickFilename(url, version, deviceType, firmwareType) {
   let name = path.basename(new URL(url).pathname);
   name = name.split('?')[0];
-  if (!name.toLowerCase().endsWith('.bin')) name = 'firmware.bin';
-  return name;
+  if (!isFirmwareFile(name)) name = 'firmware.bin';
+  return buildArchiveName(name, version, deviceType, firmwareType);
 }
 
 async function download(url) {
@@ -52,7 +67,7 @@ async function processIssue(issue, cache, opts = {}) {
   let existingBin = null;
   if (fs.existsSync(dir)) {
     const files = fs.readdirSync(dir);
-    const binName = files.find((f) => f.toLowerCase().endsWith('.bin'));
+    const binName = files.find((f) => isFirmwareFile(f));
     const hasMeta = files.includes('metadata.json');
     if (binName && hasMeta) {
       if (!opts.refresh) {
@@ -67,7 +82,7 @@ async function processIssue(issue, cache, opts = {}) {
     return { number: issue.number, status: 'error', label, reason: 'no download URL in metadata' };
   }
 
-  const filename = existingBin ? path.basename(existingBin) : pickFilename(url);
+  const filename = existingBin ? path.basename(existingBin) : pickFilename(url, version, deviceType, firmwareType);
   let buf;
   try {
     buf = existingBin ? fs.readFileSync(existingBin) : await download(url);

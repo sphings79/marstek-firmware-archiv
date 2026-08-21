@@ -70,7 +70,7 @@
   "url": "https://static-eu.marstekenergy.com/uploads/ota/20260121/20260121113157833696278.bin",
   "version": "112",
   "archivedAt": "2026-07-07T18:46:21Z",
-  "archivedFilename": "20260121113157833696278.bin",
+  "archivedFilename": "112_bms_VNSE3-0_20260121113157833696278.bin",
   "archivedFilesize": 95232,
   "issueNumber": null,
   "releaseNote": "充放电管外部受控，需与vns117、ems147适配",

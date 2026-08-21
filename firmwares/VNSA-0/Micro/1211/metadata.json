@@ -73,7 +73,7 @@
   "releaseNoteDE": "Verbesserter netzunabhängiger VA-Anschluss mit RCD-Ladefunktion",
   "releaseNoteEN": "Enhanced VA off-grid port with RCD loading capability",
   "archivedAt": "2026-08-12T11:51:34Z",
-  "archivedFilename": "VA_inv_app_1211_0520_ota_193621.bin",
+  "archivedFilename": "1211_micro_VNSA-0_VA_inv_app_1211_0520_ota_193621.bin",
   "archivedFilesize": 146432,
   "archivedSha256": "277611ea8982adad4d9ac8e1a1154a9cdea6c9f717b1f60743be640f0023723d",
   "apiCrc": 38678,

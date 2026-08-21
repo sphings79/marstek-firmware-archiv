@@ -3,7 +3,7 @@
 // Walk firmwares/ and return a normalized list of every archived version.
 // Handles both layouts: firmwares/<dev>/<Type>/<ver>/ and flat firmwares/<dev>/<ver>/.
 
-const { fs, path, FIRMWARES_DIR, isFlatDevice, normalizeFirmwareType, relPosix } = require('./lib');
+const { fs, path, FIRMWARES_DIR, isFlatDevice, normalizeFirmwareType, versionSortValue, relPosix } = require('./lib');
 
 function readMeta(dir) {
   try {
@@ -36,7 +36,7 @@ function entryFrom(deviceType, firmwareType, version, dir) {
     deviceType: meta.deviceType || deviceType,
     firmwareType: isFlatDevice(deviceType) ? null : normalizeFirmwareType(firmwareType || meta.firmwareType),
     version: String(version),
-    versionNum: parseInt(version, 10) || 0,
+    versionNum: versionSortValue(version),
     filename,
     filesize: meta.archivedFilesize || null,
     sha256: meta.archivedSha256 || null,

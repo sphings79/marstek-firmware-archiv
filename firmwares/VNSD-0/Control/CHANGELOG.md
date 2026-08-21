@@ -1,11 +1,5 @@
 # Changelog — VNSD-0 / Control
 
-## v1492 — 2026-08-12
-
-- Lösen Sie das Problem der abnormalen Datenanzeige, die dadurch verursacht wird, dass HTTP-Daten kein Intervall hochladen
-
-<sub>Issue [#17](../../../../../issues/17) · Datei `VNSD-0_app_1492_0702_142136.bin` · SHA-256 `9b24db59c4db…`</sub>
-
 ## v150 — 2026-08-13
 
 - Loacl-API-Sendeausnahme im Ethernet-Modus optimieren
@@ -14,7 +8,13 @@
 - Datenverlustproblem durch übermäßige HTTP-Daten optimieren
 - Messgerätverbindungsmethode optimieren, CT_TYPE-Verbindung verwenden
 
-<sub>Issue [#28](../../../../../issues/28) · Datei `VNSD-0_app_0150_0805_115146.bin` · SHA-256 `4140e7a6d38a…`</sub>
+<sub>Issue [#28](../../../../../issues/28) · Datei `150_control_VNSD-0_app_0150_0805_115146.bin` · SHA-256 `4140e7a6d38a…`</sub>
+
+## v149.2 — 2026-08-12
+
+- Lösen Sie das Problem der abnormalen Datenanzeige, die dadurch verursacht wird, dass HTTP-Daten kein Intervall hochladen
+
+<sub>Issue [#17](../../../../../issues/17) · Datei `1492_control_VNSD-0_app_1492_0702_142136.bin` · SHA-256 `9b24db59c4db…`</sub>
 
 ## v149 — 2026-08-12
 
@@ -28,7 +28,7 @@
 - Unterstützt die Konfiguration mit maximaler Leistung
 - Venus D unterstützt eine maximale Leistung von 2500 W
 
-<sub>Issue [#4](../../../../../issues/4) · Datei `VNSD-0_app_0149_0521_094621.bin` · SHA-256 `a8e5e9285e6c…`</sub>
+<sub>Issue [#4](../../../../../issues/4) · Datei `149_control_VNSD-0_app_0149_0521_094621.bin` · SHA-256 `a8e5e9285e6c…`</sub>
 
 ## v147 — 2026-08-12
 
@@ -37,5 +37,5 @@
 - Optimierung der Drittanbieter-Serverkonfiguration unter Ethernet
 - Optimierung des gelegentlich fehlenden Problems der HTTP-Datenberichterstattung
 
-<sub>Issue [#16](../../../../../issues/16) · Datei `202601281721320b2053125.bin` · SHA-256 `3435e0b98067…`</sub>
+<sub>Issue [#16](../../../../../issues/16) · Datei `147_control_VNSD-0_202601281721320b2053125.bin` · SHA-256 `3435e0b98067…`</sub>
 

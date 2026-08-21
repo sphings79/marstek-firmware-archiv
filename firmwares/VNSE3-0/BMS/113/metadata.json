@@ -73,7 +73,7 @@
   "releaseNoteDE": "1. Die Amperestunden-Integration wird geändert, um den Wechselrichterstrom im Timer-Interrupt zu verwenden.\n2. Schlafzeitberechnung hinzufügen",
   "releaseNoteEN": "1. The ampere-hour integration is modified to use the inverter current in the timer interrupt.\n2. Add sleep time calculation",
   "archivedAt": "2026-08-12T11:51:34Z",
-  "archivedFilename": "Ac3.0BmsAPP_V113_ota_175955.bin",
+  "archivedFilename": "113_bms_VNSE3-0_Ac3.0BmsAPP_V113_ota_175955.bin",
   "archivedFilesize": 97280,
   "archivedSha256": "da7ebe26b679704dc00b75edc589bbc5b4b8f33f5a89888e93328b8b40f86df9",
   "apiCrc": 14590,

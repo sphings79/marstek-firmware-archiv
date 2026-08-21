@@ -42,7 +42,7 @@
     }
   },
   "archivedAt": "2025-09-08T19:29:28Z",
-  "archivedFilename": "20250902100339408038111.bin",
+  "archivedFilename": "216_bms_HMG-50_20250902100339408038111.bin",
   "archivedFilesize": 73728,
   "issueNumber": null,
   "releaseNote": "修复低电量SOC跳变问题。",

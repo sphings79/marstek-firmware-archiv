@@ -41,7 +41,7 @@
   "releaseNoteDE": "Basierend auf dem Original 147: 1. Optimierung der deutschen Stromzähleranbindung 2. Optimierung der Drittanbieter-Serverkonfiguration unter Ethernet 3. Optimierung des gelegentlich fehlenden Problems der HTTP-Datenberichterstattung",
   "releaseNoteEN": "Based on the original 147: 1. Optimize the German electricity meter connection 2. Optimize the third-party server configuration under Ethernet 3. Optimize the occasional missing problem of http data reporting",
   "archivedAt": "2026-08-12T11:51:34Z",
-  "archivedFilename": "202601281721320b2053125.bin",
+  "archivedFilename": "147_control_VNSD-0_202601281721320b2053125.bin",
   "archivedFilesize": 372736,
   "archivedSha256": "3435e0b98067b9ee5891c0ee31956079822729d70ba0bdc2983b6d3a397e20f3",
   "apiCrc": 42516,

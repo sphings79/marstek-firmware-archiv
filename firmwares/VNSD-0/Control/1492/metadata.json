@@ -57,7 +57,7 @@
   "releaseNoteDE": "Lösen Sie das Problem der abnormalen Datenanzeige, die dadurch verursacht wird, dass HTTP-Daten kein Intervall hochladen",
   "releaseNoteEN": "Solve the problem of abnormal data display caused by http data not uploading interval",
   "archivedAt": "2026-08-12T11:51:34Z",
-  "archivedFilename": "VNSD-0_app_1492_0702_142136.bin",
+  "archivedFilename": "1492_control_VNSD-0_app_1492_0702_142136.bin",
   "archivedFilesize": 385024,
   "archivedSha256": "9b24db59c4dbde6c17e1666a778c8f44618558ef2760268a4be95570fc450796",
   "apiCrc": 62915,

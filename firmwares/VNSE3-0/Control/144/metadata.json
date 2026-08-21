@@ -35,7 +35,7 @@
     }
   },
   "archivedAt": "2025-11-26T16:29:19Z",
-  "archivedFilename": "20251118161530cc2d80857.bin",
+  "archivedFilename": "144_control_VNSE3-0_20251118161530cc2d80857.bin",
   "archivedFilesize": 354304,
   "issueNumber": null,
   "releaseNote": "新增功能： 1.防逆流功率基线设定 允许用户自行设定并网口功率，并以该功率值稳定地从电网取/馈电 2.对四款新增电表的适配 荷兰读表器：SMR-P1 德国读表器：SMR-IR 法国读表器：SMR-TIC 新版CT002：TPM2-100CT 3.DOD功能设定 允许客户自行设定设备SOC使用范围，可设置工作区间为[(12%~70%) - 100%] 建议高纬度寒冷地带的客户适当提高SOC工作范围以延长电池寿命 4.新增设备蓝牙关闭功能 可通过服务器或APP关闭设备蓝牙 5.XID/VID连接第三方服务器 可通过APP设置连接第三方服务器",

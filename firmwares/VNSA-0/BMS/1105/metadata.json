@@ -73,7 +73,7 @@
   "releaseNoteDE": "Muss in Verbindung mit Wechselrichter 1193 und höher verwendet werden\n1. Arbeiten Sie mit dem Wechselrichter zusammen, um die Rettung der Photovoltaik-Startupbatterie bei extrem niedriger Spannung durchzuführen\n2. Optimierung der Zwangsladelogik",
   "releaseNoteEN": "Need to be used in conjunction with inverter 1193 and above\n1. Cooperate with the inverter to carry out battery ultra-low voltage photovoltaic startup rescue\n2. Optimization of forced charging logic",
   "archivedAt": "2026-08-12T11:51:34Z",
-  "archivedFilename": "VA50A_APP_V1105_ota_144658.bin",
+  "archivedFilename": "1105_bms_VNSA-0_VA50A_APP_V1105_ota_144658.bin",
   "archivedFilesize": 104448,
   "archivedSha256": "c642c7ea1e84dc8d5848f86fb97f69baaa7e9c4f4ee41473bf972a836a0dfc3d",
   "apiCrc": 62373,

@@ -41,7 +41,7 @@
   "releaseNoteDE": "1. Loacl-API-Sendeausnahme im Ethernet-Modus optimieren 2. HTTP-Upgrade-Fehlerproblem im Ethernet-Modus optimieren 3. Peak-Shaving-Funktion hinzufügen 4. Datenverlustproblem durch übermäßige HTTP-Daten optimieren 5. Messgerätverbindungsmethode optimieren, CT_TYPE-Verbindung verwenden",
   "releaseNoteEN": "1. Optimize Loacl API sending exception in Ethernet mode 2. Optimize HTTP upgrade failure problem in Ethernet mode 3. Add Peak-shaving function 4. Optimize data loss problem caused by excessive HTTP data 5. Optimize meter connection method, use CT_TYPE connection",
   "archivedAt": "2026-08-13T09:20:58Z",
-  "archivedFilename": "VNSD-0_app_0150_0805_115146.bin",
+  "archivedFilename": "150_control_VNSD-0_app_0150_0805_115146.bin",
   "archivedFilesize": 389120,
   "archivedSha256": "4140e7a6d38ac90c8ceb6a5682f7704fd3ad4a45c2cb3fc1f05c95bfc1b71447",
   "apiCrc": 7326,

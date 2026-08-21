@@ -9,7 +9,7 @@ labels: ["firmware-submission"]
 
 **Device Type:** <z.B. VNSD-0>
 
-**Firmware Type:** <Control | BMS | MPPT | Micro — bei HME-3/HME-4/HMJ-2 leer lassen>
+**Firmware Type:** <Control | BMS | MPPT | Micro | FC41D — bei HME-3/HME-4/HMJ-2 leer lassen>
 **Version:** <z.B. 150>
 
 ### Firmware Metadata

@@ -3,7 +3,7 @@
 // Regenerate README.md from the firmwares/ tree. German-facing, grouped by
 // device and firmware module, newest version first.
 
-const { fs, path, REPO_ROOT } = require('./lib');
+const { fs, path, REPO_ROOT, formatVersion } = require('./lib');
 const { scanFirmwares } = require('./scan');
 
 function fmtSize(bytes) {
@@ -88,7 +88,7 @@ einreichen:
           : fw.importedFrom
           ? `[↗ ref](https://github.com/${fw.importedFrom})`
           : '-';
-        md += `| v${fw.version} | ${fmtSize(fw.filesize)} | ${fmtDate(fw.archivedAt)} | ${dl} | ${issue} | ${shortDesc(fw)} |\n`;
+        md += `| v${formatVersion(fw.version)} | ${fmtSize(fw.filesize)} | ${fmtDate(fw.archivedAt)} | ${dl} | ${issue} | ${shortDesc(fw)} |\n`;
         total++;
       }
       md += '\n';
@@ -110,8 +110,9 @@ einreichen:
 
 - **Standard-Geräte** (VNSD-0, VNSE3-0, VNSA-0, HMG-50): \`firmwares/<Gerät>/<Typ>/<Version>/\`
 - **Flat-Geräte** (HME-3, HME-4, HMJ-2): \`firmwares/<Gerät>/<Version>/\`
+- **Kommunikationsmodul** (FC41D, WLAN-Modul): als Firmware-Typ unter dem Gerät, z. B. \`firmwares/VNSD-0/FC41D/<Version>/\` — eine \`.rbl\`-Datei
 
-Jeder Versionsordner enthält die \`.bin\`-Datei und eine \`metadata.json\`
+Jeder Versionsordner enthält die Firmware-Datei (\`.bin\` bzw. \`.rbl\`) und eine \`metadata.json\`
 (Download-URL, SHA-256, Dateigröße, Release Notes inkl. Übersetzung, Issue-Referenz).
 `;
 

@@ -1,11 +1,5 @@
 # Changelog — VNSE3-0 / Control
 
-## v1476 — 2026-03-13
-
-- Optimieren Sie die Stabilität der MQTT-Verbindung
-
-<sub>Datei `VNSEE3-0_app_1476_0312_182736.bin` · SHA-256 `a2f8dedfe489…`</sub>
-
 ## v150 — 2026-08-12
 
 - Loacl-API-Sendeausnahme im Ethernet-Modus optimieren
@@ -14,7 +8,7 @@
 - Datenverlustproblem durch übermäßige HTTP-Daten optimieren
 - Messgerätverbindungsmethode optimieren, CT_TYPE-Verbindung verwenden
 
-<sub>Issue [#27](../../../../../issues/27) · Datei `VNSEE3-0_app_0150_0804_151249.bin` · SHA-256 `f043becb81ba…`</sub>
+<sub>Issue [#27](../../../../../issues/27) · Datei `150_control_VNSE3-0_VNSEE3-0_app_0150_0804_151249.bin` · SHA-256 `f043becb81ba…`</sub>
 
 ## v149 — 2026-08-12
 
@@ -27,7 +21,7 @@
 - Intervall für HTTP‑Datenupload auf 5 Minuten geändert; Fehler bei VA‑Zellspannungsdaten korrigiert.
 - Unterstützung für die Konfiguration der maximalen Ausgangsleistung hinzugefügt.
 
-<sub>Issue [#12](../../../../../issues/12) · Datei `VNSEE3-0_app_0149_0528_3_101940.bin` · SHA-256 `35a3fbd83bd8…`</sub>
+<sub>Issue [#12](../../../../../issues/12) · Datei `149_control_VNSE3-0_VNSEE3-0_app_0149_0528_3_101940.bin` · SHA-256 `35a3fbd83bd8…`</sub>
 
 ## v148 — 2026-08-12
 
@@ -38,7 +32,13 @@
 - Problem behoben, bei dem nach einer zweiten DOD-Konfiguration keine Entladung mehr möglich war.
 - Verbindung zu Drittservern optimiert; Timeout-bedingtes automatisches Löschen deaktiviert.
 
-<sub>Issue [#20](../../../../../issues/20) · Datei `VNSEE3-0_app_0148_0331_093751.bin` · SHA-256 `7dd227641f62…`</sub>
+<sub>Issue [#20](../../../../../issues/20) · Datei `148_control_VNSE3-0_VNSEE3-0_app_0148_0331_093751.bin` · SHA-256 `7dd227641f62…`</sub>
+
+## v147.6 — 2026-03-13
+
+- Optimieren Sie die Stabilität der MQTT-Verbindung
+
+<sub>Datei `1476_control_VNSE3-0_VNSEE3-0_app_1476_0312_182736.bin` · SHA-256 `a2f8dedfe489…`</sub>
 
 ## v144 — 2025-11-26
 
@@ -49,5 +49,5 @@
 - Funktion zum Herunterfahren des Geräts über Bluetooth hinzugefügt. Geräte-Bluetooth kann über den Server oder die APP ausgeschaltet werden.
 - XID/VID kann eine Verbindung zu einem Drittanbieter-Server herstellen. Kann über APP-Einstellungen eine Verbindung zu einem Server eines Drittanbieters herstellen.
 
-<sub>Datei `20251118161530cc2d80857.bin` · SHA-256 `518a3b8e40c0…`</sub>
+<sub>Datei `144_control_VNSE3-0_20251118161530cc2d80857.bin` · SHA-256 `518a3b8e40c0…`</sub>
 
