@@ -127,10 +127,10 @@ einreichen:
 
 | Version | Größe | Hinzugefügt | Download | Issue | Änderungen |
 |---------|-------|-------------|----------|-------|------------|
-| v150 | 366 KB | 2026-08-12 | [📁 150_control_VNSE3-0_VNSEE3-0_app_0150_0804_151249.bin](firmwares/VNSE3-0/Control/150/150_control_VNSE3-0_VNSEE3-0_app_0150_0804_151249.bin) | [#27](../../issues/27) | 1. Loacl-API-Sendeausnahme im Ethernet-Modus optimieren 2. HTTP-Upgrade-Fehlerproblem im E… |
-| v149 | 362 KB | 2026-08-12 | [📁 149_control_VNSE3-0_VNSEE3-0_app_0149_0528_3_101940.bin](firmwares/VNSE3-0/Control/149/149_control_VNSE3-0_VNSEE3-0_app_0149_0528_3_101940.bin) | [#12](../../issues/12) | 1. Einige Funktionen von OpenApi hinzugefügt und das Problem behoben, dass die von der ES-… |
-| v148 | 358 KB | 2026-08-12 | [📁 148_control_VNSE3-0_VNSEE3-0_app_0148_0331_093751.bin](firmwares/VNSE3-0/Control/148/148_control_VNSE3-0_VNSEE3-0_app_0148_0331_093751.bin) | [#20](../../issues/20) | 1. Datensicherungsfunktion hinzugefügt 2. Optimieren Sie die Erkennung von Zählerunterbrec… |
-| v147.6 | 356 KB | 2026-03-13 | [📁 1476_control_VNSE3-0_VNSEE3-0_app_1476_0312_182736.bin](firmwares/VNSE3-0/Control/1476/1476_control_VNSE3-0_VNSEE3-0_app_1476_0312_182736.bin) | [↗ ref](https://github.com/rweijnen/marstek-firmware-archive) | Optimieren Sie die Stabilität der MQTT-Verbindung |
+| v150 | 366 KB | 2026-08-12 | [📁 150_control_VNSE3-0_app_0150_0804_151249.bin](firmwares/VNSE3-0/Control/150/150_control_VNSE3-0_app_0150_0804_151249.bin) | [#27](../../issues/27) | 1. Loacl-API-Sendeausnahme im Ethernet-Modus optimieren 2. HTTP-Upgrade-Fehlerproblem im E… |
+| v149 | 362 KB | 2026-08-12 | [📁 149_control_VNSE3-0_app_0149_0528_3_101940.bin](firmwares/VNSE3-0/Control/149/149_control_VNSE3-0_app_0149_0528_3_101940.bin) | [#12](../../issues/12) | 1. Einige Funktionen von OpenApi hinzugefügt und das Problem behoben, dass die von der ES-… |
+| v148 | 358 KB | 2026-08-12 | [📁 148_control_VNSE3-0_app_0148_0331_093751.bin](firmwares/VNSE3-0/Control/148/148_control_VNSE3-0_app_0148_0331_093751.bin) | [#20](../../issues/20) | 1. Datensicherungsfunktion hinzugefügt 2. Optimieren Sie die Erkennung von Zählerunterbrec… |
+| v147.6 | 356 KB | 2026-03-13 | [📁 1476_control_VNSE3-0_app_1476_0312_182736.bin](firmwares/VNSE3-0/Control/1476/1476_control_VNSE3-0_app_1476_0312_182736.bin) | [↗ ref](https://github.com/rweijnen/marstek-firmware-archive) | Optimieren Sie die Stabilität der MQTT-Verbindung |
 | v144 | 346 KB | 2025-11-26 | [📁 144_control_VNSE3-0_20251118161530cc2d80857.bin](firmwares/VNSE3-0/Control/144/144_control_VNSE3-0_20251118161530cc2d80857.bin) | [↗ ref](https://github.com/rweijnen/marstek-firmware-archive) | Neue Funktionen: 1. Mit der Grundlinieneinstellung für die Anti-Rückfluss-Leistung können … |
 
 #### Micro
@@ -142,7 +142,7 @@ einreichen:
 ---
 
 **Firmware-Dateien gesamt:** 36
-**Zuletzt aktualisiert:** 2026-08-21 07:30:05 UTC
+**Zuletzt aktualisiert:** 2026-08-21 07:33:21 UTC
 
 ## Changelogs
 

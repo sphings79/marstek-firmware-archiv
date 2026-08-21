@@ -93,6 +93,20 @@ function fileToken(s) {
   return String(s == null ? '' : s).trim().replace(/[^A-Za-z0-9._-]/g, '');
 }
 
+// Misspelled device prefixes that appear in Marstek's own source filenames
+// (e.g. "VNSEE3-0_app_..." with a doubled E). When an original name starts with
+// one of these, we strip it — the scheme adds the correct device code anyway, so
+// keeping it would produce e.g. ..._VNSE3-0_VNSEE3-0_app_...
+const SOURCE_NAME_TYPO_PREFIXES = ['VNSEE3-0'];
+
+function stripSourceTypoPrefix(name) {
+  for (const p of SOURCE_NAME_TYPO_PREFIXES) {
+    const m = name.match(new RegExp('^' + escapeRegExp(p) + '[._-]', 'i'));
+    if (m) return name.slice(m[0].length);
+  }
+  return name;
+}
+
 // Build the archived filename for a firmware file. Scheme:
 //   <version>_<type>_<device>_<original>
 // e.g. 147_control_VNSD-0_202601281721320b2053125.bin
@@ -108,6 +122,7 @@ function fileToken(s) {
 function buildArchiveName(originalBasename, version, deviceType, firmwareType) {
   let name = String(originalBasename || '').split('/').pop().split('?')[0];
   if (!name) name = 'firmware.bin';
+  name = stripSourceTypoPrefix(name);
 
   const tokens = [];
   const v = fileToken(version);

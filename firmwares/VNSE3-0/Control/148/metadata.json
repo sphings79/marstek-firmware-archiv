@@ -41,7 +41,7 @@
   "releaseNoteDE": "1. Datensicherungsfunktion hinzugefügt\n2. Optimieren Sie die Erkennung von Zählerunterbrechungen und Phasenerkennung\n3. Die abnormale Anzeige des MQTT-Verbindungsflags im Ethernet-Modus wurde behoben\n4. Optimieren Sie die Stabilität der MQTT-Verbindung nach der Trennung und dem Zurücksetzen des Netzwerks\n5. Das Problem, dass Dod nach der sekundären Einstellung nicht entladen werden konnte, wurde behoben.\n6. Optimieren Sie die Serververbindungen von Drittanbietern und brechen Sie die Funktion zum Löschen von Zeitüberschreitungen ab",
   "releaseNoteEN": "1. Added data backup function\n2. Optimize meter disconnection detection and phase detection\n3. Fixed the abnormal display of MQTT connection flag in Ethernet mode\n4. Optimize MQTT connection stability after network disconnection and reset\n5. Fixed the problem that Dod cannot be discharged after secondary setting.\n6. Optimize third-party server connections and cancel the timeout clearing function",
   "archivedAt": "2026-08-12T11:51:34Z",
-  "archivedFilename": "148_control_VNSE3-0_VNSEE3-0_app_0148_0331_093751.bin",
+  "archivedFilename": "148_control_VNSE3-0_app_0148_0331_093751.bin",
   "archivedFilesize": 366592,
   "archivedSha256": "7dd227641f62d590c9f39266aa414f01436f41bfd893d9785dbd4322ef9e0b9f",
   "apiCrc": 9090,

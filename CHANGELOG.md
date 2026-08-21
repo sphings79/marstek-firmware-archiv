@@ -20,7 +20,7 @@ Alle archivierten Firmware-Versionen, chronologisch (neueste zuerst).
 - Datenverlustproblem durch übermäßige HTTP-Daten optimieren
 - Messgerätverbindungsmethode optimieren, CT_TYPE-Verbindung verwenden
 
-<sub>Issue [#27](issues/27) · [150_control_VNSE3-0_VNSEE3-0_app_0150_0804_151249.bin](firmwares/VNSE3-0/Control/150/150_control_VNSE3-0_VNSEE3-0_app_0150_0804_151249.bin)</sub>
+<sub>Issue [#27](issues/27) · [150_control_VNSE3-0_app_0150_0804_151249.bin](firmwares/VNSE3-0/Control/150/150_control_VNSE3-0_app_0150_0804_151249.bin)</sub>
 
 ## VNSD-0 — Control v149.2 — 2026-08-12
 
@@ -66,7 +66,7 @@ Alle archivierten Firmware-Versionen, chronologisch (neueste zuerst).
 - Intervall für HTTP‑Datenupload auf 5 Minuten geändert; Fehler bei VA‑Zellspannungsdaten korrigiert.
 - Unterstützung für die Konfiguration der maximalen Ausgangsleistung hinzugefügt.
 
-<sub>Issue [#12](issues/12) · [149_control_VNSE3-0_VNSEE3-0_app_0149_0528_3_101940.bin](firmwares/VNSE3-0/Control/149/149_control_VNSE3-0_VNSEE3-0_app_0149_0528_3_101940.bin)</sub>
+<sub>Issue [#12](issues/12) · [149_control_VNSE3-0_app_0149_0528_3_101940.bin](firmwares/VNSE3-0/Control/149/149_control_VNSE3-0_app_0149_0528_3_101940.bin)</sub>
 
 ## VNSA-0 — Control v148.7 — 2026-08-12
 
@@ -89,7 +89,7 @@ Alle archivierten Firmware-Versionen, chronologisch (neueste zuerst).
 - Problem behoben, bei dem nach einer zweiten DOD-Konfiguration keine Entladung mehr möglich war.
 - Verbindung zu Drittservern optimiert; Timeout-bedingtes automatisches Löschen deaktiviert.
 
-<sub>Issue [#20](issues/20) · [148_control_VNSE3-0_VNSEE3-0_app_0148_0331_093751.bin](firmwares/VNSE3-0/Control/148/148_control_VNSE3-0_VNSEE3-0_app_0148_0331_093751.bin)</sub>
+<sub>Issue [#20](issues/20) · [148_control_VNSE3-0_app_0148_0331_093751.bin](firmwares/VNSE3-0/Control/148/148_control_VNSE3-0_app_0148_0331_093751.bin)</sub>
 
 ## VNSD-0 — Control v147 — 2026-08-12
 
@@ -195,7 +195,7 @@ _Keine Release Notes._
 
 - Optimieren Sie die Stabilität der MQTT-Verbindung
 
-<sub>[1476_control_VNSE3-0_VNSEE3-0_app_1476_0312_182736.bin](firmwares/VNSE3-0/Control/1476/1476_control_VNSE3-0_VNSEE3-0_app_1476_0312_182736.bin)</sub>
+<sub>[1476_control_VNSE3-0_app_1476_0312_182736.bin](firmwares/VNSE3-0/Control/1476/1476_control_VNSE3-0_app_1476_0312_182736.bin)</sub>
 
 ## VNSE3-0 — BMS v110 — 2025-12-22
 
