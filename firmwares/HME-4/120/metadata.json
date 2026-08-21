@@ -10,7 +10,7 @@
     "otaWay": "otaSelfBoot"
   },
   "chinese": "1、优化了UDP接收和重启优化\n2、加入蓝牙升级移远模组命令\n3、连接从机改到15台",
-  "deviceName": "CT002",
+  "deviceName": "CT*02",
   "deviceType": "HME-4",
   "english": "1、优化了UDP接收和重启优化\n2、加入蓝牙升级移远模组命令\n3、连接从机改到15台",
   "otaWay": "otaSelfBoot",

@@ -1,6 +1,6 @@
 {
   "deviceType": "HME-3",
-  "deviceName": "P1 meter",
+  "deviceName": "P1****er",
   "version": "122",
   "url": "https://eu-central-1-s3-common-bucket.s3.dualstack.eu-central-1.amazonaws.com/uploads/ota/20250915/2025091516373099b077494.bin",
   "otaWay": "otaSelfBoot",

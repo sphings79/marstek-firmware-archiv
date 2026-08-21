@@ -10,7 +10,7 @@
     "otaWay": "otaSelfBoot"
   },
   "chinese": "1、优化了UDP接收和重启优化\n2、加入蓝牙升级移远模组命令\n3、CT3修复7E1配置bug，优化了SML协议解析，以及加入SML协议打印功能",
-  "deviceName": "MST-SMR_0844",
+  "deviceName": "MS********44",
   "deviceType": "HME-3",
   "english": "1、优化了UDP接收和重启优化\n2、加入蓝牙升级移远模组命令\n3、CT3修复7E1配置bug，优化了SML协议解析，以及加入SML协议打印功能",
   "otaWay": "otaSelfBoot",
