@@ -4,6 +4,12 @@
 
 Alle archivierten Firmware-Versionen, chronologisch (neueste zuerst).
 
+## VNSA-0 — BMS v109 — 2026-08-26
+
+- Siehe Änderungsprotokoll
+
+<sub>Issue [#35](issues/35) · [109_bms_VNSA-0_20251226103854b52c66481.bin](firmwares/VNSA-0/BMS/109/109_bms_VNSA-0_20251226103854b52c66481.bin)</sub>
+
 ## VNSD-0 — FC41D v202409090159 — 2026-08-21
 
 - Installierte 2024er-Basisversion des FC41D-Kommunikationsmoduls, ausgeliefert über die statische hamedata-URL.

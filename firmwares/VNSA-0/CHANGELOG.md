@@ -2,6 +2,12 @@
 
 🇬🇧 **English** · [🇩🇪 Deutsch](CHANGELOG.de.md)
 
+## BMS v109 — 2026-08-26
+
+- See Changelog
+
+<sub>Issue [#35](../../../../issues/35) · File `109_bms_VNSA-0_20251226103854b52c66481.bin` · SHA-256 `ceabe476044b…`</sub>
+
 ## Control v149 — 2026-08-12
 
 - Added some functions of OpenApi, and fixed the problem that the PV data obtained by the ES interface is 0 and the UPS switch manually displays the UPS abnormally.

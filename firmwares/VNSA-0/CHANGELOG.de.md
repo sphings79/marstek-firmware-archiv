@@ -2,6 +2,12 @@
 
 [🇬🇧 English](CHANGELOG.md) · 🇩🇪 **Deutsch**
 
+## BMS v109 — 2026-08-26
+
+- Siehe Änderungsprotokoll
+
+<sub>Issue [#35](../../../../issues/35) · Datei `109_bms_VNSA-0_20251226103854b52c66481.bin` · SHA-256 `ceabe476044b…`</sub>
+
 ## Control v149 — 2026-08-12
 
 - Einige Funktionen von OpenApi hinzugefügt und das Problem behoben, dass die von der ES-Schnittstelle erhaltenen PV-Daten 0 sind und der USV-Schalter die USV manuell abnormal anzeigt.

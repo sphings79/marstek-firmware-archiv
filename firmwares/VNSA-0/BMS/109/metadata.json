@@ -1,0 +1,51 @@
+{
+  "firmwareType": "BMS",
+  "url": "https://static-eu.marstekenergy.com/uploads/ota/20251226/20251226103854b52c66481.bin",
+  "remark": "1.最大请求充放电流改为50A\n2.第一次老化工步1特殊限额\n3.新增soc跳变日志",
+  "chinese": "见更新日志",
+  "apiResponse": {
+    "code": 1,
+    "show": 0,
+    "msg": "success",
+    "data": {
+      "control": "",
+      "bms": {
+        "edition": 2731,
+        "devicetype": "",
+        "mcu_type": "bms",
+        "type": "VNSA-0",
+        "url": "https://static-eu.marstekenergy.com/uploads/ota/20251226/20251226103854b52c66481.bin",
+        "version": 109,
+        "english": "1.Change the maximum charging and discharging current to 50A.\n2.Special limit for the first ATE process step 1.\n3.Add SOC jump log.",
+        "chinese": "见更新日志",
+        "japanese": "",
+        "remark": "1.最大请求充放电流改为50A\n2.第一次老化工步1特殊限额\n3.新增soc跳变日志",
+        "is_boot": "N",
+        "is_http": "Y",
+        "crc": "48753",
+        "size": 104448,
+        "force_update": "Y"
+      },
+      "mppt": "",
+      "micro": "",
+      "dcdc": "",
+      "bms_pack1": "",
+      "bms_pack2": "",
+      "led": "",
+      "charger": ""
+    }
+  },
+  "deviceType": "VNSA-0",
+  "version": "109",
+  "releaseNote": "见更新日志",
+  "releaseNoteDE": "Siehe Änderungsprotokoll",
+  "releaseNoteEN": "See Changelog",
+  "archivedAt": "2026-08-26T11:30:37Z",
+  "archivedFilename": "109_bms_VNSA-0_20251226103854b52c66481.bin",
+  "archivedFilesize": 104448,
+  "archivedSha256": "ceabe476044bd33bb14633b6ba313413c343fbee8e7ae0d9eedfc8a3df166aba",
+  "apiCrc": 48753,
+  "apiSize": 104448,
+  "verified": true,
+  "issueNumber": 35
+}

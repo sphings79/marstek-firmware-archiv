@@ -10,3 +10,9 @@
 
 <sub>Issue [#22](../../../../../issues/22) · Datei `1105_bms_VNSA-0_VA50A_APP_V1105_ota_144658.bin` · SHA-256 `c642c7ea1e84…`</sub>
 
+## v109 — 2026-08-26
+
+- Siehe Änderungsprotokoll
+
+<sub>Issue [#35](../../../../../issues/35) · Datei `109_bms_VNSA-0_20251226103854b52c66481.bin` · SHA-256 `ceabe476044b…`</sub>
+
