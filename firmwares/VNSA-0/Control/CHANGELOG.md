@@ -2,6 +2,16 @@
 
 🇬🇧 **English** · [🇩🇪 Deutsch](CHANGELOG.de.md)
 
+## v150 — 2026-08-26
+
+- Optimize Loacl API sending exception in Ethernet mode
+- Optimize HTTP upgrade failure problem in Ethernet mode
+- Add Peak-shaving function
+- Optimize data loss problem caused by excessive HTTP data
+- Optimize meter connection method, use CT_TYPE connection
+
+<sub>Issue [#36](../../../../../issues/36) · File `150_control_VNSA-0_app_0150_0811_114724.bin` · SHA-256 `7dbff622f394…`</sub>
+
 ## v149 — 2026-08-12
 
 - Added some functions of OpenApi, and fixed the problem that the PV data obtained by the ES interface is 0 and the UPS switch manually displays the UPS abnormally.

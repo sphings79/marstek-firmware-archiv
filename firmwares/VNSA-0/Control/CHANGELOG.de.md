@@ -2,6 +2,16 @@
 
 [🇬🇧 English](CHANGELOG.md) · 🇩🇪 **Deutsch**
 
+## v150 — 2026-08-26
+
+- Loacl-API-Sendeausnahme im Ethernet-Modus optimieren
+- HTTP-Upgrade-Fehlerproblem im Ethernet-Modus optimieren
+- Peak-Shaving-Funktion hinzufügen
+- Datenverlustproblem durch übermäßige HTTP-Daten optimieren
+- Messgerätverbindungsmethode optimieren, CT_TYPE-Verbindung verwenden
+
+<sub>Issue [#36](../../../../../issues/36) · Datei `150_control_VNSA-0_app_0150_0811_114724.bin` · SHA-256 `7dbff622f394…`</sub>
+
 ## v149 — 2026-08-12
 
 - Einige Funktionen von OpenApi hinzugefügt und das Problem behoben, dass die von der ES-Schnittstelle erhaltenen PV-Daten 0 sind und der USV-Schalter die USV manuell abnormal anzeigt.

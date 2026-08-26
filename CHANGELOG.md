@@ -4,6 +4,16 @@
 
 Every archived firmware version, newest first.
 
+## VNSA-0 — Control v150 — 2026-08-26
+
+- Optimize Loacl API sending exception in Ethernet mode
+- Optimize HTTP upgrade failure problem in Ethernet mode
+- Add Peak-shaving function
+- Optimize data loss problem caused by excessive HTTP data
+- Optimize meter connection method, use CT_TYPE connection
+
+<sub>Issue [#36](issues/36) · [150_control_VNSA-0_app_0150_0811_114724.bin](firmwares/VNSA-0/Control/150/150_control_VNSA-0_app_0150_0811_114724.bin)</sub>
+
 ## VNSA-0 — BMS v109 — 2026-08-26
 
 - See Changelog

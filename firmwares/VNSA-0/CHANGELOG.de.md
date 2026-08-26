@@ -2,6 +2,16 @@
 
 [🇬🇧 English](CHANGELOG.md) · 🇩🇪 **Deutsch**
 
+## Control v150 — 2026-08-26
+
+- Loacl-API-Sendeausnahme im Ethernet-Modus optimieren
+- HTTP-Upgrade-Fehlerproblem im Ethernet-Modus optimieren
+- Peak-Shaving-Funktion hinzufügen
+- Datenverlustproblem durch übermäßige HTTP-Daten optimieren
+- Messgerätverbindungsmethode optimieren, CT_TYPE-Verbindung verwenden
+
+<sub>Issue [#36](../../../../issues/36) · Datei `150_control_VNSA-0_app_0150_0811_114724.bin` · SHA-256 `7dbff622f394…`</sub>
+
 ## BMS v109 — 2026-08-26
 
 - Siehe Änderungsprotokoll
