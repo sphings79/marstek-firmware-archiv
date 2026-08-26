@@ -222,3 +222,12 @@ German versions sit next to each file as `CHANGELOG.de.md`.
 
 Every version folder holds the firmware file (`.bin` or `.rbl`) and a `metadata.json`
 (download URL, SHA-256, file size, release notes incl. translations, issue reference).
+
+---
+
+## ☕ Support
+
+These tools are built and maintained in my free time, and they stay free, open and cloud-free.
+If one of them saved you an afternoon, you can [buy me a coffee](https://buymeacoffee.com/sphings).
+
+[![Buy Me A Coffee](https://img.shields.io/badge/Buy%20Me%20A%20Coffee-sphings-FFDD00?style=for-the-badge&logo=buymeacoffee&logoColor=000000)](https://buymeacoffee.com/sphings)
