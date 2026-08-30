@@ -1,7 +1,7 @@
 # Marstek Firmware Archiv
 
 [![Stars](https://img.shields.io/github/stars/sphings79/marstek-firmware-archiv?style=flat&logo=github&label=Sterne)](https://github.com/sphings79/marstek-firmware-archiv/stargazers)
-[![Firmware](https://img.shields.io/badge/Firmware--Dateien-41-blue)](#verfügbare-firmware)
+[![Firmware](https://img.shields.io/badge/Firmware--Dateien-42-blue)](#verfügbare-firmware)
 [![Updated](https://img.shields.io/github/last-commit/sphings79/marstek-firmware-archiv?label=zuletzt%20aktualisiert)](https://github.com/sphings79/marstek-firmware-archiv/commits/main)
 
 [🇬🇧 English](README.md) · 🇩🇪 **Deutsch**
@@ -39,7 +39,7 @@ Englisch, SHA-256-Prüfsumme, Dateigröße und Changelog pro Version.
 | `HMJ-2` | Marstek Saturn / B2500 v2 | [1 Version](#hmj-2--marstek-saturn--b2500-v2) |
 | `VNSA-0` | Marstek Venus A | [7 Versionen](#vnsa-0--marstek-venus-a) |
 | `VNSD-0` | Marstek Venus D | [10 Versionen](#vnsd-0--marstek-venus-d) |
-| `VNSE3-0` | Marstek Venus E 3.0 | [11 Versionen](#vnse3-0--marstek-venus-e-30) |
+| `VNSE3-0` | Marstek Venus E 3.0 | [12 Versionen](#vnse3-0--marstek-venus-e-30) |
 
 Der Gerätecode steht in der Marstek-App bzw. wird vom
 [Firmware-Checker](#-firmware-checker-tool) direkt mit ausgelesen.
@@ -186,6 +186,7 @@ einreichen:
 | v149 | 362 KB | 2026-08-12 | [📁 149_control_VNSE3-0_app_0149_0528_3_101940.bin](firmwares/VNSE3-0/Control/149/149_control_VNSE3-0_app_0149_0528_3_101940.bin) | [#12](../../issues/12) | 1. Einige Funktionen von OpenApi hinzugefügt und das Problem behoben, dass die von der ES-… |
 | v148 | 358 KB | 2026-08-12 | [📁 148_control_VNSE3-0_app_0148_0331_093751.bin](firmwares/VNSE3-0/Control/148/148_control_VNSE3-0_app_0148_0331_093751.bin) | [#20](../../issues/20) | 1. Datensicherungsfunktion hinzugefügt 2. Optimieren Sie die Erkennung von Zählerunterbrec… |
 | v147.6 | 356 KB | 2026-03-13 | [📁 1476_control_VNSE3-0_app_1476_0312_182736.bin](firmwares/VNSE3-0/Control/1476/1476_control_VNSE3-0_app_1476_0312_182736.bin) | [↗ ref](https://github.com/rweijnen/marstek-firmware-archive) | Optimieren Sie die Stabilität der MQTT-Verbindung |
+| v147 | 352 KB | 2026-08-30 | [📁 147_control_VNSE3-0_202601281724177c3442083.bin](firmwares/VNSE3-0/Control/147/147_control_VNSE3-0_202601281724177c3442083.bin) | [#37](../../issues/37) | Basierend auf dem Original 147: 1. Optimierung der deutschen Stromzähleranbindung 2. Optim… |
 | v144 | 346 KB | 2025-11-26 | [📁 144_control_VNSE3-0_20251118161530cc2d80857.bin](firmwares/VNSE3-0/Control/144/144_control_VNSE3-0_20251118161530cc2d80857.bin) | [↗ ref](https://github.com/rweijnen/marstek-firmware-archive) | Neue Funktionen: 1. Mit der Grundlinieneinstellung für die Anti-Rückfluss-Leistung können … |
 
 #### Micro
@@ -196,8 +197,8 @@ einreichen:
 
 ---
 
-**Firmware-Dateien gesamt:** 41
-**Zuletzt aktualisiert:** 2026-08-26 11:41:58 UTC
+**Firmware-Dateien gesamt:** 42
+**Zuletzt aktualisiert:** 2026-08-30 12:52:10 UTC
 
 ## Mitmachen
 
@@ -221,12 +222,3 @@ landet.
 
 Jeder Versionsordner enthält die Firmware-Datei (`.bin` bzw. `.rbl`) und eine `metadata.json`
 (Download-URL, SHA-256, Dateigröße, Release Notes inkl. Übersetzung, Issue-Referenz).
-
----
-
-## Sponsor this project
-
-Diese Tools entstehen in meiner Freizeit und bleiben kostenlos, quelloffen und cloudfrei.
-Wenn dir eines davon einen Nachmittag gespart hat, kannst du mir [einen Kaffee ausgeben](https://buymeacoffee.com/sphings).
-
-[![Buy Me A Coffee](https://img.shields.io/badge/Buy%20Me%20A%20Coffee-sphings-FFDD00?style=for-the-badge&logo=buymeacoffee&logoColor=000000)](https://buymeacoffee.com/sphings)

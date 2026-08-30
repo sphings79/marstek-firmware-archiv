@@ -1,7 +1,7 @@
 # Marstek Firmware Archive
 
 [![Stars](https://img.shields.io/github/stars/sphings79/marstek-firmware-archiv?style=flat&logo=github&label=stars)](https://github.com/sphings79/marstek-firmware-archiv/stargazers)
-[![Firmware](https://img.shields.io/badge/firmware--files-41-blue)](#available-firmware)
+[![Firmware](https://img.shields.io/badge/firmware--files-42-blue)](#available-firmware)
 [![Updated](https://img.shields.io/github/last-commit/sphings79/marstek-firmware-archiv?label=last%20updated)](https://github.com/sphings79/marstek-firmware-archiv/commits/main)
 
 🇬🇧 **English** · [🇩🇪 Deutsch](README.de.md)
@@ -39,7 +39,7 @@ SHA-256 checksum, file size and a per-device changelog.
 | `HMJ-2` | Marstek Saturn / B2500 v2 | [1 version](#hmj-2--marstek-saturn--b2500-v2) |
 | `VNSA-0` | Marstek Venus A | [7 versions](#vnsa-0--marstek-venus-a) |
 | `VNSD-0` | Marstek Venus D | [10 versions](#vnsd-0--marstek-venus-d) |
-| `VNSE3-0` | Marstek Venus E 3.0 | [11 versions](#vnse3-0--marstek-venus-e-30) |
+| `VNSE3-0` | Marstek Venus E 3.0 | [12 versions](#vnse3-0--marstek-venus-e-30) |
 
 Your device code is shown in the Marstek app, and the
 [Firmware Checker](#-firmware-checker-tool) reads it out for you.
@@ -186,6 +186,7 @@ automatically:
 | v149 | 362 KB | 2026-08-12 | [📁 149_control_VNSE3-0_app_0149_0528_3_101940.bin](firmwares/VNSE3-0/Control/149/149_control_VNSE3-0_app_0149_0528_3_101940.bin) | [#12](../../issues/12) | 1. Added some functions of OpenApi, and fixed the problem that the PV data obtained by the… |
 | v148 | 358 KB | 2026-08-12 | [📁 148_control_VNSE3-0_app_0148_0331_093751.bin](firmwares/VNSE3-0/Control/148/148_control_VNSE3-0_app_0148_0331_093751.bin) | [#20](../../issues/20) | 1. Added data backup function 2. Optimize meter disconnection detection and phase detectio… |
 | v147.6 | 356 KB | 2026-03-13 | [📁 1476_control_VNSE3-0_app_1476_0312_182736.bin](firmwares/VNSE3-0/Control/1476/1476_control_VNSE3-0_app_1476_0312_182736.bin) | [↗ ref](https://github.com/rweijnen/marstek-firmware-archive) | Optimize MQTT connection stability |
+| v147 | 352 KB | 2026-08-30 | [📁 147_control_VNSE3-0_202601281724177c3442083.bin](firmwares/VNSE3-0/Control/147/147_control_VNSE3-0_202601281724177c3442083.bin) | [#37](../../issues/37) | Based on the original 147: 1. Optimize the German electricity meter connection 2. Optimize… |
 | v144 | 346 KB | 2025-11-26 | [📁 144_control_VNSE3-0_20251118161530cc2d80857.bin](firmwares/VNSE3-0/Control/144/144_control_VNSE3-0_20251118161530cc2d80857.bin) | [↗ ref](https://github.com/rweijnen/marstek-firmware-archive) | New features: 1. Anti-backflow power baseline setting allows users to set the power of the… |
 
 #### Micro
@@ -196,8 +197,8 @@ automatically:
 
 ---
 
-**Firmware files in total:** 41
-**Last updated:** 2026-08-26 11:41:58 UTC
+**Firmware files in total:** 42
+**Last updated:** 2026-08-30 12:52:10 UTC
 
 ## Contributing
 
@@ -222,12 +223,3 @@ German versions sit next to each file as `CHANGELOG.de.md`.
 
 Every version folder holds the firmware file (`.bin` or `.rbl`) and a `metadata.json`
 (download URL, SHA-256, file size, release notes incl. translations, issue reference).
-
----
-
-## Sponsor this project
-
-These tools are built and maintained in my free time, and they stay free, open and cloud-free.
-If one of them saved you an afternoon, you can [buy me a coffee](https://buymeacoffee.com/sphings).
-
-[![Buy Me A Coffee](https://img.shields.io/badge/Buy%20Me%20A%20Coffee-sphings-FFDD00?style=for-the-badge&logo=buymeacoffee&logoColor=000000)](https://buymeacoffee.com/sphings)

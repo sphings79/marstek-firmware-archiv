@@ -4,6 +4,15 @@
 
 Every archived firmware version, newest first.
 
+## VNSE3-0 — Control v147 — 2026-08-30
+
+- Based on the original 147:
+- Optimize the German electricity meter connection
+- Optimize the third-party server configuration under Ethernet
+- Optimize the occasional missing problem of http data reporting
+
+<sub>Issue [#37](issues/37) · [147_control_VNSE3-0_202601281724177c3442083.bin](firmwares/VNSE3-0/Control/147/147_control_VNSE3-0_202601281724177c3442083.bin)</sub>
+
 ## VNSA-0 — Control v150 — 2026-08-26
 
 - Optimize Loacl API sending exception in Ethernet mode

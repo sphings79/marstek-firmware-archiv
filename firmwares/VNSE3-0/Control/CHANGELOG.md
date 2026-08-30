@@ -42,6 +42,15 @@
 
 <sub>File `1476_control_VNSE3-0_app_1476_0312_182736.bin` · SHA-256 `a2f8dedfe489…`</sub>
 
+## v147 — 2026-08-30
+
+- Based on the original 147:
+- Optimize the German electricity meter connection
+- Optimize the third-party server configuration under Ethernet
+- Optimize the occasional missing problem of http data reporting
+
+<sub>Issue [#37](../../../../../issues/37) · File `147_control_VNSE3-0_202601281724177c3442083.bin` · SHA-256 `0782d6862c53…`</sub>
+
 ## v144 — 2025-11-26
 
 - New features:

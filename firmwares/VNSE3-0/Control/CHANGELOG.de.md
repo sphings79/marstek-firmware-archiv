@@ -42,6 +42,15 @@
 
 <sub>Datei `1476_control_VNSE3-0_app_1476_0312_182736.bin` · SHA-256 `a2f8dedfe489…`</sub>
 
+## v147 — 2026-08-30
+
+- Basierend auf dem Original 147:
+- Optimierung der deutschen Stromzähleranbindung
+- Optimierung der Drittanbieter-Serverkonfiguration unter Ethernet
+- Optimierung des gelegentlich fehlenden Problems der HTTP-Datenberichterstattung
+
+<sub>Issue [#37](../../../../../issues/37) · Datei `147_control_VNSE3-0_202601281724177c3442083.bin` · SHA-256 `0782d6862c53…`</sub>
+
 ## v144 — 2025-11-26
 
 - Neue Funktionen:

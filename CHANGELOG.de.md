@@ -4,6 +4,15 @@
 
 Alle archivierten Firmware-Versionen, chronologisch (neueste zuerst).
 
+## VNSE3-0 — Control v147 — 2026-08-30
+
+- Basierend auf dem Original 147:
+- Optimierung der deutschen Stromzähleranbindung
+- Optimierung der Drittanbieter-Serverkonfiguration unter Ethernet
+- Optimierung des gelegentlich fehlenden Problems der HTTP-Datenberichterstattung
+
+<sub>Issue [#37](issues/37) · [147_control_VNSE3-0_202601281724177c3442083.bin](firmwares/VNSE3-0/Control/147/147_control_VNSE3-0_202601281724177c3442083.bin)</sub>
+
 ## VNSA-0 — Control v150 — 2026-08-26
 
 - Loacl-API-Sendeausnahme im Ethernet-Modus optimieren
