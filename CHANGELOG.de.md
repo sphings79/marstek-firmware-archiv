@@ -4,6 +4,12 @@
 
 Alle archivierten Firmware-Versionen, chronologisch (neueste zuerst).
 
+## VNSA-0 — Control v148 — 2026-09-05
+
+- Monatliche Updates 148
+
+<sub>Issue [#38](issues/38) · [148_control_VNSA-0_app_0148_0330_104509.bin](firmwares/VNSA-0/Control/148/148_control_VNSA-0_app_0148_0330_104509.bin)</sub>
+
 ## VNSE3-0 — Control v147 — 2026-08-30
 
 - Basierend auf dem Original 147:

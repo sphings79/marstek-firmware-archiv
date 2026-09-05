@@ -2,6 +2,12 @@
 
 🇬🇧 **English** · [🇩🇪 Deutsch](CHANGELOG.de.md)
 
+## Control v148 — 2026-09-05
+
+- Monthly updates 148
+
+<sub>Issue [#38](../../../../issues/38) · File `148_control_VNSA-0_app_0148_0330_104509.bin` · SHA-256 `02b5088cc9cf…`</sub>
+
 ## Control v150 — 2026-08-26
 
 - Optimize Loacl API sending exception in Ethernet mode

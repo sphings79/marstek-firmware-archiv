@@ -37,3 +37,9 @@
 
 <sub>Issue [#2](../../../../../issues/2) · File `1487_control_VNSA-0_app_1487_0511_1_155731.bin` · SHA-256 `338151c19b98…`</sub>
 
+## v148 — 2026-09-05
+
+- Monthly updates 148
+
+<sub>Issue [#38](../../../../../issues/38) · File `148_control_VNSA-0_app_0148_0330_104509.bin` · SHA-256 `02b5088cc9cf…`</sub>
+

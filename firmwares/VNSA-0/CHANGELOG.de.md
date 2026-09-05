@@ -2,6 +2,12 @@
 
 [🇬🇧 English](CHANGELOG.md) · 🇩🇪 **Deutsch**
 
+## Control v148 — 2026-09-05
+
+- Monatliche Updates 148
+
+<sub>Issue [#38](../../../../issues/38) · Datei `148_control_VNSA-0_app_0148_0330_104509.bin` · SHA-256 `02b5088cc9cf…`</sub>
+
 ## Control v150 — 2026-08-26
 
 - Loacl-API-Sendeausnahme im Ethernet-Modus optimieren
