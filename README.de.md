@@ -1,7 +1,7 @@
 # Marstek Firmware Archiv
 
 [![Stars](https://img.shields.io/github/stars/sphings79/marstek-firmware-archiv?style=flat&logo=github&label=Sterne)](https://github.com/sphings79/marstek-firmware-archiv/stargazers)
-[![Firmware](https://img.shields.io/badge/Firmware--Dateien-43-blue)](#verfügbare-firmware)
+[![Firmware](https://img.shields.io/badge/Firmware--Dateien-44-blue)](#verfügbare-firmware)
 [![Updated](https://img.shields.io/github/last-commit/sphings79/marstek-firmware-archiv?label=zuletzt%20aktualisiert)](https://github.com/sphings79/marstek-firmware-archiv/commits/main)
 
 [🇬🇧 English](README.md) · 🇩🇪 **Deutsch**
@@ -37,7 +37,7 @@ Englisch, SHA-256-Prüfsumme, Dateigröße und Changelog pro Version.
 | `HME-4` | Marstek Smart Meter CT002 / P1 | [3 Versionen](#hme-4--marstek-smart-meter-ct002--p1) |
 | `HMG-50` | Marstek Venus E Gen 1/2 | [5 Versionen](#hmg-50--marstek-venus-e-gen-12) |
 | `HMJ-2` | Marstek Saturn / B2500 v2 | [1 Version](#hmj-2--marstek-saturn--b2500-v2) |
-| `VNSA-0` | Marstek Venus A | [8 Versionen](#vnsa-0--marstek-venus-a) |
+| `VNSA-0` | Marstek Venus A | [9 Versionen](#vnsa-0--marstek-venus-a) |
 | `VNSD-0` | Marstek Venus D | [10 Versionen](#vnsd-0--marstek-venus-d) |
 | `VNSE3-0` | Marstek Venus E 3.0 | [12 Versionen](#vnse3-0--marstek-venus-e-30) |
 
@@ -134,6 +134,7 @@ einreichen:
 |---------|-------|-------------|----------|-------|------------|
 | v121.1 | 143 KB | 2026-08-12 | [📁 1211_micro_VNSA-0_VA_inv_app_1211_0520_ota_193621.bin](firmwares/VNSA-0/Micro/1211/1211_micro_VNSA-0_VA_inv_app_1211_0520_ota_193621.bin) | [#24](../../issues/24) | Verbesserter netzunabhängiger VA-Anschluss mit RCD-Ladefunktion |
 | v119.3 | 143 KB | 2026-08-12 | [📁 1193_micro_VNSA-0_VA_inv_app_1193_0512_ota_092355.bin](firmwares/VNSA-0/Micro/1193/1193_micro_VNSA-0_VA_inv_app_1193_0512_ota_092355.bin) | [#3](../../issues/3) | Optimierung der Niederspannungsrettung, muss mit der BMS V1105-Version zusammenarbeiten |
+| v119 | 143 KB | 2026-09-05 | [📁 119_micro_VNSA-0_VA_inv_app_0119_0326_ota_144725.bin](firmwares/VNSA-0/Micro/119/119_micro_VNSA-0_VA_inv_app_0119_0326_ota_144725.bin) | [#39](../../issues/39) | 1. Optimieren Sie den Nulldurchgang des netzgekoppelten Relais zum Öffnen 2. Beheben Sie d… |
 
 ### VNSD-0 — Marstek Venus D
 
@@ -198,8 +199,8 @@ einreichen:
 
 ---
 
-**Firmware-Dateien gesamt:** 43
-**Zuletzt aktualisiert:** 2026-09-05 21:57:55 UTC
+**Firmware-Dateien gesamt:** 44
+**Zuletzt aktualisiert:** 2026-09-05 21:58:03 UTC
 
 ## Mitmachen
 

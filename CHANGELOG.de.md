@@ -4,6 +4,15 @@
 
 Alle archivierten Firmware-Versionen, chronologisch (neueste zuerst).
 
+## VNSA-0 — Micro v119 — 2026-09-05
+
+- Optimieren Sie den Nulldurchgang des netzgekoppelten Relais zum Öffnen
+- Beheben Sie das Problem, dass der Akku Soc weniger als 6% beträgt und der Wechselrichter nicht selbst aufgeladen werden kann.
+- Die Off-Grid-Port-Lastüberlastung wurde von 1,1 1,25 1,4-fach auf 1,1 1,2-fach geändert
+- Ändern Sie LLC Soft Start Gain Point, um gebratenes Huhn zu verhindern
+
+<sub>Issue [#39](issues/39) · [119_micro_VNSA-0_VA_inv_app_0119_0326_ota_144725.bin](firmwares/VNSA-0/Micro/119/119_micro_VNSA-0_VA_inv_app_0119_0326_ota_144725.bin)</sub>
+
 ## VNSA-0 — Control v148 — 2026-09-05
 
 - Monatliche Updates 148

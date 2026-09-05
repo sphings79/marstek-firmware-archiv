@@ -4,6 +4,15 @@
 
 Every archived firmware version, newest first.
 
+## VNSA-0 — Micro v119 — 2026-09-05
+
+- Optimize the zero crossing point of the grid-connected relay to open
+- Fix the problem that the battery soc is less than 6%, and the inverter cannot be self-charged.
+- The off-grid port load overload was modified from 1.1 1.25 1.4 times to 1.1 1.2 times
+- Modify LLC Soft Start Gain Point to Prevent Fried Chicken
+
+<sub>Issue [#39](issues/39) · [119_micro_VNSA-0_VA_inv_app_0119_0326_ota_144725.bin](firmwares/VNSA-0/Micro/119/119_micro_VNSA-0_VA_inv_app_0119_0326_ota_144725.bin)</sub>
+
 ## VNSA-0 — Control v148 — 2026-09-05
 
 - Monthly updates 148
