@@ -4,6 +4,12 @@
 
 Every archived firmware version, newest first.
 
+## VNSA-0 — Control v150.8 — 2026-09-10
+
+- Test Dedicated
+
+<sub>Issue [#41](issues/41) · [1508_control_VNSA-0_app_1508_0819_182932.bin](firmwares/VNSA-0/Control/1508/1508_control_VNSA-0_app_1508_0819_182932.bin)</sub>
+
 ## VNSA-0 — Control v150.9 — 2026-09-10
 
 - During the process of optimizing the surplus power grid, PV interruptions lead to abnormalities

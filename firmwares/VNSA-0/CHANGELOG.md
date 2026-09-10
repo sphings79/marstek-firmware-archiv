@@ -2,6 +2,12 @@
 
 🇬🇧 **English** · [🇩🇪 Deutsch](CHANGELOG.de.md)
 
+## Control v150.8 — 2026-09-10
+
+- Test Dedicated
+
+<sub>Issue [#41](../../../../issues/41) · File `1508_control_VNSA-0_app_1508_0819_182932.bin` · SHA-256 `664623dd130c…`</sub>
+
 ## Control v150.9 — 2026-09-10
 
 - During the process of optimizing the surplus power grid, PV interruptions lead to abnormalities

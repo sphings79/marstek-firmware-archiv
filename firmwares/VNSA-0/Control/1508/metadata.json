@@ -1,0 +1,51 @@
+{
+  "firmwareType": "Control",
+  "url": "https://static-eu.marstekenergy.com/uploads/ota/20260819/VNSA-0_app_1508_0819_182932.bin",
+  "remark": "测试专用",
+  "chinese": "测试专用",
+  "apiResponse": {
+    "code": 1,
+    "show": 0,
+    "msg": "success",
+    "data": {
+      "control": {
+        "edition": 4374,
+        "devicetype": "",
+        "mcu_type": "control",
+        "type": "VNSA-0",
+        "url": "https://static-eu.marstekenergy.com/uploads/ota/20260819/VNSA-0_app_1508_0819_182932.bin",
+        "version": 1508,
+        "english": "",
+        "chinese": "测试专用",
+        "japanese": "",
+        "remark": "测试专用",
+        "is_boot": "N",
+        "is_http": "Y",
+        "crc": "22493",
+        "size": 387072,
+        "force_update": "N"
+      },
+      "bms": "",
+      "mppt": "",
+      "micro": "",
+      "dcdc": "",
+      "bms_pack1": "",
+      "bms_pack2": "",
+      "led": "",
+      "charger": ""
+    }
+  },
+  "deviceType": "VNSA-0",
+  "version": "1508",
+  "releaseNote": "测试专用",
+  "releaseNoteDE": "Nur zum Testen",
+  "releaseNoteEN": "Test Dedicated",
+  "archivedAt": "2026-09-10T12:41:17Z",
+  "archivedFilename": "1508_control_VNSA-0_app_1508_0819_182932.bin",
+  "archivedFilesize": 387072,
+  "archivedSha256": "664623dd130c9ded1225ed7e9223db65b73a4c51add6e53fb66c1014ab3b1e4f",
+  "apiCrc": 22493,
+  "apiSize": 387072,
+  "verified": false,
+  "issueNumber": 41
+}

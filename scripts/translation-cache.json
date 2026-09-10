@@ -33,7 +33,8 @@
     "优化MQTT连接稳定性": "Optimieren Sie die Stabilität der MQTT-Verbindung",
     "见更新日志": "Siehe Änderungsprotokoll",
     "月度更新148": "Monatliche Updates 148",
-    "1、优化余电上网过程中，PV中断导致异常\n2、优化LED等持续闪烁\n3、优化CT连接稳定新以及相位检测": "1. Bei der Optimierung des überschüssigen Stromnetzes führen PV-Unterbrechungen zu Auffälligkeiten\n2. Optimieren Sie das kontinuierliche Blinken von LEDs usw.\n3. CT-Verbindungsstabilität und Phasendetektion optimieren"
+    "1、优化余电上网过程中，PV中断导致异常\n2、优化LED等持续闪烁\n3、优化CT连接稳定新以及相位检测": "1. Bei der Optimierung des überschüssigen Stromnetzes führen PV-Unterbrechungen zu Auffälligkeiten\n2. Optimieren Sie das kontinuierliche Blinken von LEDs usw.\n3. CT-Verbindungsstabilität und Phasendetektion optimieren",
+    "测试专用": "Nur zum Testen"
   },
   "en": {
     "需与逆变1193及以上配合使用\n1.配合逆变进行电池超低压光伏启机抢救\n2.强充逻辑优化": "Need to be used in conjunction with inverter 1193 and above\n1. Cooperate with the inverter to carry out battery ultra-low voltage photovoltaic startup rescue\n2. Optimization of forced charging logic",
@@ -69,6 +70,7 @@
     "优化MQTT连接稳定性": "Optimize MQTT connection stability",
     "见更新日志": "See Changelog",
     "月度更新148": "Monthly updates 148",
-    "1、优化余电上网过程中，PV中断导致异常\n2、优化LED等持续闪烁\n3、优化CT连接稳定新以及相位检测": "1. During the process of optimizing the surplus power grid, PV interruptions lead to abnormalities\n2. Optimize continuous blinking of LEDs, etc.\n3. Optimize CT connection stability and phase detection"
+    "1、优化余电上网过程中，PV中断导致异常\n2、优化LED等持续闪烁\n3、优化CT连接稳定新以及相位检测": "1. During the process of optimizing the surplus power grid, PV interruptions lead to abnormalities\n2. Optimize continuous blinking of LEDs, etc.\n3. Optimize CT connection stability and phase detection",
+    "测试专用": "Test Dedicated"
   }
 }

@@ -10,6 +10,12 @@
 
 <sub>Issue [#40](../../../../../issues/40) · Datei `1509_control_VNSA-0_ems_app_1509_0908_093804.bin` · SHA-256 `a8c58127189e…`</sub>
 
+## v150.8 — 2026-09-10
+
+- Nur zum Testen
+
+<sub>Issue [#41](../../../../../issues/41) · Datei `1508_control_VNSA-0_app_1508_0819_182932.bin` · SHA-256 `664623dd130c…`</sub>
+
 ## v150 — 2026-08-26
 
 - Loacl-API-Sendeausnahme im Ethernet-Modus optimieren
