@@ -23,6 +23,7 @@ const {
   deriveFirmwareType,
   findDownloadUrl,
   extractReleaseNote,
+  formatVersion,
   sha256,
 } = require('./lib');
 const { translateNote, loadCache, saveCache } = require('./translate');
@@ -105,7 +106,9 @@ async function importFrom(refRoot, opts = {}) {
       continue;
     }
 
-    const label = firmwareType ? `${deviceType} ${firmwareType} v${version}` : `${deviceType} v${version}`;
+    const label = firmwareType
+      ? `${deviceType} ${firmwareType} v${formatVersion(version)}`
+      : `${deviceType} v${formatVersion(version)}`;
     const dest = targetDir(deviceType, firmwareType, version);
 
     if (fs.existsSync(dest) && fs.existsSync(path.join(dest, 'metadata.json'))) {

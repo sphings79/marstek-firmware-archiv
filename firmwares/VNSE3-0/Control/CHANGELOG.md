@@ -4,11 +4,11 @@
 
 ## v150 — 2026-08-12
 
-- Optimize Loacl API sending exception in Ethernet mode
-- Optimize HTTP upgrade failure problem in Ethernet mode
-- Add Peak-shaving function
-- Optimize data loss problem caused by excessive HTTP data
-- Optimize meter connection method, use CT_TYPE connection
+- Fixed faulty Local API transmission in Ethernet mode
+- Fixed failing HTTP updates in Ethernet mode
+- Added a peak-shaving function
+- Fixed data loss caused by overlong HTTP payloads
+- Switched the meter connection to CT_TYPE
 
 <sub>Issue [#27](../../../../../issues/27) · File `150_control_VNSE3-0_app_0150_0804_151249.bin` · SHA-256 `f043becb81ba…`</sub>
 
@@ -36,29 +36,31 @@
 
 <sub>Issue [#20](../../../../../issues/20) · File `148_control_VNSE3-0_app_0148_0331_093751.bin` · SHA-256 `7dd227641f62…`</sub>
 
-## v147.6 — 2026-03-13
+## v147.6 (Beta) — 2026-03-13
 
-- Optimize MQTT connection stability
+- Improved MQTT connection stability
 
 <sub>File `1476_control_VNSE3-0_app_1476_0312_182736.bin` · SHA-256 `a2f8dedfe489…`</sub>
 
 ## v147 — 2026-08-30
 
-- Based on the original 147:
-- Optimize the German electricity meter connection
-- Optimize the third-party server configuration under Ethernet
-- Optimize the occasional missing problem of http data reporting
+_Based on the existing v147:_
+
+- Improved the connection to German electricity meters
+- Improved third-party server configuration in Ethernet mode
+- Fixed occasionally missing HTTP data uploads
 
 <sub>Issue [#37](../../../../../issues/37) · File `147_control_VNSE3-0_202601281724177c3442083.bin` · SHA-256 `0782d6862c53…`</sub>
 
 ## v144 — 2025-11-26
 
-- New features:
-- Anti-backflow power baseline setting allows users to set the power of the grid-connected port and stably draw/feed power from the grid at this power value.
-- Adaptation to four new electricity meters. Dutch meter reader: SMR-P1 German meter reader: SMR-IR French meter reader: SMR-TIC New version CT002: TPM2-100CT
-- DOD function setting Allow customers to set the device SOC usage range by themselves, and the working range can be set to [(12%~70%) - 100%]. It is recommended that customers in high-latitude cold zones appropriately increase the SOC working range to extend battery life.
-- Added device Bluetooth shutdown function. Device Bluetooth can be turned off through the server or APP.
-- XID/VID can connect to a third-party server. Can connect to a third-party server through APP settings.
+_New features:_
+
+- Anti-backfeed power setpoint: the power at the grid connection point can be set freely, and the device draws or feeds at that value continuously
+- Support for four additional meters — Netherlands: SMR-P1, Germany: SMR-IR, France: SMR-TIC, new CT002 version: TPM2-100CT
+- Configurable depth of discharge (DOD): the usable SOC range can be set to [(12–70 %) – 100 %]. In cold regions a higher lower limit is recommended, as it extends battery life
+- Device Bluetooth can be switched off via the server or the app
+- Third-party server connection via XID/VID, configurable in the app
 
 <sub>File `144_control_VNSE3-0_20251118161530cc2d80857.bin` · SHA-256 `518a3b8e40c0…`</sub>
 

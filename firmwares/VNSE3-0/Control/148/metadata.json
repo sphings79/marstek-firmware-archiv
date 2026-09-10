@@ -38,8 +38,8 @@
     }
   },
   "releaseNote": "1、新增数据备份功能\n2、优化电表断连检测以及相位检测\n3、修复以太网模式下MQTT连接标志位显示异常\n4、优化MQTT断网复位后连接稳定性\n5、修复Dod 二次设置后不能放电的问题\n6、优化第三方服务器连接，取消超时清除功能",
-  "releaseNoteDE": "1. Datensicherungsfunktion hinzugefügt\n2. Optimieren Sie die Erkennung von Zählerunterbrechungen und Phasenerkennung\n3. Die abnormale Anzeige des MQTT-Verbindungsflags im Ethernet-Modus wurde behoben\n4. Optimieren Sie die Stabilität der MQTT-Verbindung nach der Trennung und dem Zurücksetzen des Netzwerks\n5. Das Problem, dass Dod nach der sekundären Einstellung nicht entladen werden konnte, wurde behoben.\n6. Optimieren Sie die Serververbindungen von Drittanbietern und brechen Sie die Funktion zum Löschen von Zeitüberschreitungen ab",
-  "releaseNoteEN": "1. Added data backup function\n2. Optimize meter disconnection detection and phase detection\n3. Fixed the abnormal display of MQTT connection flag in Ethernet mode\n4. Optimize MQTT connection stability after network disconnection and reset\n5. Fixed the problem that Dod cannot be discharged after secondary setting.\n6. Optimize third-party server connections and cancel the timeout clearing function",
+  "releaseNoteDE": "1. Datensicherung ergänzt\n2. Erkennung von Zählerabrissen und Phasenerkennung verbessert\n3. Falsch angezeigtes MQTT-Verbindungsflag im Ethernet-Modus behoben\n4. Verbindungsstabilität nach MQTT-Netzabriss und Reset verbessert\n5. Behoben: nach erneutem Setzen der DOD war kein Entladen mehr möglich\n6. Anbindung an Drittanbieter-Server verbessert, Timeout-Rücksetzung entfällt",
+  "releaseNoteEN": "1. Added data backup\n2. Improved meter disconnection detection and phase detection\n3. Fixed the MQTT connection flag being displayed incorrectly in Ethernet mode\n4. Improved connection stability after an MQTT network dropout and reset\n5. Fixed discharging becoming impossible after setting DOD a second time\n6. Improved the third-party server connection; the timeout clearing function was removed",
   "archivedAt": "2026-08-12T11:51:34Z",
   "archivedFilename": "148_control_VNSE3-0_app_0148_0331_093751.bin",
   "archivedFilesize": 366592,

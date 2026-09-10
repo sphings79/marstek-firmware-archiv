@@ -105,6 +105,17 @@ function formatVersion(version) {
   return s;
 }
 
+// A 4-digit version is a test/beta build (e.g. 1508 -> "150.8 (Beta)").
+// Display only, like formatVersion — never affects folders or filenames.
+function isBetaVersion(version) {
+  return /^\d{4}$/.test(String(version == null ? '' : version).trim());
+}
+
+// Human-facing version with the beta marker appended where it applies.
+function displayVersion(version, betaLabel) {
+  return formatVersion(version) + (isBetaVersion(version) ? ` (${betaLabel || 'Beta'})` : '');
+}
+
 function escapeRegExp(s) {
   return String(s).replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
 }
@@ -279,6 +290,8 @@ module.exports = {
   isFlatDevice,
   versionSortValue,
   formatVersion,
+  isBetaVersion,
+  displayVersion,
   buildArchiveName,
   normalizeFirmwareType,
   deriveFirmwareType,

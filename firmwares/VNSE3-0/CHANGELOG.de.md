@@ -4,20 +4,21 @@
 
 ## Control v147 — 2026-08-30
 
-- Basierend auf dem Original 147:
-- Optimierung der deutschen Stromzähleranbindung
-- Optimierung der Drittanbieter-Serverkonfiguration unter Ethernet
-- Optimierung des gelegentlich fehlenden Problems der HTTP-Datenberichterstattung
+_Aufbauend auf dem bisherigen v147:_
+
+- Anbindung deutscher Stromzähler optimiert
+- Konfiguration des Drittanbieter-Servers im Ethernet-Betrieb optimiert
+- Gelegentlich ausbleibende HTTP-Datenübertragungen behoben
 
 <sub>Issue [#37](../../../../issues/37) · Datei `147_control_VNSE3-0_202601281724177c3442083.bin` · SHA-256 `0782d6862c53…`</sub>
 
 ## Control v150 — 2026-08-12
 
-- Loacl-API-Sendeausnahme im Ethernet-Modus optimieren
-- HTTP-Upgrade-Fehlerproblem im Ethernet-Modus optimieren
-- Peak-Shaving-Funktion hinzufügen
-- Datenverlustproblem durch übermäßige HTTP-Daten optimieren
-- Messgerätverbindungsmethode optimieren, CT_TYPE-Verbindung verwenden
+- Fehlerhaftes Senden der Local API im Ethernet-Modus behoben
+- Fehlgeschlagene HTTP-Updates im Ethernet-Modus behoben
+- Peak-Shaving-Funktion ergänzt
+- Datenverlust durch zu lange HTTP-Datensätze behoben
+- Anbindung des Stromzählers auf CT_TYPE-Verbindung umgestellt
 
 <sub>Issue [#27](../../../../issues/27) · Datei `150_control_VNSE3-0_app_0150_0804_151249.bin` · SHA-256 `f043becb81ba…`</sub>
 
@@ -47,15 +48,15 @@
 
 ## Micro v119 — 2026-08-12
 
-- Beheben Sie das Problem, dass kein Ladevorgang erzwungen wird, wenn der Ladezustand unter 6 % liegt.
+- Behoben: unterhalb von 6 % SOC wurde die Zwangsladung nicht gestartet
 
 <sub>Issue [#14](../../../../issues/14) · Datei `119_micro_VNSE3-0_inv_app_0119_0326_ota_152726.bin` · SHA-256 `3c834d677e0d…`</sub>
 
 ## BMS v115 — 2026-08-12
 
-- Optimieren Sie die Beurteilungsbedingungen, wenn der Boot-SOC 100 % oder 0 % beträgt
-- Arbeiten Sie mit dem Wechselrichter zusammen, um eine Rettung bei extrem niedriger Spannung zu gewährleisten
-- Beheben Sie den Fehler, der dazu führen kann, dass das Gerät nach dem vollständigen Aufladen nicht geladen und entladen werden kann.
+- Prüfbedingung beim Start optimiert, wenn der SOC 100 % oder 0 % beträgt
+- Tiefentladungs-Rettung gemeinsam mit dem Wechselrichter
+- Fehler behoben, durch den nach einer Vollladung weder geladen noch entladen werden konnte
 
 <sub>Issue [#26](../../../../issues/26) · Datei `115_bms_VNSE3-0_Ac3.0BmsAPP_V115_ota_110451.bin` · SHA-256 `cb50cc792e24…`</sub>
 
@@ -68,36 +69,39 @@
 
 ## BMS v112 — 2026-07-07
 
-- Die Lade- und Entladeröhre wird extern gesteuert und muss an vns117 und ems147 angepasst werden
+_Erfordert VNS-Firmware 117 und EMS-Firmware 147._
+
+- Lade- und Entlade-MOSFETs werden extern angesteuert
 
 <sub>Datei `112_bms_VNSE3-0_20260121113157833696278.bin` · SHA-256 `b3193ced35dd…`</sub>
 
-## Control v147.6 — 2026-03-13
+## Control v147.6 (Beta) — 2026-03-13
 
-- Optimieren Sie die Stabilität der MQTT-Verbindung
+- Stabilität der MQTT-Verbindung verbessert
 
 <sub>Datei `1476_control_VNSE3-0_app_1476_0312_182736.bin` · SHA-256 `a2f8dedfe489…`</sub>
 
 ## BMS v110 — 2025-12-22
 
-- Firmware-Neuübertragung
+- Erneute Auslieferung der Firmware 109
 
 <sub>Datei `110_bms_VNSE3-0_202512031001144fcbf8852.bin` · SHA-256 `7ea97e0fb136…`</sub>
 
 ## Control v144 — 2025-11-26
 
-- Neue Funktionen:
-- Mit der Grundlinieneinstellung für die Anti-Rückfluss-Leistung können Benutzer die Leistung des mit dem Netz verbundenen Anschlusses einstellen und bei diesem Leistungswert stabil Strom aus dem Netz beziehen/einspeisen.
-- Anpassung an vier neue Stromzähler. Niederländischer Zählerableser: SMR-P1 Deutscher Zählerableser: SMR-IR Französischer Zählerleser: SMR-TIC Neue Version CT002: TPM2-100CT
-- DOD-Funktionseinstellung Ermöglichen Sie Kunden, den SOC-Nutzungsbereich des Geräts selbst festzulegen, und der Arbeitsbereich kann auf [(12 % ~ 70 %) – 100 %] eingestellt werden. Kunden in kalten Breitengraden wird empfohlen, den SOC-Arbeitsbereich entsprechend zu erhöhen, um die Batterielebensdauer zu verlängern.
-- Funktion zum Herunterfahren des Geräts über Bluetooth hinzugefügt. Geräte-Bluetooth kann über den Server oder die APP ausgeschaltet werden.
-- XID/VID kann eine Verbindung zu einem Drittanbieter-Server herstellen. Kann über APP-Einstellungen eine Verbindung zu einem Server eines Drittanbieters herstellen.
+_Neue Funktionen:_
+
+- Leistungs-Sollwert für die Rückspeisesperre: Die Leistung am Netzanschlusspunkt lässt sich frei vorgeben, das Gerät bezieht oder speist konstant mit diesem Wert
+- Unterstützung für vier weitere Stromzähler — Niederlande: SMR-P1, Deutschland: SMR-IR, Frankreich: SMR-TIC, neue CT002-Version: TPM2-100CT
+- Einstellbare Entladetiefe (DOD): Der nutzbare SOC-Bereich lässt sich auf [(12–70 %) – 100 %] festlegen. In kalten Regionen empfiehlt sich ein höherer unterer Wert, das verlängert die Lebensdauer der Batterie
+- Bluetooth des Geräts lässt sich über Server oder App abschalten
+- Verbindung zu einem Drittanbieter-Server über XID/VID, einstellbar in der App
 
 <sub>Datei `144_control_VNSE3-0_20251118161530cc2d80857.bin` · SHA-256 `518a3b8e40c0…`</sub>
 
 ## BMS v106 — 2025-10-27
 
-- Das SOC-Sprungproblem des Chuneng-Batterie-BMS wurde behoben.
+- SOC-Sprünge beim BMS mit CORNEX-Zellen behoben
 
 <sub>Datei `106_bms_VNSE3-0_2025081814112994acd7498.bin` · SHA-256 `bf28fb5c786a…`</sub>
 

@@ -54,8 +54,8 @@
     }
   },
   "releaseNote": "ota测试1177",
-  "releaseNoteDE": "OTA-Test 1177",
-  "releaseNoteEN": "ota test 1177",
+  "releaseNoteDE": "OTA-Test 117.7",
+  "releaseNoteEN": "OTA test 117.7",
   "archivedAt": "2026-08-12T11:51:34Z",
   "archivedFilename": "1177_bms_VNSD-0_20251010135647565eb2036.bin",
   "archivedFilesize": 106496,

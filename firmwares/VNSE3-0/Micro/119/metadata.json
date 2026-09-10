@@ -70,8 +70,8 @@
     }
   },
   "releaseNote": "1.修复soc低于6%不强充问题",
-  "releaseNoteDE": "1. Beheben Sie das Problem, dass kein Ladevorgang erzwungen wird, wenn der Ladezustand unter 6 % liegt.",
-  "releaseNoteEN": "1.Fix the problem of no forced charging when SOC is lower than 6%",
+  "releaseNoteDE": "Behoben: unterhalb von 6 % SOC wurde die Zwangsladung nicht gestartet",
+  "releaseNoteEN": "Fixed forced charging not starting below 6 % SOC",
   "archivedAt": "2026-08-12T11:51:34Z",
   "archivedFilename": "119_micro_VNSE3-0_inv_app_0119_0326_ota_152726.bin",
   "archivedFilesize": 119808,

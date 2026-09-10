@@ -4,20 +4,21 @@
 
 ## Control v147 — 2026-08-30
 
-- Based on the original 147:
-- Optimize the German electricity meter connection
-- Optimize the third-party server configuration under Ethernet
-- Optimize the occasional missing problem of http data reporting
+_Based on the existing v147:_
+
+- Improved the connection to German electricity meters
+- Improved third-party server configuration in Ethernet mode
+- Fixed occasionally missing HTTP data uploads
 
 <sub>Issue [#37](../../../../issues/37) · File `147_control_VNSE3-0_202601281724177c3442083.bin` · SHA-256 `0782d6862c53…`</sub>
 
 ## Control v150 — 2026-08-12
 
-- Optimize Loacl API sending exception in Ethernet mode
-- Optimize HTTP upgrade failure problem in Ethernet mode
-- Add Peak-shaving function
-- Optimize data loss problem caused by excessive HTTP data
-- Optimize meter connection method, use CT_TYPE connection
+- Fixed faulty Local API transmission in Ethernet mode
+- Fixed failing HTTP updates in Ethernet mode
+- Added a peak-shaving function
+- Fixed data loss caused by overlong HTTP payloads
+- Switched the meter connection to CT_TYPE
 
 <sub>Issue [#27](../../../../issues/27) · File `150_control_VNSE3-0_app_0150_0804_151249.bin` · SHA-256 `f043becb81ba…`</sub>
 
@@ -47,15 +48,15 @@
 
 ## Micro v119 — 2026-08-12
 
-- Fix the problem of no forced charging when SOC is lower than 6%
+- Fixed forced charging not starting below 6 % SOC
 
 <sub>Issue [#14](../../../../issues/14) · File `119_micro_VNSE3-0_inv_app_0119_0326_ota_152726.bin` · SHA-256 `3c834d677e0d…`</sub>
 
 ## BMS v115 — 2026-08-12
 
-- Optimize the judgment conditions when the boot SOC is 100% or 0%
-- Cooperate with the inverter for ultra-low voltage rescue
-- Fix the bug that may cause inability to charge and discharge after full charging.
+- Optimised the start-up check when SOC reads 100 % or 0 %
+- Deep-discharge recovery together with the inverter
+- Fixed a bug that could prevent charging and discharging after a full charge
 
 <sub>Issue [#26](../../../../issues/26) · File `115_bms_VNSE3-0_Ac3.0BmsAPP_V115_ota_110451.bin` · SHA-256 `cb50cc792e24…`</sub>
 
@@ -68,36 +69,39 @@
 
 ## BMS v112 — 2026-07-07
 
-- The charge and discharge tube is controlled externally and needs to be adapted to vns117 and ems147
+_Requires VNS firmware 117 and EMS firmware 147._
+
+- The charge and discharge MOSFETs are now controlled externally
 
 <sub>File `112_bms_VNSE3-0_20260121113157833696278.bin` · SHA-256 `b3193ced35dd…`</sub>
 
-## Control v147.6 — 2026-03-13
+## Control v147.6 (Beta) — 2026-03-13
 
-- Optimize MQTT connection stability
+- Improved MQTT connection stability
 
 <sub>File `1476_control_VNSE3-0_app_1476_0312_182736.bin` · SHA-256 `a2f8dedfe489…`</sub>
 
 ## BMS v110 — 2025-12-22
 
-- firmware retransmission
+- Re-release of firmware 109
 
 <sub>File `110_bms_VNSE3-0_202512031001144fcbf8852.bin` · SHA-256 `7ea97e0fb136…`</sub>
 
 ## Control v144 — 2025-11-26
 
-- New features:
-- Anti-backflow power baseline setting allows users to set the power of the grid-connected port and stably draw/feed power from the grid at this power value.
-- Adaptation to four new electricity meters. Dutch meter reader: SMR-P1 German meter reader: SMR-IR French meter reader: SMR-TIC New version CT002: TPM2-100CT
-- DOD function setting Allow customers to set the device SOC usage range by themselves, and the working range can be set to [(12%~70%) - 100%]. It is recommended that customers in high-latitude cold zones appropriately increase the SOC working range to extend battery life.
-- Added device Bluetooth shutdown function. Device Bluetooth can be turned off through the server or APP.
-- XID/VID can connect to a third-party server. Can connect to a third-party server through APP settings.
+_New features:_
+
+- Anti-backfeed power setpoint: the power at the grid connection point can be set freely, and the device draws or feeds at that value continuously
+- Support for four additional meters — Netherlands: SMR-P1, Germany: SMR-IR, France: SMR-TIC, new CT002 version: TPM2-100CT
+- Configurable depth of discharge (DOD): the usable SOC range can be set to [(12–70 %) – 100 %]. In cold regions a higher lower limit is recommended, as it extends battery life
+- Device Bluetooth can be switched off via the server or the app
+- Third-party server connection via XID/VID, configurable in the app
 
 <sub>File `144_control_VNSE3-0_20251118161530cc2d80857.bin` · SHA-256 `518a3b8e40c0…`</sub>
 
 ## BMS v106 — 2025-10-27
 
-- Fixed the SOC jump problem of Chuneng battery BMS.
+- Fixed SOC jumps on BMS units with CORNEX cells
 
 <sub>File `106_bms_VNSE3-0_2025081814112994acd7498.bin` · SHA-256 `bf28fb5c786a…`</sub>
 

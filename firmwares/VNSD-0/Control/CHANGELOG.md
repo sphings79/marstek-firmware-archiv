@@ -4,40 +4,41 @@
 
 ## v150 — 2026-08-13
 
-- Optimize Loacl API sending exception in Ethernet mode
-- Optimize HTTP upgrade failure problem in Ethernet mode
-- Add Peak-shaving function
-- Optimize data loss problem caused by excessive HTTP data
-- Optimize meter connection method, use CT_TYPE connection
+- Fixed faulty Local API transmission in Ethernet mode
+- Fixed failing HTTP updates in Ethernet mode
+- Added a peak-shaving function
+- Fixed data loss caused by overlong HTTP payloads
+- Switched the meter connection to CT_TYPE
 
 <sub>Issue [#28](../../../../../issues/28) · File `150_control_VNSD-0_app_0150_0805_115146.bin` · SHA-256 `4140e7a6d38a…`</sub>
 
-## v149.2 — 2026-08-12
+## v149.2 (Beta) — 2026-08-12
 
-- Solve the problem of abnormal data display caused by http data not uploading interval
+- Fixed incorrect data display caused by missing HTTP uploads
 
 <sub>Issue [#17](../../../../../issues/17) · File `1492_control_VNSD-0_app_1492_0702_142136.bin` · SHA-256 `9b24db59c4db…`</sub>
 
 ## v149 — 2026-08-12
 
-- Added some functions of OpenApi, and fixed the problem that the PV data obtained by the ES interface is 0 and the UPS switch manually displays the UPS abnormally.
-- Added a repair mechanism for IIC deadlock to solve the EEPROM read error problem
-- Added the ability to adapt to French electric meters
-- Added http data upload to increase IP and battery cumulative charge and discharge capacity (VE3 only)
-- Optimize the function of residual power access to the Internet
-- Solve DOD configuration delivery exception
-- Http data upload is modified to 5 minutes to fix the abnormality of VA battery cell voltage data.
-- Support maximum power configuration
-- Venus D supports a maximum power of 2500W
+- Added further OpenAPI functions; fixed the ES interface returning PV data as 0 and UPS being displayed incorrectly after a manual switchover
+- Added a recovery mechanism for I²C deadlocks, fixing EEPROM read errors
+- Added support for French electricity meters
+- Extended the HTTP upload with the IP address and the cumulative battery charge/discharge energy (VE3 only)
+- Optimised surplus feed-in to the grid
+- Fixed the DOD configuration being sent incorrectly
+- Changed the HTTP upload interval to 5 minutes; fixed incorrect cell voltage readings on the VA
+- Maximum power configuration is now supported
+- Venus D supports a maximum power of 2500 W
 
 <sub>Issue [#4](../../../../../issues/4) · File `149_control_VNSD-0_app_0149_0521_094621.bin` · SHA-256 `a8e5e9285e6c…`</sub>
 
 ## v147 — 2026-08-12
 
-- Based on the original 147:
-- Optimize the German electricity meter connection
-- Optimize the third-party server configuration under Ethernet
-- Optimize the occasional missing problem of http data reporting
+_Based on the existing v147:_
+
+- Improved the connection to German electricity meters
+- Improved third-party server configuration in Ethernet mode
+- Fixed occasionally missing HTTP data uploads
 
 <sub>Issue [#16](../../../../../issues/16) · File `147_control_VNSD-0_202601281721320b2053125.bin` · SHA-256 `3435e0b98067…`</sub>
 

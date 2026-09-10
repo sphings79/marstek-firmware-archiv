@@ -10,7 +10,7 @@
 
 ## v115 — 2026-08-12
 
-- Adapt to central control 147
+- Adapted to control firmware 147
 
 <sub>Issue [#21](../../../../../issues/21) · File `115_micro_VNSD-0_202601230921310c0e30687.bin` · SHA-256 `b2505973136f…`</sub>
 

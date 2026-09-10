@@ -38,8 +38,8 @@
     }
   },
   "releaseNote": "适配中控147",
-  "releaseNoteDE": "Anpassung an Zentralsteuerung 147",
-  "releaseNoteEN": "Adapt to central control 147",
+  "releaseNoteDE": "Angepasst an Control-Firmware 147",
+  "releaseNoteEN": "Adapted to control firmware 147",
   "archivedAt": "2026-08-12T11:51:34Z",
   "archivedFilename": "115_micro_VNSD-0_202601230921310c0e30687.bin",
   "archivedFilesize": 115712,

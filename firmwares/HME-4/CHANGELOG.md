@@ -16,9 +16,9 @@ _No release notes._
 
 ## v120 — 2025-08-25
 
-- 优化了UDP接收和重启优化
-- 加入蓝牙升级移远模组命令
-- 连接从机改到15台
+- Optimised UDP reception and restart behaviour
+- Added a Bluetooth command for updating the Quectel module
+- Raised the number of connectable slave devices to 15
 
 <sub>File `120_HME-4_202507021110400569f6547.bin` · SHA-256 `b447b34232a2…`</sub>
 

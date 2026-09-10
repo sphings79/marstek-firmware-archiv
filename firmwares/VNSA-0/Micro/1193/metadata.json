@@ -70,8 +70,8 @@
     }
   },
   "releaseNote": "低压抢救优化， 需要配合BMS V1105版本",
-  "releaseNoteDE": "Optimierung der Niederspannungsrettung, muss mit der BMS V1105-Version zusammenarbeiten",
-  "releaseNoteEN": "Low voltage rescue optimization, need to cooperate with BMS V1105 version",
+  "releaseNoteDE": "Nur zusammen mit BMS-Firmware V110.5 verwenden.\n1. Tiefentladungs-Rettung optimiert",
+  "releaseNoteEN": "Use only together with BMS firmware V110.5.\n1. Optimised deep-discharge recovery",
   "archivedAt": "2026-08-12T11:51:34Z",
   "archivedFilename": "1193_micro_VNSA-0_VA_inv_app_1193_0512_ota_092355.bin",
   "archivedFilesize": 146432,

@@ -10,7 +10,7 @@
 // Eine sprachlose `changelog`-Datei gilt für beide Fassungen; wer es sauber
 // getrennt will, legt `changelog.en` und/oder `changelog.de` daneben.
 
-const { fs, path, REPO_ROOT, FIRMWARES_DIR, formatVersion, deviceModel } = require('./lib');
+const { fs, path, REPO_ROOT, FIRMWARES_DIR, displayVersion, deviceModel } = require('./lib');
 const { scanFirmwares } = require('./scan');
 
 // Sprachabhängige Bausteine; der Aufbau darunter ist für beide identisch.
@@ -27,6 +27,7 @@ const LANGS = {
     moduleTitle: (d, m, t) => `Changelog — ${d}${m ? ` (${m})` : ''} / ${t}`,
     noNotes: '_No release notes._',
     fileLabel: 'File',
+    beta: 'Beta',
   },
   de: {
     file: 'CHANGELOG.de.md',
@@ -40,6 +41,7 @@ const LANGS = {
     moduleTitle: (d, m, t) => `Changelog — ${d}${m ? ` (${m})` : ''} / ${t}`,
     noNotes: '_Keine Release Notes._',
     fileLabel: 'Datei',
+    beta: 'Beta',
   },
 };
 
@@ -66,17 +68,27 @@ function stripMarker(s) {
     .trim();
 }
 
+function hasMarker(s) {
+  return /^\s*(?:[-*]|\d+\s*[.、)])\s*/.test(s);
+}
+
 // Turn a note (possibly a "1、 ... 2、 ..." run-on) into markdown bullet lines.
+// A first line without a list marker, followed by marked-up items, is a lead-in
+// (a prerequisite or a "New features:" heading) — it gets rendered as an italic
+// paragraph above the list instead of being flattened into a bullet of its own.
 function asBullets(note, L) {
   if (!note) return L.noNotes;
   const text = note.replace(/\r/g, '');
   if (text.includes('\n')) {
-    return text
+    const lines = text
       .split('\n')
       .map((l) => l.trim())
-      .filter(Boolean)
-      .map((l) => `- ${stripMarker(l)}`)
-      .join('\n');
+      .filter(Boolean);
+    let lead = '';
+    if (lines.length > 1 && !hasMarker(lines[0]) && lines.slice(1).some(hasMarker)) {
+      lead = `_${lines.shift()}_\n\n`;
+    }
+    return lead + lines.map((l) => `- ${stripMarker(l)}`).join('\n');
   }
   // single line: split on enumerators like "1、" "2." "3)".
   const parts = text
@@ -97,8 +109,8 @@ function section(fw, L, opts = {}) {
   const date = fmtDate(fw.archivedAt);
   const head =
     opts.withModule && fw.firmwareType
-      ? `${fw.firmwareType} v${formatVersion(fw.version)}`
-      : `v${formatVersion(fw.version)}`;
+      ? `${fw.firmwareType} v${displayVersion(fw.version, L.beta)}`
+      : `v${displayVersion(fw.version, L.beta)}`;
   let s = `## ${head}${date ? ` — ${date}` : ''}\n\n`;
   s += asBullets(bestNote(fw, L), L) + '\n\n';
   const bits = [];
@@ -126,7 +138,7 @@ function buildAll(L, fws) {
   let global = header(L.globalTitle, L, L.globalIntro);
   for (const fw of byDate) {
     const mod = fw.firmwareType ? `${fw.firmwareType} ` : '';
-    global += `## ${fw.deviceType} — ${mod}v${formatVersion(fw.version)}${fw.archivedAt ? ` — ${fmtDate(fw.archivedAt)}` : ''}\n\n`;
+    global += `## ${fw.deviceType} — ${mod}v${displayVersion(fw.version, L.beta)}${fw.archivedAt ? ` — ${fmtDate(fw.archivedAt)}` : ''}\n\n`;
     global += asBullets(bestNote(fw, L), L) + '\n\n';
     const bits = [];
     if (fw.issueNumber) bits.push(`Issue [#${fw.issueNumber}](issues/${fw.issueNumber})`);

@@ -13,6 +13,7 @@ const {
   extractReleaseNote,
   isFlatDevice,
   buildArchiveName,
+  formatVersion,
   sha256,
 } = require('./lib');
 const { translateNote } = require('./translate');
@@ -58,8 +59,8 @@ async function processIssue(issue, cache, opts = {}) {
   const { deviceType, firmwareType, version, metadata } = parsed;
   const dir = targetDir(deviceType, firmwareType, version);
   const label = isFlatDevice(deviceType)
-    ? `${deviceType} v${version}`
-    : `${deviceType} ${firmwareType} v${version}`;
+    ? `${deviceType} v${formatVersion(version)}`
+    : `${deviceType} ${firmwareType} v${formatVersion(version)}`;
 
   // Idempotency: a folder with a real .bin + metadata.json is considered done,
   // unless opts.refresh is set (then we regenerate metadata + translations,

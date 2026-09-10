@@ -38,8 +38,8 @@
     }
   },
   "releaseNote": "1优化开机soc为100%或0%时的判断条件\n2.配合逆变进行超低压抢救\n3.修复满充后可能造成无法充放电的bug",
-  "releaseNoteDE": "1 Optimieren Sie die Beurteilungsbedingungen, wenn der Boot-SOC 100 % oder 0 % beträgt\n2. Arbeiten Sie mit dem Wechselrichter zusammen, um eine Rettung bei extrem niedriger Spannung zu gewährleisten\n3. Beheben Sie den Fehler, der dazu führen kann, dass das Gerät nach dem vollständigen Aufladen nicht geladen und entladen werden kann.",
-  "releaseNoteEN": "1 Optimize the judgment conditions when the boot SOC is 100% or 0%\n2. Cooperate with the inverter for ultra-low voltage rescue\n3. Fix the bug that may cause inability to charge and discharge after full charging.",
+  "releaseNoteDE": "1. Prüfbedingung beim Start optimiert, wenn der SOC 100 % oder 0 % beträgt\n2. Tiefentladungs-Rettung gemeinsam mit dem Wechselrichter\n3. Fehler behoben, durch den nach einer Vollladung weder geladen noch entladen werden konnte",
+  "releaseNoteEN": "1. Optimised the start-up check when SOC reads 100 % or 0 %\n2. Deep-discharge recovery together with the inverter\n3. Fixed a bug that could prevent charging and discharging after a full charge",
   "archivedAt": "2026-08-12T11:51:34Z",
   "archivedFilename": "115_bms_VNSE3-0_Ac3.0BmsAPP_V115_ota_110451.bin",
   "archivedFilesize": 83968,

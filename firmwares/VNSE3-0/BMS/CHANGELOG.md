@@ -4,9 +4,9 @@
 
 ## v115 — 2026-08-12
 
-- Optimize the judgment conditions when the boot SOC is 100% or 0%
-- Cooperate with the inverter for ultra-low voltage rescue
-- Fix the bug that may cause inability to charge and discharge after full charging.
+- Optimised the start-up check when SOC reads 100 % or 0 %
+- Deep-discharge recovery together with the inverter
+- Fixed a bug that could prevent charging and discharging after a full charge
 
 <sub>Issue [#26](../../../../../issues/26) · File `115_bms_VNSE3-0_Ac3.0BmsAPP_V115_ota_110451.bin` · SHA-256 `cb50cc792e24…`</sub>
 
@@ -19,19 +19,21 @@
 
 ## v112 — 2026-07-07
 
-- The charge and discharge tube is controlled externally and needs to be adapted to vns117 and ems147
+_Requires VNS firmware 117 and EMS firmware 147._
+
+- The charge and discharge MOSFETs are now controlled externally
 
 <sub>File `112_bms_VNSE3-0_20260121113157833696278.bin` · SHA-256 `b3193ced35dd…`</sub>
 
 ## v110 — 2025-12-22
 
-- firmware retransmission
+- Re-release of firmware 109
 
 <sub>File `110_bms_VNSE3-0_202512031001144fcbf8852.bin` · SHA-256 `7ea97e0fb136…`</sub>
 
 ## v106 — 2025-10-27
 
-- Fixed the SOC jump problem of Chuneng battery BMS.
+- Fixed SOC jumps on BMS units with CORNEX cells
 
 <sub>File `106_bms_VNSE3-0_2025081814112994acd7498.bin` · SHA-256 `bf28fb5c786a…`</sub>
 

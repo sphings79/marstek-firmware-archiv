@@ -16,9 +16,9 @@ _Keine Release Notes._
 
 ## v120 — 2025-08-25
 
-- Optimierter UDP-Empfang und Neustartoptimierung
-- Fügen Sie den Befehl zum Bluetooth-Upgrade des Quectel-Moduls hinzu
-- Ändern Sie die Verbindung der Slave-Maschine auf 15 Einheiten
+- UDP-Empfang und Neustartverhalten optimiert
+- Bluetooth-Befehl zum Aktualisieren des Quectel-Moduls ergänzt
+- Anzahl verbindbarer Slave-Geräte auf 15 erhöht
 
 <sub>Datei `120_HME-4_202507021110400569f6547.bin` · SHA-256 `b447b34232a2…`</sub>
 

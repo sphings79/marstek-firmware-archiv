@@ -11,7 +11,7 @@
 // zusammen mit dem Marktnamen — niemand sucht nach "VNSE3-0", alle suchen nach
 // "Venus E".
 
-const { fs, path, REPO_ROOT, formatVersion, deviceModel } = require('./lib');
+const { fs, path, REPO_ROOT, displayVersion, deviceModel } = require('./lib');
 const { scanFirmwares } = require('./scan');
 
 const GH_REPO = process.env.GITHUB_REPOSITORY || 'sphings79/marstek-firmware-archiv';
@@ -64,6 +64,7 @@ const TEXTS = {
     firmwareHeading: 'Available firmware',
     checkerHeading: '🔍 Firmware Checker tool',
     noteLang: 'en',
+    beta: 'Beta',
     badgeStars: 'stars',
     badgeFiles: 'firmware--files',
     badgeUpdated: 'last%20updated',
@@ -168,6 +169,7 @@ Every version folder holds the firmware file (\`.bin\` or \`.rbl\`) and a \`meta
     firmwareHeading: 'Verfügbare Firmware',
     checkerHeading: '🔍 Firmware-Checker-Tool',
     noteLang: 'de',
+    beta: 'Beta',
     badgeStars: 'Sterne',
     badgeFiles: 'Firmware--Dateien',
     badgeUpdated: 'zuletzt%20aktualisiert',
@@ -333,7 +335,7 @@ ${t.deviceTableRule}
           : fw.importedFrom
           ? `[↗ ref](https://github.com/${fw.importedFrom})`
           : '-';
-        md += `| v${formatVersion(fw.version)} | ${fmtSize(fw.filesize)} | ${fmtDate(fw.archivedAt)} | ${dl} | ${issue} | ${shortDesc(fw, t)} |\n`;
+        md += `| v${displayVersion(fw.version, t.beta)} | ${fmtSize(fw.filesize)} | ${fmtDate(fw.archivedAt)} | ${dl} | ${issue} | ${shortDesc(fw, t)} |\n`;
       }
       md += '\n';
     }

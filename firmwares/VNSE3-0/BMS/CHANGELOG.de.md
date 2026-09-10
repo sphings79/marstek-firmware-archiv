@@ -4,9 +4,9 @@
 
 ## v115 — 2026-08-12
 
-- Optimieren Sie die Beurteilungsbedingungen, wenn der Boot-SOC 100 % oder 0 % beträgt
-- Arbeiten Sie mit dem Wechselrichter zusammen, um eine Rettung bei extrem niedriger Spannung zu gewährleisten
-- Beheben Sie den Fehler, der dazu führen kann, dass das Gerät nach dem vollständigen Aufladen nicht geladen und entladen werden kann.
+- Prüfbedingung beim Start optimiert, wenn der SOC 100 % oder 0 % beträgt
+- Tiefentladungs-Rettung gemeinsam mit dem Wechselrichter
+- Fehler behoben, durch den nach einer Vollladung weder geladen noch entladen werden konnte
 
 <sub>Issue [#26](../../../../../issues/26) · Datei `115_bms_VNSE3-0_Ac3.0BmsAPP_V115_ota_110451.bin` · SHA-256 `cb50cc792e24…`</sub>
 
@@ -19,19 +19,21 @@
 
 ## v112 — 2026-07-07
 
-- Die Lade- und Entladeröhre wird extern gesteuert und muss an vns117 und ems147 angepasst werden
+_Erfordert VNS-Firmware 117 und EMS-Firmware 147._
+
+- Lade- und Entlade-MOSFETs werden extern angesteuert
 
 <sub>Datei `112_bms_VNSE3-0_20260121113157833696278.bin` · SHA-256 `b3193ced35dd…`</sub>
 
 ## v110 — 2025-12-22
 
-- Firmware-Neuübertragung
+- Erneute Auslieferung der Firmware 109
 
 <sub>Datei `110_bms_VNSE3-0_202512031001144fcbf8852.bin` · SHA-256 `7ea97e0fb136…`</sub>
 
 ## v106 — 2025-10-27
 
-- Das SOC-Sprungproblem des Chuneng-Batterie-BMS wurde behoben.
+- SOC-Sprünge beim BMS mit CORNEX-Zellen behoben
 
 <sub>Datei `106_bms_VNSE3-0_2025081814112994acd7498.bin` · SHA-256 `bf28fb5c786a…`</sub>
 
