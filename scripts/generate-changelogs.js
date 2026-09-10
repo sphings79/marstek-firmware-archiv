@@ -10,7 +10,7 @@
 // Eine sprachlose `changelog`-Datei gilt für beide Fassungen; wer es sauber
 // getrennt will, legt `changelog.en` und/oder `changelog.de` daneben.
 
-const { fs, path, REPO_ROOT, FIRMWARES_DIR, displayVersion, deviceModel } = require('./lib');
+const { fs, path, REPO_ROOT, FIRMWARES_DIR, displayVersion, deviceModel, hasListMarker } = require('./lib');
 const { scanFirmwares } = require('./scan');
 
 // Sprachabhängige Bausteine; der Aufbau darunter ist für beide identisch.
@@ -68,10 +68,6 @@ function stripMarker(s) {
     .trim();
 }
 
-function hasMarker(s) {
-  return /^\s*(?:[-*]|\d+\s*[.、)])\s*/.test(s);
-}
-
 // Turn a note (possibly a "1、 ... 2、 ..." run-on) into markdown bullet lines.
 // A first line without a list marker, followed by marked-up items, is a lead-in
 // (a prerequisite or a "New features:" heading) — it gets rendered as an italic
@@ -85,7 +81,7 @@ function asBullets(note, L) {
       .map((l) => l.trim())
       .filter(Boolean);
     let lead = '';
-    if (lines.length > 1 && !hasMarker(lines[0]) && lines.slice(1).some(hasMarker)) {
+    if (lines.length > 1 && !hasListMarker(lines[0]) && lines.slice(1).some(hasListMarker)) {
       lead = `_${lines.shift()}_\n\n`;
     }
     return lead + lines.map((l) => `- ${stripMarker(l)}`).join('\n');

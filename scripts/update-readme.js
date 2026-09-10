@@ -11,7 +11,7 @@
 // zusammen mit dem Marktnamen — niemand sucht nach "VNSE3-0", alle suchen nach
 // "Venus E".
 
-const { fs, path, REPO_ROOT, displayVersion, deviceModel } = require('./lib');
+const { fs, path, REPO_ROOT, displayVersion, deviceModel, hasListMarker } = require('./lib');
 const { scanFirmwares } = require('./scan');
 
 const GH_REPO = process.env.GITHUB_REPOSITORY || 'sphings79/marstek-firmware-archiv';
@@ -267,23 +267,40 @@ Jeder Versionsordner enthält die Firmware-Datei (\`.bin\` bzw. \`.rbl\`) und ei
   },
 };
 
-// Kurzfassung der Release Note in der Zielsprache. Fehlt die Übersetzung und
-// ist das Original chinesisch, hängen wir einen Übersetzungslink an.
+// Release Note in der Zielsprache fürs README. Mehrteilige Notes stehen im
+// Tabellenfeld untereinander (<br>, echte Zeilenumbrüche gehen in Markdown-
+// Tabellen nicht); eine Einleitungszeile ohne Listenmarker wird kursiv gesetzt.
+// Fehlt die Übersetzung und ist das Original chinesisch, hängen wir einen
+// Übersetzungslink an.
+function noteLines(text) {
+  return String(text || '')
+    .split('\n')
+    .map((l) => l.trim())
+    .filter(Boolean);
+}
+
 function shortDesc(fw, t) {
-  const translated = ((t.noteLang === 'en' ? fw.noteEN : fw.noteDE) || '')
-    .replace(/\s*\n\s*/g, ' ')
-    .trim();
+  const translated = ((t.noteLang === 'en' ? fw.noteEN : fw.noteDE) || '').trim();
   const orig = (fw.note || '').replace(/\s*\n\s*/g, ' ').trim();
-  let text = translated || orig;
-  if (!text) return '';
-  if (text.length > 90) text = text.slice(0, 90) + '…';
-  text = text.replace(/\|/g, '\\|');
+  if (!translated && !orig) return '';
+
+  let cell;
+  if (translated) {
+    const lines = noteLines(translated).map((l) => l.replace(/\|/g, '\\|'));
+    if (lines.length > 1 && !hasListMarker(lines[0]) && lines.slice(1).some(hasListMarker)) {
+      lines[0] = `*${lines[0]}*`;
+    }
+    cell = lines.join('<br>');
+  } else {
+    cell = orig.replace(/\|/g, '\\|');
+  }
+
   if (!translated && /[一-鿿]/.test(orig)) {
     const url =
       `https://translate.google.com/?sl=zh&tl=${t.noteLang}&text=` + encodeURIComponent(fw.note);
-    return `${text} [🌐](${url} "${t.translateTitle}")`;
+    return `${cell} [🌐](${url} "${t.translateTitle}")`;
   }
-  return text;
+  return cell;
 }
 
 function build(t, fws) {

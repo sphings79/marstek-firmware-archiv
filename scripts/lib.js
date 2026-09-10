@@ -105,6 +105,13 @@ function formatVersion(version) {
   return s;
 }
 
+// True when a note line starts with a list marker ("1." "2、" "3)" "-" "*").
+// A first line WITHOUT one, followed by lines with one, is a lead-in: the
+// vendor uses that shape for prerequisites and for "new features" headings.
+function hasListMarker(s) {
+  return /^\s*(?:[-*]|\d+\s*[.、)])\s*/.test(String(s == null ? '' : s));
+}
+
 // A 4-digit version is a test/beta build (e.g. 1508 -> "150.8 (Beta)").
 // Display only, like formatVersion — never affects folders or filenames.
 function isBetaVersion(version) {
@@ -290,6 +297,7 @@ module.exports = {
   isFlatDevice,
   versionSortValue,
   formatVersion,
+  hasListMarker,
   isBetaVersion,
   displayVersion,
   buildArchiveName,
