@@ -12,6 +12,11 @@ on:
         description: 'Issue-Nummer, die verarbeitet werden soll'
         required: true
         type: string
+      ignore_verify:
+        description: 'Integritaetspruefung (CRC/Groesse) ignorieren'
+        required: false
+        default: false
+        type: boolean
 
 # Zusätzliche Absicherung: Läufe pro Issue serialisieren, damit sich zwei
 # Läufe nicht beim git push in die Quere kommen (greift z. B. wenn das Label
@@ -46,6 +51,9 @@ jobs:
 
       - name: Firmware archivieren
         id: archive
+        env:
+          # Leer bei den issues-Triggern, nur per workflow_dispatch setzbar.
+          IGNORE_VERIFY: ${{ inputs.ignore_verify }}
         run: node scripts/archive-issue.js "$ISSUE_NUMBER"
 
       - name: Changelogs & README neu generieren

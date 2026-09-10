@@ -1,7 +1,11 @@
 'use strict';
 
 // CLI used by the GitHub Action: archive ONE issue by number.
-//   node scripts/archive-issue.js <issue_number>
+//   node scripts/archive-issue.js <issue_number> [--ignore-verify]
+//
+// --ignore-verify (or IGNORE_VERIFY=1) archives even when the CRC/size guard
+// fails. Only for the case where the vendor's API metadata is wrong about a
+// file that is otherwise served consistently; the entry keeps verified:false.
 //
 // Fetches the issue via the GitHub API (GITHUB_TOKEN), archives it, persists the
 // translation cache, and writes machine-readable outputs to $GITHUB_OUTPUT so the
@@ -13,6 +17,9 @@ const { loadCache, saveCache } = require('./translate');
 
 const REPO = process.env.GITHUB_REPOSITORY || process.env.REPO || 'sphings79/marstek-firmware-archiv';
 const issueNumber = process.argv[2];
+const ignoreVerify =
+  process.argv.includes('--ignore-verify') ||
+  /^(1|true|yes)$/i.test(process.env.IGNORE_VERIFY || '');
 
 if (!issueNumber) {
   console.error('Usage: node scripts/archive-issue.js <issue_number>');
@@ -32,9 +39,12 @@ async function main() {
   const issue = await res.json();
 
   const cache = loadCache();
+  if (ignoreVerify) console.log('Integrity guard disabled (--ignore-verify)');
+
   const result = await processIssue(
     { number: issue.number, state: issue.state, body: issue.body },
-    cache
+    cache,
+    { ignoreVerify }
   );
   saveCache(cache);
 
