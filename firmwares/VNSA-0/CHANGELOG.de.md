@@ -2,6 +2,14 @@
 
 [🇬🇧 English](CHANGELOG.md) · 🇩🇪 **Deutsch**
 
+## Control v150.9 — 2026-09-10
+
+- Bei der Optimierung des überschüssigen Stromnetzes führen PV-Unterbrechungen zu Auffälligkeiten
+- Optimieren Sie das kontinuierliche Blinken von LEDs usw.
+- CT-Verbindungsstabilität und Phasendetektion optimieren
+
+<sub>Issue [#40](../../../../issues/40) · Datei `1509_control_VNSA-0_ems_app_1509_0908_093804.bin` · SHA-256 `a8c58127189e…`</sub>
+
 ## Micro v119 — 2026-09-05
 
 - Optimieren Sie den Nulldurchgang des netzgekoppelten Relais zum Öffnen

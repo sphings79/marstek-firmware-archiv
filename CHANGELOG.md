@@ -4,6 +4,14 @@
 
 Every archived firmware version, newest first.
 
+## VNSA-0 — Control v150.9 — 2026-09-10
+
+- During the process of optimizing the surplus power grid, PV interruptions lead to abnormalities
+- Optimize continuous blinking of LEDs, etc.
+- Optimize CT connection stability and phase detection
+
+<sub>Issue [#40](issues/40) · [1509_control_VNSA-0_ems_app_1509_0908_093804.bin](firmwares/VNSA-0/Control/1509/1509_control_VNSA-0_ems_app_1509_0908_093804.bin)</sub>
+
 ## VNSA-0 — Micro v119 — 2026-09-05
 
 - Optimize the zero crossing point of the grid-connected relay to open

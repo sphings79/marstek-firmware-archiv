@@ -2,6 +2,14 @@
 
 🇬🇧 **English** · [🇩🇪 Deutsch](CHANGELOG.de.md)
 
+## v150.9 — 2026-09-10
+
+- During the process of optimizing the surplus power grid, PV interruptions lead to abnormalities
+- Optimize continuous blinking of LEDs, etc.
+- Optimize CT connection stability and phase detection
+
+<sub>Issue [#40](../../../../../issues/40) · File `1509_control_VNSA-0_ems_app_1509_0908_093804.bin` · SHA-256 `a8c58127189e…`</sub>
+
 ## v150 — 2026-08-26
 
 - Optimize Loacl API sending exception in Ethernet mode

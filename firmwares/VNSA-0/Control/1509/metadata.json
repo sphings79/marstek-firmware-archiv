@@ -1,0 +1,51 @@
+{
+  "firmwareType": "Control",
+  "url": "https://static-eu.marstekenergy.com/uploads/ota/20260908/VNSA-0_ems_app_1509_0908_093804.bin",
+  "remark": "1、优化余电上网过程中，PV中断导致异常\n2、优化LED等持续闪烁\n3、优化CT连接稳定新以及相位检测",
+  "chinese": "1、优化余电上网过程中，PV中断导致异常\n2、优化LED等持续闪烁\n3、优化CT连接稳定新以及相位检测",
+  "apiResponse": {
+    "code": 1,
+    "show": 0,
+    "msg": "success",
+    "data": {
+      "control": {
+        "edition": 4501,
+        "devicetype": "",
+        "mcu_type": "control",
+        "type": "VNSA",
+        "url": "https://static-eu.marstekenergy.com/uploads/ota/20260908/VNSA-0_ems_app_1509_0908_093804.bin",
+        "version": 1509,
+        "english": "",
+        "chinese": "1、优化余电上网过程中，PV中断导致异常\n2、优化LED等持续闪烁\n3、优化CT连接稳定新以及相位检测",
+        "japanese": "",
+        "remark": "1、优化余电上网过程中，PV中断导致异常\n2、优化LED等持续闪烁\n3、优化CT连接稳定新以及相位检测",
+        "is_boot": "N",
+        "is_http": "Y",
+        "crc": "54617",
+        "size": 391168,
+        "force_update": "N"
+      },
+      "bms": "",
+      "mppt": "",
+      "micro": "",
+      "dcdc": "",
+      "bms_pack1": "",
+      "bms_pack2": "",
+      "led": "",
+      "charger": ""
+    }
+  },
+  "deviceType": "VNSA-0",
+  "version": "1509",
+  "releaseNote": "1、优化余电上网过程中，PV中断导致异常\n2、优化LED等持续闪烁\n3、优化CT连接稳定新以及相位检测",
+  "releaseNoteDE": "1. Bei der Optimierung des überschüssigen Stromnetzes führen PV-Unterbrechungen zu Auffälligkeiten\n2. Optimieren Sie das kontinuierliche Blinken von LEDs usw.\n3. CT-Verbindungsstabilität und Phasendetektion optimieren",
+  "releaseNoteEN": "1. During the process of optimizing the surplus power grid, PV interruptions lead to abnormalities\n2. Optimize continuous blinking of LEDs, etc.\n3. Optimize CT connection stability and phase detection",
+  "archivedAt": "2026-09-10T07:27:21Z",
+  "archivedFilename": "1509_control_VNSA-0_ems_app_1509_0908_093804.bin",
+  "archivedFilesize": 391168,
+  "archivedSha256": "a8c58127189e19937cf179195e714492f890a6a829b03b8e218380042f8d9f23",
+  "apiCrc": 54617,
+  "apiSize": 391168,
+  "verified": true,
+  "issueNumber": 40
+}

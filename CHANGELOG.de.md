@@ -4,6 +4,14 @@
 
 Alle archivierten Firmware-Versionen, chronologisch (neueste zuerst).
 
+## VNSA-0 — Control v150.9 — 2026-09-10
+
+- Bei der Optimierung des überschüssigen Stromnetzes führen PV-Unterbrechungen zu Auffälligkeiten
+- Optimieren Sie das kontinuierliche Blinken von LEDs usw.
+- CT-Verbindungsstabilität und Phasendetektion optimieren
+
+<sub>Issue [#40](issues/40) · [1509_control_VNSA-0_ems_app_1509_0908_093804.bin](firmwares/VNSA-0/Control/1509/1509_control_VNSA-0_ems_app_1509_0908_093804.bin)</sub>
+
 ## VNSA-0 — Micro v119 — 2026-09-05
 
 - Optimieren Sie den Nulldurchgang des netzgekoppelten Relais zum Öffnen
