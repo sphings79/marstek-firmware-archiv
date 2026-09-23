@@ -4,6 +4,12 @@
 
 Alle archivierten Firmware-Versionen, chronologisch (neueste zuerst).
 
+## VNSE3-0 — FC41D v202512040647 — 2026-09-23
+
+_Keine Release Notes._
+
+<sub>Issue [#43](issues/43) · [202512040647_fc41d_VNSE3-0_202512271054507d95a7957.rbl](firmwares/VNSE3-0/FC41D/202512040647/202512040647_fc41d_VNSE3-0_202512271054507d95a7957.rbl)</sub>
+
 ## VNSA-0 — Control v150.8 (Beta) — 2026-09-10
 
 - Nur für Testzwecke

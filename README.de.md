@@ -1,7 +1,7 @@
 # Marstek Firmware Archiv
 
 [![Stars](https://img.shields.io/github/stars/sphings79/marstek-firmware-archiv?style=flat&logo=github&label=Sterne)](https://github.com/sphings79/marstek-firmware-archiv/stargazers)
-[![Firmware](https://img.shields.io/badge/Firmware--Dateien-46-blue)](#verfügbare-firmware)
+[![Firmware](https://img.shields.io/badge/Firmware--Dateien-47-blue)](#verfügbare-firmware)
 [![Updated](https://img.shields.io/github/last-commit/sphings79/marstek-firmware-archiv?label=zuletzt%20aktualisiert)](https://github.com/sphings79/marstek-firmware-archiv/commits/main)
 
 [🇬🇧 English](README.md) · 🇩🇪 **Deutsch**
@@ -39,7 +39,7 @@ Englisch, SHA-256-Prüfsumme, Dateigröße und Changelog pro Version.
 | `HMJ-2` | Marstek Saturn / B2500 v2 | [1 Version](#hmj-2--marstek-saturn--b2500-v2) |
 | `VNSA-0` | Marstek Venus A | [11 Versionen](#vnsa-0--marstek-venus-a) |
 | `VNSD-0` | Marstek Venus D | [10 Versionen](#vnsd-0--marstek-venus-d) |
-| `VNSE3-0` | Marstek Venus E 3.0 | [12 Versionen](#vnse3-0--marstek-venus-e-30) |
+| `VNSE3-0` | Marstek Venus E 3.0 | [13 Versionen](#vnse3-0--marstek-venus-e-30) |
 
 Der Gerätecode steht in der Marstek-App bzw. wird vom
 [Firmware-Checker](#-firmware-checker-tool) direkt mit ausgelesen.
@@ -193,6 +193,12 @@ einreichen:
 | v147 | 352 KB | 2026-08-30 | [📁 147_control_VNSE3-0_202601281724177c3442083.bin](firmwares/VNSE3-0/Control/147/147_control_VNSE3-0_202601281724177c3442083.bin) | [#37](../../issues/37) | *Aufbauend auf dem bisherigen v147:*<br>1. Anbindung deutscher Stromzähler optimiert<br>2. Konfiguration des Drittanbieter-Servers im Ethernet-Betrieb optimiert<br>3. Gelegentlich ausbleibende HTTP-Datenübertragungen behoben |
 | v144 | 346 KB | 2025-11-26 | [📁 144_control_VNSE3-0_20251118161530cc2d80857.bin](firmwares/VNSE3-0/Control/144/144_control_VNSE3-0_20251118161530cc2d80857.bin) | [↗ ref](https://github.com/rweijnen/marstek-firmware-archive) | *Neue Funktionen:*<br>1. Leistungs-Sollwert für die Rückspeisesperre: Die Leistung am Netzanschlusspunkt lässt sich frei vorgeben, das Gerät bezieht oder speist konstant mit diesem Wert<br>2. Unterstützung für vier weitere Stromzähler — Niederlande: SMR-P1, Deutschland: SMR-IR, Frankreich: SMR-TIC, neue CT002-Version: TPM2-100CT<br>3. Einstellbare Entladetiefe (DOD): Der nutzbare SOC-Bereich lässt sich auf [(12–70 %) – 100 %] festlegen. In kalten Regionen empfiehlt sich ein höherer unterer Wert, das verlängert die Lebensdauer der Batterie<br>4. Bluetooth des Geräts lässt sich über Server oder App abschalten<br>5. Verbindung zu einem Drittanbieter-Server über XID/VID, einstellbar in der App |
 
+#### FC41D
+
+| Version | Größe | Hinzugefügt | Download | Issue | Änderungen |
+|---------|-------|-------------|----------|-------|------------|
+| v202512040647 | 666.92 KB | 2026-09-23 | [📁 202512040647_fc41d_VNSE3-0_202512271054507d95a7957.rbl](firmwares/VNSE3-0/FC41D/202512040647/202512040647_fc41d_VNSE3-0_202512271054507d95a7957.rbl) | [#43](../../issues/43) |  |
+
 #### Micro
 
 | Version | Größe | Hinzugefügt | Download | Issue | Änderungen |
@@ -201,8 +207,8 @@ einreichen:
 
 ---
 
-**Firmware-Dateien gesamt:** 46
-**Zuletzt aktualisiert:** 2026-09-10 13:41:21 UTC
+**Firmware-Dateien gesamt:** 47
+**Zuletzt aktualisiert:** 2026-09-23 08:59:44 UTC
 
 ## Mitmachen
 

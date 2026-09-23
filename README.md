@@ -1,7 +1,7 @@
 # Marstek Firmware Archive
 
 [![Stars](https://img.shields.io/github/stars/sphings79/marstek-firmware-archiv?style=flat&logo=github&label=stars)](https://github.com/sphings79/marstek-firmware-archiv/stargazers)
-[![Firmware](https://img.shields.io/badge/firmware--files-46-blue)](#available-firmware)
+[![Firmware](https://img.shields.io/badge/firmware--files-47-blue)](#available-firmware)
 [![Updated](https://img.shields.io/github/last-commit/sphings79/marstek-firmware-archiv?label=last%20updated)](https://github.com/sphings79/marstek-firmware-archiv/commits/main)
 
 🇬🇧 **English** · [🇩🇪 Deutsch](README.de.md)
@@ -39,7 +39,7 @@ SHA-256 checksum, file size and a per-device changelog.
 | `HMJ-2` | Marstek Saturn / B2500 v2 | [1 version](#hmj-2--marstek-saturn--b2500-v2) |
 | `VNSA-0` | Marstek Venus A | [11 versions](#vnsa-0--marstek-venus-a) |
 | `VNSD-0` | Marstek Venus D | [10 versions](#vnsd-0--marstek-venus-d) |
-| `VNSE3-0` | Marstek Venus E 3.0 | [12 versions](#vnse3-0--marstek-venus-e-30) |
+| `VNSE3-0` | Marstek Venus E 3.0 | [13 versions](#vnse3-0--marstek-venus-e-30) |
 
 Your device code is shown in the Marstek app, and the
 [Firmware Checker](#-firmware-checker-tool) reads it out for you.
@@ -193,6 +193,12 @@ automatically:
 | v147 | 352 KB | 2026-08-30 | [📁 147_control_VNSE3-0_202601281724177c3442083.bin](firmwares/VNSE3-0/Control/147/147_control_VNSE3-0_202601281724177c3442083.bin) | [#37](../../issues/37) | *Based on the existing v147:*<br>1. Improved the connection to German electricity meters<br>2. Improved third-party server configuration in Ethernet mode<br>3. Fixed occasionally missing HTTP data uploads |
 | v144 | 346 KB | 2025-11-26 | [📁 144_control_VNSE3-0_20251118161530cc2d80857.bin](firmwares/VNSE3-0/Control/144/144_control_VNSE3-0_20251118161530cc2d80857.bin) | [↗ ref](https://github.com/rweijnen/marstek-firmware-archive) | *New features:*<br>1. Anti-backfeed power setpoint: the power at the grid connection point can be set freely, and the device draws or feeds at that value continuously<br>2. Support for four additional meters — Netherlands: SMR-P1, Germany: SMR-IR, France: SMR-TIC, new CT002 version: TPM2-100CT<br>3. Configurable depth of discharge (DOD): the usable SOC range can be set to [(12–70 %) – 100 %]. In cold regions a higher lower limit is recommended, as it extends battery life<br>4. Device Bluetooth can be switched off via the server or the app<br>5. Third-party server connection via XID/VID, configurable in the app |
 
+#### FC41D
+
+| Version | Size | Added | Download | Issue | Changes |
+|---------|------|-------|----------|-------|---------|
+| v202512040647 | 666.92 KB | 2026-09-23 | [📁 202512040647_fc41d_VNSE3-0_202512271054507d95a7957.rbl](firmwares/VNSE3-0/FC41D/202512040647/202512040647_fc41d_VNSE3-0_202512271054507d95a7957.rbl) | [#43](../../issues/43) |  |
+
 #### Micro
 
 | Version | Size | Added | Download | Issue | Changes |
@@ -201,8 +207,8 @@ automatically:
 
 ---
 
-**Firmware files in total:** 46
-**Last updated:** 2026-09-10 13:41:21 UTC
+**Firmware files in total:** 47
+**Last updated:** 2026-09-23 08:59:44 UTC
 
 ## Contributing
 
