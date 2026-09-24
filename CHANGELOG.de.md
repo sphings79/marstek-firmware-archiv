@@ -4,6 +4,12 @@
 
 Alle archivierten Firmware-Versionen, chronologisch (neueste zuerst).
 
+## VNSE3-0 — Micro v116 — 2026-09-24
+
+- Optimieren Sie das Problem, dass der Akku nach längerem Stehenlassen des Geräts stark entladen ist, was dazu führt, dass der Ladevorgang nicht erzwungen werden kann.
+
+<sub>Issue [#45](issues/45) · [116_micro_VNSE3-0_20251128103443b389c9748.bin](firmwares/VNSE3-0/Micro/116/116_micro_VNSE3-0_20251128103443b389c9748.bin)</sub>
+
 ## VNSE3-0 — FC41D v202512040647 — 2026-09-23
 
 _Keine Release Notes._

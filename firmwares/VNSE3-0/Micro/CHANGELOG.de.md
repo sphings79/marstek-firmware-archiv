@@ -8,3 +8,9 @@
 
 <sub>Issue [#14](../../../../../issues/14) · Datei `119_micro_VNSE3-0_inv_app_0119_0326_ota_152726.bin` · SHA-256 `3c834d677e0d…`</sub>
 
+## v116 — 2026-09-24
+
+- Optimieren Sie das Problem, dass der Akku nach längerem Stehenlassen des Geräts stark entladen ist, was dazu führt, dass der Ladevorgang nicht erzwungen werden kann.
+
+<sub>Issue [#45](../../../../../issues/45) · Datei `116_micro_VNSE3-0_20251128103443b389c9748.bin` · SHA-256 `dfcb319c16a9…`</sub>
+

@@ -1,7 +1,7 @@
 # Marstek Firmware Archiv
 
 [![Stars](https://img.shields.io/github/stars/sphings79/marstek-firmware-archiv?style=flat&logo=github&label=Sterne)](https://github.com/sphings79/marstek-firmware-archiv/stargazers)
-[![Firmware](https://img.shields.io/badge/Firmware--Dateien-47-blue)](#verfügbare-firmware)
+[![Firmware](https://img.shields.io/badge/Firmware--Dateien-48-blue)](#verfügbare-firmware)
 [![Updated](https://img.shields.io/github/last-commit/sphings79/marstek-firmware-archiv?label=zuletzt%20aktualisiert)](https://github.com/sphings79/marstek-firmware-archiv/commits/main)
 
 [🇬🇧 English](README.md) · 🇩🇪 **Deutsch**
@@ -39,7 +39,7 @@ Englisch, SHA-256-Prüfsumme, Dateigröße und Changelog pro Version.
 | `HMJ-2` | Marstek Saturn / B2500 v2 | [1 Version](#hmj-2--marstek-saturn--b2500-v2) |
 | `VNSA-0` | Marstek Venus A | [11 Versionen](#vnsa-0--marstek-venus-a) |
 | `VNSD-0` | Marstek Venus D | [10 Versionen](#vnsd-0--marstek-venus-d) |
-| `VNSE3-0` | Marstek Venus E 3.0 | [13 Versionen](#vnse3-0--marstek-venus-e-30) |
+| `VNSE3-0` | Marstek Venus E 3.0 | [14 Versionen](#vnse3-0--marstek-venus-e-30) |
 
 Der Gerätecode steht in der Marstek-App bzw. wird vom
 [Firmware-Checker](#-firmware-checker-tool) direkt mit ausgelesen.
@@ -204,11 +204,12 @@ einreichen:
 | Version | Größe | Hinzugefügt | Download | Issue | Änderungen |
 |---------|-------|-------------|----------|-------|------------|
 | v119 | 117 KB | 2026-08-12 | [📁 119_micro_VNSE3-0_inv_app_0119_0326_ota_152726.bin](firmwares/VNSE3-0/Micro/119/119_micro_VNSE3-0_inv_app_0119_0326_ota_152726.bin) | [#14](../../issues/14) | Behoben: unterhalb von 6 % SOC wurde die Zwangsladung nicht gestartet |
+| v116 | 115 KB | 2026-09-24 | [📁 116_micro_VNSE3-0_20251128103443b389c9748.bin](firmwares/VNSE3-0/Micro/116/116_micro_VNSE3-0_20251128103443b389c9748.bin) | [#45](../../issues/45) | Optimieren Sie das Problem, dass der Akku nach längerem Stehenlassen des Geräts stark entladen ist, was dazu führt, dass der Ladevorgang nicht erzwungen werden kann. |
 
 ---
 
-**Firmware-Dateien gesamt:** 47
-**Zuletzt aktualisiert:** 2026-09-23 08:59:44 UTC
+**Firmware-Dateien gesamt:** 48
+**Zuletzt aktualisiert:** 2026-09-24 07:37:41 UTC
 
 ## Mitmachen
 

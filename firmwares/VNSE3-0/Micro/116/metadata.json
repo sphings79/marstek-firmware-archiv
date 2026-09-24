@@ -1,0 +1,51 @@
+{
+  "firmwareType": "Micro",
+  "url": "https://eu-central-1-s3-common-bucket.s3.dualstack.eu-central-1.amazonaws.com/uploads/ota/20251128/20251128103443b389c9748.bin",
+  "remark": "优化设备长时间静置之后电池严重亏电导致无法强充问题",
+  "chinese": "优化设备长时间静置之后电池严重亏电导致无法强充问题",
+  "apiResponse": {
+    "code": 1,
+    "show": 0,
+    "msg": "success",
+    "data": {
+      "control": "",
+      "bms": "",
+      "mppt": "",
+      "micro": {
+        "edition": 2649,
+        "devicetype": "",
+        "mcu_type": "micro",
+        "type": "VNSE3-0",
+        "url": "https://eu-central-1-s3-common-bucket.s3.dualstack.eu-central-1.amazonaws.com/uploads/ota/20251128/20251128103443b389c9748.bin",
+        "version": 116,
+        "english": "",
+        "chinese": "优化设备长时间静置之后电池严重亏电导致无法强充问题",
+        "japanese": "",
+        "remark": "优化设备长时间静置之后电池严重亏电导致无法强充问题",
+        "is_boot": "N",
+        "is_http": "Y",
+        "crc": "33526",
+        "size": 117760,
+        "force_update": "N"
+      },
+      "dcdc": "",
+      "bms_pack1": "",
+      "bms_pack2": "",
+      "led": "",
+      "charger": ""
+    }
+  },
+  "deviceType": "VNSE3-0",
+  "version": "116",
+  "releaseNote": "优化设备长时间静置之后电池严重亏电导致无法强充问题",
+  "releaseNoteDE": "Optimieren Sie das Problem, dass der Akku nach längerem Stehenlassen des Geräts stark entladen ist, was dazu führt, dass der Ladevorgang nicht erzwungen werden kann.",
+  "releaseNoteEN": "Optimization After the device has been stationary for a long time, the battery is seriously out of power and cannot be strongly charged.",
+  "archivedAt": "2026-09-24T07:37:41Z",
+  "archivedFilename": "116_micro_VNSE3-0_20251128103443b389c9748.bin",
+  "archivedFilesize": 117760,
+  "archivedSha256": "dfcb319c16a937cfe72fafe5f7a3cbaec35a1aba76ab7fec0292780807beea29",
+  "apiCrc": 33526,
+  "apiSize": 117760,
+  "verified": true,
+  "issueNumber": 45
+}

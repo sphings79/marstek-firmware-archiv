@@ -1,7 +1,7 @@
 # Marstek Firmware Archive
 
 [![Stars](https://img.shields.io/github/stars/sphings79/marstek-firmware-archiv?style=flat&logo=github&label=stars)](https://github.com/sphings79/marstek-firmware-archiv/stargazers)
-[![Firmware](https://img.shields.io/badge/firmware--files-47-blue)](#available-firmware)
+[![Firmware](https://img.shields.io/badge/firmware--files-48-blue)](#available-firmware)
 [![Updated](https://img.shields.io/github/last-commit/sphings79/marstek-firmware-archiv?label=last%20updated)](https://github.com/sphings79/marstek-firmware-archiv/commits/main)
 
 🇬🇧 **English** · [🇩🇪 Deutsch](README.de.md)
@@ -39,7 +39,7 @@ SHA-256 checksum, file size and a per-device changelog.
 | `HMJ-2` | Marstek Saturn / B2500 v2 | [1 version](#hmj-2--marstek-saturn--b2500-v2) |
 | `VNSA-0` | Marstek Venus A | [11 versions](#vnsa-0--marstek-venus-a) |
 | `VNSD-0` | Marstek Venus D | [10 versions](#vnsd-0--marstek-venus-d) |
-| `VNSE3-0` | Marstek Venus E 3.0 | [13 versions](#vnse3-0--marstek-venus-e-30) |
+| `VNSE3-0` | Marstek Venus E 3.0 | [14 versions](#vnse3-0--marstek-venus-e-30) |
 
 Your device code is shown in the Marstek app, and the
 [Firmware Checker](#-firmware-checker-tool) reads it out for you.
@@ -204,11 +204,12 @@ automatically:
 | Version | Size | Added | Download | Issue | Changes |
 |---------|------|-------|----------|-------|---------|
 | v119 | 117 KB | 2026-08-12 | [📁 119_micro_VNSE3-0_inv_app_0119_0326_ota_152726.bin](firmwares/VNSE3-0/Micro/119/119_micro_VNSE3-0_inv_app_0119_0326_ota_152726.bin) | [#14](../../issues/14) | Fixed forced charging not starting below 6 % SOC |
+| v116 | 115 KB | 2026-09-24 | [📁 116_micro_VNSE3-0_20251128103443b389c9748.bin](firmwares/VNSE3-0/Micro/116/116_micro_VNSE3-0_20251128103443b389c9748.bin) | [#45](../../issues/45) | Optimization After the device has been stationary for a long time, the battery is seriously out of power and cannot be strongly charged. |
 
 ---
 
-**Firmware files in total:** 47
-**Last updated:** 2026-09-23 08:59:44 UTC
+**Firmware files in total:** 48
+**Last updated:** 2026-09-24 07:37:41 UTC
 
 ## Contributing
 

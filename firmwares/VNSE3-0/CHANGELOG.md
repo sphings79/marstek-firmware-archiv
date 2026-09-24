@@ -2,6 +2,12 @@
 
 🇬🇧 **English** · [🇩🇪 Deutsch](CHANGELOG.de.md)
 
+## Micro v116 — 2026-09-24
+
+- Optimization After the device has been stationary for a long time, the battery is seriously out of power and cannot be strongly charged.
+
+<sub>Issue [#45](../../../../issues/45) · File `116_micro_VNSE3-0_20251128103443b389c9748.bin` · SHA-256 `dfcb319c16a9…`</sub>
+
 ## FC41D v202512040647 — 2026-09-23
 
 _No release notes._

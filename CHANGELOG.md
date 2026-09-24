@@ -4,6 +4,12 @@
 
 Every archived firmware version, newest first.
 
+## VNSE3-0 — Micro v116 — 2026-09-24
+
+- Optimization After the device has been stationary for a long time, the battery is seriously out of power and cannot be strongly charged.
+
+<sub>Issue [#45](issues/45) · [116_micro_VNSE3-0_20251128103443b389c9748.bin](firmwares/VNSE3-0/Micro/116/116_micro_VNSE3-0_20251128103443b389c9748.bin)</sub>
+
 ## VNSE3-0 — FC41D v202512040647 — 2026-09-23
 
 _No release notes._
