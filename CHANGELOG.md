@@ -16,6 +16,12 @@ _No release notes._
 
 <sub>Issue [#43](issues/43) · [202512040647_fc41d_VNSE3-0_202512271054507d95a7957.rbl](firmwares/VNSE3-0/FC41D/202512040647/202512040647_fc41d_VNSE3-0_202512271054507d95a7957.rbl)</sub>
 
+## HMJ-2 — v116 — 2026-09-12
+
+_No release notes._
+
+<sub>[116_HMJ-2_202508051050536604e3965.bin](firmwares/HMJ-2/116/116_HMJ-2_202508051050536604e3965.bin)</sub>
+
 ## VNSA-0 — Control v150.8 (Beta) — 2026-09-10
 
 - For testing only

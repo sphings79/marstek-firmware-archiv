@@ -1,7 +1,7 @@
 # Marstek Firmware Archive
 
 [![Stars](https://img.shields.io/github/stars/sphings79/marstek-firmware-archiv?style=flat&logo=github&label=stars)](https://github.com/sphings79/marstek-firmware-archiv/stargazers)
-[![Firmware](https://img.shields.io/badge/firmware--files-48-blue)](#available-firmware)
+[![Firmware](https://img.shields.io/badge/firmware--files-49-blue)](#available-firmware)
 [![Updated](https://img.shields.io/github/last-commit/sphings79/marstek-firmware-archiv?label=last%20updated)](https://github.com/sphings79/marstek-firmware-archiv/commits/main)
 
 🇬🇧 **English** · [🇩🇪 Deutsch](README.de.md)
@@ -36,7 +36,7 @@ SHA-256 checksum, file size and a per-device changelog.
 | `HME-3` | Marstek Smart Meter CT002 / P1 | [4 versions](#hme-3--marstek-smart-meter-ct002--p1) |
 | `HME-4` | Marstek Smart Meter CT002 / P1 | [3 versions](#hme-4--marstek-smart-meter-ct002--p1) |
 | `HMG-50` | Marstek Venus E Gen 1/2 | [5 versions](#hmg-50--marstek-venus-e-gen-12) |
-| `HMJ-2` | Marstek Saturn / B2500 v2 | [1 version](#hmj-2--marstek-saturn--b2500-v2) |
+| `HMJ-2` | Marstek Saturn / B2500 v2 | [2 versions](#hmj-2--marstek-saturn--b2500-v2) |
 | `VNSA-0` | Marstek Venus A | [11 versions](#vnsa-0--marstek-venus-a) |
 | `VNSD-0` | Marstek Venus D | [10 versions](#vnsd-0--marstek-venus-d) |
 | `VNSE3-0` | Marstek Venus E 3.0 | [14 versions](#vnse3-0--marstek-venus-e-30) |
@@ -108,6 +108,7 @@ automatically:
 
 | Version | Size | Added | Download | Issue | Changes |
 |---------|------|-------|----------|-------|---------|
+| v116 | 160 KB | 2026-09-12 | [📁 116_HMJ-2_202508051050536604e3965.bin](firmwares/HMJ-2/116/116_HMJ-2_202508051050536604e3965.bin) | [↗ ref](https://github.com/rweijnen/marstek-firmware-archive) |  |
 | v110 | 146 KB | 2026-07-24 | [📁 110_HMJ-2_20250523160631745d66082.bin](firmwares/HMJ-2/110/110_HMJ-2_20250523160631745d66082.bin) | [↗ ref](https://github.com/rweijnen/marstek-firmware-archive) |  |
 
 ### VNSA-0 — Marstek Venus A
@@ -208,8 +209,8 @@ automatically:
 
 ---
 
-**Firmware files in total:** 48
-**Last updated:** 2026-09-24 07:37:41 UTC
+**Firmware files in total:** 49
+**Last updated:** 2026-09-26 09:29:38 UTC
 
 ## Contributing
 
