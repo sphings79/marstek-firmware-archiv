@@ -1,7 +1,7 @@
 # Marstek Firmware Archive
 
 [![Stars](https://img.shields.io/github/stars/sphings79/marstek-firmware-archiv?style=flat&logo=github&label=stars)](https://github.com/sphings79/marstek-firmware-archiv/stargazers)
-[![Firmware](https://img.shields.io/badge/firmware--files-48-blue)](#available-firmware)
+[![Firmware](https://img.shields.io/badge/firmware--files-49-blue)](#available-firmware)
 [![Updated](https://img.shields.io/github/last-commit/sphings79/marstek-firmware-archiv?label=last%20updated)](https://github.com/sphings79/marstek-firmware-archiv/commits/main)
 
 🇬🇧 **English** · [🇩🇪 Deutsch](README.de.md)
@@ -38,7 +38,7 @@ SHA-256 checksum, file size and a per-device changelog.
 | `HMG-50` | Marstek Venus E Gen 1/2 | [5 versions](#hmg-50--marstek-venus-e-gen-12) |
 | `HMJ-2` | Marstek Saturn / B2500 v2 | [1 version](#hmj-2--marstek-saturn--b2500-v2) |
 | `VNSA-0` | Marstek Venus A | [11 versions](#vnsa-0--marstek-venus-a) |
-| `VNSD-0` | Marstek Venus D | [10 versions](#vnsd-0--marstek-venus-d) |
+| `VNSD-0` | Marstek Venus D | [11 versions](#vnsd-0--marstek-venus-d) |
 | `VNSE3-0` | Marstek Venus E 3.0 | [14 versions](#vnse3-0--marstek-venus-e-30) |
 
 Your device code is shown in the Marstek app, and the
@@ -151,6 +151,7 @@ automatically:
 
 | Version | Size | Added | Download | Issue | Changes |
 |---------|------|-------|----------|-------|---------|
+| v151 | 384 KB | 2026-09-29 | [📁 151_control_VNSD-0_ems_app_0151_0929_094333.bin](firmwares/VNSD-0/Control/151/151_control_VNSD-0_ems_app_0151_0929_094333.bin) | [#46](../../issues/46) | 1. Optimize modbus tcp stability<br>2. The problem that DOD cannot be discharged due to abnormal status before optimization<br>3. Add Ymodel upgrade type verification<br>4. Optimize AI mode verification and query the current AI strategy of the device<br>5. Fixed the pre-release server URL error, causing data upload failure.<br>6. Optimize the stability of Https upload data<br>7. Optimize CT communication frequency to 1.1S |
 | v150 | 380 KB | 2026-08-13 | [📁 150_control_VNSD-0_app_0150_0805_115146.bin](firmwares/VNSD-0/Control/150/150_control_VNSD-0_app_0150_0805_115146.bin) | [#28](../../issues/28) | 1. Fixed faulty Local API transmission in Ethernet mode<br>2. Fixed failing HTTP updates in Ethernet mode<br>3. Added a peak-shaving function<br>4. Fixed data loss caused by overlong HTTP payloads<br>5. Switched the meter connection to CT_TYPE |
 | v149.2 (Beta) | 376 KB | 2026-08-12 | [📁 1492_control_VNSD-0_app_1492_0702_142136.bin](firmwares/VNSD-0/Control/1492/1492_control_VNSD-0_app_1492_0702_142136.bin) | [#17](../../issues/17) | Fixed incorrect data display caused by missing HTTP uploads |
 | v149 | 376 KB | 2026-08-12 | [📁 149_control_VNSD-0_app_0149_0521_094621.bin](firmwares/VNSD-0/Control/149/149_control_VNSD-0_app_0149_0521_094621.bin) | [#4](../../issues/4) | 1. Added further OpenAPI functions; fixed the ES interface returning PV data as 0 and UPS being displayed incorrectly after a manual switchover<br>2. Added a recovery mechanism for I²C deadlocks, fixing EEPROM read errors<br>3. Added support for French electricity meters<br>4. Extended the HTTP upload with the IP address and the cumulative battery charge/discharge energy (VE3 only)<br>5. Optimised surplus feed-in to the grid<br>6. Fixed the DOD configuration being sent incorrectly<br>7. Changed the HTTP upload interval to 5 minutes; fixed incorrect cell voltage readings on the VA<br>8. Maximum power configuration is now supported<br>9. Venus D supports a maximum power of 2500 W |
@@ -208,8 +209,8 @@ automatically:
 
 ---
 
-**Firmware files in total:** 48
-**Last updated:** 2026-09-24 07:37:41 UTC
+**Firmware files in total:** 49
+**Last updated:** 2026-09-29 17:14:16 UTC
 
 ## Contributing
 

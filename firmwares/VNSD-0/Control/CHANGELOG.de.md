@@ -2,6 +2,18 @@
 
 [🇬🇧 English](CHANGELOG.md) · 🇩🇪 **Deutsch**
 
+## v151 — 2026-09-29
+
+- Optimieren Sie die Modbus-TCP-Stabilität
+- Das Problem, dass DOD aufgrund eines abnormalen Status vor der Optimierung nicht entlassen werden kann
+- Fügen Sie die Überprüfung des Ymodel-Upgrade-Typs hinzu
+- Optimieren Sie die Überprüfung des KI-Modus und fragen Sie die aktuelle KI-Strategie des Geräts ab
+- Der URL-Fehler des Vorabversionsservers wurde behoben, der zu einem Fehler beim Hochladen der Daten führte.
+- Optimieren Sie die Stabilität von HTTP-Upload-Daten
+- Optimieren Sie die CT-Kommunikationsfrequenz auf 1,1 S
+
+<sub>Issue [#46](../../../../../issues/46) · Datei `151_control_VNSD-0_ems_app_0151_0929_094333.bin` · SHA-256 `db3638cb6868…`</sub>
+
 ## v150 — 2026-08-13
 
 - Fehlerhaftes Senden der Local API im Ethernet-Modus behoben

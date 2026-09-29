@@ -2,6 +2,18 @@
 
 🇬🇧 **English** · [🇩🇪 Deutsch](CHANGELOG.de.md)
 
+## Control v151 — 2026-09-29
+
+- Optimize modbus tcp stability
+- The problem that DOD cannot be discharged due to abnormal status before optimization
+- Add Ymodel upgrade type verification
+- Optimize AI mode verification and query the current AI strategy of the device
+- Fixed the pre-release server URL error, causing data upload failure.
+- Optimize the stability of Https upload data
+- Optimize CT communication frequency to 1.1S
+
+<sub>Issue [#46](../../../../issues/46) · File `151_control_VNSD-0_ems_app_0151_0929_094333.bin` · SHA-256 `db3638cb6868…`</sub>
+
 ## FC41D v202409090159 — 2026-08-21
 
 - Installed 2024 baseline version of the FC41D communication module, served from the static hamedata URL.

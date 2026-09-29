@@ -1,0 +1,51 @@
+{
+  "firmwareType": "Control",
+  "url": "https://static-eu.marstekenergy.com/uploads/ota/20260929/VNSD-0_ems_app_0151_0929_094333.bin",
+  "remark": "1、优化modbus tcp 稳定性\n2、优化之前DOD异常状态不能放电问题\n3、添加Ymodel 升级类型校验\n4、优化AI模式校验以及查询设备当前AI策略\n5、修复预发布服URL错误，导致数据上传失败\n6、优化Https上传数据稳定性\n7、优化CT通信频率为1.1S",
+  "chinese": "1、优化modbus tcp 稳定性\n2、优化之前DOD异常状态不能放电问题\n3、添加Ymodel 升级类型校验\n4、优化AI模式校验以及查询设备当前AI策略\n5、修复预发布服URL错误，导致数据上传失败\n6、优化Https上传数据稳定性\n7、优化CT通信频率为1.1S",
+  "apiResponse": {
+    "code": 1,
+    "show": 0,
+    "msg": "success",
+    "data": {
+      "control": {
+        "edition": 4697,
+        "devicetype": "",
+        "mcu_type": "control",
+        "type": "VNSD-0",
+        "url": "https://static-eu.marstekenergy.com/uploads/ota/20260929/VNSD-0_ems_app_0151_0929_094333.bin",
+        "version": 151,
+        "english": "",
+        "chinese": "1、优化modbus tcp 稳定性\n2、优化之前DOD异常状态不能放电问题\n3、添加Ymodel 升级类型校验\n4、优化AI模式校验以及查询设备当前AI策略\n5、修复预发布服URL错误，导致数据上传失败\n6、优化Https上传数据稳定性\n7、优化CT通信频率为1.1S",
+        "japanese": "",
+        "remark": "1、优化modbus tcp 稳定性\n2、优化之前DOD异常状态不能放电问题\n3、添加Ymodel 升级类型校验\n4、优化AI模式校验以及查询设备当前AI策略\n5、修复预发布服URL错误，导致数据上传失败\n6、优化Https上传数据稳定性\n7、优化CT通信频率为1.1S",
+        "is_boot": "N",
+        "is_http": "Y",
+        "crc": "36266",
+        "size": 393216,
+        "force_update": "N"
+      },
+      "bms": "",
+      "mppt": "",
+      "micro": "",
+      "dcdc": "",
+      "bms_pack1": "",
+      "bms_pack2": "",
+      "led": "",
+      "charger": ""
+    }
+  },
+  "deviceType": "VNSD-0",
+  "version": "151",
+  "releaseNote": "1、优化modbus tcp 稳定性\n2、优化之前DOD异常状态不能放电问题\n3、添加Ymodel 升级类型校验\n4、优化AI模式校验以及查询设备当前AI策略\n5、修复预发布服URL错误，导致数据上传失败\n6、优化Https上传数据稳定性\n7、优化CT通信频率为1.1S",
+  "releaseNoteDE": "1. Optimieren Sie die Modbus-TCP-Stabilität\n2. Das Problem, dass DOD aufgrund eines abnormalen Status vor der Optimierung nicht entlassen werden kann\n3. Fügen Sie die Überprüfung des Ymodel-Upgrade-Typs hinzu\n4. Optimieren Sie die Überprüfung des KI-Modus und fragen Sie die aktuelle KI-Strategie des Geräts ab\n5. Der URL-Fehler des Vorabversionsservers wurde behoben, der zu einem Fehler beim Hochladen der Daten führte.\n6. Optimieren Sie die Stabilität von HTTP-Upload-Daten\n7. Optimieren Sie die CT-Kommunikationsfrequenz auf 1,1 S",
+  "releaseNoteEN": "1. Optimize modbus tcp stability\n2. The problem that DOD cannot be discharged due to abnormal status before optimization\n3. Add Ymodel upgrade type verification\n4. Optimize AI mode verification and query the current AI strategy of the device\n5. Fixed the pre-release server URL error, causing data upload failure.\n6. Optimize the stability of Https upload data\n7. Optimize CT communication frequency to 1.1S",
+  "archivedAt": "2026-09-29T17:14:16Z",
+  "archivedFilename": "151_control_VNSD-0_ems_app_0151_0929_094333.bin",
+  "archivedFilesize": 393216,
+  "archivedSha256": "db3638cb68683175debe283375f36b02427b9e5e7a647ce2045e8135177fea47",
+  "apiCrc": 36266,
+  "apiSize": 393216,
+  "verified": true,
+  "issueNumber": 46
+}
