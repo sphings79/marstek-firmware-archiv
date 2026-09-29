@@ -2,6 +2,18 @@
 
 [🇬🇧 English](CHANGELOG.md) · 🇩🇪 **Deutsch**
 
+## Control v151 — 2026-09-29
+
+- Optimieren Sie die Modbus-TCP-Stabilität
+- Das Problem, dass DOD aufgrund eines abnormalen Status vor der Optimierung nicht entlassen werden kann
+- Fügen Sie die Überprüfung des Ymodel-Upgrade-Typs hinzu
+- Optimieren Sie die Überprüfung des KI-Modus und fragen Sie die aktuelle KI-Strategie des Geräts ab
+- Der URL-Fehler des Vorabversionsservers wurde behoben, der zu einem Fehler beim Hochladen der Daten führte.
+- Optimieren Sie die Stabilität von HTTP-Upload-Daten
+- Optimieren Sie die CT-Kommunikationsfrequenz auf 1,1 S
+
+<sub>Issue [#47](../../../../issues/47) · Datei `151_control_VNSE3-0_ems_app_0151_0928_094421.bin` · SHA-256 `a2f566ebdf3f…`</sub>
+
 ## Micro v116 — 2026-09-24
 
 - Optimieren Sie das Problem, dass der Akku nach längerem Stehenlassen des Geräts stark entladen ist, was dazu führt, dass der Ladevorgang nicht erzwungen werden kann.

@@ -4,6 +4,18 @@
 
 Alle archivierten Firmware-Versionen, chronologisch (neueste zuerst).
 
+## VNSE3-0 — Control v151 — 2026-09-29
+
+- Optimieren Sie die Modbus-TCP-Stabilität
+- Das Problem, dass DOD aufgrund eines abnormalen Status vor der Optimierung nicht entlassen werden kann
+- Fügen Sie die Überprüfung des Ymodel-Upgrade-Typs hinzu
+- Optimieren Sie die Überprüfung des KI-Modus und fragen Sie die aktuelle KI-Strategie des Geräts ab
+- Der URL-Fehler des Vorabversionsservers wurde behoben, der zu einem Fehler beim Hochladen der Daten führte.
+- Optimieren Sie die Stabilität von HTTP-Upload-Daten
+- Optimieren Sie die CT-Kommunikationsfrequenz auf 1,1 S
+
+<sub>Issue [#47](issues/47) · [151_control_VNSE3-0_ems_app_0151_0928_094421.bin](firmwares/VNSE3-0/Control/151/151_control_VNSE3-0_ems_app_0151_0928_094421.bin)</sub>
+
 ## VNSD-0 — Control v151 — 2026-09-29
 
 - Optimieren Sie die Modbus-TCP-Stabilität

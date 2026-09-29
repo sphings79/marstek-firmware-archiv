@@ -2,6 +2,18 @@
 
 🇬🇧 **English** · [🇩🇪 Deutsch](CHANGELOG.de.md)
 
+## v151 — 2026-09-29
+
+- Optimize modbus tcp stability
+- The problem that DOD cannot be discharged due to abnormal status before optimization
+- Add Ymodel upgrade type verification
+- Optimize AI mode verification and query the current AI strategy of the device
+- Fixed the pre-release server URL error, causing data upload failure.
+- Optimize the stability of Https upload data
+- Optimize CT communication frequency to 1.1S
+
+<sub>Issue [#47](../../../../../issues/47) · File `151_control_VNSE3-0_ems_app_0151_0928_094421.bin` · SHA-256 `a2f566ebdf3f…`</sub>
+
 ## v150 — 2026-08-12
 
 - Fixed faulty Local API transmission in Ethernet mode

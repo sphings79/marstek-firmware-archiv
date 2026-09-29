@@ -1,7 +1,7 @@
 # Marstek Firmware Archiv
 
 [![Stars](https://img.shields.io/github/stars/sphings79/marstek-firmware-archiv?style=flat&logo=github&label=Sterne)](https://github.com/sphings79/marstek-firmware-archiv/stargazers)
-[![Firmware](https://img.shields.io/badge/Firmware--Dateien-49-blue)](#verfügbare-firmware)
+[![Firmware](https://img.shields.io/badge/Firmware--Dateien-50-blue)](#verfügbare-firmware)
 [![Updated](https://img.shields.io/github/last-commit/sphings79/marstek-firmware-archiv?label=zuletzt%20aktualisiert)](https://github.com/sphings79/marstek-firmware-archiv/commits/main)
 
 [🇬🇧 English](README.md) · 🇩🇪 **Deutsch**
@@ -39,7 +39,7 @@ Englisch, SHA-256-Prüfsumme, Dateigröße und Changelog pro Version.
 | `HMJ-2` | Marstek Saturn / B2500 v2 | [1 Version](#hmj-2--marstek-saturn--b2500-v2) |
 | `VNSA-0` | Marstek Venus A | [11 Versionen](#vnsa-0--marstek-venus-a) |
 | `VNSD-0` | Marstek Venus D | [11 Versionen](#vnsd-0--marstek-venus-d) |
-| `VNSE3-0` | Marstek Venus E 3.0 | [14 Versionen](#vnse3-0--marstek-venus-e-30) |
+| `VNSE3-0` | Marstek Venus E 3.0 | [15 Versionen](#vnse3-0--marstek-venus-e-30) |
 
 Der Gerätecode steht in der Marstek-App bzw. wird vom
 [Firmware-Checker](#-firmware-checker-tool) direkt mit ausgelesen.
@@ -187,6 +187,7 @@ einreichen:
 
 | Version | Größe | Hinzugefügt | Download | Issue | Änderungen |
 |---------|-------|-------------|----------|-------|------------|
+| v151 | 370 KB | 2026-09-29 | [📁 151_control_VNSE3-0_ems_app_0151_0928_094421.bin](firmwares/VNSE3-0/Control/151/151_control_VNSE3-0_ems_app_0151_0928_094421.bin) | [#47](../../issues/47) | 1. Optimieren Sie die Modbus-TCP-Stabilität<br>2. Das Problem, dass DOD aufgrund eines abnormalen Status vor der Optimierung nicht entlassen werden kann<br>3. Fügen Sie die Überprüfung des Ymodel-Upgrade-Typs hinzu<br>4. Optimieren Sie die Überprüfung des KI-Modus und fragen Sie die aktuelle KI-Strategie des Geräts ab<br>5. Der URL-Fehler des Vorabversionsservers wurde behoben, der zu einem Fehler beim Hochladen der Daten führte.<br>6. Optimieren Sie die Stabilität von HTTP-Upload-Daten<br>7. Optimieren Sie die CT-Kommunikationsfrequenz auf 1,1 S |
 | v150 | 366 KB | 2026-08-12 | [📁 150_control_VNSE3-0_app_0150_0804_151249.bin](firmwares/VNSE3-0/Control/150/150_control_VNSE3-0_app_0150_0804_151249.bin) | [#27](../../issues/27) | 1. Fehlerhaftes Senden der Local API im Ethernet-Modus behoben<br>2. Fehlgeschlagene HTTP-Updates im Ethernet-Modus behoben<br>3. Peak-Shaving-Funktion ergänzt<br>4. Datenverlust durch zu lange HTTP-Datensätze behoben<br>5. Anbindung des Stromzählers auf CT_TYPE-Verbindung umgestellt |
 | v149 | 362 KB | 2026-08-12 | [📁 149_control_VNSE3-0_app_0149_0528_3_101940.bin](firmwares/VNSE3-0/Control/149/149_control_VNSE3-0_app_0149_0528_3_101940.bin) | [#12](../../issues/12) | 1. Weitere OpenAPI-Funktionen ergänzt; behoben: ES-Schnittstelle lieferte PV-Daten als 0, und nach manuellem Umschalten wurde fälschlich UPS angezeigt<br>2. Reparaturmechanismus bei I²C-Deadlock ergänzt, behebt Lesefehler am EEPROM<br>3. Unterstützung für französische Stromzähler ergänzt<br>4. HTTP-Datenupload um IP-Adresse und kumulierte Lade-/Entlademenge der Batterie erweitert (nur VE3)<br>5. Überschusseinspeisung ins Netz optimiert<br>6. Fehlerhafte Übertragung der DOD-Konfiguration behoben<br>7. HTTP-Upload-Intervall auf 5 Minuten geändert; fehlerhafte Zellspannungswerte beim VA behoben<br>8. Konfiguration der maximalen Leistung wird unterstützt |
 | v148 | 358 KB | 2026-08-12 | [📁 148_control_VNSE3-0_app_0148_0331_093751.bin](firmwares/VNSE3-0/Control/148/148_control_VNSE3-0_app_0148_0331_093751.bin) | [#20](../../issues/20) | 1. Datensicherung ergänzt<br>2. Erkennung von Zählerabrissen und Phasenerkennung verbessert<br>3. Falsch angezeigtes MQTT-Verbindungsflag im Ethernet-Modus behoben<br>4. Verbindungsstabilität nach MQTT-Netzabriss und Reset verbessert<br>5. Behoben: nach erneutem Setzen der DOD war kein Entladen mehr möglich<br>6. Anbindung an Drittanbieter-Server verbessert, Timeout-Rücksetzung entfällt |
@@ -209,8 +210,8 @@ einreichen:
 
 ---
 
-**Firmware-Dateien gesamt:** 49
-**Zuletzt aktualisiert:** 2026-09-29 17:14:16 UTC
+**Firmware-Dateien gesamt:** 50
+**Zuletzt aktualisiert:** 2026-09-29 17:14:37 UTC
 
 ## Mitmachen
 
