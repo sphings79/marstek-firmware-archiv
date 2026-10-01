@@ -61,6 +61,7 @@ jobs:
         run: |
           node scripts/generate-changelogs.js
           node scripts/update-readme.js
+          node scripts/generate-index.js
 
       - name: Änderungen committen
         if: steps.archive.outputs.status == 'archived'
@@ -70,7 +71,7 @@ jobs:
           git config user.name  "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
 
-          git add firmwares README.md README.de.md CHANGELOG.md CHANGELOG.de.md scripts/translation-cache.json
+          git add firmwares index.json README.md README.de.md CHANGELOG.md CHANGELOG.de.md scripts/translation-cache.json
           if git diff --cached --quiet; then
             echo "Nichts zu committen"; exit 0
           fi
@@ -101,8 +102,9 @@ jobs:
 
             node scripts/generate-changelogs.js
             node scripts/update-readme.js
+            node scripts/generate-index.js
 
-            git add firmwares README.md README.de.md CHANGELOG.md CHANGELOG.de.md scripts/translation-cache.json
+            git add firmwares index.json README.md README.de.md CHANGELOG.md CHANGELOG.de.md scripts/translation-cache.json
             if git diff --cached --quiet; then
               echo "Nach Merge nichts mehr zu committen – Remote enthält diese Firmware bereits"; exit 0
             fi

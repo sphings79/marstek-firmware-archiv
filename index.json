@@ -1,0 +1,492 @@
+{
+ "devices": {
+  "HMG-50": {
+   "model": "Marstek Venus E Gen 1/2",
+   "firmwares": [
+    {
+     "type": "BMS",
+     "version": "216",
+     "display": "216",
+     "beta": false,
+     "file": "firmwares/HMG-50/BMS/216/216_bms_HMG-50_20250902100339408038111.bin",
+     "size": 73728,
+     "sha256": "53534f76641d6ec2665261b07f85087cc1feb123b280e786cefbc9aea0a15307",
+     "date": "2025-09-08",
+     "noteEN": "Fixed SOC jumps at a low state of charge",
+     "noteDE": "SOC-Sprünge bei niedrigem Ladestand behoben"
+    },
+    {
+     "type": "BMS",
+     "version": "215",
+     "display": "215",
+     "beta": false,
+     "file": "firmwares/HMG-50/BMS/215/215_bms_HMG-50_20250806112046448ef9739.bin",
+     "size": 73728,
+     "sha256": "ecf40e475fff8a887e5e392139b5082f7943ea7350009681ac2a14bfbdef98c5",
+     "date": "2025-08-25",
+     "noteEN": "1. Raised the full-charge hysteresis from 97 to 99 %\n2. Improved firmware update stability",
+     "noteDE": "1. Ladeschluss-Hysterese von 97 auf 99 % angehoben\n2. Stabilität des Update-Vorgangs verbessert"
+    },
+    {
+     "type": "Control",
+     "version": "156",
+     "display": "156",
+     "beta": false,
+     "file": "firmwares/HMG-50/Control/156/156_control_HMG-50_20251118172129117290445.bin",
+     "size": 241664,
+     "sha256": "17eb3a10bfadf3fd1808dd45e0563c39ed5e766ef72814375491b21192c05243",
+     "date": "2026-07-31",
+     "noteEN": "1. Bluetooth broadcasting can now be switched on and off\n2. Added configuration for a third-party server\n3. Improved OpenAPI interface stability",
+     "noteDE": "1. Bluetooth-Broadcast lässt sich ein- und ausschalten\n2. Konfiguration eines Drittanbieter-Servers ergänzt\n3. Stabilität der OpenAPI-Schnittstelle verbessert"
+    },
+    {
+     "type": "Control",
+     "version": "155",
+     "display": "155",
+     "beta": false,
+     "file": "firmwares/HMG-50/Control/155/155_control_HMG-50_202509161548003ff722863.bin",
+     "size": 237568,
+     "sha256": "cc7a526cee6c2e651f4988c13c3c0950f29422c692756244b11deead2bc5f940",
+     "date": "2025-10-27",
+     "noteEN": "1. Added cumulative tracking of charge and discharge time\n2. The grid connection standard can now be pushed to the device",
+     "noteDE": "1. Kumulierte Erfassung der Lade- und Entladezeit ergänzt\n2. Netzanschlussnorm lässt sich jetzt an das Gerät übertragen"
+    },
+    {
+     "type": "Control",
+     "version": "153",
+     "display": "153",
+     "beta": false,
+     "file": "firmwares/HMG-50/Control/153/153_control_HMG-50_202505301136007a5b57023.bin",
+     "size": 227328,
+     "sha256": "9fe4fcdfe0a8498f1f9332134b56ee57cf4914f9fac7e8ccd5acee9e65c1b2e7",
+     "date": "2025-08-25",
+     "noteEN": "1. Network setup now supports open (passwordless) Wi-Fi\n2. Fixed various known issues",
+     "noteDE": "1. Einrichtung in WLANs ohne Passwort möglich\n2. Verschiedene bekannte Probleme behoben"
+    }
+   ]
+  },
+  "VNSA-0": {
+   "model": "Marstek Venus A",
+   "firmwares": [
+    {
+     "type": "BMS",
+     "version": "1105",
+     "display": "110.5",
+     "beta": true,
+     "file": "firmwares/VNSA-0/BMS/1105/1105_bms_VNSA-0_VA50A_APP_V1105_ota_144658.bin",
+     "size": 104448,
+     "sha256": "c642c7ea1e84dc8d5848f86fb97f69baaa7e9c4f4ee41473bf972a836a0dfc3d",
+     "date": "2026-08-12",
+     "noteEN": "Use only together with micro-inverter firmware V119.3 or later.\n1. Deep-discharge recovery of the battery via PV start, together with the inverter\n2. Optimised the forced-charge logic",
+     "noteDE": "Nur zusammen mit Micro-Firmware ab V119.3 verwenden.\n1. Tiefentladungs-Rettung der Batterie über PV-Start, gemeinsam mit dem Wechselrichter\n2. Zwangsladelogik optimiert"
+    },
+    {
+     "type": "BMS",
+     "version": "109",
+     "display": "109",
+     "beta": false,
+     "file": "firmwares/VNSA-0/BMS/109/109_bms_VNSA-0_20251226103854b52c66481.bin",
+     "size": 104448,
+     "sha256": "ceabe476044bd33bb14633b6ba313413c343fbee8e7ae0d9eedfc8a3df166aba",
+     "date": "2026-08-26",
+     "noteEN": "See changelog",
+     "noteDE": "Siehe Changelog"
+    },
+    {
+     "type": "Control",
+     "version": "1509",
+     "display": "150.9",
+     "beta": true,
+     "file": "firmwares/VNSA-0/Control/1509/1509_control_VNSA-0_ems_app_1509_0908_093804.bin",
+     "size": 391168,
+     "sha256": "a8c58127189e19937cf179195e714492f890a6a829b03b8e218380042f8d9f23",
+     "date": "2026-09-10",
+     "noteEN": "1. Fixed a fault when PV generation drops out during surplus feed-in\n2. Fixed the LED blinking continuously\n3. Improved CT connection stability and phase detection",
+     "noteDE": "1. Störung behoben, wenn die PV-Erzeugung während der Überschusseinspeisung abbricht\n2. Dauerhaftes Blinken der LED behoben\n3. Stabilität der CT-Verbindung und die Phasenerkennung verbessert"
+    },
+    {
+     "type": "Control",
+     "version": "1508",
+     "display": "150.8",
+     "beta": true,
+     "file": "firmwares/VNSA-0/Control/1508/1508_control_VNSA-0_app_1508_0819_182932.bin",
+     "size": 387072,
+     "sha256": "664623dd130c9ded1225ed7e9223db65b73a4c51add6e53fb66c1014ab3b1e4f",
+     "date": "2026-09-10",
+     "noteEN": "For testing only",
+     "noteDE": "Nur für Testzwecke"
+    },
+    {
+     "type": "Control",
+     "version": "150",
+     "display": "150",
+     "beta": false,
+     "file": "firmwares/VNSA-0/Control/150/150_control_VNSA-0_app_0150_0811_114724.bin",
+     "size": 387072,
+     "sha256": "7dbff622f394a8262f9f545fbdabff2e815aa73122ce37f5b9412ca631702560",
+     "date": "2026-08-26",
+     "noteEN": "1. Fixed faulty Local API transmission in Ethernet mode\n2. Fixed failing HTTP updates in Ethernet mode\n3. Added a peak-shaving function\n4. Fixed data loss caused by overlong HTTP payloads\n5. Switched the meter connection to CT_TYPE",
+     "noteDE": "1. Fehlerhaftes Senden der Local API im Ethernet-Modus behoben\n2. Fehlgeschlagene HTTP-Updates im Ethernet-Modus behoben\n3. Peak-Shaving-Funktion ergänzt\n4. Datenverlust durch zu lange HTTP-Datensätze behoben\n5. Anbindung des Stromzählers auf CT_TYPE-Verbindung umgestellt"
+    },
+    {
+     "type": "Control",
+     "version": "149",
+     "display": "149",
+     "beta": false,
+     "file": "firmwares/VNSA-0/Control/149/149_control_VNSA-0_app_0149_0528_102448.bin",
+     "size": 382976,
+     "sha256": "f14fede53a07462ecbba7c37c0c1b24ac910a5962206a54f2ab21c62034ea07e",
+     "date": "2026-08-12",
+     "noteEN": "1. Added further OpenAPI functions; fixed the ES interface returning PV data as 0 and UPS being displayed incorrectly after a manual switchover\n2. Added a recovery mechanism for I²C deadlocks, fixing EEPROM read errors\n3. Added support for French electricity meters\n4. Extended the HTTP upload with the IP address and the cumulative battery charge/discharge energy (VE3 only)\n5. Optimised surplus feed-in to the grid\n6. Fixed the DOD configuration being sent incorrectly\n7. Changed the HTTP upload interval to 5 minutes; fixed incorrect cell voltage readings on the VA\n8. Maximum power configuration is now supported",
+     "noteDE": "1. Weitere OpenAPI-Funktionen ergänzt; behoben: ES-Schnittstelle lieferte PV-Daten als 0, und nach manuellem Umschalten wurde fälschlich UPS angezeigt\n2. Reparaturmechanismus bei I²C-Deadlock ergänzt, behebt Lesefehler am EEPROM\n3. Unterstützung für französische Stromzähler ergänzt\n4. HTTP-Datenupload um IP-Adresse und kumulierte Lade-/Entlademenge der Batterie erweitert (nur VE3)\n5. Überschusseinspeisung ins Netz optimiert\n6. Fehlerhafte Übertragung der DOD-Konfiguration behoben\n7. HTTP-Upload-Intervall auf 5 Minuten geändert; fehlerhafte Zellspannungswerte beim VA behoben\n8. Konfiguration der maximalen Leistung wird unterstützt"
+    },
+    {
+     "type": "Control",
+     "version": "1487",
+     "display": "148.7",
+     "beta": true,
+     "file": "firmwares/VNSA-0/Control/1487/1487_control_VNSA-0_app_1487_0511_1_155731.bin",
+     "size": 382976,
+     "sha256": "338151c19b98e42415f48b9ea4d8c1894dd401e2c9a7347a0ffc2db12ecab1d9",
+     "date": "2026-08-12",
+     "noteEN": "1. Added further OpenAPI functions (see the OpenAPI documentation); fixed the ES interface returning PV data as 0 and UPS being displayed incorrectly after a manual switchover\n2. Added a recovery mechanism for I²C deadlocks, fixing EEPROM read errors\n3. Added support for French electricity meters\n4. Extended the HTTP upload with the IP address and the cumulative battery charge/discharge energy (VE3 only)\n5. Optimised surplus feed-in to the grid\n6. Fixed the DOD setting being sent incorrectly from the app\n7. Added parallel updating of several devices in Wi-Fi mode (enabled in special builds only)",
+     "noteDE": "1. Weitere OpenAPI-Funktionen ergänzt (siehe OpenAPI-Dokumentation); behoben: ES-Schnittstelle lieferte PV-Daten als 0, und nach manuellem Umschalten wurde fälschlich UPS angezeigt\n2. Reparaturmechanismus bei I²C-Deadlock ergänzt, behebt Lesefehler am EEPROM\n3. Unterstützung für französische Stromzähler ergänzt\n4. HTTP-Datenupload um IP-Adresse und kumulierte Lade-/Entlademenge der Batterie erweitert (nur VE3)\n5. Überschusseinspeisung ins Netz optimiert\n6. Fehlerhafte Übertragung der DOD-Einstellung aus der App behoben\n7. Paralleles Update mehrerer Geräte im WLAN-Modus ergänzt (nur in Sonderversionen freigeschaltet)"
+    },
+    {
+     "type": "Control",
+     "version": "148",
+     "display": "148",
+     "beta": false,
+     "file": "firmwares/VNSA-0/Control/148/148_control_VNSA-0_app_0148_0330_104509.bin",
+     "size": 376832,
+     "sha256": "02b5088cc9cf7c78ceaf905828d840d6f45ac5800cb39e25ebaac7384a5d255a",
+     "date": "2026-09-05",
+     "noteEN": "Monthly update 148",
+     "noteDE": "Monats-Update 148"
+    },
+    {
+     "type": "Micro",
+     "version": "1211",
+     "display": "121.1",
+     "beta": true,
+     "file": "firmwares/VNSA-0/Micro/1211/1211_micro_VNSA-0_VA_inv_app_1211_0520_ota_193621.bin",
+     "size": 146432,
+     "sha256": "277611ea8982adad4d9ac8e1a1154a9cdea6c9f717b1f60743be640f0023723d",
+     "date": "2026-08-12",
+     "noteEN": "Improved the VA off-grid port's capability to drive loads behind an RCD",
+     "noteDE": "Belastbarkeit des VA-Notstromausgangs mit vorgeschaltetem RCD verbessert"
+    },
+    {
+     "type": "Micro",
+     "version": "1193",
+     "display": "119.3",
+     "beta": true,
+     "file": "firmwares/VNSA-0/Micro/1193/1193_micro_VNSA-0_VA_inv_app_1193_0512_ota_092355.bin",
+     "size": 146432,
+     "sha256": "4735bbe75d698c964597c1c8fd755cc87e90093cc55b99b4d0c42abcfc79cf77",
+     "date": "2026-08-12",
+     "noteEN": "Use only together with BMS firmware V110.5.\n1. Optimised deep-discharge recovery",
+     "noteDE": "Nur zusammen mit BMS-Firmware V110.5 verwenden.\n1. Tiefentladungs-Rettung optimiert"
+    },
+    {
+     "type": "Micro",
+     "version": "119",
+     "display": "119",
+     "beta": false,
+     "file": "firmwares/VNSA-0/Micro/119/119_micro_VNSA-0_VA_inv_app_0119_0326_ota_144725.bin",
+     "size": 146432,
+     "sha256": "b00254c281270e05a6c1d2543ea66598d6ef3926e1e624702c5e2f69b2467b0b",
+     "date": "2026-09-05",
+     "noteEN": "1. Optimised the zero-crossing switching point of the grid relay\n2. Fixed the inverter being unable to start forced charging on its own below 6 % battery SOC\n3. Changed the off-grid port overload thresholds from 1.1 / 1.25 / 1.4× to 1.1 / 1.2×\n4. Adjusted the LLC soft-start gain point to prevent damage to the power stage",
+     "noteDE": "1. Nulldurchgangs-Schaltpunkt des Netzrelais optimiert\n2. Behoben: unter 6 % Batterie-SOC konnte der Wechselrichter die Zwangsladung nicht selbst starten\n3. Überlastschwellen am Notstromausgang von 1,1 / 1,25 / 1,4-fach auf 1,1 / 1,2-fach geändert\n4. Verstärkungspunkt des LLC-Sanftanlaufs angepasst, um Schäden an der Leistungsstufe zu vermeiden"
+    }
+   ]
+  },
+  "VNSD-0": {
+   "model": "Marstek Venus D",
+   "firmwares": [
+    {
+     "type": "BMS",
+     "version": "118",
+     "display": "118",
+     "beta": false,
+     "file": "firmwares/VNSD-0/BMS/118/118_bms_VNSD-0_20260119100535e43806957.bin",
+     "size": 106496,
+     "sha256": "fdcefaec7a8c0cac8850b3abb53a87acff38dafb92fa0af6f4f2f191d9fc7589",
+     "date": "2026-08-12",
+     "noteEN": "OTA test",
+     "noteDE": "OTA-Test"
+    },
+    {
+     "type": "BMS",
+     "version": "1177",
+     "display": "117.7",
+     "beta": true,
+     "file": "firmwares/VNSD-0/BMS/1177/1177_bms_VNSD-0_20251010135647565eb2036.bin",
+     "size": 106496,
+     "sha256": "69b18aa42831536f01546bbe707e36ee65b6faa84e6cf4e92f9fbfe237f67c77",
+     "date": "2026-08-12",
+     "noteEN": "OTA test 117.7",
+     "noteDE": "OTA-Test 117.7"
+    },
+    {
+     "type": "Control",
+     "version": "151",
+     "display": "151",
+     "beta": false,
+     "file": "firmwares/VNSD-0/Control/151/151_control_VNSD-0_ems_app_0151_0929_094333.bin",
+     "size": 393216,
+     "sha256": "db3638cb68683175debe283375f36b02427b9e5e7a647ce2045e8135177fea47",
+     "date": "2026-09-29",
+     "noteEN": "1. Optimize modbus tcp stability\n2. The problem that DOD cannot be discharged due to abnormal status before optimization\n3. Add Ymodel upgrade type verification\n4. Optimize AI mode verification and query the current AI strategy of the device\n5. Fixed the pre-release server URL error, causing data upload failure.\n6. Optimize the stability of Https upload data\n7. Optimize CT communication frequency to 1.1S",
+     "noteDE": "1. Optimieren Sie die Modbus-TCP-Stabilität\n2. Das Problem, dass DOD aufgrund eines abnormalen Status vor der Optimierung nicht entlassen werden kann\n3. Fügen Sie die Überprüfung des Ymodel-Upgrade-Typs hinzu\n4. Optimieren Sie die Überprüfung des KI-Modus und fragen Sie die aktuelle KI-Strategie des Geräts ab\n5. Der URL-Fehler des Vorabversionsservers wurde behoben, der zu einem Fehler beim Hochladen der Daten führte.\n6. Optimieren Sie die Stabilität von HTTP-Upload-Daten\n7. Optimieren Sie die CT-Kommunikationsfrequenz auf 1,1 S"
+    },
+    {
+     "type": "Control",
+     "version": "150",
+     "display": "150",
+     "beta": false,
+     "file": "firmwares/VNSD-0/Control/150/150_control_VNSD-0_app_0150_0805_115146.bin",
+     "size": 389120,
+     "sha256": "4140e7a6d38ac90c8ceb6a5682f7704fd3ad4a45c2cb3fc1f05c95bfc1b71447",
+     "date": "2026-08-13",
+     "noteEN": "1. Fixed faulty Local API transmission in Ethernet mode\n2. Fixed failing HTTP updates in Ethernet mode\n3. Added a peak-shaving function\n4. Fixed data loss caused by overlong HTTP payloads\n5. Switched the meter connection to CT_TYPE",
+     "noteDE": "1. Fehlerhaftes Senden der Local API im Ethernet-Modus behoben\n2. Fehlgeschlagene HTTP-Updates im Ethernet-Modus behoben\n3. Peak-Shaving-Funktion ergänzt\n4. Datenverlust durch zu lange HTTP-Datensätze behoben\n5. Anbindung des Stromzählers auf CT_TYPE-Verbindung umgestellt"
+    },
+    {
+     "type": "Control",
+     "version": "1492",
+     "display": "149.2",
+     "beta": true,
+     "file": "firmwares/VNSD-0/Control/1492/1492_control_VNSD-0_app_1492_0702_142136.bin",
+     "size": 385024,
+     "sha256": "9b24db59c4dbde6c17e1666a778c8f44618558ef2760268a4be95570fc450796",
+     "date": "2026-08-12",
+     "noteEN": "Fixed incorrect data display caused by missing HTTP uploads",
+     "noteDE": "Fehlerhafte Datenanzeige durch ausbleibende HTTP-Uploads behoben"
+    },
+    {
+     "type": "Control",
+     "version": "149",
+     "display": "149",
+     "beta": false,
+     "file": "firmwares/VNSD-0/Control/149/149_control_VNSD-0_app_0149_0521_094621.bin",
+     "size": 385024,
+     "sha256": "a8e5e9285e6ca5a327444d1bd942ece22a7955159e729b0dab0106f2bc8f8ace",
+     "date": "2026-08-12",
+     "noteEN": "1. Added further OpenAPI functions; fixed the ES interface returning PV data as 0 and UPS being displayed incorrectly after a manual switchover\n2. Added a recovery mechanism for I²C deadlocks, fixing EEPROM read errors\n3. Added support for French electricity meters\n4. Extended the HTTP upload with the IP address and the cumulative battery charge/discharge energy (VE3 only)\n5. Optimised surplus feed-in to the grid\n6. Fixed the DOD configuration being sent incorrectly\n7. Changed the HTTP upload interval to 5 minutes; fixed incorrect cell voltage readings on the VA\n8. Maximum power configuration is now supported\n9. Venus D supports a maximum power of 2500 W",
+     "noteDE": "1. Weitere OpenAPI-Funktionen ergänzt; behoben: ES-Schnittstelle lieferte PV-Daten als 0, und nach manuellem Umschalten wurde fälschlich UPS angezeigt\n2. Reparaturmechanismus bei I²C-Deadlock ergänzt, behebt Lesefehler am EEPROM\n3. Unterstützung für französische Stromzähler ergänzt\n4. HTTP-Datenupload um IP-Adresse und kumulierte Lade-/Entlademenge der Batterie erweitert (nur VE3)\n5. Überschusseinspeisung ins Netz optimiert\n6. Fehlerhafte Übertragung der DOD-Konfiguration behoben\n7. HTTP-Upload-Intervall auf 5 Minuten geändert; fehlerhafte Zellspannungswerte beim VA behoben\n8. Konfiguration der maximalen Leistung wird unterstützt\n9. Venus D unterstützt eine maximale Leistung von 2500 W"
+    },
+    {
+     "type": "Control",
+     "version": "147",
+     "display": "147",
+     "beta": false,
+     "file": "firmwares/VNSD-0/Control/147/147_control_VNSD-0_202601281721320b2053125.bin",
+     "size": 372736,
+     "sha256": "3435e0b98067b9ee5891c0ee31956079822729d70ba0bdc2983b6d3a397e20f3",
+     "date": "2026-08-12",
+     "noteEN": "Based on the existing v147:\n1. Improved the connection to German electricity meters\n2. Improved third-party server configuration in Ethernet mode\n3. Fixed occasionally missing HTTP data uploads",
+     "noteDE": "Aufbauend auf dem bisherigen v147:\n1. Anbindung deutscher Stromzähler optimiert\n2. Konfiguration des Drittanbieter-Servers im Ethernet-Betrieb optimiert\n3. Gelegentlich ausbleibende HTTP-Datenübertragungen behoben"
+    },
+    {
+     "type": "Micro",
+     "version": "116",
+     "display": "116",
+     "beta": false,
+     "file": "firmwares/VNSD-0/Micro/116/116_micro_VNSD-0_vd_inv_app_0116_0702_ota_163439.bin",
+     "size": 115712,
+     "sha256": "b81bb99f8213b98e11a082fba17603e5352d57b676ff6649e0323cac9f6fd860",
+     "date": "2026-08-12",
+     "noteEN": "VD 2500w",
+     "noteDE": "VD 2500w"
+    },
+    {
+     "type": "Micro",
+     "version": "115",
+     "display": "115",
+     "beta": false,
+     "file": "firmwares/VNSD-0/Micro/115/115_micro_VNSD-0_202601230921310c0e30687.bin",
+     "size": 115712,
+     "sha256": "b2505973136f414928927df3211ce4ada90bdebcc100b5c770230cb5484c5c98",
+     "date": "2026-08-12",
+     "noteEN": "Adapted to control firmware 147",
+     "noteDE": "Angepasst an Control-Firmware 147"
+    }
+   ]
+  },
+  "VNSE3-0": {
+   "model": "Marstek Venus E 3.0",
+   "firmwares": [
+    {
+     "type": "BMS",
+     "version": "115",
+     "display": "115",
+     "beta": false,
+     "file": "firmwares/VNSE3-0/BMS/115/115_bms_VNSE3-0_Ac3.0BmsAPP_V115_ota_110451.bin",
+     "size": 83968,
+     "sha256": "cb50cc792e247d490abfe8cbc45d611dae49e7b8a8e615000cc5962ece9af4be",
+     "date": "2026-08-12",
+     "noteEN": "1. Optimised the start-up check when SOC reads 100 % or 0 %\n2. Deep-discharge recovery together with the inverter\n3. Fixed a bug that could prevent charging and discharging after a full charge",
+     "noteDE": "1. Prüfbedingung beim Start optimiert, wenn der SOC 100 % oder 0 % beträgt\n2. Tiefentladungs-Rettung gemeinsam mit dem Wechselrichter\n3. Fehler behoben, durch den nach einer Vollladung weder geladen noch entladen werden konnte"
+    },
+    {
+     "type": "BMS",
+     "version": "113",
+     "display": "113",
+     "beta": false,
+     "file": "firmwares/VNSE3-0/BMS/113/113_bms_VNSE3-0_Ac3.0BmsAPP_V113_ota_175955.bin",
+     "size": 97280,
+     "sha256": "da7ebe26b679704dc00b75edc589bbc5b4b8f33f5a89888e93328b8b40f86df9",
+     "date": "2026-08-12",
+     "noteEN": "1.\t„Die Ah‑Integration wird geändert: Sie erfolgt jetzt im Timer‑Interrupt auf Basis des Wechselrichterstroms.“\n2.\t„Berechnung der Schlaf‑/Standby‑Zeit hinzugefügt.“",
+     "noteDE": "1.\t„Die Ah‑Integration wird geändert: Sie erfolgt jetzt im Timer‑Interrupt auf Basis des Wechselrichterstroms.“\n2.\t„Berechnung der Schlaf‑/Standby‑Zeit hinzugefügt.“"
+    },
+    {
+     "type": "BMS",
+     "version": "112",
+     "display": "112",
+     "beta": false,
+     "file": "firmwares/VNSE3-0/BMS/112/112_bms_VNSE3-0_20260121113157833696278.bin",
+     "size": 95232,
+     "sha256": "b3193ced35dd84defe50d6434ba408160dff94973a4ba892a385329f2a4c4d19",
+     "date": "2026-07-07",
+     "noteEN": "Requires VNS firmware 117 and EMS firmware 147.\n1. The charge and discharge MOSFETs are now controlled externally",
+     "noteDE": "Erfordert VNS-Firmware 117 und EMS-Firmware 147.\n1. Lade- und Entlade-MOSFETs werden extern angesteuert"
+    },
+    {
+     "type": "BMS",
+     "version": "110",
+     "display": "110",
+     "beta": false,
+     "file": "firmwares/VNSE3-0/BMS/110/110_bms_VNSE3-0_202512031001144fcbf8852.bin",
+     "size": 91136,
+     "sha256": "7ea97e0fb1360922682b6e04a33e02d2f5f61d09b2d2b201977ddc896471b655",
+     "date": "2025-12-22",
+     "noteEN": "Re-release of firmware 109",
+     "noteDE": "Erneute Auslieferung der Firmware 109"
+    },
+    {
+     "type": "BMS",
+     "version": "106",
+     "display": "106",
+     "beta": false,
+     "file": "firmwares/VNSE3-0/BMS/106/106_bms_VNSE3-0_2025081814112994acd7498.bin",
+     "size": 92160,
+     "sha256": "bf28fb5c786a16012baad0a11bc1e36aafe7843d4e85ef6a63cb00fed03da7bc",
+     "date": "2025-10-27",
+     "noteEN": "Fixed SOC jumps on BMS units with CORNEX cells",
+     "noteDE": "SOC-Sprünge beim BMS mit CORNEX-Zellen behoben"
+    },
+    {
+     "type": "Control",
+     "version": "151",
+     "display": "151",
+     "beta": false,
+     "file": "firmwares/VNSE3-0/Control/151/151_control_VNSE3-0_ems_app_0151_0928_094421.bin",
+     "size": 378880,
+     "sha256": "a2f566ebdf3f94a5b2b171e071bd65237d0cd0ae68035dab5fc34734cf250148",
+     "date": "2026-09-29",
+     "noteEN": "1. Optimize modbus tcp stability\n2. The problem that DOD cannot be discharged due to abnormal status before optimization\n3. Add Ymodel upgrade type verification\n4. Optimize AI mode verification and query the current AI strategy of the device\n5. Fixed the pre-release server URL error, causing data upload failure.\n6. Optimize the stability of Https upload data\n7. Optimize CT communication frequency to 1.1S",
+     "noteDE": "1. Optimieren Sie die Modbus-TCP-Stabilität\n2. Das Problem, dass DOD aufgrund eines abnormalen Status vor der Optimierung nicht entlassen werden kann\n3. Fügen Sie die Überprüfung des Ymodel-Upgrade-Typs hinzu\n4. Optimieren Sie die Überprüfung des KI-Modus und fragen Sie die aktuelle KI-Strategie des Geräts ab\n5. Der URL-Fehler des Vorabversionsservers wurde behoben, der zu einem Fehler beim Hochladen der Daten führte.\n6. Optimieren Sie die Stabilität von HTTP-Upload-Daten\n7. Optimieren Sie die CT-Kommunikationsfrequenz auf 1,1 S"
+    },
+    {
+     "type": "Control",
+     "version": "150",
+     "display": "150",
+     "beta": false,
+     "file": "firmwares/VNSE3-0/Control/150/150_control_VNSE3-0_app_0150_0804_151249.bin",
+     "size": 374784,
+     "sha256": "f043becb81ba2c7a5fb5e13edcdc625c6778724bc27073056967c728c989841b",
+     "date": "2026-08-12",
+     "noteEN": "1. Fixed faulty Local API transmission in Ethernet mode\n2. Fixed failing HTTP updates in Ethernet mode\n3. Added a peak-shaving function\n4. Fixed data loss caused by overlong HTTP payloads\n5. Switched the meter connection to CT_TYPE",
+     "noteDE": "1. Fehlerhaftes Senden der Local API im Ethernet-Modus behoben\n2. Fehlgeschlagene HTTP-Updates im Ethernet-Modus behoben\n3. Peak-Shaving-Funktion ergänzt\n4. Datenverlust durch zu lange HTTP-Datensätze behoben\n5. Anbindung des Stromzählers auf CT_TYPE-Verbindung umgestellt"
+    },
+    {
+     "type": "Control",
+     "version": "149",
+     "display": "149",
+     "beta": false,
+     "file": "firmwares/VNSE3-0/Control/149/149_control_VNSE3-0_app_0149_0528_3_101940.bin",
+     "size": 370688,
+     "sha256": "35a3fbd83bd8725d3868b7523f4874005d4ec822a63622eef3b62fa251345e24",
+     "date": "2026-08-12",
+     "noteEN": "1.\tNeue OpenAPI‑Teilfunktionen hinzugefügt; Fehler behoben, bei dem die ES‑Schnittstelle PV‑Daten mit 0 zurückgab sowie ein Anzeigefehler bei manuellem UPS‑Umschalten.\n2.\tNeue Wiederherstellungsmechanismen bei I²C‑(IIC‑)Deadlocks implementiert, um fehlerhafte EEPROM‑Lesevorgänge zu vermeiden.\n3.\tUnterstützung für französische Stromzähler hinzugefügt.\n4.\tHTTP‑Datenupload erweitert: IP‑Adresse und kumulierte Batterie‑Lade/Entlade‑Energiemenge werden nun mit übertragen (nur VE3).\n5.\tEinspeisung von Überschussenergie ins Netz („Selbstverbrauch mit Überschusseinspeisung“) optimiert.\n6.\tFehler bei der Verteilung/Übertragung der DOD‑Konfiguration (Depth of Discharge) behoben.\n7.\tIntervall für HTTP‑Datenupload auf 5 Minuten geändert; Fehler bei VA‑Zellspannungsdaten korrigiert.\n8.\tUnterstützung für die Konfiguration der maximalen Ausgangsleistung hinzugefügt.",
+     "noteDE": "1.\tNeue OpenAPI‑Teilfunktionen hinzugefügt; Fehler behoben, bei dem die ES‑Schnittstelle PV‑Daten mit 0 zurückgab sowie ein Anzeigefehler bei manuellem UPS‑Umschalten.\n2.\tNeue Wiederherstellungsmechanismen bei I²C‑(IIC‑)Deadlocks implementiert, um fehlerhafte EEPROM‑Lesevorgänge zu vermeiden.\n3.\tUnterstützung für französische Stromzähler hinzugefügt.\n4.\tHTTP‑Datenupload erweitert: IP‑Adresse und kumulierte Batterie‑Lade/Entlade‑Energiemenge werden nun mit übertragen (nur VE3).\n5.\tEinspeisung von Überschussenergie ins Netz („Selbstverbrauch mit Überschusseinspeisung“) optimiert.\n6.\tFehler bei der Verteilung/Übertragung der DOD‑Konfiguration (Depth of Discharge) behoben.\n7.\tIntervall für HTTP‑Datenupload auf 5 Minuten geändert; Fehler bei VA‑Zellspannungsdaten korrigiert.\n8.\tUnterstützung für die Konfiguration der maximalen Ausgangsleistung hinzugefügt."
+    },
+    {
+     "type": "Control",
+     "version": "148",
+     "display": "148",
+     "beta": false,
+     "file": "firmwares/VNSE3-0/Control/148/148_control_VNSE3-0_app_0148_0331_093751.bin",
+     "size": 366592,
+     "sha256": "7dd227641f62d590c9f39266aa414f01436f41bfd893d9785dbd4322ef9e0b9f",
+     "date": "2026-08-12",
+     "noteEN": "1. Neue Datenbackup-Funktion hinzugefügt.\n2. Erkennung von Stromzählertrennung und Phasenlage weiter optimiert.\n3. Anzeigeproblem des MQTT-Verbindungsstatus im Ethernet-Modus behoben.\n4. Stabilität der MQTT-Verbindung nach Netztrennung und anschließendem Neustart verbessert.\n5. Problem behoben, bei dem nach einer zweiten DOD-Konfiguration keine Entladung mehr möglich war.\n6. Verbindung zu Drittservern optimiert; Timeout-bedingtes automatisches Löschen deaktiviert.",
+     "noteDE": "1. Neue Datenbackup-Funktion hinzugefügt.\n2. Erkennung von Stromzählertrennung und Phasenlage weiter optimiert.\n3. Anzeigeproblem des MQTT-Verbindungsstatus im Ethernet-Modus behoben.\n4. Stabilität der MQTT-Verbindung nach Netztrennung und anschließendem Neustart verbessert.\n5. Problem behoben, bei dem nach einer zweiten DOD-Konfiguration keine Entladung mehr möglich war.\n6. Verbindung zu Drittservern optimiert; Timeout-bedingtes automatisches Löschen deaktiviert."
+    },
+    {
+     "type": "Control",
+     "version": "1476",
+     "display": "147.6",
+     "beta": true,
+     "file": "firmwares/VNSE3-0/Control/1476/1476_control_VNSE3-0_app_1476_0312_182736.bin",
+     "size": 364544,
+     "sha256": "a2f8dedfe48992d59b212d3d1e23f479e286228724ccbbc8a88eed226ef78a00",
+     "date": "2026-03-13",
+     "noteEN": "Improved MQTT connection stability",
+     "noteDE": "Stabilität der MQTT-Verbindung verbessert"
+    },
+    {
+     "type": "Control",
+     "version": "147",
+     "display": "147",
+     "beta": false,
+     "file": "firmwares/VNSE3-0/Control/147/147_control_VNSE3-0_202601281724177c3442083.bin",
+     "size": 360448,
+     "sha256": "0782d6862c53ee3a6b0324b85282dc848edd6a278e2983bcb6d7ae935fc6dab6",
+     "date": "2026-08-30",
+     "noteEN": "Based on the existing v147:\n1. Improved the connection to German electricity meters\n2. Improved third-party server configuration in Ethernet mode\n3. Fixed occasionally missing HTTP data uploads",
+     "noteDE": "Aufbauend auf dem bisherigen v147:\n1. Anbindung deutscher Stromzähler optimiert\n2. Konfiguration des Drittanbieter-Servers im Ethernet-Betrieb optimiert\n3. Gelegentlich ausbleibende HTTP-Datenübertragungen behoben"
+    },
+    {
+     "type": "Control",
+     "version": "144",
+     "display": "144",
+     "beta": false,
+     "file": "firmwares/VNSE3-0/Control/144/144_control_VNSE3-0_20251118161530cc2d80857.bin",
+     "size": 354304,
+     "sha256": "518a3b8e40c060e5bea51aa2b2257e75712574f8355d67d0ef1bdea56efd5abe",
+     "date": "2025-11-26",
+     "noteEN": "New features:\n1. Anti-backfeed power setpoint: the power at the grid connection point can be set freely, and the device draws or feeds at that value continuously\n2. Support for four additional meters — Netherlands: SMR-P1, Germany: SMR-IR, France: SMR-TIC, new CT002 version: TPM2-100CT\n3. Configurable depth of discharge (DOD): the usable SOC range can be set to [(12–70 %) – 100 %]. In cold regions a higher lower limit is recommended, as it extends battery life\n4. Device Bluetooth can be switched off via the server or the app\n5. Third-party server connection via XID/VID, configurable in the app",
+     "noteDE": "Neue Funktionen:\n1. Leistungs-Sollwert für die Rückspeisesperre: Die Leistung am Netzanschlusspunkt lässt sich frei vorgeben, das Gerät bezieht oder speist konstant mit diesem Wert\n2. Unterstützung für vier weitere Stromzähler — Niederlande: SMR-P1, Deutschland: SMR-IR, Frankreich: SMR-TIC, neue CT002-Version: TPM2-100CT\n3. Einstellbare Entladetiefe (DOD): Der nutzbare SOC-Bereich lässt sich auf [(12–70 %) – 100 %] festlegen. In kalten Regionen empfiehlt sich ein höherer unterer Wert, das verlängert die Lebensdauer der Batterie\n4. Bluetooth des Geräts lässt sich über Server oder App abschalten\n5. Verbindung zu einem Drittanbieter-Server über XID/VID, einstellbar in der App"
+    },
+    {
+     "type": "Micro",
+     "version": "119",
+     "display": "119",
+     "beta": false,
+     "file": "firmwares/VNSE3-0/Micro/119/119_micro_VNSE3-0_inv_app_0119_0326_ota_152726.bin",
+     "size": 119808,
+     "sha256": "3c834d677e0d56868af3dab18bd7c1ae44ea6a2a776c70f3756991d6592eeb5d",
+     "date": "2026-08-12",
+     "noteEN": "Fixed forced charging not starting below 6 % SOC",
+     "noteDE": "Behoben: unterhalb von 6 % SOC wurde die Zwangsladung nicht gestartet"
+    },
+    {
+     "type": "Micro",
+     "version": "116",
+     "display": "116",
+     "beta": false,
+     "file": "firmwares/VNSE3-0/Micro/116/116_micro_VNSE3-0_20251128103443b389c9748.bin",
+     "size": 117760,
+     "sha256": "dfcb319c16a937cfe72fafe5f7a3cbaec35a1aba76ab7fec0292780807beea29",
+     "date": "2026-09-24",
+     "noteEN": "Optimization After the device has been stationary for a long time, the battery is seriously out of power and cannot be strongly charged.",
+     "noteDE": "Optimieren Sie das Problem, dass der Akku nach längerem Stehenlassen des Geräts stark entladen ist, was dazu führt, dass der Ladevorgang nicht erzwungen werden kann."
+    }
+   ]
+  }
+ }
+}

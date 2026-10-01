@@ -53,6 +53,7 @@ jobs:
         run: |
           node scripts/generate-changelogs.js
           node scripts/update-readme.js
+          node scripts/generate-index.js
 
       - name: Branch pushen & Pull Request öffnen
         if: steps.sync.outputs.count != '0' && !inputs.dry_run
@@ -69,7 +70,7 @@ jobs:
           git config user.email "github-actions[bot]@users.noreply.github.com"
 
           git checkout -b "$SYNC_BRANCH"
-          git add firmwares README.md README.de.md CHANGELOG.md CHANGELOG.de.md scripts/translation-cache.json
+          git add firmwares index.json README.md README.de.md CHANGELOG.md CHANGELOG.de.md scripts/translation-cache.json
           if git diff --cached --quiet; then
             echo "Nichts zu committen"; exit 0
           fi
