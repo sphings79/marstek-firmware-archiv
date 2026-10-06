@@ -106,6 +106,18 @@
     },
     {
      "type": "Control",
+     "version": "151",
+     "display": "151",
+     "beta": false,
+     "file": "firmwares/VNSA-0/Control/151/151_control_VNSA-0_ems_app_0151_0928_095826.bin",
+     "size": 391168,
+     "sha256": "5cceb230f28c9c3a67be5e897afd5722f795b3e8f6c39d58d5a2c2873d994346",
+     "date": "2026-10-06",
+     "noteEN": "1. Optimize modbus tcp stability\n2. The problem that DOD cannot be discharged due to abnormal status before optimization\n3. Add Ymodel upgrade type verification\n4. Optimize AI mode verification and query the current AI strategy of the device\n5. Fixed the pre-release server URL error, causing data upload failure.\n6. Optimize the stability of Https upload data\n7. Optimize CT communication frequency to 1.1S",
+     "noteDE": "1. Optimieren Sie die Modbus-TCP-Stabilität\n2. Das Problem, dass DOD aufgrund eines abnormalen Status vor der Optimierung nicht entlassen werden kann\n3. Fügen Sie die Überprüfung des Ymodel-Upgrade-Typs hinzu\n4. Optimieren Sie die Überprüfung des KI-Modus und fragen Sie die aktuelle KI-Strategie des Geräts ab\n5. Der URL-Fehler des Vorabversionsservers wurde behoben, der zu einem Fehler beim Hochladen der Daten führte.\n6. Optimieren Sie die Stabilität von HTTP-Upload-Daten\n7. Optimieren Sie die CT-Kommunikationsfrequenz auf 1,1 S"
+    },
+    {
+     "type": "Control",
      "version": "1509",
      "display": "150.9",
      "beta": true,

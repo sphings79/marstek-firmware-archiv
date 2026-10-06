@@ -4,6 +4,18 @@
 
 Every archived firmware version, newest first.
 
+## VNSA-0 — Control v151 — 2026-10-06
+
+- Optimize modbus tcp stability
+- The problem that DOD cannot be discharged due to abnormal status before optimization
+- Add Ymodel upgrade type verification
+- Optimize AI mode verification and query the current AI strategy of the device
+- Fixed the pre-release server URL error, causing data upload failure.
+- Optimize the stability of Https upload data
+- Optimize CT communication frequency to 1.1S
+
+<sub>Issue [#49](issues/49) · [151_control_VNSA-0_ems_app_0151_0928_095826.bin](firmwares/VNSA-0/Control/151/151_control_VNSA-0_ems_app_0151_0928_095826.bin)</sub>
+
 ## VNSA-0 — BMS v110 — 2026-10-06
 
 - Maximum charge-discharge current modified to 40a

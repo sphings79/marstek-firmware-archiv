@@ -4,6 +4,18 @@
 
 Alle archivierten Firmware-Versionen, chronologisch (neueste zuerst).
 
+## VNSA-0 — Control v151 — 2026-10-06
+
+- Optimieren Sie die Modbus-TCP-Stabilität
+- Das Problem, dass DOD aufgrund eines abnormalen Status vor der Optimierung nicht entlassen werden kann
+- Fügen Sie die Überprüfung des Ymodel-Upgrade-Typs hinzu
+- Optimieren Sie die Überprüfung des KI-Modus und fragen Sie die aktuelle KI-Strategie des Geräts ab
+- Der URL-Fehler des Vorabversionsservers wurde behoben, der zu einem Fehler beim Hochladen der Daten führte.
+- Optimieren Sie die Stabilität von HTTP-Upload-Daten
+- Optimieren Sie die CT-Kommunikationsfrequenz auf 1,1 S
+
+<sub>Issue [#49](issues/49) · [151_control_VNSA-0_ems_app_0151_0928_095826.bin](firmwares/VNSA-0/Control/151/151_control_VNSA-0_ems_app_0151_0928_095826.bin)</sub>
+
 ## VNSA-0 — BMS v110 — 2026-10-06
 
 - Der maximale Lade- und Entladestrom wird auf 40A geändert
