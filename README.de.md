@@ -1,7 +1,7 @@
 # Marstek Firmware Archiv
 
 [![Stars](https://img.shields.io/github/stars/sphings79/marstek-firmware-archiv?style=flat&logo=github&label=Sterne)](https://github.com/sphings79/marstek-firmware-archiv/stargazers)
-[![Firmware](https://img.shields.io/badge/Firmware--Dateien-52-blue)](#verfügbare-firmware)
+[![Firmware](https://img.shields.io/badge/Firmware--Dateien-53-blue)](#verfügbare-firmware)
 [![Updated](https://img.shields.io/github/last-commit/sphings79/marstek-firmware-archiv?label=zuletzt%20aktualisiert)](https://github.com/sphings79/marstek-firmware-archiv/commits/main)
 
 [🇬🇧 English](README.md) · 🇩🇪 **Deutsch**
@@ -37,7 +37,7 @@ Englisch, SHA-256-Prüfsumme, Dateigröße und Changelog pro Version.
 | `HME-4` | Marstek Smart Meter CT002 / P1 | [3 Versionen](#hme-4--marstek-smart-meter-ct002--p1) |
 | `HMG-50` | Marstek Venus E Gen 1/2 | [5 Versionen](#hmg-50--marstek-venus-e-gen-12) |
 | `HMJ-2` | Marstek Saturn / B2500 v2 | [1 Version](#hmj-2--marstek-saturn--b2500-v2) |
-| `VNSA-0` | Marstek Venus A | [13 Versionen](#vnsa-0--marstek-venus-a) |
+| `VNSA-0` | Marstek Venus A | [14 Versionen](#vnsa-0--marstek-venus-a) |
 | `VNSD-0` | Marstek Venus D | [11 Versionen](#vnsd-0--marstek-venus-d) |
 | `VNSE3-0` | Marstek Venus E 3.0 | [15 Versionen](#vnse3-0--marstek-venus-e-30) |
 
@@ -132,6 +132,12 @@ einreichen:
 | v148.7 (Beta) | 374 KB | 2026-08-12 | [📁 1487_control_VNSA-0_app_1487_0511_1_155731.bin](firmwares/VNSA-0/Control/1487/1487_control_VNSA-0_app_1487_0511_1_155731.bin) | [#2](../../issues/2) | 1. Weitere OpenAPI-Funktionen ergänzt (siehe OpenAPI-Dokumentation); behoben: ES-Schnittstelle lieferte PV-Daten als 0, und nach manuellem Umschalten wurde fälschlich UPS angezeigt<br>2. Reparaturmechanismus bei I²C-Deadlock ergänzt, behebt Lesefehler am EEPROM<br>3. Unterstützung für französische Stromzähler ergänzt<br>4. HTTP-Datenupload um IP-Adresse und kumulierte Lade-/Entlademenge der Batterie erweitert (nur VE3)<br>5. Überschusseinspeisung ins Netz optimiert<br>6. Fehlerhafte Übertragung der DOD-Einstellung aus der App behoben<br>7. Paralleles Update mehrerer Geräte im WLAN-Modus ergänzt (nur in Sonderversionen freigeschaltet) |
 | v148 | 368 KB | 2026-09-05 | [📁 148_control_VNSA-0_app_0148_0330_104509.bin](firmwares/VNSA-0/Control/148/148_control_VNSA-0_app_0148_0330_104509.bin) | [#38](../../issues/38) | Monats-Update 148 |
 
+#### FC41D
+
+| Version | Größe | Hinzugefügt | Download | Issue | Änderungen |
+|---------|-------|-------------|----------|-------|------------|
+| v202512040647 | 666.92 KB | 2026-10-06 | [📁 202512040647_fc41d_VNSA-0_202512271054507d95a7957.rbl](firmwares/VNSA-0/FC41D/202512040647/202512040647_fc41d_VNSA-0_202512271054507d95a7957.rbl) | [#50](../../issues/50) |  |
+
 #### Micro
 
 | Version | Größe | Hinzugefügt | Download | Issue | Änderungen |
@@ -212,8 +218,8 @@ einreichen:
 
 ---
 
-**Firmware-Dateien gesamt:** 52
-**Zuletzt aktualisiert:** 2026-10-06 11:25:34 UTC
+**Firmware-Dateien gesamt:** 53
+**Zuletzt aktualisiert:** 2026-10-06 19:18:13 UTC
 
 ## Mitmachen
 

@@ -4,6 +4,12 @@
 
 Alle archivierten Firmware-Versionen, chronologisch (neueste zuerst).
 
+## VNSA-0 — FC41D v202512040647 — 2026-10-06
+
+_Keine Release Notes._
+
+<sub>Issue [#50](issues/50) · [202512040647_fc41d_VNSA-0_202512271054507d95a7957.rbl](firmwares/VNSA-0/FC41D/202512040647/202512040647_fc41d_VNSA-0_202512271054507d95a7957.rbl)</sub>
+
 ## VNSA-0 — Control v151 — 2026-10-06
 
 - Optimieren Sie die Modbus-TCP-Stabilität
