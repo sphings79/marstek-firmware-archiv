@@ -4,6 +4,12 @@
 
 Every archived firmware version, newest first.
 
+## VNSA-0 — BMS v110 — 2026-10-06
+
+- Maximum charge-discharge current modified to 40a
+
+<sub>Issue [#48](issues/48) · [110_bms_VNSA-0_VABMS_APP_110_ota_163748.bin](firmwares/VNSA-0/BMS/110/110_bms_VNSA-0_VABMS_APP_110_ota_163748.bin)</sub>
+
 ## VNSE3-0 — Control v151 — 2026-09-29
 
 - Optimize modbus tcp stability

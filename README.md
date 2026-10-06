@@ -1,7 +1,7 @@
 # Marstek Firmware Archive
 
 [![Stars](https://img.shields.io/github/stars/sphings79/marstek-firmware-archiv?style=flat&logo=github&label=stars)](https://github.com/sphings79/marstek-firmware-archiv/stargazers)
-[![Firmware](https://img.shields.io/badge/firmware--files-50-blue)](#available-firmware)
+[![Firmware](https://img.shields.io/badge/firmware--files-51-blue)](#available-firmware)
 [![Updated](https://img.shields.io/github/last-commit/sphings79/marstek-firmware-archiv?label=last%20updated)](https://github.com/sphings79/marstek-firmware-archiv/commits/main)
 
 🇬🇧 **English** · [🇩🇪 Deutsch](README.de.md)
@@ -37,7 +37,7 @@ SHA-256 checksum, file size and a per-device changelog.
 | `HME-4` | Marstek Smart Meter CT002 / P1 | [3 versions](#hme-4--marstek-smart-meter-ct002--p1) |
 | `HMG-50` | Marstek Venus E Gen 1/2 | [5 versions](#hmg-50--marstek-venus-e-gen-12) |
 | `HMJ-2` | Marstek Saturn / B2500 v2 | [1 version](#hmj-2--marstek-saturn--b2500-v2) |
-| `VNSA-0` | Marstek Venus A | [11 versions](#vnsa-0--marstek-venus-a) |
+| `VNSA-0` | Marstek Venus A | [12 versions](#vnsa-0--marstek-venus-a) |
 | `VNSD-0` | Marstek Venus D | [11 versions](#vnsd-0--marstek-venus-d) |
 | `VNSE3-0` | Marstek Venus E 3.0 | [15 versions](#vnse3-0--marstek-venus-e-30) |
 
@@ -117,6 +117,7 @@ automatically:
 | Version | Size | Added | Download | Issue | Changes |
 |---------|------|-------|----------|-------|---------|
 | v110.5 (Beta) | 102 KB | 2026-08-12 | [📁 1105_bms_VNSA-0_VA50A_APP_V1105_ota_144658.bin](firmwares/VNSA-0/BMS/1105/1105_bms_VNSA-0_VA50A_APP_V1105_ota_144658.bin) | [#22](../../issues/22) | *Use only together with micro-inverter firmware V119.3 or later.*<br>1. Deep-discharge recovery of the battery via PV start, together with the inverter<br>2. Optimised the forced-charge logic |
+| v110 | 102 KB | 2026-10-06 | [📁 110_bms_VNSA-0_VABMS_APP_110_ota_163748.bin](firmwares/VNSA-0/BMS/110/110_bms_VNSA-0_VABMS_APP_110_ota_163748.bin) | [#48](../../issues/48) | Maximum charge-discharge current modified to 40a |
 | v109 | 102 KB | 2026-08-26 | [📁 109_bms_VNSA-0_20251226103854b52c66481.bin](firmwares/VNSA-0/BMS/109/109_bms_VNSA-0_20251226103854b52c66481.bin) | [#35](../../issues/35) | See changelog |
 
 #### Control
@@ -210,8 +211,8 @@ automatically:
 
 ---
 
-**Firmware files in total:** 50
-**Last updated:** 2026-09-29 17:14:37 UTC
+**Firmware files in total:** 51
+**Last updated:** 2026-10-06 05:15:32 UTC
 
 ## Contributing
 

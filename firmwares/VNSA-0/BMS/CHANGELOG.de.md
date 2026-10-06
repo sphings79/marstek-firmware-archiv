@@ -11,6 +11,12 @@ _Nur zusammen mit Micro-Firmware ab V119.3 verwenden._
 
 <sub>Issue [#22](../../../../../issues/22) · Datei `1105_bms_VNSA-0_VA50A_APP_V1105_ota_144658.bin` · SHA-256 `c642c7ea1e84…`</sub>
 
+## v110 — 2026-10-06
+
+- Der maximale Lade- und Entladestrom wird auf 40A geändert
+
+<sub>Issue [#48](../../../../../issues/48) · Datei `110_bms_VNSA-0_VABMS_APP_110_ota_163748.bin` · SHA-256 `f4ee89c8837f…`</sub>
+
 ## v109 — 2026-08-26
 
 - Siehe Changelog

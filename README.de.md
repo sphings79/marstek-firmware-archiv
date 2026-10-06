@@ -1,7 +1,7 @@
 # Marstek Firmware Archiv
 
 [![Stars](https://img.shields.io/github/stars/sphings79/marstek-firmware-archiv?style=flat&logo=github&label=Sterne)](https://github.com/sphings79/marstek-firmware-archiv/stargazers)
-[![Firmware](https://img.shields.io/badge/Firmware--Dateien-50-blue)](#verfügbare-firmware)
+[![Firmware](https://img.shields.io/badge/Firmware--Dateien-51-blue)](#verfügbare-firmware)
 [![Updated](https://img.shields.io/github/last-commit/sphings79/marstek-firmware-archiv?label=zuletzt%20aktualisiert)](https://github.com/sphings79/marstek-firmware-archiv/commits/main)
 
 [🇬🇧 English](README.md) · 🇩🇪 **Deutsch**
@@ -37,7 +37,7 @@ Englisch, SHA-256-Prüfsumme, Dateigröße und Changelog pro Version.
 | `HME-4` | Marstek Smart Meter CT002 / P1 | [3 Versionen](#hme-4--marstek-smart-meter-ct002--p1) |
 | `HMG-50` | Marstek Venus E Gen 1/2 | [5 Versionen](#hmg-50--marstek-venus-e-gen-12) |
 | `HMJ-2` | Marstek Saturn / B2500 v2 | [1 Version](#hmj-2--marstek-saturn--b2500-v2) |
-| `VNSA-0` | Marstek Venus A | [11 Versionen](#vnsa-0--marstek-venus-a) |
+| `VNSA-0` | Marstek Venus A | [12 Versionen](#vnsa-0--marstek-venus-a) |
 | `VNSD-0` | Marstek Venus D | [11 Versionen](#vnsd-0--marstek-venus-d) |
 | `VNSE3-0` | Marstek Venus E 3.0 | [15 Versionen](#vnse3-0--marstek-venus-e-30) |
 
@@ -117,6 +117,7 @@ einreichen:
 | Version | Größe | Hinzugefügt | Download | Issue | Änderungen |
 |---------|-------|-------------|----------|-------|------------|
 | v110.5 (Beta) | 102 KB | 2026-08-12 | [📁 1105_bms_VNSA-0_VA50A_APP_V1105_ota_144658.bin](firmwares/VNSA-0/BMS/1105/1105_bms_VNSA-0_VA50A_APP_V1105_ota_144658.bin) | [#22](../../issues/22) | *Nur zusammen mit Micro-Firmware ab V119.3 verwenden.*<br>1. Tiefentladungs-Rettung der Batterie über PV-Start, gemeinsam mit dem Wechselrichter<br>2. Zwangsladelogik optimiert |
+| v110 | 102 KB | 2026-10-06 | [📁 110_bms_VNSA-0_VABMS_APP_110_ota_163748.bin](firmwares/VNSA-0/BMS/110/110_bms_VNSA-0_VABMS_APP_110_ota_163748.bin) | [#48](../../issues/48) | Der maximale Lade- und Entladestrom wird auf 40A geändert |
 | v109 | 102 KB | 2026-08-26 | [📁 109_bms_VNSA-0_20251226103854b52c66481.bin](firmwares/VNSA-0/BMS/109/109_bms_VNSA-0_20251226103854b52c66481.bin) | [#35](../../issues/35) | Siehe Changelog |
 
 #### Control
@@ -210,8 +211,8 @@ einreichen:
 
 ---
 
-**Firmware-Dateien gesamt:** 50
-**Zuletzt aktualisiert:** 2026-09-29 17:14:37 UTC
+**Firmware-Dateien gesamt:** 51
+**Zuletzt aktualisiert:** 2026-10-06 05:15:32 UTC
 
 ## Mitmachen
 

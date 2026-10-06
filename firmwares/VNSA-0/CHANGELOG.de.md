@@ -2,6 +2,12 @@
 
 [🇬🇧 English](CHANGELOG.md) · 🇩🇪 **Deutsch**
 
+## BMS v110 — 2026-10-06
+
+- Der maximale Lade- und Entladestrom wird auf 40A geändert
+
+<sub>Issue [#48](../../../../issues/48) · Datei `110_bms_VNSA-0_VABMS_APP_110_ota_163748.bin` · SHA-256 `f4ee89c8837f…`</sub>
+
 ## Control v150.8 (Beta) — 2026-09-10
 
 - Nur für Testzwecke

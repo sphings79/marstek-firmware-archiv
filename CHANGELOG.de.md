@@ -4,6 +4,12 @@
 
 Alle archivierten Firmware-Versionen, chronologisch (neueste zuerst).
 
+## VNSA-0 — BMS v110 — 2026-10-06
+
+- Der maximale Lade- und Entladestrom wird auf 40A geändert
+
+<sub>Issue [#48](issues/48) · [110_bms_VNSA-0_VABMS_APP_110_ota_163748.bin](firmwares/VNSA-0/BMS/110/110_bms_VNSA-0_VABMS_APP_110_ota_163748.bin)</sub>
+
 ## VNSE3-0 — Control v151 — 2026-09-29
 
 - Optimieren Sie die Modbus-TCP-Stabilität
