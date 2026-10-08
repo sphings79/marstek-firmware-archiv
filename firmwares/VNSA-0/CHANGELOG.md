@@ -2,6 +2,12 @@
 
 🇬🇧 **English** · [🇩🇪 Deutsch](CHANGELOG.de.md)
 
+## BMS v115 — 2026-10-08
+
+- VNSA115 Official Edition
+
+<sub>Issue [#51](../../../../issues/51) · File `115_bms_VNSA-0_VEPRO_BMS_V115_APP_20260901_ota_174540.bin` · SHA-256 `d44833daebeb…`</sub>
+
 ## FC41D v202512040647 — 2026-10-06
 
 _No release notes._

@@ -70,6 +70,18 @@
    "firmwares": [
     {
      "type": "BMS",
+     "version": "115",
+     "display": "115",
+     "beta": false,
+     "file": "firmwares/VNSA-0/BMS/115/115_bms_VNSA-0_VEPRO_BMS_V115_APP_20260901_ota_174540.bin",
+     "size": 108544,
+     "sha256": "d44833daebebf49350deeffbb725b15b80babd33f35d69e94a004005c8cc8758",
+     "date": "2026-10-08",
+     "noteEN": "VNSA115 Official Edition",
+     "noteDE": "Offizielle VNSA115-Version"
+    },
+    {
+     "type": "BMS",
      "version": "1105",
      "display": "110.5",
      "beta": true,

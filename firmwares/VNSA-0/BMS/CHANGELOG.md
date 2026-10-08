@@ -2,6 +2,12 @@
 
 🇬🇧 **English** · [🇩🇪 Deutsch](CHANGELOG.de.md)
 
+## v115 — 2026-10-08
+
+- VNSA115 Official Edition
+
+<sub>Issue [#51](../../../../../issues/51) · File `115_bms_VNSA-0_VEPRO_BMS_V115_APP_20260901_ota_174540.bin` · SHA-256 `d44833daebeb…`</sub>
+
 ## v110.5 (Beta) — 2026-08-12
 
 _Use only together with micro-inverter firmware V119.3 or later._

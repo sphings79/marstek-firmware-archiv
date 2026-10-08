@@ -2,6 +2,12 @@
 
 [🇬🇧 English](CHANGELOG.md) · 🇩🇪 **Deutsch**
 
+## v115 — 2026-10-08
+
+- Offizielle VNSA115-Version
+
+<sub>Issue [#51](../../../../../issues/51) · Datei `115_bms_VNSA-0_VEPRO_BMS_V115_APP_20260901_ota_174540.bin` · SHA-256 `d44833daebeb…`</sub>
+
 ## v110.5 (Beta) — 2026-08-12
 
 _Nur zusammen mit Micro-Firmware ab V119.3 verwenden._

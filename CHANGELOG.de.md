@@ -4,6 +4,12 @@
 
 Alle archivierten Firmware-Versionen, chronologisch (neueste zuerst).
 
+## VNSA-0 — BMS v115 — 2026-10-08
+
+- Offizielle VNSA115-Version
+
+<sub>Issue [#51](issues/51) · [115_bms_VNSA-0_VEPRO_BMS_V115_APP_20260901_ota_174540.bin](firmwares/VNSA-0/BMS/115/115_bms_VNSA-0_VEPRO_BMS_V115_APP_20260901_ota_174540.bin)</sub>
+
 ## VNSA-0 — FC41D v202512040647 — 2026-10-06
 
 _Keine Release Notes._

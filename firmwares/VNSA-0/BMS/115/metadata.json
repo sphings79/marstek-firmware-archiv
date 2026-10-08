@@ -1,0 +1,51 @@
+{
+  "firmwareType": "BMS",
+  "url": "https://static-eu.marstekenergy.com/uploads/ota/20260914/VEPRO_BMS_V115_APP_20260901_ota_174540.bin",
+  "remark": "正式版本；1.增加包间SOC差大于20触发切包机制，避免有电池包的SOC差过大 2.增加了充放电目标值动态修正，避免一些特殊情况下旧值影响切包 3.降低了充放电末端修正的灵敏度，现在三个单体电压达到阈值才会触发修正；4.优化了充放电mos脱困机制，避免一些极端情况发生",
+  "chinese": "VNSA115正式版",
+  "apiResponse": {
+    "code": 1,
+    "show": 0,
+    "msg": "success",
+    "data": {
+      "control": "",
+      "bms": {
+        "edition": 4563,
+        "devicetype": "",
+        "mcu_type": "bms",
+        "type": "VNSA-0",
+        "url": "https://static-eu.marstekenergy.com/uploads/ota/20260914/VEPRO_BMS_V115_APP_20260901_ota_174540.bin",
+        "version": 115,
+        "english": "",
+        "chinese": "VNSA115正式版",
+        "japanese": "",
+        "remark": "正式版本；1.增加包间SOC差大于20触发切包机制，避免有电池包的SOC差过大 2.增加了充放电目标值动态修正，避免一些特殊情况下旧值影响切包 3.降低了充放电末端修正的灵敏度，现在三个单体电压达到阈值才会触发修正；4.优化了充放电mos脱困机制，避免一些极端情况发生",
+        "is_boot": "N",
+        "is_http": "Y",
+        "crc": "30760",
+        "size": 108544,
+        "force_update": "N"
+      },
+      "mppt": "",
+      "micro": "",
+      "dcdc": "",
+      "bms_pack1": "",
+      "bms_pack2": "",
+      "led": "",
+      "charger": ""
+    }
+  },
+  "deviceType": "VNSA-0",
+  "version": "115",
+  "releaseNote": "VNSA115正式版",
+  "releaseNoteDE": "Offizielle VNSA115-Version",
+  "releaseNoteEN": "VNSA115 Official Edition",
+  "archivedAt": "2026-10-08T10:28:10Z",
+  "archivedFilename": "115_bms_VNSA-0_VEPRO_BMS_V115_APP_20260901_ota_174540.bin",
+  "archivedFilesize": 108544,
+  "archivedSha256": "d44833daebebf49350deeffbb725b15b80babd33f35d69e94a004005c8cc8758",
+  "apiCrc": 30760,
+  "apiSize": 108544,
+  "verified": true,
+  "issueNumber": 51
+}
