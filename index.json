@@ -166,6 +166,18 @@
     },
     {
      "type": "Control",
+     "version": "1491",
+     "display": "149.1",
+     "beta": true,
+     "file": "firmwares/VNSA-0/Control/1491/1491_control_VNSA-0_app_1491_0528_145327.bin",
+     "size": 382976,
+     "sha256": "271c60265478cf92eba21824814632c185d9344244112a842b547fd1e65b6a16",
+     "date": "2026-10-12",
+     "noteEN": "V149 Alternate",
+     "noteDE": "V149 Alternativversion"
+    },
+    {
+     "type": "Control",
      "version": "149",
      "display": "149",
      "beta": false,

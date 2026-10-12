@@ -2,6 +2,12 @@
 
 🇬🇧 **English** · [🇩🇪 Deutsch](CHANGELOG.de.md)
 
+## Control v149.1 (Beta) — 2026-10-12
+
+- V149 Alternate
+
+<sub>Issue [#52](../../../../issues/52) · File `1491_control_VNSA-0_app_1491_0528_145327.bin` · SHA-256 `271c60265478…`</sub>
+
 ## BMS v115 — 2026-10-08
 
 - VNSA115 Official Edition

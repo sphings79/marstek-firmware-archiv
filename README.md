@@ -1,7 +1,7 @@
 # Marstek Firmware Archive
 
 [![Stars](https://img.shields.io/github/stars/sphings79/marstek-firmware-archiv?style=flat&logo=github&label=stars)](https://github.com/sphings79/marstek-firmware-archiv/stargazers)
-[![Firmware](https://img.shields.io/badge/firmware--files-54-blue)](#available-firmware)
+[![Firmware](https://img.shields.io/badge/firmware--files-55-blue)](#available-firmware)
 [![Updated](https://img.shields.io/github/last-commit/sphings79/marstek-firmware-archiv?label=last%20updated)](https://github.com/sphings79/marstek-firmware-archiv/commits/main)
 
 🇬🇧 **English** · [🇩🇪 Deutsch](README.de.md)
@@ -37,7 +37,7 @@ SHA-256 checksum, file size and a per-device changelog.
 | `HME-4` | Marstek Smart Meter CT002 / P1 | [3 versions](#hme-4--marstek-smart-meter-ct002--p1) |
 | `HMG-50` | Marstek Venus E Gen 1/2 | [5 versions](#hmg-50--marstek-venus-e-gen-12) |
 | `HMJ-2` | Marstek Saturn / B2500 v2 | [1 version](#hmj-2--marstek-saturn--b2500-v2) |
-| `VNSA-0` | Marstek Venus A | [15 versions](#vnsa-0--marstek-venus-a) |
+| `VNSA-0` | Marstek Venus A | [16 versions](#vnsa-0--marstek-venus-a) |
 | `VNSD-0` | Marstek Venus D | [11 versions](#vnsd-0--marstek-venus-d) |
 | `VNSE3-0` | Marstek Venus E 3.0 | [15 versions](#vnse3-0--marstek-venus-e-30) |
 
@@ -129,6 +129,7 @@ automatically:
 | v150.9 (Beta) | 382 KB | 2026-09-10 | [📁 1509_control_VNSA-0_ems_app_1509_0908_093804.bin](firmwares/VNSA-0/Control/1509/1509_control_VNSA-0_ems_app_1509_0908_093804.bin) | [#40](../../issues/40) | 1. Fixed a fault when PV generation drops out during surplus feed-in<br>2. Fixed the LED blinking continuously<br>3. Improved CT connection stability and phase detection |
 | v150.8 (Beta) | 378 KB | 2026-09-10 | [📁 1508_control_VNSA-0_app_1508_0819_182932.bin](firmwares/VNSA-0/Control/1508/1508_control_VNSA-0_app_1508_0819_182932.bin) | [#41](../../issues/41) | For testing only |
 | v150 | 378 KB | 2026-08-26 | [📁 150_control_VNSA-0_app_0150_0811_114724.bin](firmwares/VNSA-0/Control/150/150_control_VNSA-0_app_0150_0811_114724.bin) | [#36](../../issues/36) | 1. Fixed faulty Local API transmission in Ethernet mode<br>2. Fixed failing HTTP updates in Ethernet mode<br>3. Added a peak-shaving function<br>4. Fixed data loss caused by overlong HTTP payloads<br>5. Switched the meter connection to CT_TYPE |
+| v149.1 (Beta) | 374 KB | 2026-10-12 | [📁 1491_control_VNSA-0_app_1491_0528_145327.bin](firmwares/VNSA-0/Control/1491/1491_control_VNSA-0_app_1491_0528_145327.bin) | [#52](../../issues/52) | V149 Alternate |
 | v149 | 374 KB | 2026-08-12 | [📁 149_control_VNSA-0_app_0149_0528_102448.bin](firmwares/VNSA-0/Control/149/149_control_VNSA-0_app_0149_0528_102448.bin) | [#23](../../issues/23) | 1. Added further OpenAPI functions; fixed the ES interface returning PV data as 0 and UPS being displayed incorrectly after a manual switchover<br>2. Added a recovery mechanism for I²C deadlocks, fixing EEPROM read errors<br>3. Added support for French electricity meters<br>4. Extended the HTTP upload with the IP address and the cumulative battery charge/discharge energy (VE3 only)<br>5. Optimised surplus feed-in to the grid<br>6. Fixed the DOD configuration being sent incorrectly<br>7. Changed the HTTP upload interval to 5 minutes; fixed incorrect cell voltage readings on the VA<br>8. Maximum power configuration is now supported |
 | v148.7 (Beta) | 374 KB | 2026-08-12 | [📁 1487_control_VNSA-0_app_1487_0511_1_155731.bin](firmwares/VNSA-0/Control/1487/1487_control_VNSA-0_app_1487_0511_1_155731.bin) | [#2](../../issues/2) | 1. Added further OpenAPI functions (see the OpenAPI documentation); fixed the ES interface returning PV data as 0 and UPS being displayed incorrectly after a manual switchover<br>2. Added a recovery mechanism for I²C deadlocks, fixing EEPROM read errors<br>3. Added support for French electricity meters<br>4. Extended the HTTP upload with the IP address and the cumulative battery charge/discharge energy (VE3 only)<br>5. Optimised surplus feed-in to the grid<br>6. Fixed the DOD setting being sent incorrectly from the app<br>7. Added parallel updating of several devices in Wi-Fi mode (enabled in special builds only) |
 | v148 | 368 KB | 2026-09-05 | [📁 148_control_VNSA-0_app_0148_0330_104509.bin](firmwares/VNSA-0/Control/148/148_control_VNSA-0_app_0148_0330_104509.bin) | [#38](../../issues/38) | Monthly update 148 |
@@ -219,8 +220,8 @@ automatically:
 
 ---
 
-**Firmware files in total:** 54
-**Last updated:** 2026-10-08 10:28:10 UTC
+**Firmware files in total:** 55
+**Last updated:** 2026-10-12 05:37:59 UTC
 
 ## Contributing
 

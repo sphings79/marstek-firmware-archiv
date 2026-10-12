@@ -38,6 +38,12 @@
 
 <sub>Issue [#36](../../../../../issues/36) · File `150_control_VNSA-0_app_0150_0811_114724.bin` · SHA-256 `7dbff622f394…`</sub>
 
+## v149.1 (Beta) — 2026-10-12
+
+- V149 Alternate
+
+<sub>Issue [#52](../../../../../issues/52) · File `1491_control_VNSA-0_app_1491_0528_145327.bin` · SHA-256 `271c60265478…`</sub>
+
 ## v149 — 2026-08-12
 
 - Added further OpenAPI functions; fixed the ES interface returning PV data as 0 and UPS being displayed incorrectly after a manual switchover

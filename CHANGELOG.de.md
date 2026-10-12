@@ -4,6 +4,12 @@
 
 Alle archivierten Firmware-Versionen, chronologisch (neueste zuerst).
 
+## VNSA-0 — Control v149.1 (Beta) — 2026-10-12
+
+- V149 Alternativversion
+
+<sub>Issue [#52](issues/52) · [1491_control_VNSA-0_app_1491_0528_145327.bin](firmwares/VNSA-0/Control/1491/1491_control_VNSA-0_app_1491_0528_145327.bin)</sub>
+
 ## VNSA-0 — BMS v115 — 2026-10-08
 
 - Offizielle VNSA115-Version

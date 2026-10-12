@@ -1,7 +1,7 @@
 # Marstek Firmware Archiv
 
 [![Stars](https://img.shields.io/github/stars/sphings79/marstek-firmware-archiv?style=flat&logo=github&label=Sterne)](https://github.com/sphings79/marstek-firmware-archiv/stargazers)
-[![Firmware](https://img.shields.io/badge/Firmware--Dateien-54-blue)](#verfügbare-firmware)
+[![Firmware](https://img.shields.io/badge/Firmware--Dateien-55-blue)](#verfügbare-firmware)
 [![Updated](https://img.shields.io/github/last-commit/sphings79/marstek-firmware-archiv?label=zuletzt%20aktualisiert)](https://github.com/sphings79/marstek-firmware-archiv/commits/main)
 
 [🇬🇧 English](README.md) · 🇩🇪 **Deutsch**
@@ -37,7 +37,7 @@ Englisch, SHA-256-Prüfsumme, Dateigröße und Changelog pro Version.
 | `HME-4` | Marstek Smart Meter CT002 / P1 | [3 Versionen](#hme-4--marstek-smart-meter-ct002--p1) |
 | `HMG-50` | Marstek Venus E Gen 1/2 | [5 Versionen](#hmg-50--marstek-venus-e-gen-12) |
 | `HMJ-2` | Marstek Saturn / B2500 v2 | [1 Version](#hmj-2--marstek-saturn--b2500-v2) |
-| `VNSA-0` | Marstek Venus A | [15 Versionen](#vnsa-0--marstek-venus-a) |
+| `VNSA-0` | Marstek Venus A | [16 Versionen](#vnsa-0--marstek-venus-a) |
 | `VNSD-0` | Marstek Venus D | [11 Versionen](#vnsd-0--marstek-venus-d) |
 | `VNSE3-0` | Marstek Venus E 3.0 | [15 Versionen](#vnse3-0--marstek-venus-e-30) |
 
@@ -129,6 +129,7 @@ einreichen:
 | v150.9 (Beta) | 382 KB | 2026-09-10 | [📁 1509_control_VNSA-0_ems_app_1509_0908_093804.bin](firmwares/VNSA-0/Control/1509/1509_control_VNSA-0_ems_app_1509_0908_093804.bin) | [#40](../../issues/40) | 1. Störung behoben, wenn die PV-Erzeugung während der Überschusseinspeisung abbricht<br>2. Dauerhaftes Blinken der LED behoben<br>3. Stabilität der CT-Verbindung und die Phasenerkennung verbessert |
 | v150.8 (Beta) | 378 KB | 2026-09-10 | [📁 1508_control_VNSA-0_app_1508_0819_182932.bin](firmwares/VNSA-0/Control/1508/1508_control_VNSA-0_app_1508_0819_182932.bin) | [#41](../../issues/41) | Nur für Testzwecke |
 | v150 | 378 KB | 2026-08-26 | [📁 150_control_VNSA-0_app_0150_0811_114724.bin](firmwares/VNSA-0/Control/150/150_control_VNSA-0_app_0150_0811_114724.bin) | [#36](../../issues/36) | 1. Fehlerhaftes Senden der Local API im Ethernet-Modus behoben<br>2. Fehlgeschlagene HTTP-Updates im Ethernet-Modus behoben<br>3. Peak-Shaving-Funktion ergänzt<br>4. Datenverlust durch zu lange HTTP-Datensätze behoben<br>5. Anbindung des Stromzählers auf CT_TYPE-Verbindung umgestellt |
+| v149.1 (Beta) | 374 KB | 2026-10-12 | [📁 1491_control_VNSA-0_app_1491_0528_145327.bin](firmwares/VNSA-0/Control/1491/1491_control_VNSA-0_app_1491_0528_145327.bin) | [#52](../../issues/52) | V149 Alternativversion |
 | v149 | 374 KB | 2026-08-12 | [📁 149_control_VNSA-0_app_0149_0528_102448.bin](firmwares/VNSA-0/Control/149/149_control_VNSA-0_app_0149_0528_102448.bin) | [#23](../../issues/23) | 1. Weitere OpenAPI-Funktionen ergänzt; behoben: ES-Schnittstelle lieferte PV-Daten als 0, und nach manuellem Umschalten wurde fälschlich UPS angezeigt<br>2. Reparaturmechanismus bei I²C-Deadlock ergänzt, behebt Lesefehler am EEPROM<br>3. Unterstützung für französische Stromzähler ergänzt<br>4. HTTP-Datenupload um IP-Adresse und kumulierte Lade-/Entlademenge der Batterie erweitert (nur VE3)<br>5. Überschusseinspeisung ins Netz optimiert<br>6. Fehlerhafte Übertragung der DOD-Konfiguration behoben<br>7. HTTP-Upload-Intervall auf 5 Minuten geändert; fehlerhafte Zellspannungswerte beim VA behoben<br>8. Konfiguration der maximalen Leistung wird unterstützt |
 | v148.7 (Beta) | 374 KB | 2026-08-12 | [📁 1487_control_VNSA-0_app_1487_0511_1_155731.bin](firmwares/VNSA-0/Control/1487/1487_control_VNSA-0_app_1487_0511_1_155731.bin) | [#2](../../issues/2) | 1. Weitere OpenAPI-Funktionen ergänzt (siehe OpenAPI-Dokumentation); behoben: ES-Schnittstelle lieferte PV-Daten als 0, und nach manuellem Umschalten wurde fälschlich UPS angezeigt<br>2. Reparaturmechanismus bei I²C-Deadlock ergänzt, behebt Lesefehler am EEPROM<br>3. Unterstützung für französische Stromzähler ergänzt<br>4. HTTP-Datenupload um IP-Adresse und kumulierte Lade-/Entlademenge der Batterie erweitert (nur VE3)<br>5. Überschusseinspeisung ins Netz optimiert<br>6. Fehlerhafte Übertragung der DOD-Einstellung aus der App behoben<br>7. Paralleles Update mehrerer Geräte im WLAN-Modus ergänzt (nur in Sonderversionen freigeschaltet) |
 | v148 | 368 KB | 2026-09-05 | [📁 148_control_VNSA-0_app_0148_0330_104509.bin](firmwares/VNSA-0/Control/148/148_control_VNSA-0_app_0148_0330_104509.bin) | [#38](../../issues/38) | Monats-Update 148 |
@@ -219,8 +220,8 @@ einreichen:
 
 ---
 
-**Firmware-Dateien gesamt:** 54
-**Zuletzt aktualisiert:** 2026-10-08 10:28:10 UTC
+**Firmware-Dateien gesamt:** 55
+**Zuletzt aktualisiert:** 2026-10-12 05:37:59 UTC
 
 ## Mitmachen
 
