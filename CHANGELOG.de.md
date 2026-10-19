@@ -4,6 +4,12 @@
 
 Alle archivierten Firmware-Versionen, chronologisch (neueste zuerst).
 
+## VNSD-0 — BMS v117 — 2026-10-19
+
+- Die Beispielversion 117 wird veröffentlicht, um den Ruhezustand und die Upgrade-Logik zu optimieren.
+
+<sub>Issue [#53](issues/53) · [117_bms_VNSD-0_20250917111019d3c315055.bin](firmwares/VNSD-0/BMS/117/117_bms_VNSD-0_20250917111019d3c315055.bin)</sub>
+
 ## VNSA-0 — Control v149.1 (Beta) — 2026-10-12
 
 - V149 Alternativversion

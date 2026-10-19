@@ -1,7 +1,7 @@
 # Marstek Firmware Archive
 
 [![Stars](https://img.shields.io/github/stars/sphings79/marstek-firmware-archiv?style=flat&logo=github&label=stars)](https://github.com/sphings79/marstek-firmware-archiv/stargazers)
-[![Firmware](https://img.shields.io/badge/firmware--files-55-blue)](#available-firmware)
+[![Firmware](https://img.shields.io/badge/firmware--files-56-blue)](#available-firmware)
 [![Updated](https://img.shields.io/github/last-commit/sphings79/marstek-firmware-archiv?label=last%20updated)](https://github.com/sphings79/marstek-firmware-archiv/commits/main)
 
 🇬🇧 **English** · [🇩🇪 Deutsch](README.de.md)
@@ -38,7 +38,7 @@ SHA-256 checksum, file size and a per-device changelog.
 | `HMG-50` | Marstek Venus E Gen 1/2 | [5 versions](#hmg-50--marstek-venus-e-gen-12) |
 | `HMJ-2` | Marstek Saturn / B2500 v2 | [1 version](#hmj-2--marstek-saturn--b2500-v2) |
 | `VNSA-0` | Marstek Venus A | [16 versions](#vnsa-0--marstek-venus-a) |
-| `VNSD-0` | Marstek Venus D | [11 versions](#vnsd-0--marstek-venus-d) |
+| `VNSD-0` | Marstek Venus D | [12 versions](#vnsd-0--marstek-venus-d) |
 | `VNSE3-0` | Marstek Venus E 3.0 | [15 versions](#vnse3-0--marstek-venus-e-30) |
 
 Your device code is shown in the Marstek app, and the
@@ -156,6 +156,7 @@ automatically:
 |---------|------|-------|----------|-------|---------|
 | v118 | 104 KB | 2026-08-12 | [📁 118_bms_VNSD-0_20260119100535e43806957.bin](firmwares/VNSD-0/BMS/118/118_bms_VNSD-0_20260119100535e43806957.bin) | [#25](../../issues/25) | OTA test |
 | v117.7 (Beta) | 104 KB | 2026-08-12 | [📁 1177_bms_VNSD-0_20251010135647565eb2036.bin](firmwares/VNSD-0/BMS/1177/1177_bms_VNSD-0_20251010135647565eb2036.bin) | [#19](../../issues/19) | OTA test 117.7 |
+| v117 | 104 KB | 2026-10-19 | [📁 117_bms_VNSD-0_20250917111019d3c315055.bin](firmwares/VNSD-0/BMS/117/117_bms_VNSD-0_20250917111019d3c315055.bin) | [#53](../../issues/53) | Sampling version 117, optimizing hibernation, upgrading logic. |
 
 #### Control
 
@@ -220,8 +221,8 @@ automatically:
 
 ---
 
-**Firmware files in total:** 55
-**Last updated:** 2026-10-12 05:37:59 UTC
+**Firmware files in total:** 56
+**Last updated:** 2026-10-19 15:07:29 UTC
 
 ## Contributing
 

@@ -2,6 +2,12 @@
 
 🇬🇧 **English** · [🇩🇪 Deutsch](CHANGELOG.de.md)
 
+## BMS v117 — 2026-10-19
+
+- Sampling version 117, optimizing hibernation, upgrading logic.
+
+<sub>Issue [#53](../../../../issues/53) · File `117_bms_VNSD-0_20250917111019d3c315055.bin` · SHA-256 `ffa792b04d76…`</sub>
+
 ## Control v151 — 2026-09-29
 
 - Optimize modbus tcp stability

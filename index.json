@@ -278,6 +278,18 @@
      "noteDE": "OTA-Test 117.7"
     },
     {
+     "type": "BMS",
+     "version": "117",
+     "display": "117",
+     "beta": false,
+     "file": "firmwares/VNSD-0/BMS/117/117_bms_VNSD-0_20250917111019d3c315055.bin",
+     "size": 106496,
+     "sha256": "ffa792b04d7601671844225dea548d0c1bbe2bd2a9963a1f406303034bb3144a",
+     "date": "2026-10-19",
+     "noteEN": "Sampling version 117, optimizing hibernation, upgrading logic.",
+     "noteDE": "Die Beispielversion 117 wird veröffentlicht, um den Ruhezustand und die Upgrade-Logik zu optimieren."
+    },
+    {
      "type": "Control",
      "version": "151",
      "display": "151",

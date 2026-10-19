@@ -2,6 +2,12 @@
 
 [🇬🇧 English](CHANGELOG.md) · 🇩🇪 **Deutsch**
 
+## BMS v117 — 2026-10-19
+
+- Die Beispielversion 117 wird veröffentlicht, um den Ruhezustand und die Upgrade-Logik zu optimieren.
+
+<sub>Issue [#53](../../../../issues/53) · Datei `117_bms_VNSD-0_20250917111019d3c315055.bin` · SHA-256 `ffa792b04d76…`</sub>
+
 ## Control v151 — 2026-09-29
 
 - Optimieren Sie die Modbus-TCP-Stabilität
