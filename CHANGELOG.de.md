@@ -4,6 +4,12 @@
 
 Alle archivierten Firmware-Versionen, chronologisch (neueste zuerst).
 
+## HMJ-2 — v116 — 2026-10-25
+
+_Keine Release Notes._
+
+<sub>Issue [#54](issues/54) · [116_HMJ-2_202508051050536604e3965.bin](firmwares/HMJ-2/116/116_HMJ-2_202508051050536604e3965.bin)</sub>
+
 ## VNSD-0 — BMS v117 — 2026-10-19
 
 - Die Beispielversion 117 wird veröffentlicht, um den Ruhezustand und die Upgrade-Logik zu optimieren.

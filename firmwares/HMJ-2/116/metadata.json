@@ -1,0 +1,26 @@
+{
+  "deviceName": "MS********_2",
+  "url": "https://eu-central-1-s3-common-bucket.s3.dualstack.eu-central-1.amazonaws.com/uploads/ota/20250805/202508051050536604e3965.bin",
+  "apiResponse": {
+    "code": "1",
+    "content": "Fix some bugs!",
+    "newVerion": "116",
+    "subVerion": "6",
+    "otaWay": "otaSelfBoot",
+    "data": "https://eu-central-1-s3-common-bucket.s3.dualstack.eu-central-1.amazonaws.com/uploads/ota/20250805/202508051050536604e3965.bin"
+  },
+  "deviceType": "HMJ-2",
+  "version": "116",
+  "firmwareType": null,
+  "releaseNote": "",
+  "releaseNoteDE": "",
+  "releaseNoteEN": "",
+  "archivedAt": "2026-10-25T19:34:29Z",
+  "archivedFilename": "116_HMJ-2_202508051050536604e3965.bin",
+  "archivedFilesize": 163840,
+  "archivedSha256": "a7c8f9d9d66577eef79eab6fc5b6b648a0ac7e879d39d188b7571c2318516e3d",
+  "apiCrc": null,
+  "apiSize": null,
+  "verified": null,
+  "issueNumber": 54
+}
