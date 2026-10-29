@@ -1,0 +1,52 @@
+{
+  "apiResponse": {
+    "code": 1,
+    "data": {
+      "bms": "",
+      "bms_pack1": "",
+      "bms_pack2": "",
+      "charger": "",
+      "control": {
+        "chinese": "1、新增手动模式自发自用功能\n2、新增AI模式支持30min以及15min策略\n3、新增MQTT协议查询AI策略状态以及AI状态标记位\n4、新增面板LED灯控制功能\n5、新增相位检测功能\n6、Api新增UPS、蓝牙锁、DOD以及面板LED开关功能",
+        "crc": "",
+        "devicetype": "",
+        "edition": 2941,
+        "english": "修复AI模式执行异常",
+        "force_update": "Y",
+        "is_boot": "N",
+        "is_http": "N",
+        "japanese": "",
+        "mcu_type": "control",
+        "remark": "1、新增手动模式自发自用功能\n2、新增AI模式支持30min以及15min策略\n3、新增MQTT协议查询AI策略状态以及AI状态标记位\n4、新增面板LED灯控制功能\n5、新增相位检测功能\n6、Api新增UPS、蓝牙锁、DOD以及面板LED开关功能",
+        "size": 243712,
+        "type": "HMG-50",
+        "url": "https://static-eu.marstekenergy.com/uploads/ota/20260228/ac_app_0158_0228_2_102913.bin",
+        "version": 158
+      },
+      "dcdc": "",
+      "led": "",
+      "micro": "",
+      "mppt": ""
+    },
+    "msg": "success",
+    "show": 0
+  },
+  "chinese": "1、新增手动模式自发自用功能\n2、新增AI模式支持30min以及15min策略\n3、新增MQTT协议查询AI策略状态以及AI状态标记位\n4、新增面板LED灯控制功能\n5、新增相位检测功能\n6、Api新增UPS、蓝牙锁、DOD以及面板LED开关功能",
+  "deviceType": "HMG-50",
+  "firmwareType": "Control",
+  "remark": "1、新增手动模式自发自用功能\n2、新增AI模式支持30min以及15min策略\n3、新增MQTT协议查询AI策略状态以及AI状态标记位\n4、新增面板LED灯控制功能\n5、新增相位检测功能\n6、Api新增UPS、蓝牙锁、DOD以及面板LED开关功能",
+  "url": "https://static-eu.marstekenergy.com/uploads/ota/20260228/ac_app_0158_0228_2_102913.bin",
+  "version": "158",
+  "archivedAt": "2026-10-27T13:01:42Z",
+  "archivedFilename": "158_control_HMG-50_ac_app_0158_0228_2_102913.bin",
+  "archivedFilesize": 243712,
+  "issueNumber": null,
+  "releaseNote": "1、新增手动模式自发自用功能\n2、新增AI模式支持30min以及15min策略\n3、新增MQTT协议查询AI策略状态以及AI状态标记位\n4、新增面板LED灯控制功能\n5、新增相位检测功能\n6、Api新增UPS、蓝牙锁、DOD以及面板LED开关功能",
+  "releaseNoteDE": "1. Manueller Modus für Selbstnutzungsfunktion hinzugefügt\n2. Der neue KI-Modus unterstützt 30-Minuten- und 15-Minuten-Strategien\n3. MQTT-Protokoll hinzugefügt, um den AI-Richtlinienstatus und die AI-Status-Flag-Bits abzufragen\n4. Panel-LED-Lichtsteuerungsfunktion hinzugefügt\n5. Phasenerkennungsfunktion hinzugefügt\n6. API fügt USV-, Bluetooth-Sperr-, DOD- und Panel-LED-Schalterfunktionen hinzu",
+  "releaseNoteEN": "1. New manual mode spontaneous self-use function\n2. Added AI mode to support 30min and 15min strategies\n3. Added MQTT protocol to query AI policy status and AI status marker bits\n4. Added panel LED light control function\n5. Added phase detection function\n6. Api adds UPS, Bluetooth lock, DoD and panel led switch functions",
+  "archivedSha256": "1b20c4a224d3311030912c06d9f95c7026c7a475967476be87908b6154fc6682",
+  "apiCrc": null,
+  "apiSize": 243712,
+  "verified": true,
+  "importedFrom": "rweijnen/marstek-firmware-archive"
+}
