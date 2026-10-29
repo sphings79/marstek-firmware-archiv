@@ -2,6 +2,23 @@
 
 🇬🇧 **English** · [🇩🇪 Deutsch](CHANGELOG.de.md)
 
+## v158.1 (Beta) — 2026-10-27
+
+- Optimized AI mode execution exception
+
+<sub>File `1581_control_HMG-50_ac_app_1581_0228_1_164255.bin` · SHA-256 `97a8fdb4d326…`</sub>
+
+## v158 — 2026-10-27
+
+- New manual mode spontaneous self-use function
+- Added AI mode to support 30min and 15min strategies
+- Added MQTT protocol to query AI policy status and AI status marker bits
+- Added panel LED light control function
+- Added phase detection function
+- Api adds UPS, Bluetooth lock, DoD and panel led switch functions
+
+<sub>File `158_control_HMG-50_ac_app_0158_0228_2_102913.bin` · SHA-256 `1b20c4a224d3…`</sub>
+
 ## v156 — 2026-07-31
 
 - Bluetooth broadcasting can now be switched on and off

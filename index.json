@@ -29,6 +29,30 @@
     },
     {
      "type": "Control",
+     "version": "1581",
+     "display": "158.1",
+     "beta": true,
+     "file": "firmwares/HMG-50/Control/1581/1581_control_HMG-50_ac_app_1581_0228_1_164255.bin",
+     "size": 243712,
+     "sha256": "97a8fdb4d3264038ea3a02a402e7ca15177066be40cc2025473541e774abf137",
+     "date": "2026-10-27",
+     "noteEN": "Optimized AI mode execution exception",
+     "noteDE": "Ausführungsausnahme im KI-Modus optimieren"
+    },
+    {
+     "type": "Control",
+     "version": "158",
+     "display": "158",
+     "beta": false,
+     "file": "firmwares/HMG-50/Control/158/158_control_HMG-50_ac_app_0158_0228_2_102913.bin",
+     "size": 243712,
+     "sha256": "1b20c4a224d3311030912c06d9f95c7026c7a475967476be87908b6154fc6682",
+     "date": "2026-10-27",
+     "noteEN": "1. New manual mode spontaneous self-use function\n2. Added AI mode to support 30min and 15min strategies\n3. Added MQTT protocol to query AI policy status and AI status marker bits\n4. Added panel LED light control function\n5. Added phase detection function\n6. Api adds UPS, Bluetooth lock, DoD and panel led switch functions",
+     "noteDE": "1. Manueller Modus für Selbstnutzungsfunktion hinzugefügt\n2. Der neue KI-Modus unterstützt 30-Minuten- und 15-Minuten-Strategien\n3. MQTT-Protokoll hinzugefügt, um den AI-Richtlinienstatus und die AI-Status-Flag-Bits abzufragen\n4. Panel-LED-Lichtsteuerungsfunktion hinzugefügt\n5. Phasenerkennungsfunktion hinzugefügt\n6. API fügt USV-, Bluetooth-Sperr-, DOD- und Panel-LED-Schalterfunktionen hinzu"
+    },
+    {
+     "type": "Control",
      "version": "156",
      "display": "156",
      "beta": false,
