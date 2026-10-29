@@ -7,6 +7,10 @@
 // 0xA001, init 0xFFFF, refin/refout true, xorout 0) over the whole .bin.
 // Confirmed against every archived file that carries a crc. `size` equals the
 // exact byte length.
+//
+// Exception: some modules (seen on VNSEMINI-0 Micro, file name `..._AA_FF_...`)
+// report a single-byte `crc` (<= 255) that equals the XOR of all bytes, not a
+// CRC-16. Such values are accepted when the XOR-8 matches.
 
 const KEY = { Control: 'control', BMS: 'bms', MPPT: 'mppt', Micro: 'micro' };
 
@@ -17,6 +21,12 @@ function crc16modbus(buf) {
     for (let i = 0; i < 8; i++) crc = crc & 1 ? (crc >>> 1) ^ 0xa001 : crc >>> 1;
   }
   return crc & 0xffff;
+}
+
+function xor8(buf) {
+  let x = 0;
+  for (const b of buf) x ^= b;
+  return x;
 }
 
 // Pull {crc, size} for THIS firmware from apiResponse.data.<module>.
@@ -50,7 +60,11 @@ function verifyBuffer(buf, metadata, firmwareType) {
     errors.push(`Größe ${buf.length} ≠ API ${exp.size}`);
   }
   if (exp.crc != null && actualCrc !== exp.crc) {
-    errors.push(`CRC-16 ${actualCrc} ≠ API ${exp.crc}`);
+    if (exp.crc <= 0xff && xor8(buf) === exp.crc) {
+      // single-byte XOR checksum variant, see header comment
+    } else {
+      errors.push(`CRC-16 ${actualCrc} ≠ API ${exp.crc}`);
+    }
   }
   return {
     checked: true,
