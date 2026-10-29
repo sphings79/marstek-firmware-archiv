@@ -11,6 +11,23 @@ Alle archivierten Firmware-Versionen, chronologisch (neueste zuerst).
 
 <sub>Issue [#55](issues/55) · [270_micro_VNSEMINI-0_INV_V10E_100904_AA_FF_111659.bin](firmwares/VNSEMINI-0/Micro/270/270_micro_VNSEMINI-0_INV_V10E_100904_AA_FF_111659.bin)</sub>
 
+## HMG-50 — Control v158 — 2026-10-27
+
+- Manueller Modus für Selbstnutzungsfunktion hinzugefügt
+- Der neue KI-Modus unterstützt 30-Minuten- und 15-Minuten-Strategien
+- MQTT-Protokoll hinzugefügt, um den AI-Richtlinienstatus und die AI-Status-Flag-Bits abzufragen
+- Panel-LED-Lichtsteuerungsfunktion hinzugefügt
+- Phasenerkennungsfunktion hinzugefügt
+- API fügt USV-, Bluetooth-Sperr-, DOD- und Panel-LED-Schalterfunktionen hinzu
+
+<sub>[158_control_HMG-50_ac_app_0158_0228_2_102913.bin](firmwares/HMG-50/Control/158/158_control_HMG-50_ac_app_0158_0228_2_102913.bin)</sub>
+
+## HMG-50 — Control v158.1 (Beta) — 2026-10-27
+
+- Ausführungsausnahme im KI-Modus optimieren
+
+<sub>[1581_control_HMG-50_ac_app_1581_0228_1_164255.bin](firmwares/HMG-50/Control/1581/1581_control_HMG-50_ac_app_1581_0228_1_164255.bin)</sub>
+
 ## HMJ-2 — v116 — 2026-10-25
 
 _Keine Release Notes._

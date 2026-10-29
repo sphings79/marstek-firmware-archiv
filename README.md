@@ -1,7 +1,7 @@
 # Marstek Firmware Archive
 
 [![Stars](https://img.shields.io/github/stars/sphings79/marstek-firmware-archiv?style=flat&logo=github&label=stars)](https://github.com/sphings79/marstek-firmware-archiv/stargazers)
-[![Firmware](https://img.shields.io/badge/firmware--files-58-blue)](#available-firmware)
+[![Firmware](https://img.shields.io/badge/firmware--files-60-blue)](#available-firmware)
 [![Updated](https://img.shields.io/github/last-commit/sphings79/marstek-firmware-archiv?label=last%20updated)](https://github.com/sphings79/marstek-firmware-archiv/commits/main)
 
 🇬🇧 **English** · [🇩🇪 Deutsch](README.de.md)
@@ -35,7 +35,7 @@ SHA-256 checksum, file size and a per-device changelog.
 |-------------|-------|----------|
 | `HME-3` | Marstek Smart Meter CT002 / P1 | [4 versions](#hme-3--marstek-smart-meter-ct002--p1) |
 | `HME-4` | Marstek Smart Meter CT002 / P1 | [3 versions](#hme-4--marstek-smart-meter-ct002--p1) |
-| `HMG-50` | Marstek Venus E Gen 1/2 | [5 versions](#hmg-50--marstek-venus-e-gen-12) |
+| `HMG-50` | Marstek Venus E Gen 1/2 | [7 versions](#hmg-50--marstek-venus-e-gen-12) |
 | `HMJ-2` | Marstek Saturn / B2500 v2 | [2 versions](#hmj-2--marstek-saturn--b2500-v2) |
 | `VNSA-0` | Marstek Venus A | [16 versions](#vnsa-0--marstek-venus-a) |
 | `VNSD-0` | Marstek Venus D | [12 versions](#vnsd-0--marstek-venus-d) |
@@ -101,6 +101,8 @@ automatically:
 
 | Version | Size | Added | Download | Issue | Changes |
 |---------|------|-------|----------|-------|---------|
+| v158.1 (Beta) | 238 KB | 2026-10-27 | [📁 1581_control_HMG-50_ac_app_1581_0228_1_164255.bin](firmwares/HMG-50/Control/1581/1581_control_HMG-50_ac_app_1581_0228_1_164255.bin) | [↗ ref](https://github.com/rweijnen/marstek-firmware-archive) | Optimized AI mode execution exception |
+| v158 | 238 KB | 2026-10-27 | [📁 158_control_HMG-50_ac_app_0158_0228_2_102913.bin](firmwares/HMG-50/Control/158/158_control_HMG-50_ac_app_0158_0228_2_102913.bin) | [↗ ref](https://github.com/rweijnen/marstek-firmware-archive) | 1. New manual mode spontaneous self-use function<br>2. Added AI mode to support 30min and 15min strategies<br>3. Added MQTT protocol to query AI policy status and AI status marker bits<br>4. Added panel LED light control function<br>5. Added phase detection function<br>6. Api adds UPS, Bluetooth lock, DoD and panel led switch functions |
 | v156 | 236 KB | 2026-07-31 | [📁 156_control_HMG-50_20251118172129117290445.bin](firmwares/HMG-50/Control/156/156_control_HMG-50_20251118172129117290445.bin) | [↗ ref](https://github.com/rweijnen/marstek-firmware-archive) | 1. Bluetooth broadcasting can now be switched on and off<br>2. Added configuration for a third-party server<br>3. Improved OpenAPI interface stability |
 | v155 | 232 KB | 2025-10-27 | [📁 155_control_HMG-50_202509161548003ff722863.bin](firmwares/HMG-50/Control/155/155_control_HMG-50_202509161548003ff722863.bin) | [↗ ref](https://github.com/rweijnen/marstek-firmware-archive) | 1. Added cumulative tracking of charge and discharge time<br>2. The grid connection standard can now be pushed to the device |
 | v153 | 222 KB | 2025-08-25 | [📁 153_control_HMG-50_202505301136007a5b57023.bin](firmwares/HMG-50/Control/153/153_control_HMG-50_202505301136007a5b57023.bin) | [↗ ref](https://github.com/rweijnen/marstek-firmware-archive) | 1. Network setup now supports open (passwordless) Wi-Fi<br>2. Fixed various known issues |
@@ -231,8 +233,8 @@ automatically:
 
 ---
 
-**Firmware files in total:** 58
-**Last updated:** 2026-10-29 15:40:14 UTC
+**Firmware files in total:** 60
+**Last updated:** 2026-10-29 15:48:45 UTC
 
 ## Contributing
 
