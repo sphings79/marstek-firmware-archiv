@@ -1,7 +1,7 @@
 # Marstek Firmware Archiv
 
 [![Stars](https://img.shields.io/github/stars/sphings79/marstek-firmware-archiv?style=flat&logo=github&label=Sterne)](https://github.com/sphings79/marstek-firmware-archiv/stargazers)
-[![Firmware](https://img.shields.io/badge/Firmware--Dateien-57-blue)](#verfügbare-firmware)
+[![Firmware](https://img.shields.io/badge/Firmware--Dateien-58-blue)](#verfügbare-firmware)
 [![Updated](https://img.shields.io/github/last-commit/sphings79/marstek-firmware-archiv?label=zuletzt%20aktualisiert)](https://github.com/sphings79/marstek-firmware-archiv/commits/main)
 
 [🇬🇧 English](README.md) · 🇩🇪 **Deutsch**
@@ -40,6 +40,7 @@ Englisch, SHA-256-Prüfsumme, Dateigröße und Changelog pro Version.
 | `VNSA-0` | Marstek Venus A | [16 Versionen](#vnsa-0--marstek-venus-a) |
 | `VNSD-0` | Marstek Venus D | [12 Versionen](#vnsd-0--marstek-venus-d) |
 | `VNSE3-0` | Marstek Venus E 3.0 | [15 Versionen](#vnse3-0--marstek-venus-e-30) |
+| `VNSEMINI-0` | Marstek Venus E Mini | [1 Version](#vnsemini-0--marstek-venus-e-mini) |
 
 Der Gerätecode steht in der Marstek-App bzw. wird vom
 [Firmware-Checker](#-firmware-checker-tool) direkt mit ausgelesen.
@@ -220,10 +221,18 @@ einreichen:
 | v119 | 117 KB | 2026-08-12 | [📁 119_micro_VNSE3-0_inv_app_0119_0326_ota_152726.bin](firmwares/VNSE3-0/Micro/119/119_micro_VNSE3-0_inv_app_0119_0326_ota_152726.bin) | [#14](../../issues/14) | Behoben: unterhalb von 6 % SOC wurde die Zwangsladung nicht gestartet |
 | v116 | 115 KB | 2026-09-24 | [📁 116_micro_VNSE3-0_20251128103443b389c9748.bin](firmwares/VNSE3-0/Micro/116/116_micro_VNSE3-0_20251128103443b389c9748.bin) | [#45](../../issues/45) | Optimieren Sie das Problem, dass der Akku nach längerem Stehenlassen des Geräts stark entladen ist, was dazu führt, dass der Ladevorgang nicht erzwungen werden kann. |
 
+### VNSEMINI-0 — Marstek Venus E Mini
+
+#### Micro
+
+| Version | Größe | Hinzugefügt | Download | Issue | Änderungen |
+|---------|-------|-------------|----------|-------|------------|
+| v270 | 98.57 KB | 2026-10-29 | [📁 270_micro_VNSEMINI-0_INV_V10E_100904_AA_FF_111659.bin](firmwares/VNSEMINI-0/Micro/270/270_micro_VNSEMINI-0_INV_V10E_100904_AA_FF_111659.bin) | [#55](../../issues/55) | 1. Netzgebundene Ladeleistungsbegrenzung 800W/1500W hinzufügen (verfügbar nach App-Anpassung)<br>2. Optimieren Sie die Temperaturregelung, um die Leistung des Wärmemanagements zu verbessern |
+
 ---
 
-**Firmware-Dateien gesamt:** 57
-**Zuletzt aktualisiert:** 2026-10-25 19:34:29 UTC
+**Firmware-Dateien gesamt:** 58
+**Zuletzt aktualisiert:** 2026-10-29 15:40:14 UTC
 
 ## Mitmachen
 

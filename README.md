@@ -1,7 +1,7 @@
 # Marstek Firmware Archive
 
 [![Stars](https://img.shields.io/github/stars/sphings79/marstek-firmware-archiv?style=flat&logo=github&label=stars)](https://github.com/sphings79/marstek-firmware-archiv/stargazers)
-[![Firmware](https://img.shields.io/badge/firmware--files-57-blue)](#available-firmware)
+[![Firmware](https://img.shields.io/badge/firmware--files-58-blue)](#available-firmware)
 [![Updated](https://img.shields.io/github/last-commit/sphings79/marstek-firmware-archiv?label=last%20updated)](https://github.com/sphings79/marstek-firmware-archiv/commits/main)
 
 🇬🇧 **English** · [🇩🇪 Deutsch](README.de.md)
@@ -40,6 +40,7 @@ SHA-256 checksum, file size and a per-device changelog.
 | `VNSA-0` | Marstek Venus A | [16 versions](#vnsa-0--marstek-venus-a) |
 | `VNSD-0` | Marstek Venus D | [12 versions](#vnsd-0--marstek-venus-d) |
 | `VNSE3-0` | Marstek Venus E 3.0 | [15 versions](#vnse3-0--marstek-venus-e-30) |
+| `VNSEMINI-0` | Marstek Venus E Mini | [1 version](#vnsemini-0--marstek-venus-e-mini) |
 
 Your device code is shown in the Marstek app, and the
 [Firmware Checker](#-firmware-checker-tool) reads it out for you.
@@ -220,10 +221,18 @@ automatically:
 | v119 | 117 KB | 2026-08-12 | [📁 119_micro_VNSE3-0_inv_app_0119_0326_ota_152726.bin](firmwares/VNSE3-0/Micro/119/119_micro_VNSE3-0_inv_app_0119_0326_ota_152726.bin) | [#14](../../issues/14) | Fixed forced charging not starting below 6 % SOC |
 | v116 | 115 KB | 2026-09-24 | [📁 116_micro_VNSE3-0_20251128103443b389c9748.bin](firmwares/VNSE3-0/Micro/116/116_micro_VNSE3-0_20251128103443b389c9748.bin) | [#45](../../issues/45) | Optimization After the device has been stationary for a long time, the battery is seriously out of power and cannot be strongly charged. |
 
+### VNSEMINI-0 — Marstek Venus E Mini
+
+#### Micro
+
+| Version | Size | Added | Download | Issue | Changes |
+|---------|------|-------|----------|-------|---------|
+| v270 | 98.57 KB | 2026-10-29 | [📁 270_micro_VNSEMINI-0_INV_V10E_100904_AA_FF_111659.bin](firmwares/VNSEMINI-0/Micro/270/270_micro_VNSEMINI-0_INV_V10E_100904_AA_FF_111659.bin) | [#55](../../issues/55) | 1. Add grid-connected charging power limit 800W/1500W (available after the app is adapted)<br>2. Optimize temperature control to improve thermal management performance |
+
 ---
 
-**Firmware files in total:** 57
-**Last updated:** 2026-10-25 19:34:29 UTC
+**Firmware files in total:** 58
+**Last updated:** 2026-10-29 15:40:14 UTC
 
 ## Contributing
 

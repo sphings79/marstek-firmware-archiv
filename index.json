@@ -547,6 +547,23 @@
      "noteDE": "Optimieren Sie das Problem, dass der Akku nach längerem Stehenlassen des Geräts stark entladen ist, was dazu führt, dass der Ladevorgang nicht erzwungen werden kann."
     }
    ]
+  },
+  "VNSEMINI-0": {
+   "model": "Marstek Venus E Mini",
+   "firmwares": [
+    {
+     "type": "Micro",
+     "version": "270",
+     "display": "270",
+     "beta": false,
+     "file": "firmwares/VNSEMINI-0/Micro/270/270_micro_VNSEMINI-0_INV_V10E_100904_AA_FF_111659.bin",
+     "size": 100936,
+     "sha256": "395e31ef8bce3b88d02a7b89f361203f03bbf8a06ba56d578196dcd29d78e797",
+     "date": "2026-10-29",
+     "noteEN": "1. Add grid-connected charging power limit 800W/1500W (available after the app is adapted)\n2. Optimize temperature control to improve thermal management performance",
+     "noteDE": "1. Netzgebundene Ladeleistungsbegrenzung 800W/1500W hinzufügen (verfügbar nach App-Anpassung)\n2. Optimieren Sie die Temperaturregelung, um die Leistung des Wärmemanagements zu verbessern"
+    }
+   ]
   }
  }
 }
