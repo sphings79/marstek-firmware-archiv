@@ -283,7 +283,7 @@ einreichen:
 ---
 
 **Firmware-Dateien gesamt:** 68
-**Zuletzt aktualisiert:** 2026-10-30 19:06:19 UTC
+**Zuletzt aktualisiert:** 2026-10-30 19:06:41 UTC
 
 ## Mitmachen
 
