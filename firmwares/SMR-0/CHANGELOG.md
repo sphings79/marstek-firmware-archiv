@@ -1,4 +1,4 @@
-# Changelog — SMR-0
+# Changelog — SMR-0 (Marstek P1 Meter CT003)
 
 🇬🇧 **English** · [🇩🇪 Deutsch](CHANGELOG.de.md)
 

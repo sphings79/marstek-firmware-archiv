@@ -1,7 +1,7 @@
 {
  "devices": {
   "HMG-1": {
-   "model": "",
+   "model": "Marstek Venus E 2.0",
    "firmwares": [
     {
      "type": "BMS",
@@ -107,7 +107,7 @@
    ]
   },
   "HMI-1": {
-   "model": "",
+   "model": "Marstek Saturn M Microinverter 800 W",
    "firmwares": [
     {
      "type": "Control",
@@ -124,7 +124,7 @@
    ]
   },
   "HMI-5": {
-   "model": "",
+   "model": "Marstek Saturn M2-1000 Microinverter 1000 W",
    "firmwares": [
     {
      "type": "Control",

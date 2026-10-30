@@ -41,6 +41,17 @@ const DEVICE_MODELS = {
   'HMJ-2': 'Marstek Saturn / B2500 v2',
   'HME-3': 'Marstek Smart Meter CT002 / P1',
   'HME-4': 'Marstek Smart Meter CT002 / P1',
+  // Bluetooth name "CT003-P1" / device name "MST-P1" in a real submission.
+  'SMR-0': 'Marstek P1 Meter CT003',
+  // Device name "MST_MI800W" in a real submission.
+  'HMI-1': 'Marstek Saturn M Microinverter 800 W',
+  // Device name "MST_MI2_1000W" in a real submission.
+  'HMI-5': 'Marstek Saturn M2-1000 Microinverter 1000 W',
+  // Device name "MST-TPM2" in a real submission; the TPM2-100CT meter is also named in the 144 release note.
+  'TPM2-0': 'Marstek CT002 Smart Power Meter TPM2-100CT',
+  'JPLS-8H': 'Marstek Jupiter C Plus',
+  // Device name "Venus E 2.0" in a real submission.
+  'HMG-1': 'Marstek Venus E 2.0',
 };
 
 function deviceModel(code) {

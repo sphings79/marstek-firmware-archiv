@@ -1,4 +1,4 @@
-# Changelog — HMI-5 / FC41D
+# Changelog — HMI-5 (Marstek Saturn M2-1000 Microinverter 1000 W) / FC41D
 
 [🇬🇧 English](CHANGELOG.md) · 🇩🇪 **Deutsch**
 

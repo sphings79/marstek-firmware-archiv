@@ -35,13 +35,13 @@ SHA-256 checksum, file size and a per-device changelog.
 |-------------|-------|----------|
 | `HME-3` | Marstek Smart Meter CT002 / P1 | [4 versions](#hme-3--marstek-smart-meter-ct002--p1) |
 | `HME-4` | Marstek Smart Meter CT002 / P1 | [3 versions](#hme-4--marstek-smart-meter-ct002--p1) |
-| `HMG-1` | — | [1 version](#hmg-1) |
+| `HMG-1` | Marstek Venus E 2.0 | [1 version](#hmg-1--marstek-venus-e-20) |
 | `HMG-50` | Marstek Venus E Gen 1/2 | [7 versions](#hmg-50--marstek-venus-e-gen-12) |
-| `HMI-1` | — | [1 version](#hmi-1) |
-| `HMI-5` | — | [2 versions](#hmi-5) |
+| `HMI-1` | Marstek Saturn M Microinverter 800 W | [1 version](#hmi-1--marstek-saturn-m-microinverter-800-w) |
+| `HMI-5` | Marstek Saturn M2-1000 Microinverter 1000 W | [2 versions](#hmi-5--marstek-saturn-m2-1000-microinverter-1000-w) |
 | `HMJ-2` | Marstek Saturn / B2500 v2 | [4 versions](#hmj-2--marstek-saturn--b2500-v2) |
-| `JPLS-8H` | — | [1 version](#jpls-8h) |
-| `SMR-0` | — | [1 version](#smr-0) |
+| `JPLS-8H` | Marstek Jupiter C Plus | [1 version](#jpls-8h--marstek-jupiter-c-plus) |
+| `SMR-0` | Marstek P1 Meter CT003 | [1 version](#smr-0--marstek-p1-meter-ct003) |
 | `VNSA-0` | Marstek Venus A | [16 versions](#vnsa-0--marstek-venus-a) |
 | `VNSD-0` | Marstek Venus D | [12 versions](#vnsd-0--marstek-venus-d) |
 | `VNSE3-0` | Marstek Venus E 3.0 | [15 versions](#vnse3-0--marstek-venus-e-30) |
@@ -93,7 +93,7 @@ automatically:
 | v124 | 72 KB | 2026-08-12 | [📁 124_HME-4_20250915163554648799838.bin](firmwares/HME-4/124/124_HME-4_20250915163554648799838.bin) | [#9](../../issues/9) | UDP protocol v4: fixed a UDP reset bug |
 | v120 | 66 KB | 2025-08-25 | [📁 120_HME-4_202507021110400569f6547.bin](firmwares/HME-4/120/120_HME-4_202507021110400569f6547.bin) | [↗ ref](https://github.com/rweijnen/marstek-firmware-archive) | 1. Optimised UDP reception and restart behaviour<br>2. Added a Bluetooth command for updating the Quectel module<br>3. Raised the number of connectable slave devices to 15 |
 
-### HMG-1
+### HMG-1 — Marstek Venus E 2.0
 
 #### BMS
 
@@ -120,7 +120,7 @@ automatically:
 | v155 | 232 KB | 2025-10-27 | [📁 155_control_HMG-50_202509161548003ff722863.bin](firmwares/HMG-50/Control/155/155_control_HMG-50_202509161548003ff722863.bin) | [↗ ref](https://github.com/rweijnen/marstek-firmware-archive) | 1. Added cumulative tracking of charge and discharge time<br>2. The grid connection standard can now be pushed to the device |
 | v153 | 222 KB | 2025-08-25 | [📁 153_control_HMG-50_202505301136007a5b57023.bin](firmwares/HMG-50/Control/153/153_control_HMG-50_202505301136007a5b57023.bin) | [↗ ref](https://github.com/rweijnen/marstek-firmware-archive) | 1. Network setup now supports open (passwordless) Wi-Fi<br>2. Fixed various known issues |
 
-### HMI-1
+### HMI-1 — Marstek Saturn M Microinverter 800 W
 
 #### Control
 
@@ -128,7 +128,7 @@ automatically:
 |---------|------|-------|----------|-------|---------|
 | v132 | 96 KB | 2026-10-30 | [📁 132_control_HMI-1_20251010160748845913037.bin](firmwares/HMI-1/Control/132/132_control_HMI-1_20251010160748845913037.bin) | - | Optimize system operation |
 
-### HMI-5
+### HMI-5 — Marstek Saturn M2-1000 Microinverter 1000 W
 
 #### Control
 
@@ -151,13 +151,13 @@ automatically:
 | v116 | 160 KB | 2026-10-25 | [📁 116_HMJ-2_202508051050536604e3965.bin](firmwares/HMJ-2/116/116_HMJ-2_202508051050536604e3965.bin) | [#54](../../issues/54) |  |
 | v110 | 146 KB | 2026-07-24 | [📁 110_HMJ-2_20250523160631745d66082.bin](firmwares/HMJ-2/110/110_HMJ-2_20250523160631745d66082.bin) | [↗ ref](https://github.com/rweijnen/marstek-firmware-archive) |  |
 
-### JPLS-8H
+### JPLS-8H — Marstek Jupiter C Plus
 
 | Version | Size | Added | Download | Issue | Changes |
 |---------|------|-------|----------|-------|---------|
 | v37 | 94 KB | 2026-10-30 | [📁 37_JPLS-8H_jp37_ota_180048.bin](firmwares/JPLS-8H/37/37_JPLS-8H_jp37_ota_180048.bin) | - | Integrated logic optimization |
 
-### SMR-0
+### SMR-0 — Marstek P1 Meter CT003
 
 | Version | Size | Added | Download | Issue | Changes |
 |---------|------|-------|----------|-------|---------|
@@ -283,7 +283,7 @@ automatically:
 ---
 
 **Firmware files in total:** 68
-**Last updated:** 2026-10-30 19:06:18 UTC
+**Last updated:** 2026-10-30 19:06:19 UTC
 
 ## Contributing
 

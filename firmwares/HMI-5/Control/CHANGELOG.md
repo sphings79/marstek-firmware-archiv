@@ -1,4 +1,4 @@
-# Changelog — HMI-5 / Control
+# Changelog — HMI-5 (Marstek Saturn M2-1000 Microinverter 1000 W) / Control
 
 🇬🇧 **English** · [🇩🇪 Deutsch](CHANGELOG.de.md)
 

@@ -1,4 +1,4 @@
-# Changelog — JPLS-8H
+# Changelog — JPLS-8H (Marstek Jupiter C Plus)
 
 🇬🇧 **English** · [🇩🇪 Deutsch](CHANGELOG.de.md)
 

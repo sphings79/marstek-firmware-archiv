@@ -1,4 +1,4 @@
-# Changelog — HMI-1 / Control
+# Changelog — HMI-1 (Marstek Saturn M Microinverter 800 W) / Control
 
 [🇬🇧 English](CHANGELOG.md) · 🇩🇪 **Deutsch**
 

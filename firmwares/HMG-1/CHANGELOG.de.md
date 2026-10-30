@@ -1,4 +1,4 @@
-# Changelog — HMG-1
+# Changelog — HMG-1 (Marstek Venus E 2.0)
 
 [🇬🇧 English](CHANGELOG.md) · 🇩🇪 **Deutsch**
 
