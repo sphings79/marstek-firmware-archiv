@@ -1,0 +1,27 @@
+{
+  "firmwareType": null,
+  "deviceName": "sh************er",
+  "url": "https://static-eu.marstekenergy.com/uploads/ota/20260506/20251204_144106.rbl",
+  "apiResponse": {
+    "code": 1,
+    "show": 0,
+    "msg": "ok",
+    "data": {
+      "version": "202512040635",
+      "url": "https://static-eu.marstekenergy.com/uploads/ota/20260506/20251204_144106.rbl"
+    }
+  },
+  "deviceType": "HMJ-2",
+  "version": "202512040635",
+  "releaseNote": "",
+  "releaseNoteDE": "",
+  "releaseNoteEN": "",
+  "archivedAt": "2026-10-30T09:58:29Z",
+  "archivedFilename": "202512040635_HMJ-2_20251204_144106.rbl",
+  "archivedFilesize": 682960,
+  "archivedSha256": "f5a1155b4384a2f7c14f4d1326cf8200dffabdf63ac37bd17595e63a0fa642dd",
+  "apiCrc": null,
+  "apiSize": null,
+  "verified": null,
+  "issueNumber": 58
+}

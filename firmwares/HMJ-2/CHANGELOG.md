@@ -2,6 +2,12 @@
 
 🇬🇧 **English** · [🇩🇪 Deutsch](CHANGELOG.de.md)
 
+## v202512040635 — 2026-10-30
+
+_No release notes._
+
+<sub>Issue [#58](../../../../issues/58) · File `202512040635_HMJ-2_20251204_144106.rbl` · SHA-256 `f5a1155b4384…`</sub>
+
 ## v116 — 2026-10-25
 
 _No release notes._

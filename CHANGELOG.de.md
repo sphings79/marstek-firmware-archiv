@@ -4,6 +4,12 @@
 
 Alle archivierten Firmware-Versionen, chronologisch (neueste zuerst).
 
+## HMJ-2 — v202512040635 — 2026-10-30
+
+_Keine Release Notes._
+
+<sub>Issue [#58](issues/58) · [202512040635_HMJ-2_20251204_144106.rbl](firmwares/HMJ-2/202512040635/202512040635_HMJ-2_20251204_144106.rbl)</sub>
+
 ## VNSEMINI-0 — Micro v270 — 2026-10-29
 
 - Netzgebundene Ladeleistungsbegrenzung 800W/1500W hinzufügen (verfügbar nach App-Anpassung)

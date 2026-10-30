@@ -4,6 +4,12 @@
 
 Every archived firmware version, newest first.
 
+## HMJ-2 — v202512040635 — 2026-10-30
+
+_No release notes._
+
+<sub>Issue [#58](issues/58) · [202512040635_HMJ-2_20251204_144106.rbl](firmwares/HMJ-2/202512040635/202512040635_HMJ-2_20251204_144106.rbl)</sub>
+
 ## VNSEMINI-0 — Micro v270 — 2026-10-29
 
 - Add grid-connected charging power limit 800W/1500W (available after the app is adapted)
