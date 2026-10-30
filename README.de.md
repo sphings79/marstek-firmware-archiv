@@ -1,7 +1,7 @@
 # Marstek Firmware Archiv
 
 [![Stars](https://img.shields.io/github/stars/sphings79/marstek-firmware-archiv?style=flat&logo=github&label=Sterne)](https://github.com/sphings79/marstek-firmware-archiv/stargazers)
-[![Firmware](https://img.shields.io/badge/Firmware--Dateien-66-blue)](#verfügbare-firmware)
+[![Firmware](https://img.shields.io/badge/Firmware--Dateien-68-blue)](#verfügbare-firmware)
 [![Updated](https://img.shields.io/github/last-commit/sphings79/marstek-firmware-archiv?label=zuletzt%20aktualisiert)](https://github.com/sphings79/marstek-firmware-archiv/commits/main)
 
 [🇬🇧 English](README.md) · 🇩🇪 **Deutsch**
@@ -40,6 +40,8 @@ Englisch, SHA-256-Prüfsumme, Dateigröße und Changelog pro Version.
 | `HMI-1` | — | [1 Version](#hmi-1) |
 | `HMI-5` | — | [2 Versionen](#hmi-5) |
 | `HMJ-2` | Marstek Saturn / B2500 v2 | [4 Versionen](#hmj-2--marstek-saturn--b2500-v2) |
+| `JPLS-8H` | — | [1 Version](#jpls-8h) |
+| `SMR-0` | — | [1 Version](#smr-0) |
 | `VNSA-0` | Marstek Venus A | [16 Versionen](#vnsa-0--marstek-venus-a) |
 | `VNSD-0` | Marstek Venus D | [12 Versionen](#vnsd-0--marstek-venus-d) |
 | `VNSE3-0` | Marstek Venus E 3.0 | [15 Versionen](#vnse3-0--marstek-venus-e-30) |
@@ -148,6 +150,18 @@ einreichen:
 | v202409090159 | 663.77 KB | 2026-10-30 | [📁 202409090159_HMJ-2_20250211163732a201f9183.rbl](firmwares/HMJ-2/202409090159/202409090159_HMJ-2_20250211163732a201f9183.rbl) | - |  |
 | v116 | 160 KB | 2026-10-25 | [📁 116_HMJ-2_202508051050536604e3965.bin](firmwares/HMJ-2/116/116_HMJ-2_202508051050536604e3965.bin) | [#54](../../issues/54) |  |
 | v110 | 146 KB | 2026-07-24 | [📁 110_HMJ-2_20250523160631745d66082.bin](firmwares/HMJ-2/110/110_HMJ-2_20250523160631745d66082.bin) | [↗ ref](https://github.com/rweijnen/marstek-firmware-archive) |  |
+
+### JPLS-8H
+
+| Version | Größe | Hinzugefügt | Download | Issue | Änderungen |
+|---------|-------|-------------|----------|-------|------------|
+| v37 | 94 KB | 2026-10-30 | [📁 37_JPLS-8H_jp37_ota_180048.bin](firmwares/JPLS-8H/37/37_JPLS-8H_jp37_ota_180048.bin) | - | Integrierte Logikoptimierung |
+
+### SMR-0
+
+| Version | Größe | Hinzugefügt | Download | Issue | Änderungen |
+|---------|-------|-------------|----------|-------|------------|
+| v113 | 999.72 KB | 2026-10-30 | [📁 113_SMR-0_app_pack_170853.rbl](firmwares/SMR-0/113/113_SMR-0_app_pack_170853.rbl) | - | Neustarts verhindern: Die ATE-Funktion des Quectel-Moduls wurde deaktiviert, um endlose Reset-Schleifen zu verhindern |
 
 ### VNSA-0 — Marstek Venus A
 
@@ -268,7 +282,7 @@ einreichen:
 
 ---
 
-**Firmware-Dateien gesamt:** 66
+**Firmware-Dateien gesamt:** 68
 **Zuletzt aktualisiert:** 2026-10-30 19:06:18 UTC
 
 ## Mitmachen

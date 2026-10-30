@@ -13,7 +13,7 @@ const FIRMWARES_DIR = path.join(REPO_ROOT, 'firmwares');
 // Devices that store firmware WITHOUT a firmwareType subfolder:
 //   firmwares/<device>/<version>/
 // Everything else uses firmwares/<device>/<Type>/<version>/
-const FLAT_STRUCTURE_DEVICES = new Set(['HME-3', 'HME-4', 'HMJ-2']);
+const FLAT_STRUCTURE_DEVICES = new Set(['HME-3', 'HME-4', 'HMJ-2', 'JPLS-8H', 'SMR-0']);
 
 // Marktnamen zu den Gerätecodes, die Marstek in der API/Firmware benutzt.
 // Quelle: Community-Referenz tomquist/hm2mqtt, gegengeprüft an den Release Notes

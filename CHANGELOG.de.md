@@ -4,6 +4,18 @@
 
 Alle archivierten Firmware-Versionen, chronologisch (neueste zuerst).
 
+## SMR-0 — v113 — 2026-10-30
+
+- Neustarts verhindern: Die ATE-Funktion des Quectel-Moduls wurde deaktiviert, um endlose Reset-Schleifen zu verhindern
+
+<sub>[113_SMR-0_app_pack_170853.rbl](firmwares/SMR-0/113/113_SMR-0_app_pack_170853.rbl)</sub>
+
+## JPLS-8H — v37 — 2026-10-30
+
+- Integrierte Logikoptimierung
+
+<sub>[37_JPLS-8H_jp37_ota_180048.bin](firmwares/JPLS-8H/37/37_JPLS-8H_jp37_ota_180048.bin)</sub>
+
 ## HMJ-2 — v202409090159 — 2026-10-30
 
 _Keine Release Notes._
