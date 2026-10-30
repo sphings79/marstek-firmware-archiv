@@ -1,0 +1,27 @@
+{
+  "firmwareType": "FC41D",
+  "deviceName": "redacted",
+  "url": "https://static-eu.marstekenergy.com/uploads/ota/20251218/20251218114942352277587.rbl",
+  "apiResponse": {
+    "code": 1,
+    "show": 0,
+    "msg": "ok",
+    "data": {
+      "version": "202512040649",
+      "url": "https://static-eu.marstekenergy.com/uploads/ota/20251218/20251218114942352277587.rbl"
+    }
+  },
+  "deviceType": "HMI-5",
+  "version": "202512040649",
+  "releaseNote": "",
+  "releaseNoteDE": "",
+  "releaseNoteEN": "",
+  "archivedAt": "2026-10-30T18:26:42Z",
+  "archivedFilename": "202512040649_fc41d_HMI-5_20251218114942352277587.rbl",
+  "archivedFilesize": 683055,
+  "archivedSha256": "865e04a124369d0941aca18a7b8b5955e53cb6e35e0a3ad1f176d533c91be1ed",
+  "apiCrc": null,
+  "apiSize": null,
+  "verified": null,
+  "issueNumber": null
+}

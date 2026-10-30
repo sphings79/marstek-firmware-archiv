@@ -4,6 +4,36 @@
 
 Alle archivierten Firmware-Versionen, chronologisch (neueste zuerst).
 
+## HMJ-2 — v202409090159 — 2026-10-30
+
+_Keine Release Notes._
+
+<sub>[202409090159_HMJ-2_20250211163732a201f9183.rbl](firmwares/HMJ-2/202409090159/202409090159_HMJ-2_20250211163732a201f9183.rbl)</sub>
+
+## HMG-1 — BMS v216 — 2026-10-30
+
+- Kompatibel mit einem 5-kWh-BMS
+
+<sub>[216_bms_HMG-1_2026010611325667a1e9823.bin](firmwares/HMG-1/BMS/216/216_bms_HMG-1_2026010611325667a1e9823.bin)</sub>
+
+## HMI-5 — FC41D v202512040649 — 2026-10-30
+
+_Keine Release Notes._
+
+<sub>[202512040649_fc41d_HMI-5_20251218114942352277587.rbl](firmwares/HMI-5/FC41D/202512040649/202512040649_fc41d_HMI-5_20251218114942352277587.rbl)</sub>
+
+## HMI-1 — Control v132 — 2026-10-30
+
+- Optimieren Sie den Systembetrieb
+
+<sub>[132_control_HMI-1_20251010160748845913037.bin](firmwares/HMI-1/Control/132/132_control_HMI-1_20251010160748845913037.bin)</sub>
+
+## HMI-5 — Control v132 — 2026-10-30
+
+- Optimieren Sie den Systembetrieb
+
+<sub>[132_control_HMI-5_20251010160748845913037.bin](firmwares/HMI-5/Control/132/132_control_HMI-5_20251010160748845913037.bin)</sub>
+
 ## HMJ-2 — v202512040635 — 2026-10-30
 
 _Keine Release Notes._

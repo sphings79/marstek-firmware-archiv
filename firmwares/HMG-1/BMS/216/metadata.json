@@ -1,0 +1,51 @@
+{
+  "firmwareType": "BMS",
+  "url": "https://static-eu.marstekenergy.com/uploads/ota/20260106/2026010611325667a1e9823.bin",
+  "remark": "适配5度电BMS Compatible with a 5 kWh BMS",
+  "chinese": "适配5度电BMS Compatible with a 5 kWh BMS",
+  "apiResponse": {
+    "code": 1,
+    "show": 0,
+    "msg": "success",
+    "data": {
+      "control": "",
+      "bms": {
+        "edition": 2775,
+        "devicetype": "",
+        "mcu_type": "bms",
+        "type": "HMG-1",
+        "url": "https://static-eu.marstekenergy.com/uploads/ota/20260106/2026010611325667a1e9823.bin",
+        "version": 216,
+        "english": "",
+        "chinese": "适配5度电BMS Compatible with a 5 kWh BMS",
+        "japanese": "",
+        "remark": "适配5度电BMS Compatible with a 5 kWh BMS",
+        "is_boot": "N",
+        "is_http": "N",
+        "crc": "",
+        "size": 73728,
+        "force_update": "N"
+      },
+      "mppt": "",
+      "micro": "",
+      "dcdc": "",
+      "bms_pack1": "",
+      "bms_pack2": "",
+      "led": "",
+      "charger": ""
+    }
+  },
+  "deviceType": "HMG-1",
+  "version": "216",
+  "releaseNote": "适配5度电BMS Compatible with a 5 kWh BMS",
+  "releaseNoteDE": "Kompatibel mit einem 5-kWh-BMS",
+  "releaseNoteEN": "Compatible with a 5 kWh BMS",
+  "archivedAt": "2026-10-30T18:26:44Z",
+  "archivedFilename": "216_bms_HMG-1_2026010611325667a1e9823.bin",
+  "archivedFilesize": 73728,
+  "archivedSha256": "53534f76641d6ec2665261b07f85087cc1feb123b280e786cefbc9aea0a15307",
+  "apiCrc": null,
+  "apiSize": 73728,
+  "verified": true,
+  "issueNumber": null
+}

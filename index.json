@@ -1,5 +1,22 @@
 {
  "devices": {
+  "HMG-1": {
+   "model": "",
+   "firmwares": [
+    {
+     "type": "BMS",
+     "version": "216",
+     "display": "216",
+     "beta": false,
+     "file": "firmwares/HMG-1/BMS/216/216_bms_HMG-1_2026010611325667a1e9823.bin",
+     "size": 73728,
+     "sha256": "53534f76641d6ec2665261b07f85087cc1feb123b280e786cefbc9aea0a15307",
+     "date": "2026-10-30",
+     "noteEN": "Compatible with a 5 kWh BMS",
+     "noteDE": "Kompatibel mit einem 5-kWh-BMS"
+    }
+   ]
+  },
   "HMG-50": {
    "model": "Marstek Venus E Gen 1/2",
    "firmwares": [
@@ -86,6 +103,40 @@
      "date": "2025-08-25",
      "noteEN": "1. Network setup now supports open (passwordless) Wi-Fi\n2. Fixed various known issues",
      "noteDE": "1. Einrichtung in WLANs ohne Passwort möglich\n2. Verschiedene bekannte Probleme behoben"
+    }
+   ]
+  },
+  "HMI-1": {
+   "model": "",
+   "firmwares": [
+    {
+     "type": "Control",
+     "version": "132",
+     "display": "132",
+     "beta": false,
+     "file": "firmwares/HMI-1/Control/132/132_control_HMI-1_20251010160748845913037.bin",
+     "size": 98304,
+     "sha256": "81d113ca8b569ece7feea556b94b335acfdd60a4893bee04e954caac7cc9751f",
+     "date": "2026-10-30",
+     "noteEN": "Optimize system operation",
+     "noteDE": "Optimieren Sie den Systembetrieb"
+    }
+   ]
+  },
+  "HMI-5": {
+   "model": "",
+   "firmwares": [
+    {
+     "type": "Control",
+     "version": "132",
+     "display": "132",
+     "beta": false,
+     "file": "firmwares/HMI-5/Control/132/132_control_HMI-5_20251010160748845913037.bin",
+     "size": 98304,
+     "sha256": "81d113ca8b569ece7feea556b94b335acfdd60a4893bee04e954caac7cc9751f",
+     "date": "2026-10-30",
+     "noteEN": "Optimize system operation",
+     "noteDE": "Optimieren Sie den Systembetrieb"
     }
    ]
   },

@@ -1,0 +1,51 @@
+{
+  "firmwareType": "Control",
+  "url": "https://eu-central-1-s3-common-bucket.s3.dualstack.eu-central-1.amazonaws.com/uploads/ota/20251010/20251010160748845913037.bin",
+  "remark": "Optimize system operation",
+  "chinese": "优化系统运行",
+  "apiResponse": {
+    "code": 1,
+    "show": 0,
+    "msg": "success",
+    "data": {
+      "control": {
+        "edition": 2408,
+        "devicetype": "",
+        "mcu_type": "control",
+        "type": "HMI-5",
+        "url": "https://eu-central-1-s3-common-bucket.s3.dualstack.eu-central-1.amazonaws.com/uploads/ota/20251010/20251010160748845913037.bin",
+        "version": 132,
+        "english": "Optimize system operation",
+        "chinese": "优化系统运行",
+        "japanese": "",
+        "remark": "Optimize system operation",
+        "is_boot": "N",
+        "is_http": "N",
+        "crc": "",
+        "size": 98304,
+        "force_update": "N"
+      },
+      "bms": "",
+      "mppt": "",
+      "micro": "",
+      "dcdc": "",
+      "bms_pack1": "",
+      "bms_pack2": "",
+      "led": "",
+      "charger": ""
+    }
+  },
+  "deviceType": "HMI-5",
+  "version": "132",
+  "releaseNote": "优化系统运行",
+  "releaseNoteDE": "Optimieren Sie den Systembetrieb",
+  "releaseNoteEN": "Optimize system operation",
+  "archivedAt": "2026-10-30T18:26:24Z",
+  "archivedFilename": "132_control_HMI-5_20251010160748845913037.bin",
+  "archivedFilesize": 98304,
+  "archivedSha256": "81d113ca8b569ece7feea556b94b335acfdd60a4893bee04e954caac7cc9751f",
+  "apiCrc": null,
+  "apiSize": 98304,
+  "verified": true,
+  "issueNumber": null
+}

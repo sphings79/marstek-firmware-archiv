@@ -1,7 +1,7 @@
 # Marstek Firmware Archiv
 
 [![Stars](https://img.shields.io/github/stars/sphings79/marstek-firmware-archiv?style=flat&logo=github&label=Sterne)](https://github.com/sphings79/marstek-firmware-archiv/stargazers)
-[![Firmware](https://img.shields.io/badge/Firmware--Dateien-61-blue)](#verfügbare-firmware)
+[![Firmware](https://img.shields.io/badge/Firmware--Dateien-66-blue)](#verfügbare-firmware)
 [![Updated](https://img.shields.io/github/last-commit/sphings79/marstek-firmware-archiv?label=zuletzt%20aktualisiert)](https://github.com/sphings79/marstek-firmware-archiv/commits/main)
 
 [🇬🇧 English](README.md) · 🇩🇪 **Deutsch**
@@ -35,8 +35,11 @@ Englisch, SHA-256-Prüfsumme, Dateigröße und Changelog pro Version.
 |------------|--------|----------|
 | `HME-3` | Marstek Smart Meter CT002 / P1 | [4 Versionen](#hme-3--marstek-smart-meter-ct002--p1) |
 | `HME-4` | Marstek Smart Meter CT002 / P1 | [3 Versionen](#hme-4--marstek-smart-meter-ct002--p1) |
+| `HMG-1` | — | [1 Version](#hmg-1) |
 | `HMG-50` | Marstek Venus E Gen 1/2 | [7 Versionen](#hmg-50--marstek-venus-e-gen-12) |
-| `HMJ-2` | Marstek Saturn / B2500 v2 | [3 Versionen](#hmj-2--marstek-saturn--b2500-v2) |
+| `HMI-1` | — | [1 Version](#hmi-1) |
+| `HMI-5` | — | [2 Versionen](#hmi-5) |
+| `HMJ-2` | Marstek Saturn / B2500 v2 | [4 Versionen](#hmj-2--marstek-saturn--b2500-v2) |
 | `VNSA-0` | Marstek Venus A | [16 Versionen](#vnsa-0--marstek-venus-a) |
 | `VNSD-0` | Marstek Venus D | [12 Versionen](#vnsd-0--marstek-venus-d) |
 | `VNSE3-0` | Marstek Venus E 3.0 | [15 Versionen](#vnse3-0--marstek-venus-e-30) |
@@ -88,6 +91,14 @@ einreichen:
 | v124 | 72 KB | 2026-08-12 | [📁 124_HME-4_20250915163554648799838.bin](firmwares/HME-4/124/124_HME-4_20250915163554648799838.bin) | [#9](../../issues/9) | UDP-Protokoll v4: Fehler beim UDP-Reset behoben |
 | v120 | 66 KB | 2025-08-25 | [📁 120_HME-4_202507021110400569f6547.bin](firmwares/HME-4/120/120_HME-4_202507021110400569f6547.bin) | [↗ ref](https://github.com/rweijnen/marstek-firmware-archive) | 1. UDP-Empfang und Neustartverhalten optimiert<br>2. Bluetooth-Befehl zum Aktualisieren des Quectel-Moduls ergänzt<br>3. Anzahl verbindbarer Slave-Geräte auf 15 erhöht |
 
+### HMG-1
+
+#### BMS
+
+| Version | Größe | Hinzugefügt | Download | Issue | Änderungen |
+|---------|-------|-------------|----------|-------|------------|
+| v216 | 72 KB | 2026-10-30 | [📁 216_bms_HMG-1_2026010611325667a1e9823.bin](firmwares/HMG-1/BMS/216/216_bms_HMG-1_2026010611325667a1e9823.bin) | - | Kompatibel mit einem 5-kWh-BMS |
+
 ### HMG-50 — Marstek Venus E Gen 1/2
 
 #### BMS
@@ -107,11 +118,34 @@ einreichen:
 | v155 | 232 KB | 2025-10-27 | [📁 155_control_HMG-50_202509161548003ff722863.bin](firmwares/HMG-50/Control/155/155_control_HMG-50_202509161548003ff722863.bin) | [↗ ref](https://github.com/rweijnen/marstek-firmware-archive) | 1. Kumulierte Erfassung der Lade- und Entladezeit ergänzt<br>2. Netzanschlussnorm lässt sich jetzt an das Gerät übertragen |
 | v153 | 222 KB | 2025-08-25 | [📁 153_control_HMG-50_202505301136007a5b57023.bin](firmwares/HMG-50/Control/153/153_control_HMG-50_202505301136007a5b57023.bin) | [↗ ref](https://github.com/rweijnen/marstek-firmware-archive) | 1. Einrichtung in WLANs ohne Passwort möglich<br>2. Verschiedene bekannte Probleme behoben |
 
+### HMI-1
+
+#### Control
+
+| Version | Größe | Hinzugefügt | Download | Issue | Änderungen |
+|---------|-------|-------------|----------|-------|------------|
+| v132 | 96 KB | 2026-10-30 | [📁 132_control_HMI-1_20251010160748845913037.bin](firmwares/HMI-1/Control/132/132_control_HMI-1_20251010160748845913037.bin) | - | Optimieren Sie den Systembetrieb |
+
+### HMI-5
+
+#### Control
+
+| Version | Größe | Hinzugefügt | Download | Issue | Änderungen |
+|---------|-------|-------------|----------|-------|------------|
+| v132 | 96 KB | 2026-10-30 | [📁 132_control_HMI-5_20251010160748845913037.bin](firmwares/HMI-5/Control/132/132_control_HMI-5_20251010160748845913037.bin) | - | Optimieren Sie den Systembetrieb |
+
+#### FC41D
+
+| Version | Größe | Hinzugefügt | Download | Issue | Änderungen |
+|---------|-------|-------------|----------|-------|------------|
+| v202512040649 | 667.05 KB | 2026-10-30 | [📁 202512040649_fc41d_HMI-5_20251218114942352277587.rbl](firmwares/HMI-5/FC41D/202512040649/202512040649_fc41d_HMI-5_20251218114942352277587.rbl) | - |  |
+
 ### HMJ-2 — Marstek Saturn / B2500 v2
 
 | Version | Größe | Hinzugefügt | Download | Issue | Änderungen |
 |---------|-------|-------------|----------|-------|------------|
 | v202512040635 | 666.95 KB | 2026-10-30 | [📁 202512040635_HMJ-2_20251204_144106.rbl](firmwares/HMJ-2/202512040635/202512040635_HMJ-2_20251204_144106.rbl) | [#58](../../issues/58) |  |
+| v202409090159 | 663.77 KB | 2026-10-30 | [📁 202409090159_HMJ-2_20250211163732a201f9183.rbl](firmwares/HMJ-2/202409090159/202409090159_HMJ-2_20250211163732a201f9183.rbl) | - |  |
 | v116 | 160 KB | 2026-10-25 | [📁 116_HMJ-2_202508051050536604e3965.bin](firmwares/HMJ-2/116/116_HMJ-2_202508051050536604e3965.bin) | [#54](../../issues/54) |  |
 | v110 | 146 KB | 2026-07-24 | [📁 110_HMJ-2_20250523160631745d66082.bin](firmwares/HMJ-2/110/110_HMJ-2_20250523160631745d66082.bin) | [↗ ref](https://github.com/rweijnen/marstek-firmware-archive) |  |
 
@@ -234,8 +268,8 @@ einreichen:
 
 ---
 
-**Firmware-Dateien gesamt:** 61
-**Zuletzt aktualisiert:** 2026-10-30 09:58:29 UTC
+**Firmware-Dateien gesamt:** 66
+**Zuletzt aktualisiert:** 2026-10-30 19:06:18 UTC
 
 ## Mitmachen
 
