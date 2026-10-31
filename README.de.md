@@ -1,7 +1,7 @@
 # Marstek Firmware Archiv
 
 [![Stars](https://img.shields.io/github/stars/sphings79/marstek-firmware-archiv?style=flat&logo=github&label=Sterne)](https://github.com/sphings79/marstek-firmware-archiv/stargazers)
-[![Firmware](https://img.shields.io/badge/Firmware--Dateien-68-blue)](#verfügbare-firmware)
+[![Firmware](https://img.shields.io/badge/Firmware--Dateien-69-blue)](#verfügbare-firmware)
 [![Updated](https://img.shields.io/github/last-commit/sphings79/marstek-firmware-archiv?label=zuletzt%20aktualisiert)](https://github.com/sphings79/marstek-firmware-archiv/commits/main)
 
 [🇬🇧 English](README.md) · 🇩🇪 **Deutsch**
@@ -44,7 +44,7 @@ Englisch, SHA-256-Prüfsumme, Dateigröße und Changelog pro Version.
 | `SMR-0` | Marstek P1 Meter CT003 | [1 Version](#smr-0--marstek-p1-meter-ct003) |
 | `VNSA-0` | Marstek Venus A | [16 Versionen](#vnsa-0--marstek-venus-a) |
 | `VNSD-0` | Marstek Venus D | [12 Versionen](#vnsd-0--marstek-venus-d) |
-| `VNSE3-0` | Marstek Venus E 3.0 | [15 Versionen](#vnse3-0--marstek-venus-e-30) |
+| `VNSE3-0` | Marstek Venus E 3.0 | [16 Versionen](#vnse3-0--marstek-venus-e-30) |
 | `VNSEMINI-0` | Marstek Venus E Mini | [1 Version](#vnsemini-0--marstek-venus-e-mini) |
 
 Der Gerätecode steht in der Marstek-App bzw. wird vom
@@ -251,6 +251,7 @@ einreichen:
 
 | Version | Größe | Hinzugefügt | Download | Issue | Änderungen |
 |---------|-------|-------------|----------|-------|------------|
+| v151.1 (Beta) | 370 KB | 2026-10-30 | [📁 1511_control_VNSE3-0_ems_app_0151_0928_094421.bin](firmwares/VNSE3-0/Control/1511/1511_control_VNSE3-0_ems_app_0151_0928_094421.bin) | [↗ ref](https://github.com/rweijnen/marstek-firmware-archive) | 1. Optimieren Sie die Modbus-TCP-Stabilität<br>2. Das Problem, dass DOD aufgrund eines abnormalen Status vor der Optimierung nicht entlassen werden kann<br>3. Fügen Sie die Überprüfung des Ymodel-Upgrade-Typs hinzu<br>4. Optimieren Sie die Überprüfung des KI-Modus und fragen Sie die aktuelle KI-Strategie des Geräts ab<br>5. Der URL-Fehler des Vorabversionsservers wurde behoben, der zu einem Fehler beim Hochladen der Daten führte.<br>6. Optimieren Sie die Stabilität von HTTP-Upload-Daten<br>7. Optimieren Sie die CT-Kommunikationsfrequenz auf 1,1 S |
 | v151 | 370 KB | 2026-09-29 | [📁 151_control_VNSE3-0_ems_app_0151_0928_094421.bin](firmwares/VNSE3-0/Control/151/151_control_VNSE3-0_ems_app_0151_0928_094421.bin) | [#47](../../issues/47) | 1. Optimieren Sie die Modbus-TCP-Stabilität<br>2. Das Problem, dass DOD aufgrund eines abnormalen Status vor der Optimierung nicht entlassen werden kann<br>3. Fügen Sie die Überprüfung des Ymodel-Upgrade-Typs hinzu<br>4. Optimieren Sie die Überprüfung des KI-Modus und fragen Sie die aktuelle KI-Strategie des Geräts ab<br>5. Der URL-Fehler des Vorabversionsservers wurde behoben, der zu einem Fehler beim Hochladen der Daten führte.<br>6. Optimieren Sie die Stabilität von HTTP-Upload-Daten<br>7. Optimieren Sie die CT-Kommunikationsfrequenz auf 1,1 S |
 | v150 | 366 KB | 2026-08-12 | [📁 150_control_VNSE3-0_app_0150_0804_151249.bin](firmwares/VNSE3-0/Control/150/150_control_VNSE3-0_app_0150_0804_151249.bin) | [#27](../../issues/27) | 1. Fehlerhaftes Senden der Local API im Ethernet-Modus behoben<br>2. Fehlgeschlagene HTTP-Updates im Ethernet-Modus behoben<br>3. Peak-Shaving-Funktion ergänzt<br>4. Datenverlust durch zu lange HTTP-Datensätze behoben<br>5. Anbindung des Stromzählers auf CT_TYPE-Verbindung umgestellt |
 | v149 | 362 KB | 2026-08-12 | [📁 149_control_VNSE3-0_app_0149_0528_3_101940.bin](firmwares/VNSE3-0/Control/149/149_control_VNSE3-0_app_0149_0528_3_101940.bin) | [#12](../../issues/12) | 1. Weitere OpenAPI-Funktionen ergänzt; behoben: ES-Schnittstelle lieferte PV-Daten als 0, und nach manuellem Umschalten wurde fälschlich UPS angezeigt<br>2. Reparaturmechanismus bei I²C-Deadlock ergänzt, behebt Lesefehler am EEPROM<br>3. Unterstützung für französische Stromzähler ergänzt<br>4. HTTP-Datenupload um IP-Adresse und kumulierte Lade-/Entlademenge der Batterie erweitert (nur VE3)<br>5. Überschusseinspeisung ins Netz optimiert<br>6. Fehlerhafte Übertragung der DOD-Konfiguration behoben<br>7. HTTP-Upload-Intervall auf 5 Minuten geändert; fehlerhafte Zellspannungswerte beim VA behoben<br>8. Konfiguration der maximalen Leistung wird unterstützt |
@@ -282,8 +283,8 @@ einreichen:
 
 ---
 
-**Firmware-Dateien gesamt:** 68
-**Zuletzt aktualisiert:** 2026-10-30 19:06:41 UTC
+**Firmware-Dateien gesamt:** 69
+**Zuletzt aktualisiert:** 2026-10-31 10:32:52 UTC
 
 ## Mitmachen
 
