@@ -515,6 +515,18 @@
     },
     {
      "type": "Control",
+     "version": "1511",
+     "display": "151.1",
+     "beta": true,
+     "file": "firmwares/VNSE3-0/Control/1511/1511_control_VNSE3-0_ems_app_0151_0928_094421.bin",
+     "size": 378880,
+     "sha256": "a2f566ebdf3f94a5b2b171e071bd65237d0cd0ae68035dab5fc34734cf250148",
+     "date": "2026-10-30",
+     "noteEN": "1. Optimize modbus tcp stability\n2. The problem that DOD cannot be discharged due to abnormal status before optimization\n3. Add Ymodel upgrade type verification\n4. Optimize AI mode verification and query the current AI strategy of the device\n5. Fixed the pre-release server URL error, causing data upload failure.\n6. Optimize the stability of Https upload data\n7. Optimize CT communication frequency to 1.1S",
+     "noteDE": "1. Optimieren Sie die Modbus-TCP-Stabilität\n2. Das Problem, dass DOD aufgrund eines abnormalen Status vor der Optimierung nicht entlassen werden kann\n3. Fügen Sie die Überprüfung des Ymodel-Upgrade-Typs hinzu\n4. Optimieren Sie die Überprüfung des KI-Modus und fragen Sie die aktuelle KI-Strategie des Geräts ab\n5. Der URL-Fehler des Vorabversionsservers wurde behoben, der zu einem Fehler beim Hochladen der Daten führte.\n6. Optimieren Sie die Stabilität von HTTP-Upload-Daten\n7. Optimieren Sie die CT-Kommunikationsfrequenz auf 1,1 S"
+    },
+    {
+     "type": "Control",
      "version": "151",
      "display": "151",
      "beta": false,

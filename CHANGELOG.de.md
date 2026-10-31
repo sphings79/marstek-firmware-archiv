@@ -46,6 +46,18 @@ _Keine Release Notes._
 
 <sub>[132_control_HMI-5_20251010160748845913037.bin](firmwares/HMI-5/Control/132/132_control_HMI-5_20251010160748845913037.bin)</sub>
 
+## VNSE3-0 — Control v151.1 (Beta) — 2026-10-30
+
+- Optimieren Sie die Modbus-TCP-Stabilität
+- Das Problem, dass DOD aufgrund eines abnormalen Status vor der Optimierung nicht entlassen werden kann
+- Fügen Sie die Überprüfung des Ymodel-Upgrade-Typs hinzu
+- Optimieren Sie die Überprüfung des KI-Modus und fragen Sie die aktuelle KI-Strategie des Geräts ab
+- Der URL-Fehler des Vorabversionsservers wurde behoben, der zu einem Fehler beim Hochladen der Daten führte.
+- Optimieren Sie die Stabilität von HTTP-Upload-Daten
+- Optimieren Sie die CT-Kommunikationsfrequenz auf 1,1 S
+
+<sub>[1511_control_VNSE3-0_ems_app_0151_0928_094421.bin](firmwares/VNSE3-0/Control/1511/1511_control_VNSE3-0_ems_app_0151_0928_094421.bin)</sub>
+
 ## HMJ-2 — v202512040635 — 2026-10-30
 
 _Keine Release Notes._
