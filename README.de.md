@@ -1,7 +1,7 @@
 # Marstek Firmware Archiv
 
 [![Stars](https://img.shields.io/github/stars/sphings79/marstek-firmware-archiv?style=flat&logo=github&label=Sterne)](https://github.com/sphings79/marstek-firmware-archiv/stargazers)
-[![Firmware](https://img.shields.io/badge/Firmware--Dateien-68-blue)](#verfügbare-firmware)
+[![Firmware](https://img.shields.io/badge/Firmware--Dateien-69-blue)](#verfügbare-firmware)
 [![Updated](https://img.shields.io/github/last-commit/sphings79/marstek-firmware-archiv?label=zuletzt%20aktualisiert)](https://github.com/sphings79/marstek-firmware-archiv/commits/main)
 
 [🇬🇧 English](README.md) · 🇩🇪 **Deutsch**
@@ -40,7 +40,7 @@ Englisch, SHA-256-Prüfsumme, Dateigröße und Changelog pro Version.
 | `HMI-1` | Marstek Saturn M Microinverter 800 W | [1 Version](#hmi-1--marstek-saturn-m-microinverter-800-w) |
 | `HMI-5` | Marstek Saturn M2-1000 Microinverter 1000 W | [2 Versionen](#hmi-5--marstek-saturn-m2-1000-microinverter-1000-w) |
 | `HMJ-2` | Marstek Saturn / B2500 v2 | [4 Versionen](#hmj-2--marstek-saturn--b2500-v2) |
-| `JPLS-8H` | Marstek Jupiter C Plus | [1 Version](#jpls-8h--marstek-jupiter-c-plus) |
+| `JPLS-8H` | Marstek Jupiter C Plus | [2 Versionen](#jpls-8h--marstek-jupiter-c-plus) |
 | `SMR-0` | Marstek P1 Meter CT003 | [1 Version](#smr-0--marstek-p1-meter-ct003) |
 | `VNSA-0` | Marstek Venus A | [16 Versionen](#vnsa-0--marstek-venus-a) |
 | `VNSD-0` | Marstek Venus D | [12 Versionen](#vnsd-0--marstek-venus-d) |
@@ -155,6 +155,7 @@ einreichen:
 
 | Version | Größe | Hinzugefügt | Download | Issue | Änderungen |
 |---------|-------|-------------|----------|-------|------------|
+| v217 | 96 KB | 2026-11-02 | [📁 217_JPLS-8H_20251014151654c62ef6524.bin](firmwares/JPLS-8H/217/217_JPLS-8H_20251014151654c62ef6524.bin) | [#60](../../issues/60) |  |
 | v37 | 94 KB | 2026-10-30 | [📁 37_JPLS-8H_jp37_ota_180048.bin](firmwares/JPLS-8H/37/37_JPLS-8H_jp37_ota_180048.bin) | - | Integrierte Logikoptimierung |
 
 ### SMR-0 — Marstek P1 Meter CT003
@@ -282,8 +283,8 @@ einreichen:
 
 ---
 
-**Firmware-Dateien gesamt:** 68
-**Zuletzt aktualisiert:** 2026-10-30 19:06:41 UTC
+**Firmware-Dateien gesamt:** 69
+**Zuletzt aktualisiert:** 2026-11-02 21:12:05 UTC
 
 ## Mitmachen
 

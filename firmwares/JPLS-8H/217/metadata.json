@@ -1,0 +1,33 @@
+{
+  "deviceName": "Ju*********** 1",
+  "url": "https://eu-central-1-s3-common-bucket.s3.dualstack.eu-central-1.amazonaws.com/uploads/ota/20251014/20251014151654c62ef6524.bin",
+  "apiResponse": {
+    "code": "1",
+    "content": "English",
+    "newVerion": "217",
+    "otaWay": "otaSelfBoot",
+    "data": "https://eu-central-1-s3-common-bucket.s3.dualstack.eu-central-1.amazonaws.com/uploads/ota/20251014/20251014151654c62ef6524.bin",
+    "english": "",
+    "chinese": "缩短解锁BMS时间",
+    "japanese": "",
+    "remark": "Optimize control logic",
+    "is_boot": "N",
+    "is_http": "N",
+    "size": 98304,
+    "crc": ""
+  },
+  "deviceType": "JPLS-8H",
+  "version": "217",
+  "firmwareType": null,
+  "releaseNote": "",
+  "releaseNoteDE": "",
+  "releaseNoteEN": "",
+  "archivedAt": "2026-11-02T21:12:05Z",
+  "archivedFilename": "217_JPLS-8H_20251014151654c62ef6524.bin",
+  "archivedFilesize": 98304,
+  "archivedSha256": "0033c28a4314ff685f9e2266bdbb0661e7bbdbb8e63a2edfa1716738c79576da",
+  "apiCrc": null,
+  "apiSize": null,
+  "verified": null,
+  "issueNumber": 60
+}

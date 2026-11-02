@@ -2,6 +2,12 @@
 
 [🇬🇧 English](CHANGELOG.md) · 🇩🇪 **Deutsch**
 
+## v217 — 2026-11-02
+
+_Keine Release Notes._
+
+<sub>Issue [#60](../../../../issues/60) · Datei `217_JPLS-8H_20251014151654c62ef6524.bin` · SHA-256 `0033c28a4314…`</sub>
+
 ## v37 — 2026-10-30
 
 - Integrierte Logikoptimierung

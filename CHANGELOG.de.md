@@ -4,6 +4,12 @@
 
 Alle archivierten Firmware-Versionen, chronologisch (neueste zuerst).
 
+## JPLS-8H — v217 — 2026-11-02
+
+_Keine Release Notes._
+
+<sub>Issue [#60](issues/60) · [217_JPLS-8H_20251014151654c62ef6524.bin](firmwares/JPLS-8H/217/217_JPLS-8H_20251014151654c62ef6524.bin)</sub>
+
 ## SMR-0 — v113 — 2026-10-30
 
 - Neustarts verhindern: Die ATE-Funktion des Quectel-Moduls wurde deaktiviert, um endlose Reset-Schleifen zu verhindern
