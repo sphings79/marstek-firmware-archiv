@@ -2,6 +2,12 @@
 
 🇬🇧 **English** · [🇩🇪 Deutsch](CHANGELOG.de.md)
 
+## MPPT v104 — 2026-11-05
+
+- Latest version 104
+
+<sub>Issue [#61](../../../../issues/61) · File `104_mppt_VNSD-0_20251010134652a65a88005.bin` · SHA-256 `4237eb5e8216…`</sub>
+
 ## BMS v117 — 2026-10-19
 
 - Sampling version 117, optimizing hibernation, upgrading logic.

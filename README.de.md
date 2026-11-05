@@ -1,7 +1,7 @@
 # Marstek Firmware Archiv
 
 [![Stars](https://img.shields.io/github/stars/sphings79/marstek-firmware-archiv?style=flat&logo=github&label=Sterne)](https://github.com/sphings79/marstek-firmware-archiv/stargazers)
-[![Firmware](https://img.shields.io/badge/Firmware--Dateien-69-blue)](#verfügbare-firmware)
+[![Firmware](https://img.shields.io/badge/Firmware--Dateien-70-blue)](#verfügbare-firmware)
 [![Updated](https://img.shields.io/github/last-commit/sphings79/marstek-firmware-archiv?label=zuletzt%20aktualisiert)](https://github.com/sphings79/marstek-firmware-archiv/commits/main)
 
 [🇬🇧 English](README.md) · 🇩🇪 **Deutsch**
@@ -43,7 +43,7 @@ Englisch, SHA-256-Prüfsumme, Dateigröße und Changelog pro Version.
 | `JPLS-8H` | Marstek Jupiter C Plus | [2 Versionen](#jpls-8h--marstek-jupiter-c-plus) |
 | `SMR-0` | Marstek P1 Meter CT003 | [1 Version](#smr-0--marstek-p1-meter-ct003) |
 | `VNSA-0` | Marstek Venus A | [16 Versionen](#vnsa-0--marstek-venus-a) |
-| `VNSD-0` | Marstek Venus D | [12 Versionen](#vnsd-0--marstek-venus-d) |
+| `VNSD-0` | Marstek Venus D | [13 Versionen](#vnsd-0--marstek-venus-d) |
 | `VNSE3-0` | Marstek Venus E 3.0 | [15 Versionen](#vnse3-0--marstek-venus-e-30) |
 | `VNSEMINI-0` | Marstek Venus E Mini | [1 Version](#vnsemini-0--marstek-venus-e-mini) |
 
@@ -229,6 +229,12 @@ einreichen:
 | v202512040647 | 666.92 KB | 2026-08-21 | [📁 202512040647_fc41d_VNSD-0_202512271054507d95a7957.rbl](firmwares/VNSD-0/FC41D/202512040647/202512040647_fc41d_VNSD-0_202512271054507d95a7957.rbl) | [#31](../../issues/31) |  |
 | v202409090159 | 663.77 KB | 2026-08-21 | [📁 202409090159_fc41d_VNSD-0_HM_HIE_FC41D_remote_ota.rbl](firmwares/VNSD-0/FC41D/202409090159/202409090159_fc41d_VNSD-0_HM_HIE_FC41D_remote_ota.rbl) | - | Installierte 2024er-Basisversion des FC41D-Kommunikationsmoduls, ausgeliefert über die statische hamedata-URL. |
 
+#### MPPT
+
+| Version | Größe | Hinzugefügt | Download | Issue | Änderungen |
+|---------|-------|-------------|----------|-------|------------|
+| v104 | 96 KB | 2026-11-05 | [📁 104_mppt_VNSD-0_20251010134652a65a88005.bin](firmwares/VNSD-0/MPPT/104/104_mppt_VNSD-0_20251010134652a65a88005.bin) | [#61](../../issues/61) | Neueste Version 104 |
+
 #### Micro
 
 | Version | Größe | Hinzugefügt | Download | Issue | Änderungen |
@@ -283,8 +289,8 @@ einreichen:
 
 ---
 
-**Firmware-Dateien gesamt:** 69
-**Zuletzt aktualisiert:** 2026-11-02 21:12:05 UTC
+**Firmware-Dateien gesamt:** 70
+**Zuletzt aktualisiert:** 2026-11-05 06:09:26 UTC
 
 ## Mitmachen
 

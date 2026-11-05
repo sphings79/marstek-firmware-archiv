@@ -4,6 +4,12 @@
 
 Alle archivierten Firmware-Versionen, chronologisch (neueste zuerst).
 
+## VNSD-0 — MPPT v104 — 2026-11-05
+
+- Neueste Version 104
+
+<sub>Issue [#61](issues/61) · [104_mppt_VNSD-0_20251010134652a65a88005.bin](firmwares/VNSD-0/MPPT/104/104_mppt_VNSD-0_20251010134652a65a88005.bin)</sub>
+
 ## JPLS-8H — v217 — 2026-11-02
 
 _Keine Release Notes._

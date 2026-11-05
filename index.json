@@ -447,6 +447,18 @@
      "date": "2026-08-12",
      "noteEN": "Adapted to control firmware 147",
      "noteDE": "Angepasst an Control-Firmware 147"
+    },
+    {
+     "type": "MPPT",
+     "version": "104",
+     "display": "104",
+     "beta": false,
+     "file": "firmwares/VNSD-0/MPPT/104/104_mppt_VNSD-0_20251010134652a65a88005.bin",
+     "size": 98304,
+     "sha256": "4237eb5e8216a5ac3caf6c5adaafdf6bee31ee78843a488206239991c1a4091d",
+     "date": "2026-11-05",
+     "noteEN": "Latest version 104",
+     "noteDE": "Neueste Version 104"
     }
    ]
   },
