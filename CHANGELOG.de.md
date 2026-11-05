@@ -4,6 +4,12 @@
 
 Alle archivierten Firmware-Versionen, chronologisch (neueste zuerst).
 
+## VNSE3-0 — FC41D v202506241541 — 2026-11-05
+
+_Keine Release Notes._
+
+<sub>Issue [#62](issues/62) · [202506241541_fc41d_VNSE3-0_2025062416402018cf71689.rbl](firmwares/VNSE3-0/FC41D/202506241541/202506241541_fc41d_VNSE3-0_2025062416402018cf71689.rbl)</sub>
+
 ## VNSD-0 — MPPT v104 — 2026-11-05
 
 - Neueste Version 104

@@ -2,6 +2,12 @@
 
 [🇬🇧 English](CHANGELOG.md) · 🇩🇪 **Deutsch**
 
+## FC41D v202506241541 — 2026-11-05
+
+_Keine Release Notes._
+
+<sub>Issue [#62](../../../../issues/62) · Datei `202506241541_fc41d_VNSE3-0_2025062416402018cf71689.rbl` · SHA-256 `9007b2f94653…`</sub>
+
 ## Control v151 — 2026-09-29
 
 - Optimieren Sie die Modbus-TCP-Stabilität
