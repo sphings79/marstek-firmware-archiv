@@ -1,0 +1,27 @@
+{
+  "firmwareType": "FC41D",
+  "deviceName": "Ve************cd",
+  "url": "https://static-eu.marstekenergy.com/uploads/ota/20250624/2025062416402018cf71689.rbl",
+  "apiResponse": {
+    "code": 1,
+    "show": 0,
+    "msg": "ok",
+    "data": {
+      "version": "202506241541",
+      "url": "https://static-eu.marstekenergy.com/uploads/ota/20250624/2025062416402018cf71689.rbl"
+    }
+  },
+  "deviceType": "VNSE3-0",
+  "version": "202506241541",
+  "releaseNote": "",
+  "releaseNoteDE": "",
+  "releaseNoteEN": "",
+  "archivedAt": "2026-11-05T06:27:00Z",
+  "archivedFilename": "202506241541_fc41d_VNSE3-0_2025062416402018cf71689.rbl",
+  "archivedFilesize": 678048,
+  "archivedSha256": "9007b2f94653d79808719a8d213d221f919c295f6f9e646e5dea8158965d7e8d",
+  "apiCrc": null,
+  "apiSize": null,
+  "verified": null,
+  "issueNumber": 62
+}

@@ -2,6 +2,24 @@
 
 🇬🇧 **English** · [🇩🇪 Deutsch](CHANGELOG.de.md)
 
+## FC41D v202506241541 — 2026-11-05
+
+_No release notes._
+
+<sub>Issue [#62](../../../../issues/62) · File `202506241541_fc41d_VNSE3-0_2025062416402018cf71689.rbl` · SHA-256 `9007b2f94653…`</sub>
+
+## Control v151.1 (Beta) — 2026-10-30
+
+- Optimize modbus tcp stability
+- The problem that DOD cannot be discharged due to abnormal status before optimization
+- Add Ymodel upgrade type verification
+- Optimize AI mode verification and query the current AI strategy of the device
+- Fixed the pre-release server URL error, causing data upload failure.
+- Optimize the stability of Https upload data
+- Optimize CT communication frequency to 1.1S
+
+<sub>File `1511_control_VNSE3-0_ems_app_0151_0928_094421.bin` · SHA-256 `a2f566ebdf3f…`</sub>
+
 ## Control v151 — 2026-09-29
 
 - Optimize modbus tcp stability

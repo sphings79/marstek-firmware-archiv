@@ -10,6 +10,12 @@ _No release notes._
 
 <sub>Issue [#55](issues/55) · [143_JPLS-8H_app_0143_1012_182945.bin](firmwares/JPLS-8H/143/143_JPLS-8H_app_0143_1012_182945.bin)</sub>
 
+## VNSE3-0 — FC41D v202506241541 — 2026-11-05
+
+_No release notes._
+
+<sub>Issue [#62](issues/62) · [202506241541_fc41d_VNSE3-0_2025062416402018cf71689.rbl](firmwares/VNSE3-0/FC41D/202506241541/202506241541_fc41d_VNSE3-0_2025062416402018cf71689.rbl)</sub>
+
 ## VNSD-0 — MPPT v104 — 2026-11-05
 
 - Latest version 104
@@ -63,6 +69,18 @@ _No release notes._
 - Optimize system operation
 
 <sub>[132_control_HMI-5_20251010160748845913037.bin](firmwares/HMI-5/Control/132/132_control_HMI-5_20251010160748845913037.bin)</sub>
+
+## VNSE3-0 — Control v151.1 (Beta) — 2026-10-30
+
+- Optimize modbus tcp stability
+- The problem that DOD cannot be discharged due to abnormal status before optimization
+- Add Ymodel upgrade type verification
+- Optimize AI mode verification and query the current AI strategy of the device
+- Fixed the pre-release server URL error, causing data upload failure.
+- Optimize the stability of Https upload data
+- Optimize CT communication frequency to 1.1S
+
+<sub>[1511_control_VNSE3-0_ems_app_0151_0928_094421.bin](firmwares/VNSE3-0/Control/1511/1511_control_VNSE3-0_ems_app_0151_0928_094421.bin)</sub>
 
 ## HMJ-2 — v202512040635 — 2026-10-30
 
