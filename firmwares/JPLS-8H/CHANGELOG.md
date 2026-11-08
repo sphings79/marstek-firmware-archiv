@@ -6,7 +6,7 @@
 
 _No release notes._
 
-<sub>Issue [#55](../../../../issues/55) · File `143_JPLS-8H_app_0143_1012_182945.bin` · SHA-256 `b7a4e879d50e…`</sub>
+<sub>File `143_JPLS-8H_app_0143_1012_182945.bin` · SHA-256 `b7a4e879d50e…`</sub>
 
 ## v217 — 2026-11-02
 

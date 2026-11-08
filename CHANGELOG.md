@@ -8,7 +8,7 @@ Every archived firmware version, newest first.
 
 _No release notes._
 
-<sub>Issue [#55](issues/55) · [143_JPLS-8H_app_0143_1012_182945.bin](firmwares/JPLS-8H/143/143_JPLS-8H_app_0143_1012_182945.bin)</sub>
+<sub>[143_JPLS-8H_app_0143_1012_182945.bin](firmwares/JPLS-8H/143/143_JPLS-8H_app_0143_1012_182945.bin)</sub>
 
 ## VNSE3-0 — FC41D v202506241541 — 2026-11-05
 

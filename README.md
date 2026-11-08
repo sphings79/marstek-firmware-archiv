@@ -156,7 +156,7 @@ automatically:
 | Version | Size | Added | Download | Issue | Changes |
 |---------|------|-------|----------|-------|---------|
 | v217 | 96 KB | 2026-11-02 | [📁 217_JPLS-8H_20251014151654c62ef6524.bin](firmwares/JPLS-8H/217/217_JPLS-8H_20251014151654c62ef6524.bin) | [#60](../../issues/60) |  |
-| v143 | 166 KB | 2026-11-08 | [📁 143_JPLS-8H_app_0143_1012_182945.bin](firmwares/JPLS-8H/143/143_JPLS-8H_app_0143_1012_182945.bin) | [#55](../../issues/55) |  |
+| v143 | 166 KB | 2026-11-08 | [📁 143_JPLS-8H_app_0143_1012_182945.bin](firmwares/JPLS-8H/143/143_JPLS-8H_app_0143_1012_182945.bin) | - |  |
 | v37 | 94 KB | 2026-10-30 | [📁 37_JPLS-8H_jp37_ota_180048.bin](firmwares/JPLS-8H/37/37_JPLS-8H_jp37_ota_180048.bin) | - | Integrated logic optimization |
 
 ### SMR-0 — Marstek P1 Meter CT003
@@ -293,7 +293,7 @@ automatically:
 ---
 
 **Firmware files in total:** 73
-**Last updated:** 2026-11-08 10:33:16 UTC
+**Last updated:** 2026-11-08 10:33:40 UTC
 
 ## Contributing
 
