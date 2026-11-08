@@ -4,13 +4,13 @@
 
 ## v143 — 2026-11-08
 
-_No release notes._
+- http data upload adds SOC and MOS status of each package in BMS
 
 <sub>File `143_JPLS-8H_app_0143_1012_182945.bin` · SHA-256 `b7a4e879d50e…`</sub>
 
 ## v217 — 2026-11-02
 
-_No release notes._
+- Shorten the time to unlock BMS
 
 <sub>Issue [#60](../../../../issues/60) · File `217_JPLS-8H_20251014151654c62ef6524.bin` · SHA-256 `0033c28a4314…`</sub>
 
