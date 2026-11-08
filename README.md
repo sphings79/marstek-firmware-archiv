@@ -1,7 +1,7 @@
 # Marstek Firmware Archive
 
 [![Stars](https://img.shields.io/github/stars/sphings79/marstek-firmware-archiv?style=flat&logo=github&label=stars)](https://github.com/sphings79/marstek-firmware-archiv/stargazers)
-[![Firmware](https://img.shields.io/badge/firmware--files-72-blue)](#available-firmware)
+[![Firmware](https://img.shields.io/badge/firmware--files-73-blue)](#available-firmware)
 [![Updated](https://img.shields.io/github/last-commit/sphings79/marstek-firmware-archiv?label=last%20updated)](https://github.com/sphings79/marstek-firmware-archiv/commits/main)
 
 🇬🇧 **English** · [🇩🇪 Deutsch](README.de.md)
@@ -40,7 +40,7 @@ SHA-256 checksum, file size and a per-device changelog.
 | `HMI-1` | Marstek Saturn M Microinverter 800 W | [1 version](#hmi-1--marstek-saturn-m-microinverter-800-w) |
 | `HMI-5` | Marstek Saturn M2-1000 Microinverter 1000 W | [2 versions](#hmi-5--marstek-saturn-m2-1000-microinverter-1000-w) |
 | `HMJ-2` | Marstek Saturn / B2500 v2 | [4 versions](#hmj-2--marstek-saturn--b2500-v2) |
-| `JPLS-8H` | Marstek Jupiter C Plus | [2 versions](#jpls-8h--marstek-jupiter-c-plus) |
+| `JPLS-8H` | Marstek Jupiter C Plus | [3 versions](#jpls-8h--marstek-jupiter-c-plus) |
 | `SMR-0` | Marstek P1 Meter CT003 | [1 version](#smr-0--marstek-p1-meter-ct003) |
 | `VNSA-0` | Marstek Venus A | [16 versions](#vnsa-0--marstek-venus-a) |
 | `VNSD-0` | Marstek Venus D | [13 versions](#vnsd-0--marstek-venus-d) |
@@ -156,6 +156,7 @@ automatically:
 | Version | Size | Added | Download | Issue | Changes |
 |---------|------|-------|----------|-------|---------|
 | v217 | 96 KB | 2026-11-02 | [📁 217_JPLS-8H_20251014151654c62ef6524.bin](firmwares/JPLS-8H/217/217_JPLS-8H_20251014151654c62ef6524.bin) | [#60](../../issues/60) |  |
+| v143 | 166 KB | 2026-11-08 | [📁 143_JPLS-8H_app_0143_1012_182945.bin](firmwares/JPLS-8H/143/143_JPLS-8H_app_0143_1012_182945.bin) | - |  |
 | v37 | 94 KB | 2026-10-30 | [📁 37_JPLS-8H_jp37_ota_180048.bin](firmwares/JPLS-8H/37/37_JPLS-8H_jp37_ota_180048.bin) | - | Integrated logic optimization |
 
 ### SMR-0 — Marstek P1 Meter CT003
@@ -291,8 +292,8 @@ automatically:
 
 ---
 
-**Firmware files in total:** 72
-**Last updated:** 2026-11-06 12:23:30 UTC
+**Firmware files in total:** 73
+**Last updated:** 2026-11-08 10:33:40 UTC
 
 ## Contributing
 
