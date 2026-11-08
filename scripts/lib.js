@@ -292,6 +292,14 @@ function extractReleaseNote(metadata) {
   for (const c of candidates) {
     if (typeof c === 'string' && c.trim()) return c.trim();
   }
+  // Flat single-firmware devices (e.g. JPLS-8H) carry the notes directly in
+  // apiResponse.<english|chinese|remark>, with apiResponse.data being the URL.
+  const api = metadata.apiResponse;
+  if (api && typeof api === 'object') {
+    for (const key of ['english', 'chinese', 'remark']) {
+      if (typeof api[key] === 'string' && api[key].trim()) return api[key].trim();
+    }
+  }
   // Look inside apiResponse.data.<module>
   const data = metadata.apiResponse && metadata.apiResponse.data;
   if (data && typeof data === 'object') {

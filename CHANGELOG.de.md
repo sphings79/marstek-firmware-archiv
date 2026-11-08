@@ -6,7 +6,7 @@ Alle archivierten Firmware-Versionen, chronologisch (neueste zuerst).
 
 ## JPLS-8H — v143 — 2026-11-08
 
-_Keine Release Notes._
+- Der HTTP-Datenupload fügt den SOC- und MOS-Status jedes Pakets im BMS hinzu
 
 <sub>[143_JPLS-8H_app_0143_1012_182945.bin](firmwares/JPLS-8H/143/143_JPLS-8H_app_0143_1012_182945.bin)</sub>
 
@@ -24,7 +24,7 @@ _Keine Release Notes._
 
 ## JPLS-8H — v217 — 2026-11-02
 
-_Keine Release Notes._
+- Verkürzen Sie die Zeit zum Entsperren des BMS
 
 <sub>Issue [#60](issues/60) · [217_JPLS-8H_20251014151654c62ef6524.bin](firmwares/JPLS-8H/217/217_JPLS-8H_20251014151654c62ef6524.bin)</sub>
 
