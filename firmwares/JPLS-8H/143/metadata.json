@@ -1,0 +1,33 @@
+{
+  "deviceName": "Ju*********** (diagnostics #55)",
+  "url": "https://static-eu.marstekcloud.com/uploads/ota/20261012/JPLS-8H_app_0143_1012_182945.bin",
+  "apiResponse": {
+    "code": "1",
+    "content": "English",
+    "newVerion": "143",
+    "otaWay": "otaSelfBoot",
+    "data": "https://static-eu.marstekcloud.com/uploads/ota/20261012/JPLS-8H_app_0143_1012_182945.bin",
+    "english": "",
+    "chinese": "http数据上传新增BMS每个包的SOC以及MOS状态",
+    "japanese": "",
+    "remark": "http数据上传新增BMS每个包的SOC以及MOS状态",
+    "is_boot": "N",
+    "is_http": "N",
+    "size": 169984,
+    "crc": ""
+  },
+  "deviceType": "JPLS-8H",
+  "firmwareType": null,
+  "version": "143",
+  "releaseNote": "",
+  "releaseNoteDE": "",
+  "releaseNoteEN": "",
+  "archivedAt": "2026-11-08T10:30:47Z",
+  "archivedFilename": "143_JPLS-8H_app_0143_1012_182945.bin",
+  "archivedFilesize": 169984,
+  "archivedSha256": "b7a4e879d50e13d42778c26d207529dbc955e1454c279be8fe32966a445139f8",
+  "apiCrc": null,
+  "apiSize": null,
+  "verified": null,
+  "issueNumber": 55
+}

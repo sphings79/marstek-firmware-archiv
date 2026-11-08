@@ -2,6 +2,12 @@
 
 [🇬🇧 English](CHANGELOG.md) · 🇩🇪 **Deutsch**
 
+## v143 — 2026-11-08
+
+_Keine Release Notes._
+
+<sub>Issue [#55](../../../../issues/55) · Datei `143_JPLS-8H_app_0143_1012_182945.bin` · SHA-256 `b7a4e879d50e…`</sub>
+
 ## v217 — 2026-11-02
 
 _Keine Release Notes._
