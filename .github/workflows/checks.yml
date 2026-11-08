@@ -1,0 +1,49 @@
+name: Archive Checks
+
+# Informational checks for pull requests. They are NOT required checks in the
+# "Protect main" ruleset, so they never block the bot commits of the archiver.
+
+on:
+  pull_request:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  checks:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v5
+        with:
+          fetch-depth: 0
+
+      - uses: actions/setup-node@v5
+        with:
+          node-version: '22'
+
+      # Conflict markers, file/size/SHA-256, folder layout, CRC/size against the
+      # API, empty release notes (warning), unmasked personal data, duplicates.
+      - name: Archive consistency
+        run: |
+          if [ "$GITHUB_EVENT_NAME" = "pull_request" ]; then
+            base="$(git merge-base "origin/${{ github.base_ref }}" HEAD)"
+            node scripts/check-archive.js --base "$base"
+          else
+            node scripts/check-archive.js
+          fi
+
+      # Changelogs, READMEs and index.json are generated from the firmware tree.
+      # A PR must contain them in their current state. The "last updated"
+      # timestamp is ignored. No network access: the translation cache is used
+      # as-is, nothing is translated here.
+      - name: Generated files up to date
+        run: |
+          node scripts/generate-changelogs.js
+          node scripts/update-readme.js
+          node scripts/generate-index.js
+          if ! git diff -I'Last updated' -I'Zuletzt aktualisiert' --exit-code --stat \
+               -- README.md README.de.md CHANGELOG.md CHANGELOG.de.md index.json firmwares; then
+            echo "::error::Generated files are out of date. Run scripts/generate-changelogs.js, update-readme.js and generate-index.js and commit the result."
+            exit 1
+          fi

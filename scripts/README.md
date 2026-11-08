@@ -30,6 +30,7 @@ Node ≥ 18 wegen `fetch`). Drei GitHub Actions rufen diese Skripte auf.
 | `generate-changelogs.js` | Global + pro Gerät + pro Modul, je EN + DE |
 | `migrate-casing.js` | Einmalig: Ordner auf kanonische Schreibweise + Duplikat-Report |
 | `verify.js` | Integritätsprüfung: CRC-16/MODBUS + Größe gegen die Marstek-API-Werte |
+| `check-archive.js` | Konsistenzprüfung für PRs (`checks.yml`): Merge-Marker, Datei/Größe/SHA-256, Ordnerlayout, CRC, leere Release Notes, unmaskierte Personendaten, Duplikate |
 | `social-preview.js` | Social-Preview-Bild (1280×640) für GitHubs Link-Vorschau |
 | `import-reference.js` | Firmware + Changelogs aus einem anderen Archiv übernehmen (nur Fehlendes) |
 | `sync-upstream.js` | Fremdarchiv klonen und `import-reference.js` darauf anwenden |
