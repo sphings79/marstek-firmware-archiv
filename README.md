@@ -1,7 +1,7 @@
 # Marstek Firmware Archive
 
 [![Stars](https://img.shields.io/github/stars/sphings79/marstek-firmware-archiv?style=flat&logo=github&label=stars)](https://github.com/sphings79/marstek-firmware-archiv/stargazers)
-[![Firmware](https://img.shields.io/badge/firmware--files-73-blue)](#available-firmware)
+[![Firmware](https://img.shields.io/badge/firmware--files-74-blue)](#available-firmware)
 [![Updated](https://img.shields.io/github/last-commit/sphings79/marstek-firmware-archiv?label=last%20updated)](https://github.com/sphings79/marstek-firmware-archiv/commits/main)
 
 🇬🇧 **English** · [🇩🇪 Deutsch](README.de.md)
@@ -33,6 +33,7 @@ SHA-256 checksum, file size and a per-device changelog.
 
 | Device code | Model | Firmware |
 |-------------|-------|----------|
+| `HMA-1` | — | [1 version](#hma-1) |
 | `HME-3` | Marstek Smart Meter CT002 / P1 | [4 versions](#hme-3--marstek-smart-meter-ct002--p1) |
 | `HME-4` | Marstek Smart Meter CT002 / P1 | [3 versions](#hme-4--marstek-smart-meter-ct002--p1) |
 | `HMG-1` | Marstek Venus E 2.0 | [1 version](#hmg-1--marstek-venus-e-20) |
@@ -75,6 +76,14 @@ automatically:
 > missing versions as a pull request (marked ↗ ref).
 
 ## Available firmware
+
+### HMA-1
+
+#### FC41D
+
+| Version | Size | Added | Download | Issue | Changes |
+|---------|------|-------|----------|-------|---------|
+| v202512040635 | 666.95 KB | 2026-11-11 | [📁 202512040635_fc41d_HMA-1_20251204_162614.rbl](firmwares/HMA-1/FC41D/202512040635/202512040635_fc41d_HMA-1_20251204_162614.rbl) | - |  |
 
 ### HME-3 — Marstek Smart Meter CT002 / P1
 
@@ -292,8 +301,8 @@ automatically:
 
 ---
 
-**Firmware files in total:** 73
-**Last updated:** 2026-11-08 10:36:40 UTC
+**Firmware files in total:** 74
+**Last updated:** 2026-11-11 21:40:50 UTC
 
 ## Contributing
 
