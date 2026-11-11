@@ -1,8 +1,8 @@
 # Marstek Firmware Archiv
 
-[![Stars](https://img.shields.io/github/stars/sphings79/marstek-firmware-archiv?style=flat&logo=github&label=Sterne)](https://github.com/sphings79/marstek-firmware-archiv/stargazers)
-[![Firmware](https://img.shields.io/badge/Firmware--Dateien-73-blue)](#verfügbare-firmware)
-[![Updated](https://img.shields.io/github/last-commit/sphings79/marstek-firmware-archiv?label=zuletzt%20aktualisiert)](https://github.com/sphings79/marstek-firmware-archiv/commits/main)
+[![Stars](https://img.shields.io/github/stars/sphings79/marstek-fw-diagnostics?style=flat&logo=github&label=Sterne)](https://github.com/sphings79/marstek-fw-diagnostics/stargazers)
+[![Firmware](https://img.shields.io/badge/Firmware--Dateien-74-blue)](#verfügbare-firmware)
+[![Updated](https://img.shields.io/github/last-commit/sphings79/marstek-fw-diagnostics?label=zuletzt%20aktualisiert)](https://github.com/sphings79/marstek-fw-diagnostics/commits/main)
 
 [🇬🇧 English](README.md) · 🇩🇪 **Deutsch**
 
@@ -33,6 +33,7 @@ Englisch, SHA-256-Prüfsumme, Dateigröße und Changelog pro Version.
 
 | Gerätecode | Modell | Firmware |
 |------------|--------|----------|
+| `HMA-1` | — | [1 Version](#hma-1) |
 | `HME-3` | Marstek Smart Meter CT002 / P1 | [4 Versionen](#hme-3--marstek-smart-meter-ct002--p1) |
 | `HME-4` | Marstek Smart Meter CT002 / P1 | [3 Versionen](#hme-4--marstek-smart-meter-ct002--p1) |
 | `HMG-1` | Marstek Venus E 2.0 | [1 Version](#hmg-1--marstek-venus-e-20) |
@@ -75,6 +76,14 @@ einreichen:
 > ab und schlägt fehlende Versionen per Pull Request vor (markiert mit ↗ ref).
 
 ## Verfügbare Firmware
+
+### HMA-1
+
+#### FC41D
+
+| Version | Größe | Hinzugefügt | Download | Issue | Änderungen |
+|---------|-------|-------------|----------|-------|------------|
+| v202512040635 | 666.95 KB | 2026-11-11 | [📁 202512040635_fc41d_HMA-1_20251204_162614.rbl](firmwares/HMA-1/FC41D/202512040635/202512040635_fc41d_HMA-1_20251204_162614.rbl) | - |  |
 
 ### HME-3 — Marstek Smart Meter CT002 / P1
 
@@ -292,8 +301,8 @@ einreichen:
 
 ---
 
-**Firmware-Dateien gesamt:** 73
-**Zuletzt aktualisiert:** 2026-11-08 10:36:40 UTC
+**Firmware-Dateien gesamt:** 74
+**Zuletzt aktualisiert:** 2026-11-11 21:20:23 UTC
 
 ## Mitmachen
 

@@ -1,0 +1,26 @@
+{
+  "url": "https://static-eu.marstekenergy.com/uploads/ota/20260506/20251204_162614.rbl",
+  "apiResponse": {
+    "code": 1,
+    "show": 0,
+    "msg": "ok",
+    "data": {
+      "version": "202512040635",
+      "url": "https://static-eu.marstekenergy.com/uploads/ota/20260506/20251204_162614.rbl"
+    }
+  },
+  "deviceType": "HMA-1",
+  "firmwareType": "FC41D",
+  "version": "202512040635",
+  "releaseNote": "",
+  "releaseNoteDE": "",
+  "releaseNoteEN": "",
+  "archivedAt": "2026-11-11T21:20:23Z",
+  "archivedFilename": "202512040635_fc41d_HMA-1_20251204_162614.rbl",
+  "archivedFilesize": 682960,
+  "archivedSha256": "f5a1155b4384a2f7c14f4d1326cf8200dffabdf63ac37bd17595e63a0fa642dd",
+  "apiCrc": null,
+  "apiSize": null,
+  "verified": null,
+  "issueNumber": null
+}

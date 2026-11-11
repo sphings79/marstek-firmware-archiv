@@ -4,6 +4,12 @@
 
 Alle archivierten Firmware-Versionen, chronologisch (neueste zuerst).
 
+## HMA-1 — FC41D v202512040635 — 2026-11-11
+
+_Keine Release Notes._
+
+<sub>[202512040635_fc41d_HMA-1_20251204_162614.rbl](firmwares/HMA-1/FC41D/202512040635/202512040635_fc41d_HMA-1_20251204_162614.rbl)</sub>
+
 ## JPLS-8H — v143 — 2026-11-08
 
 - Der HTTP-Datenupload fügt den SOC- und MOS-Status jedes Pakets im BMS hinzu
