@@ -4,6 +4,12 @@
 
 Every archived firmware version, newest first.
 
+## VNSE3-0 — Micro v121.0 (Beta) — 2026-11-13
+
+- Optimized the issue of backup disconnecting at irregular intervals
+
+<sub>[1210_micro_VNSE3-0_inv_app_1210_1110_ota_155120.bin](firmwares/VNSE3-0/Micro/1210/1210_micro_VNSE3-0_inv_app_1210_1110_ota_155120.bin)</sub>
+
 ## HMA-1 — FC41D v202512040635 — 2026-11-11
 
 _No release notes._

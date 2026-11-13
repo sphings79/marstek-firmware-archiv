@@ -1,0 +1,49 @@
+{
+  "url": "https://static-eu.marstekcloud.com/uploads/ota/20261111/inv_app_1210_1110_ota_155120.bin",
+  "apiResponse": {
+    "code": 1,
+    "show": 0,
+    "msg": "success",
+    "data": {
+      "control": "",
+      "bms": "",
+      "mppt": "",
+      "micro": {
+        "edition": 4867,
+        "devicetype": "",
+        "mcu_type": "micro",
+        "type": "VNSE3-0",
+        "url": "https://static-eu.marstekcloud.com/uploads/ota/20261111/inv_app_1210_1110_ota_155120.bin",
+        "version": 1210,
+        "english": "",
+        "chinese": "优化backup不定时断开现象",
+        "japanese": "",
+        "remark": "优化backup不定时断开现象",
+        "is_boot": "N",
+        "is_http": "Y",
+        "crc": "33863",
+        "size": 119808,
+        "force_update": "N"
+      },
+      "dcdc": "",
+      "bms_pack1": "",
+      "bms_pack2": "",
+      "led": "",
+      "charger": ""
+    }
+  },
+  "deviceType": "VNSE3-0",
+  "firmwareType": "Micro",
+  "version": "1210",
+  "releaseNote": "优化backup不定时断开现象",
+  "releaseNoteDE": "Optimieren Sie das Phänomen, dass die Sicherung von Zeit zu Zeit getrennt wird",
+  "releaseNoteEN": "Optimized the issue of backup disconnecting at irregular intervals",
+  "archivedAt": "2026-11-13T19:06:41Z",
+  "archivedFilename": "1210_micro_VNSE3-0_inv_app_1210_1110_ota_155120.bin",
+  "archivedFilesize": 119808,
+  "archivedSha256": "c76660fa37b6bc0c3a5516411f8cb3ec2c2a2b542e14269a99f5674d175d6e02",
+  "apiCrc": 33863,
+  "apiSize": 119808,
+  "verified": true,
+  "issueNumber": null
+}

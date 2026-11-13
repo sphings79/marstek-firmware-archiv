@@ -2,6 +2,12 @@
 
 [🇬🇧 English](CHANGELOG.md) · 🇩🇪 **Deutsch**
 
+## v121.0 (Beta) — 2026-11-13
+
+- Optimieren Sie das Phänomen, dass die Sicherung von Zeit zu Zeit getrennt wird
+
+<sub>Datei `1210_micro_VNSE3-0_inv_app_1210_1110_ota_155120.bin` · SHA-256 `c76660fa37b6…`</sub>
+
 ## v119 — 2026-08-12
 
 - Behoben: unterhalb von 6 % SOC wurde die Zwangsladung nicht gestartet

@@ -1,7 +1,7 @@
 # Marstek Firmware Archive
 
 [![Stars](https://img.shields.io/github/stars/sphings79/marstek-firmware-archiv?style=flat&logo=github&label=stars)](https://github.com/sphings79/marstek-firmware-archiv/stargazers)
-[![Firmware](https://img.shields.io/badge/firmware--files-74-blue)](#available-firmware)
+[![Firmware](https://img.shields.io/badge/firmware--files-75-blue)](#available-firmware)
 [![Updated](https://img.shields.io/github/last-commit/sphings79/marstek-firmware-archiv?label=last%20updated)](https://github.com/sphings79/marstek-firmware-archiv/commits/main)
 
 🇬🇧 **English** · [🇩🇪 Deutsch](README.de.md)
@@ -45,7 +45,7 @@ SHA-256 checksum, file size and a per-device changelog.
 | `SMR-0` | Marstek P1 Meter CT003 | [1 version](#smr-0--marstek-p1-meter-ct003) |
 | `VNSA-0` | Marstek Venus A | [16 versions](#vnsa-0--marstek-venus-a) |
 | `VNSD-0` | Marstek Venus D | [13 versions](#vnsd-0--marstek-venus-d) |
-| `VNSE3-0` | Marstek Venus E 3.0 | [17 versions](#vnse3-0--marstek-venus-e-30) |
+| `VNSE3-0` | Marstek Venus E 3.0 | [18 versions](#vnse3-0--marstek-venus-e-30) |
 | `VNSEMINI-0` | Marstek Venus E Mini | [1 version](#vnsemini-0--marstek-venus-e-mini) |
 
 Your device code is shown in the Marstek app, and the
@@ -288,6 +288,7 @@ automatically:
 
 | Version | Size | Added | Download | Issue | Changes |
 |---------|------|-------|----------|-------|---------|
+| v121.0 (Beta) | 117 KB | 2026-11-13 | [📁 1210_micro_VNSE3-0_inv_app_1210_1110_ota_155120.bin](firmwares/VNSE3-0/Micro/1210/1210_micro_VNSE3-0_inv_app_1210_1110_ota_155120.bin) | - | Optimized the issue of backup disconnecting at irregular intervals |
 | v119 | 117 KB | 2026-08-12 | [📁 119_micro_VNSE3-0_inv_app_0119_0326_ota_152726.bin](firmwares/VNSE3-0/Micro/119/119_micro_VNSE3-0_inv_app_0119_0326_ota_152726.bin) | [#14](../../issues/14) | Fixed forced charging not starting below 6 % SOC |
 | v116 | 115 KB | 2026-09-24 | [📁 116_micro_VNSE3-0_20251128103443b389c9748.bin](firmwares/VNSE3-0/Micro/116/116_micro_VNSE3-0_20251128103443b389c9748.bin) | [#45](../../issues/45) | Optimization After the device has been stationary for a long time, the battery is seriously out of power and cannot be strongly charged. |
 
@@ -301,8 +302,8 @@ automatically:
 
 ---
 
-**Firmware files in total:** 74
-**Last updated:** 2026-11-11 21:40:50 UTC
+**Firmware files in total:** 75
+**Last updated:** 2026-11-13 19:06:41 UTC
 
 ## Contributing
 

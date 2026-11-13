@@ -2,6 +2,12 @@
 
 🇬🇧 **English** · [🇩🇪 Deutsch](CHANGELOG.de.md)
 
+## v121.0 (Beta) — 2026-11-13
+
+- Optimized the issue of backup disconnecting at irregular intervals
+
+<sub>File `1210_micro_VNSE3-0_inv_app_1210_1110_ota_155120.bin` · SHA-256 `c76660fa37b6…`</sub>
+
 ## v119 — 2026-08-12
 
 - Fixed forced charging not starting below 6 % SOC
