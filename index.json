@@ -623,6 +623,18 @@
     },
     {
      "type": "Micro",
+     "version": "1210",
+     "display": "121.0",
+     "beta": true,
+     "file": "firmwares/VNSE3-0/Micro/1210/1210_micro_VNSE3-0_inv_app_1210_1110_ota_155120.bin",
+     "size": 119808,
+     "sha256": "c76660fa37b6bc0c3a5516411f8cb3ec2c2a2b542e14269a99f5674d175d6e02",
+     "date": "2026-11-13",
+     "noteEN": "Optimized the issue of backup disconnecting at irregular intervals",
+     "noteDE": "Optimieren Sie das Phänomen, dass die Sicherung von Zeit zu Zeit getrennt wird"
+    },
+    {
+     "type": "Micro",
      "version": "119",
      "display": "119",
      "beta": false,

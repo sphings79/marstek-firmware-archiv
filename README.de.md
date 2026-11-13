@@ -1,7 +1,7 @@
 # Marstek Firmware Archiv
 
 [![Stars](https://img.shields.io/github/stars/sphings79/marstek-firmware-archiv?style=flat&logo=github&label=Sterne)](https://github.com/sphings79/marstek-firmware-archiv/stargazers)
-[![Firmware](https://img.shields.io/badge/Firmware--Dateien-74-blue)](#verfügbare-firmware)
+[![Firmware](https://img.shields.io/badge/Firmware--Dateien-75-blue)](#verfügbare-firmware)
 [![Updated](https://img.shields.io/github/last-commit/sphings79/marstek-firmware-archiv?label=zuletzt%20aktualisiert)](https://github.com/sphings79/marstek-firmware-archiv/commits/main)
 
 [🇬🇧 English](README.md) · 🇩🇪 **Deutsch**
@@ -45,7 +45,7 @@ Englisch, SHA-256-Prüfsumme, Dateigröße und Changelog pro Version.
 | `SMR-0` | Marstek P1 Meter CT003 | [1 Version](#smr-0--marstek-p1-meter-ct003) |
 | `VNSA-0` | Marstek Venus A | [16 Versionen](#vnsa-0--marstek-venus-a) |
 | `VNSD-0` | Marstek Venus D | [13 Versionen](#vnsd-0--marstek-venus-d) |
-| `VNSE3-0` | Marstek Venus E 3.0 | [17 Versionen](#vnse3-0--marstek-venus-e-30) |
+| `VNSE3-0` | Marstek Venus E 3.0 | [18 Versionen](#vnse3-0--marstek-venus-e-30) |
 | `VNSEMINI-0` | Marstek Venus E Mini | [1 Version](#vnsemini-0--marstek-venus-e-mini) |
 
 Der Gerätecode steht in der Marstek-App bzw. wird vom
@@ -288,6 +288,7 @@ einreichen:
 
 | Version | Größe | Hinzugefügt | Download | Issue | Änderungen |
 |---------|-------|-------------|----------|-------|------------|
+| v121.0 (Beta) | 117 KB | 2026-11-13 | [📁 1210_micro_VNSE3-0_inv_app_1210_1110_ota_155120.bin](firmwares/VNSE3-0/Micro/1210/1210_micro_VNSE3-0_inv_app_1210_1110_ota_155120.bin) | - | Optimieren Sie das Phänomen, dass die Sicherung von Zeit zu Zeit getrennt wird |
 | v119 | 117 KB | 2026-08-12 | [📁 119_micro_VNSE3-0_inv_app_0119_0326_ota_152726.bin](firmwares/VNSE3-0/Micro/119/119_micro_VNSE3-0_inv_app_0119_0326_ota_152726.bin) | [#14](../../issues/14) | Behoben: unterhalb von 6 % SOC wurde die Zwangsladung nicht gestartet |
 | v116 | 115 KB | 2026-09-24 | [📁 116_micro_VNSE3-0_20251128103443b389c9748.bin](firmwares/VNSE3-0/Micro/116/116_micro_VNSE3-0_20251128103443b389c9748.bin) | [#45](../../issues/45) | Optimieren Sie das Problem, dass der Akku nach längerem Stehenlassen des Geräts stark entladen ist, was dazu führt, dass der Ladevorgang nicht erzwungen werden kann. |
 
@@ -301,8 +302,8 @@ einreichen:
 
 ---
 
-**Firmware-Dateien gesamt:** 74
-**Zuletzt aktualisiert:** 2026-11-11 21:40:50 UTC
+**Firmware-Dateien gesamt:** 75
+**Zuletzt aktualisiert:** 2026-11-13 19:06:41 UTC
 
 ## Mitmachen
 

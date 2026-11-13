@@ -2,6 +2,12 @@
 
 [🇬🇧 English](CHANGELOG.md) · 🇩🇪 **Deutsch**
 
+## Micro v121.0 (Beta) — 2026-11-13
+
+- Optimieren Sie das Phänomen, dass die Sicherung von Zeit zu Zeit getrennt wird
+
+<sub>Datei `1210_micro_VNSE3-0_inv_app_1210_1110_ota_155120.bin` · SHA-256 `c76660fa37b6…`</sub>
+
 ## FC41D v202506241541 — 2026-11-05
 
 _Keine Release Notes._
