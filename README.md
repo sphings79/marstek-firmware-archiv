@@ -1,7 +1,7 @@
 # Marstek Firmware Archive
 
 [![Stars](https://img.shields.io/github/stars/sphings79/marstek-firmware-archiv?style=flat&logo=github&label=stars)](https://github.com/sphings79/marstek-firmware-archiv/stargazers)
-[![Firmware](https://img.shields.io/badge/firmware--files-75-blue)](#available-firmware)
+[![Firmware](https://img.shields.io/badge/firmware--files-76-blue)](#available-firmware)
 [![Updated](https://img.shields.io/github/last-commit/sphings79/marstek-firmware-archiv?label=last%20updated)](https://github.com/sphings79/marstek-firmware-archiv/commits/main)
 
 🇬🇧 **English** · [🇩🇪 Deutsch](README.de.md)
@@ -37,7 +37,7 @@ SHA-256 checksum, file size and a per-device changelog.
 | `HME-3` | Marstek Smart Meter CT002 / P1 | [4 versions](#hme-3--marstek-smart-meter-ct002--p1) |
 | `HME-4` | Marstek Smart Meter CT002 / P1 | [3 versions](#hme-4--marstek-smart-meter-ct002--p1) |
 | `HMG-1` | Marstek Venus E 2.0 | [1 version](#hmg-1--marstek-venus-e-20) |
-| `HMG-50` | Marstek Venus E Gen 1/2 | [7 versions](#hmg-50--marstek-venus-e-gen-12) |
+| `HMG-50` | Marstek Venus E Gen 1/2 | [8 versions](#hmg-50--marstek-venus-e-gen-12) |
 | `HMI-1` | Marstek Saturn M Microinverter 800 W | [1 version](#hmi-1--marstek-saturn-m-microinverter-800-w) |
 | `HMI-5` | Marstek Saturn M2-1000 Microinverter 1000 W | [2 versions](#hmi-5--marstek-saturn-m2-1000-microinverter-1000-w) |
 | `HMJ-2` | Marstek Saturn / B2500 v2 | [4 versions](#hmj-2--marstek-saturn--b2500-v2) |
@@ -128,6 +128,12 @@ automatically:
 | v156 | 236 KB | 2026-07-31 | [📁 156_control_HMG-50_20251118172129117290445.bin](firmwares/HMG-50/Control/156/156_control_HMG-50_20251118172129117290445.bin) | [↗ ref](https://github.com/rweijnen/marstek-firmware-archive) | 1. Bluetooth broadcasting can now be switched on and off<br>2. Added configuration for a third-party server<br>3. Improved OpenAPI interface stability |
 | v155 | 232 KB | 2025-10-27 | [📁 155_control_HMG-50_202509161548003ff722863.bin](firmwares/HMG-50/Control/155/155_control_HMG-50_202509161548003ff722863.bin) | [↗ ref](https://github.com/rweijnen/marstek-firmware-archive) | 1. Added cumulative tracking of charge and discharge time<br>2. The grid connection standard can now be pushed to the device |
 | v153 | 222 KB | 2025-08-25 | [📁 153_control_HMG-50_202505301136007a5b57023.bin](firmwares/HMG-50/Control/153/153_control_HMG-50_202505301136007a5b57023.bin) | [↗ ref](https://github.com/rweijnen/marstek-firmware-archive) | 1. Network setup now supports open (passwordless) Wi-Fi<br>2. Fixed various known issues |
+
+#### FC41D
+
+| Version | Size | Added | Download | Issue | Changes |
+|---------|------|-------|----------|-------|---------|
+| v202501211626 | 664.53 KB | 2026-11-16 | [📁 202501211626_fc41d_HMG-50_202502151733090a8104372.rbl](firmwares/HMG-50/FC41D/202501211626/202501211626_fc41d_HMG-50_202502151733090a8104372.rbl) | - |  |
 
 ### HMI-1 — Marstek Saturn M Microinverter 800 W
 
@@ -302,8 +308,8 @@ automatically:
 
 ---
 
-**Firmware files in total:** 75
-**Last updated:** 2026-11-13 19:06:41 UTC
+**Firmware files in total:** 76
+**Last updated:** 2026-11-16 23:58:09 UTC
 
 ## Contributing
 

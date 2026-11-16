@@ -4,6 +4,12 @@
 
 Every archived firmware version, newest first.
 
+## HMG-50 — FC41D v202501211626 — 2026-11-16
+
+_No release notes._
+
+<sub>[202501211626_fc41d_HMG-50_202502151733090a8104372.rbl](firmwares/HMG-50/FC41D/202501211626/202501211626_fc41d_HMG-50_202502151733090a8104372.rbl)</sub>
+
 ## VNSE3-0 — Micro v121.0 (Beta) — 2026-11-13
 
 - Optimized the issue of backup disconnecting at irregular intervals
