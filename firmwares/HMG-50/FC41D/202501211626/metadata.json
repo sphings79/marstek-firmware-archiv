@@ -1,0 +1,26 @@
+{
+  "url": "https://eu.hamedata.com/ems/uploads/ota/20250215/202502151733090a8104372.rbl",
+  "apiResponse": {
+    "code": 1,
+    "show": 0,
+    "msg": "ok",
+    "data": {
+      "version": "202501211626",
+      "url": "https://eu.hamedata.com/ems/uploads/ota/20250215/202502151733090a8104372.rbl"
+    }
+  },
+  "deviceType": "HMG-50",
+  "firmwareType": "FC41D",
+  "version": "202501211626",
+  "releaseNote": "",
+  "releaseNoteDE": "",
+  "releaseNoteEN": "",
+  "archivedAt": "2026-11-16T23:58:08Z",
+  "archivedFilename": "202501211626_fc41d_HMG-50_202502151733090a8104372.rbl",
+  "archivedFilesize": 680480,
+  "archivedSha256": "f9ceffe44e610d751727f54475b57c6658159f5dad18eee35b3bb6e4adc0ce39",
+  "apiCrc": null,
+  "apiSize": null,
+  "verified": null,
+  "issueNumber": null
+}
