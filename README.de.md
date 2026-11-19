@@ -1,7 +1,7 @@
 # Marstek Firmware Archiv
 
 [![Stars](https://img.shields.io/github/stars/sphings79/marstek-firmware-archiv?style=flat&logo=github&label=Sterne)](https://github.com/sphings79/marstek-firmware-archiv/stargazers)
-[![Firmware](https://img.shields.io/badge/Firmware--Dateien-76-blue)](#verfügbare-firmware)
+[![Firmware](https://img.shields.io/badge/Firmware--Dateien-77-blue)](#verfügbare-firmware)
 [![Updated](https://img.shields.io/github/last-commit/sphings79/marstek-firmware-archiv?label=zuletzt%20aktualisiert)](https://github.com/sphings79/marstek-firmware-archiv/commits/main)
 
 [🇬🇧 English](README.md) · 🇩🇪 **Deutsch**
@@ -46,7 +46,7 @@ Englisch, SHA-256-Prüfsumme, Dateigröße und Changelog pro Version.
 | `VNSA-0` | Marstek Venus A | [16 Versionen](#vnsa-0--marstek-venus-a) |
 | `VNSD-0` | Marstek Venus D | [13 Versionen](#vnsd-0--marstek-venus-d) |
 | `VNSE3-0` | Marstek Venus E 3.0 | [18 Versionen](#vnse3-0--marstek-venus-e-30) |
-| `VNSEMINI-0` | Marstek Venus E Mini | [1 Version](#vnsemini-0--marstek-venus-e-mini) |
+| `VNSEMINI-0` | Marstek Venus E Mini | [2 Versionen](#vnsemini-0--marstek-venus-e-mini) |
 
 Der Gerätecode steht in der Marstek-App bzw. wird vom
 [Firmware-Checker](#-firmware-checker-tool) direkt mit ausgelesen.
@@ -300,6 +300,12 @@ einreichen:
 
 ### VNSEMINI-0 — Marstek Venus E Mini
 
+#### Control
+
+| Version | Größe | Hinzugefügt | Download | Issue | Änderungen |
+|---------|-------|-------------|----------|-------|------------|
+| v309 | 182.21 KB | 2026-11-19 | [📁 309_control_VNSEMINI-0_PMU_V135_186556_42_FF_152925.bin](firmwares/VNSEMINI-0/Control/309/309_control_VNSEMINI-0_PMU_V135_186556_42_FF_152925.bin) | [#70](../../issues/70) | 1. Optimieren Sie die Zuverlässigkeit der lokalen API im LAN<br>2. Nullpunktstromkalibrierung optimieren (verwendet mit DC-Version V269 oder V513)<br>3. Fügen Sie die Stromzähler EcoTracker P1 und HomeWizard p1 hinzu<br>4. Fügen Sie eine starke Ladelogik hinzu (wenn das Stromnetz online ist, liegt der SOC unter 5 % und es wird in jedem Modus auf 10 % geladen).<br>5. Fügen Sie eine Schaltfläche hinzu, um die Werkseinstellungen wiederherzustellen, indem Sie sie zehn Sekunden lang gedrückt halten. |
+
 #### Micro
 
 | Version | Größe | Hinzugefügt | Download | Issue | Änderungen |
@@ -308,8 +314,8 @@ einreichen:
 
 ---
 
-**Firmware-Dateien gesamt:** 76
-**Zuletzt aktualisiert:** 2026-11-16 23:58:09 UTC
+**Firmware-Dateien gesamt:** 77
+**Zuletzt aktualisiert:** 2026-11-19 15:55:31 UTC
 
 ## Mitmachen
 

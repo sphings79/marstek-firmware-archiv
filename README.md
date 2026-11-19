@@ -1,7 +1,7 @@
 # Marstek Firmware Archive
 
 [![Stars](https://img.shields.io/github/stars/sphings79/marstek-firmware-archiv?style=flat&logo=github&label=stars)](https://github.com/sphings79/marstek-firmware-archiv/stargazers)
-[![Firmware](https://img.shields.io/badge/firmware--files-76-blue)](#available-firmware)
+[![Firmware](https://img.shields.io/badge/firmware--files-77-blue)](#available-firmware)
 [![Updated](https://img.shields.io/github/last-commit/sphings79/marstek-firmware-archiv?label=last%20updated)](https://github.com/sphings79/marstek-firmware-archiv/commits/main)
 
 🇬🇧 **English** · [🇩🇪 Deutsch](README.de.md)
@@ -46,7 +46,7 @@ SHA-256 checksum, file size and a per-device changelog.
 | `VNSA-0` | Marstek Venus A | [16 versions](#vnsa-0--marstek-venus-a) |
 | `VNSD-0` | Marstek Venus D | [13 versions](#vnsd-0--marstek-venus-d) |
 | `VNSE3-0` | Marstek Venus E 3.0 | [18 versions](#vnse3-0--marstek-venus-e-30) |
-| `VNSEMINI-0` | Marstek Venus E Mini | [1 version](#vnsemini-0--marstek-venus-e-mini) |
+| `VNSEMINI-0` | Marstek Venus E Mini | [2 versions](#vnsemini-0--marstek-venus-e-mini) |
 
 Your device code is shown in the Marstek app, and the
 [Firmware Checker](#-firmware-checker-tool) reads it out for you.
@@ -300,6 +300,12 @@ automatically:
 
 ### VNSEMINI-0 — Marstek Venus E Mini
 
+#### Control
+
+| Version | Size | Added | Download | Issue | Changes |
+|---------|------|-------|----------|-------|---------|
+| v309 | 182.21 KB | 2026-11-19 | [📁 309_control_VNSEMINI-0_PMU_V135_186556_42_FF_152925.bin](firmwares/VNSEMINI-0/Control/309/309_control_VNSEMINI-0_PMU_V135_186556_42_FF_152925.bin) | [#70](../../issues/70) | 1. Optimized the reliability of Local API usage within the local area network<br>2. Optimized zero-point current calibration (for use with DC versions V269 or V513)<br>3. Added EcoTracker P1 and HomeWizard P1 meters<br>4. Added forced charging logic (when the grid is online and the SoC is below 5%, any mode will charge to 10%)<br>5. Added the function to restore factory settings by pressing and holding the button for ten seconds. |
+
 #### Micro
 
 | Version | Size | Added | Download | Issue | Changes |
@@ -308,8 +314,8 @@ automatically:
 
 ---
 
-**Firmware files in total:** 76
-**Last updated:** 2026-11-16 23:58:09 UTC
+**Firmware files in total:** 77
+**Last updated:** 2026-11-19 15:55:31 UTC
 
 ## Contributing
 

@@ -663,6 +663,18 @@
    "model": "Marstek Venus E Mini",
    "firmwares": [
     {
+     "type": "Control",
+     "version": "309",
+     "display": "309",
+     "beta": false,
+     "file": "firmwares/VNSEMINI-0/Control/309/309_control_VNSEMINI-0_PMU_V135_186556_42_FF_152925.bin",
+     "size": 186588,
+     "sha256": "8b5e8ce6a7fe55576015956847f9373a8ca2afcd8e2c74f62de9eb370a632009",
+     "date": "2026-11-19",
+     "noteEN": "1. Optimized the reliability of Local API usage within the local area network \n2. Optimized zero-point current calibration (for use with DC versions V269 or V513)\n3. Added EcoTracker P1 and HomeWizard P1 meters\n4. Added forced charging logic (when the grid is online and the SoC is below 5%, any mode will charge to 10%)\n5. Added the function to restore factory settings by pressing and holding the button for ten seconds.",
+     "noteDE": "1. Optimieren Sie die Zuverlässigkeit der lokalen API im LAN\n2. Nullpunktstromkalibrierung optimieren (verwendet mit DC-Version V269 oder V513)\n3. Fügen Sie die Stromzähler EcoTracker P1 und HomeWizard p1 hinzu\n4. Fügen Sie eine starke Ladelogik hinzu (wenn das Stromnetz online ist, liegt der SOC unter 5 % und es wird in jedem Modus auf 10 % geladen).\n5. Fügen Sie eine Schaltfläche hinzu, um die Werkseinstellungen wiederherzustellen, indem Sie sie zehn Sekunden lang gedrückt halten."
+    },
+    {
      "type": "Micro",
      "version": "270",
      "display": "270",

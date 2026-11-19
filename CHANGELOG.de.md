@@ -4,6 +4,16 @@
 
 Alle archivierten Firmware-Versionen, chronologisch (neueste zuerst).
 
+## VNSEMINI-0 — Control v309 — 2026-11-19
+
+- Optimieren Sie die Zuverlässigkeit der lokalen API im LAN
+- Nullpunktstromkalibrierung optimieren (verwendet mit DC-Version V269 oder V513)
+- Fügen Sie die Stromzähler EcoTracker P1 und HomeWizard p1 hinzu
+- Fügen Sie eine starke Ladelogik hinzu (wenn das Stromnetz online ist, liegt der SOC unter 5 % und es wird in jedem Modus auf 10 % geladen).
+- Fügen Sie eine Schaltfläche hinzu, um die Werkseinstellungen wiederherzustellen, indem Sie sie zehn Sekunden lang gedrückt halten.
+
+<sub>Issue [#70](issues/70) · [309_control_VNSEMINI-0_PMU_V135_186556_42_FF_152925.bin](firmwares/VNSEMINI-0/Control/309/309_control_VNSEMINI-0_PMU_V135_186556_42_FF_152925.bin)</sub>
+
 ## HMG-50 — FC41D v202501211626 — 2026-11-16
 
 _Keine Release Notes._
