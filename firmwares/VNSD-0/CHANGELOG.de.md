@@ -2,6 +2,12 @@
 
 [🇬🇧 English](CHANGELOG.md) · 🇩🇪 **Deutsch**
 
+## MPPT v102.5 (Beta) — 2026-11-23
+
+- Logik zum aktiven Entsperren von BMS hinzugefügt und die abnormale Anzahl von Frames behoben.
+
+<sub>Issue [#73](../../../../issues/73) · Datei `1025_mppt_VNSD-0_20251011093355e11fe4918.bin` · SHA-256 `b4a7d0817e89…`</sub>
+
 ## MPPT v104 — 2026-11-05
 
 - Neueste Version 104

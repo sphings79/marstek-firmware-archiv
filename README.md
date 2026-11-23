@@ -1,7 +1,7 @@
 # Marstek Firmware Archive
 
 [![Stars](https://img.shields.io/github/stars/sphings79/marstek-firmware-archiv?style=flat&logo=github&label=stars)](https://github.com/sphings79/marstek-firmware-archiv/stargazers)
-[![Firmware](https://img.shields.io/badge/firmware--files-77-blue)](#available-firmware)
+[![Firmware](https://img.shields.io/badge/firmware--files-78-blue)](#available-firmware)
 [![Updated](https://img.shields.io/github/last-commit/sphings79/marstek-firmware-archiv?label=last%20updated)](https://github.com/sphings79/marstek-firmware-archiv/commits/main)
 
 🇬🇧 **English** · [🇩🇪 Deutsch](README.de.md)
@@ -44,7 +44,7 @@ SHA-256 checksum, file size and a per-device changelog.
 | `JPLS-8H` | Marstek Jupiter C Plus | [3 versions](#jpls-8h--marstek-jupiter-c-plus) |
 | `SMR-0` | Marstek P1 Meter CT003 | [1 version](#smr-0--marstek-p1-meter-ct003) |
 | `VNSA-0` | Marstek Venus A | [16 versions](#vnsa-0--marstek-venus-a) |
-| `VNSD-0` | Marstek Venus D | [13 versions](#vnsd-0--marstek-venus-d) |
+| `VNSD-0` | Marstek Venus D | [14 versions](#vnsd-0--marstek-venus-d) |
 | `VNSE3-0` | Marstek Venus E 3.0 | [18 versions](#vnse3-0--marstek-venus-e-30) |
 | `VNSEMINI-0` | Marstek Venus E Mini | [2 versions](#vnsemini-0--marstek-venus-e-mini) |
 
@@ -250,6 +250,7 @@ automatically:
 | Version | Size | Added | Download | Issue | Changes |
 |---------|------|-------|----------|-------|---------|
 | v104 | 96 KB | 2026-11-05 | [📁 104_mppt_VNSD-0_20251010134652a65a88005.bin](firmwares/VNSD-0/MPPT/104/104_mppt_VNSD-0_20251010134652a65a88005.bin) | [#61](../../issues/61) | Latest version 104 |
+| v102.5 (Beta) | 95 KB | 2026-11-23 | [📁 1025_mppt_VNSD-0_20251011093355e11fe4918.bin](firmwares/VNSD-0/MPPT/1025/1025_mppt_VNSD-0_20251011093355e11fe4918.bin) | [#73](../../issues/73) | Added logic for actively unlocking the BMS and fixed the issue of abnormal frame count. |
 
 #### Micro
 
@@ -314,8 +315,8 @@ automatically:
 
 ---
 
-**Firmware files in total:** 77
-**Last updated:** 2026-11-19 15:55:31 UTC
+**Firmware files in total:** 78
+**Last updated:** 2026-11-23 13:08:29 UTC
 
 ## Contributing
 

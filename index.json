@@ -459,6 +459,18 @@
      "date": "2026-11-05",
      "noteEN": "Latest version 104",
      "noteDE": "Neueste Version 104"
+    },
+    {
+     "type": "MPPT",
+     "version": "1025",
+     "display": "102.5",
+     "beta": true,
+     "file": "firmwares/VNSD-0/MPPT/1025/1025_mppt_VNSD-0_20251011093355e11fe4918.bin",
+     "size": 97280,
+     "sha256": "b4a7d0817e8920099bc5f068577f643fbf869c6a93544571593553b03a27f7b7",
+     "date": "2026-11-23",
+     "noteEN": "Added logic for actively unlocking the BMS and fixed the issue of abnormal frame count.",
+     "noteDE": "Logik zum aktiven Entsperren von BMS hinzugefügt und die abnormale Anzahl von Frames behoben."
     }
    ]
   },

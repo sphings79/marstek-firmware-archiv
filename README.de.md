@@ -1,7 +1,7 @@
 # Marstek Firmware Archiv
 
 [![Stars](https://img.shields.io/github/stars/sphings79/marstek-firmware-archiv?style=flat&logo=github&label=Sterne)](https://github.com/sphings79/marstek-firmware-archiv/stargazers)
-[![Firmware](https://img.shields.io/badge/Firmware--Dateien-77-blue)](#verfügbare-firmware)
+[![Firmware](https://img.shields.io/badge/Firmware--Dateien-78-blue)](#verfügbare-firmware)
 [![Updated](https://img.shields.io/github/last-commit/sphings79/marstek-firmware-archiv?label=zuletzt%20aktualisiert)](https://github.com/sphings79/marstek-firmware-archiv/commits/main)
 
 [🇬🇧 English](README.md) · 🇩🇪 **Deutsch**
@@ -44,7 +44,7 @@ Englisch, SHA-256-Prüfsumme, Dateigröße und Changelog pro Version.
 | `JPLS-8H` | Marstek Jupiter C Plus | [3 Versionen](#jpls-8h--marstek-jupiter-c-plus) |
 | `SMR-0` | Marstek P1 Meter CT003 | [1 Version](#smr-0--marstek-p1-meter-ct003) |
 | `VNSA-0` | Marstek Venus A | [16 Versionen](#vnsa-0--marstek-venus-a) |
-| `VNSD-0` | Marstek Venus D | [13 Versionen](#vnsd-0--marstek-venus-d) |
+| `VNSD-0` | Marstek Venus D | [14 Versionen](#vnsd-0--marstek-venus-d) |
 | `VNSE3-0` | Marstek Venus E 3.0 | [18 Versionen](#vnse3-0--marstek-venus-e-30) |
 | `VNSEMINI-0` | Marstek Venus E Mini | [2 Versionen](#vnsemini-0--marstek-venus-e-mini) |
 
@@ -250,6 +250,7 @@ einreichen:
 | Version | Größe | Hinzugefügt | Download | Issue | Änderungen |
 |---------|-------|-------------|----------|-------|------------|
 | v104 | 96 KB | 2026-11-05 | [📁 104_mppt_VNSD-0_20251010134652a65a88005.bin](firmwares/VNSD-0/MPPT/104/104_mppt_VNSD-0_20251010134652a65a88005.bin) | [#61](../../issues/61) | Neueste Version 104 |
+| v102.5 (Beta) | 95 KB | 2026-11-23 | [📁 1025_mppt_VNSD-0_20251011093355e11fe4918.bin](firmwares/VNSD-0/MPPT/1025/1025_mppt_VNSD-0_20251011093355e11fe4918.bin) | [#73](../../issues/73) | Logik zum aktiven Entsperren von BMS hinzugefügt und die abnormale Anzahl von Frames behoben. |
 
 #### Micro
 
@@ -314,8 +315,8 @@ einreichen:
 
 ---
 
-**Firmware-Dateien gesamt:** 77
-**Zuletzt aktualisiert:** 2026-11-19 15:55:31 UTC
+**Firmware-Dateien gesamt:** 78
+**Zuletzt aktualisiert:** 2026-11-23 13:08:29 UTC
 
 ## Mitmachen
 

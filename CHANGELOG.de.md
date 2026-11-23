@@ -4,6 +4,12 @@
 
 Alle archivierten Firmware-Versionen, chronologisch (neueste zuerst).
 
+## VNSD-0 — MPPT v102.5 (Beta) — 2026-11-23
+
+- Logik zum aktiven Entsperren von BMS hinzugefügt und die abnormale Anzahl von Frames behoben.
+
+<sub>Issue [#73](issues/73) · [1025_mppt_VNSD-0_20251011093355e11fe4918.bin](firmwares/VNSD-0/MPPT/1025/1025_mppt_VNSD-0_20251011093355e11fe4918.bin)</sub>
+
 ## VNSEMINI-0 — Control v309 — 2026-11-19
 
 - Optimieren Sie die Zuverlässigkeit der lokalen API im LAN

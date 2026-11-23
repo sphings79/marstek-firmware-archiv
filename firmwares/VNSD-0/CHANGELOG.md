@@ -2,6 +2,12 @@
 
 🇬🇧 **English** · [🇩🇪 Deutsch](CHANGELOG.de.md)
 
+## MPPT v102.5 (Beta) — 2026-11-23
+
+- Added logic for actively unlocking the BMS and fixed the issue of abnormal frame count.
+
+<sub>Issue [#73](../../../../issues/73) · File `1025_mppt_VNSD-0_20251011093355e11fe4918.bin` · SHA-256 `b4a7d0817e89…`</sub>
+
 ## MPPT v104 — 2026-11-05
 
 - Latest version 104
