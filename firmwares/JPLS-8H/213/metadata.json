@@ -1,0 +1,33 @@
+{
+  "deviceName": "Ju********e2",
+  "url": "https://eu-central-1-s3-common-bucket.s3.dualstack.eu-central-1.amazonaws.com/uploads/ota/20250818/20250818162315786f61350.bin",
+  "apiResponse": {
+    "code": "1",
+    "content": "English",
+    "newVerion": "213",
+    "otaWay": "otaSelfBoot",
+    "data": "https://eu-central-1-s3-common-bucket.s3.dualstack.eu-central-1.amazonaws.com/uploads/ota/20250818/20250818162315786f61350.bin",
+    "english": "",
+    "chinese": "修改光伏开路电压阈值，其余与212一致",
+    "japanese": "",
+    "remark": "Modify the voltage threshold for photovoltaic systems",
+    "is_boot": "N",
+    "is_http": "N",
+    "size": null,
+    "crc": ""
+  },
+  "deviceType": "JPLS-8H",
+  "version": "213",
+  "firmwareType": null,
+  "releaseNote": "修改光伏开路电压阈值，其余与212一致",
+  "releaseNoteDE": "Ändern Sie den Schwellenwert für die Leerlaufspannung der Photovoltaik, der Rest stimmt mit 212 überein",
+  "releaseNoteEN": "Modify the photovoltaic open-circuit voltage threshold; the rest is consistent with 212.",
+  "archivedAt": "2026-11-23T17:45:23Z",
+  "archivedFilename": "213_JPLS-8H_20250818162315786f61350.bin",
+  "archivedFilesize": 98304,
+  "archivedSha256": "d95521afb932ee5a00b62c77f568a561c6f0258db69e89303b67efedaaac6919",
+  "apiCrc": null,
+  "apiSize": null,
+  "verified": null,
+  "issueNumber": 74
+}

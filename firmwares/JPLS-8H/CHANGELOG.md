@@ -2,6 +2,12 @@
 
 🇬🇧 **English** · [🇩🇪 Deutsch](CHANGELOG.de.md)
 
+## v213 — 2026-11-23
+
+- Modify the photovoltaic open-circuit voltage threshold; the rest is consistent with 212.
+
+<sub>Issue [#74](../../../../issues/74) · File `213_JPLS-8H_20250818162315786f61350.bin` · SHA-256 `d95521afb932…`</sub>
+
 ## v143 — 2026-11-08
 
 - http data upload adds SOC and MOS status of each package in BMS

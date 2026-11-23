@@ -2,6 +2,12 @@
 
 [🇬🇧 English](CHANGELOG.md) · 🇩🇪 **Deutsch**
 
+## v213 — 2026-11-23
+
+- Ändern Sie den Schwellenwert für die Leerlaufspannung der Photovoltaik, der Rest stimmt mit 212 überein
+
+<sub>Issue [#74](../../../../issues/74) · Datei `213_JPLS-8H_20250818162315786f61350.bin` · SHA-256 `d95521afb932…`</sub>
+
 ## v143 — 2026-11-08
 
 - Der HTTP-Datenupload fügt den SOC- und MOS-Status jedes Pakets im BMS hinzu

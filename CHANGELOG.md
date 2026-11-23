@@ -4,6 +4,12 @@
 
 Every archived firmware version, newest first.
 
+## JPLS-8H — v213 — 2026-11-23
+
+- Modify the photovoltaic open-circuit voltage threshold; the rest is consistent with 212.
+
+<sub>Issue [#74](issues/74) · [213_JPLS-8H_20250818162315786f61350.bin](firmwares/JPLS-8H/213/213_JPLS-8H_20250818162315786f61350.bin)</sub>
+
 ## VNSD-0 — MPPT v102.5 (Beta) — 2026-11-23
 
 - Added logic for actively unlocking the BMS and fixed the issue of abnormal frame count.

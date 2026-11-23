@@ -4,6 +4,12 @@
 
 Alle archivierten Firmware-Versionen, chronologisch (neueste zuerst).
 
+## JPLS-8H — v213 — 2026-11-23
+
+- Ändern Sie den Schwellenwert für die Leerlaufspannung der Photovoltaik, der Rest stimmt mit 212 überein
+
+<sub>Issue [#74](issues/74) · [213_JPLS-8H_20250818162315786f61350.bin](firmwares/JPLS-8H/213/213_JPLS-8H_20250818162315786f61350.bin)</sub>
+
 ## VNSD-0 — MPPT v102.5 (Beta) — 2026-11-23
 
 - Logik zum aktiven Entsperren von BMS hinzugefügt und die abnormale Anzahl von Frames behoben.
