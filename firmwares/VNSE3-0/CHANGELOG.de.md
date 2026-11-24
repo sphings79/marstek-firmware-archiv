@@ -2,6 +2,12 @@
 
 [🇬🇧 English](CHANGELOG.md) · 🇩🇪 **Deutsch**
 
+## Control v401 — 2026-11-24
+
+- Blockieren Sie alle Reset-Vorgänge, die durch Netzwerkprobleme verursacht werden könnten, exklusiv für die Ukraine
+
+<sub>Issue [#76](../../../../issues/76) · Datei `401_control_VNSE3-0_ems_app_0401_1109_175500.bin` · SHA-256 `22028cf05487…`</sub>
+
 ## Micro v121.0 (Beta) — 2026-11-13
 
 - Optimieren Sie das Phänomen, dass die Sicherung von Zeit zu Zeit getrennt wird

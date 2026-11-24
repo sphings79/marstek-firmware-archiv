@@ -539,6 +539,18 @@
     },
     {
      "type": "Control",
+     "version": "401",
+     "display": "401",
+     "beta": false,
+     "file": "firmwares/VNSE3-0/Control/401/401_control_VNSE3-0_ems_app_0401_1109_175500.bin",
+     "size": 382976,
+     "sha256": "22028cf0548780441495e4f891152ea20313f8f782c4dbd4c61d482a24669445",
+     "date": "2026-11-24",
+     "noteEN": "Block all reset operations that may be caused by network issues; for use in Ukraine only",
+     "noteDE": "Blockieren Sie alle Reset-Vorgänge, die durch Netzwerkprobleme verursacht werden könnten, exklusiv für die Ukraine"
+    },
+    {
+     "type": "Control",
      "version": "1511",
      "display": "151.1",
      "beta": true,

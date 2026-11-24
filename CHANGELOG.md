@@ -4,6 +4,12 @@
 
 Every archived firmware version, newest first.
 
+## VNSE3-0 — Control v401 — 2026-11-24
+
+- Block all reset operations that may be caused by network issues; for use in Ukraine only
+
+<sub>Issue [#76](issues/76) · [401_control_VNSE3-0_ems_app_0401_1109_175500.bin](firmwares/VNSE3-0/Control/401/401_control_VNSE3-0_ems_app_0401_1109_175500.bin)</sub>
+
 ## JPLS-8H — v213 — 2026-11-23
 
 - Modify the photovoltaic open-circuit voltage threshold; the rest is consistent with 212.

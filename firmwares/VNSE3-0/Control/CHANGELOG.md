@@ -2,6 +2,12 @@
 
 🇬🇧 **English** · [🇩🇪 Deutsch](CHANGELOG.de.md)
 
+## v401 — 2026-11-24
+
+- Block all reset operations that may be caused by network issues; for use in Ukraine only
+
+<sub>Issue [#76](../../../../../issues/76) · File `401_control_VNSE3-0_ems_app_0401_1109_175500.bin` · SHA-256 `22028cf05487…`</sub>
+
 ## v151.1 (Beta) — 2026-10-30
 
 - Optimize modbus tcp stability

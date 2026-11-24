@@ -1,7 +1,7 @@
 # Marstek Firmware Archive
 
 [![Stars](https://img.shields.io/github/stars/sphings79/marstek-firmware-archiv?style=flat&logo=github&label=stars)](https://github.com/sphings79/marstek-firmware-archiv/stargazers)
-[![Firmware](https://img.shields.io/badge/firmware--files-79-blue)](#available-firmware)
+[![Firmware](https://img.shields.io/badge/firmware--files-80-blue)](#available-firmware)
 [![Updated](https://img.shields.io/github/last-commit/sphings79/marstek-firmware-archiv?label=last%20updated)](https://github.com/sphings79/marstek-firmware-archiv/commits/main)
 
 🇬🇧 **English** · [🇩🇪 Deutsch](README.de.md)
@@ -45,7 +45,7 @@ SHA-256 checksum, file size and a per-device changelog.
 | `SMR-0` | Marstek P1 Meter CT003 | [1 version](#smr-0--marstek-p1-meter-ct003) |
 | `VNSA-0` | Marstek Venus A | [16 versions](#vnsa-0--marstek-venus-a) |
 | `VNSD-0` | Marstek Venus D | [14 versions](#vnsd-0--marstek-venus-d) |
-| `VNSE3-0` | Marstek Venus E 3.0 | [18 versions](#vnse3-0--marstek-venus-e-30) |
+| `VNSE3-0` | Marstek Venus E 3.0 | [19 versions](#vnse3-0--marstek-venus-e-30) |
 | `VNSEMINI-0` | Marstek Venus E Mini | [2 versions](#vnsemini-0--marstek-venus-e-mini) |
 
 Your device code is shown in the Marstek app, and the
@@ -276,6 +276,7 @@ automatically:
 
 | Version | Size | Added | Download | Issue | Changes |
 |---------|------|-------|----------|-------|---------|
+| v401 | 374 KB | 2026-11-24 | [📁 401_control_VNSE3-0_ems_app_0401_1109_175500.bin](firmwares/VNSE3-0/Control/401/401_control_VNSE3-0_ems_app_0401_1109_175500.bin) | [#76](../../issues/76) | Block all reset operations that may be caused by network issues; for use in Ukraine only |
 | v151.1 (Beta) | 370 KB | 2026-10-30 | [📁 1511_control_VNSE3-0_ems_app_0151_0928_094421.bin](firmwares/VNSE3-0/Control/1511/1511_control_VNSE3-0_ems_app_0151_0928_094421.bin) | [↗ ref](https://github.com/rweijnen/marstek-firmware-archive) | 1. Optimize modbus tcp stability<br>2. The problem that DOD cannot be discharged due to abnormal status before optimization<br>3. Add Ymodel upgrade type verification<br>4. Optimize AI mode verification and query the current AI strategy of the device<br>5. Fixed the pre-release server URL error, causing data upload failure.<br>6. Optimize the stability of Https upload data<br>7. Optimize CT communication frequency to 1.1S |
 | v151 | 370 KB | 2026-09-29 | [📁 151_control_VNSE3-0_ems_app_0151_0928_094421.bin](firmwares/VNSE3-0/Control/151/151_control_VNSE3-0_ems_app_0151_0928_094421.bin) | [#47](../../issues/47) | 1. Optimize modbus tcp stability<br>2. The problem that DOD cannot be discharged due to abnormal status before optimization<br>3. Add Ymodel upgrade type verification<br>4. Optimize AI mode verification and query the current AI strategy of the device<br>5. Fixed the pre-release server URL error, causing data upload failure.<br>6. Optimize the stability of Https upload data<br>7. Optimize CT communication frequency to 1.1S |
 | v150 | 366 KB | 2026-08-12 | [📁 150_control_VNSE3-0_app_0150_0804_151249.bin](firmwares/VNSE3-0/Control/150/150_control_VNSE3-0_app_0150_0804_151249.bin) | [#27](../../issues/27) | 1. Fixed faulty Local API transmission in Ethernet mode<br>2. Fixed failing HTTP updates in Ethernet mode<br>3. Added a peak-shaving function<br>4. Fixed data loss caused by overlong HTTP payloads<br>5. Switched the meter connection to CT_TYPE |
@@ -316,8 +317,8 @@ automatically:
 
 ---
 
-**Firmware files in total:** 79
-**Last updated:** 2026-11-23 17:45:23 UTC
+**Firmware files in total:** 80
+**Last updated:** 2026-11-24 14:51:38 UTC
 
 ## Contributing
 

@@ -4,6 +4,12 @@
 
 Alle archivierten Firmware-Versionen, chronologisch (neueste zuerst).
 
+## VNSE3-0 — Control v401 — 2026-11-24
+
+- Blockieren Sie alle Reset-Vorgänge, die durch Netzwerkprobleme verursacht werden könnten, exklusiv für die Ukraine
+
+<sub>Issue [#76](issues/76) · [401_control_VNSE3-0_ems_app_0401_1109_175500.bin](firmwares/VNSE3-0/Control/401/401_control_VNSE3-0_ems_app_0401_1109_175500.bin)</sub>
+
 ## JPLS-8H — v213 — 2026-11-23
 
 - Ändern Sie den Schwellenwert für die Leerlaufspannung der Photovoltaik, der Rest stimmt mit 212 überein
