@@ -2,6 +2,12 @@
 
 [🇬🇧 English](CHANGELOG.md) · 🇩🇪 **Deutsch**
 
+## v38 — 2026-11-27
+
+- Optimieren Sie die Paketschneidelogik
+
+<sub>Issue [#77](../../../../issues/77) · Datei `38_JPLS-8H_BMS_JPLS_V38_app__0716_ota_234758.bin` · SHA-256 `76d64cadfb9a…`</sub>
+
 ## v213 — 2026-11-23
 
 - Ändern Sie den Schwellenwert für die Leerlaufspannung der Photovoltaik, der Rest stimmt mit 212 überein

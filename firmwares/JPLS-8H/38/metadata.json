@@ -1,0 +1,33 @@
+{
+  "deviceName": "Ju*********us",
+  "url": "https://static-eu.marstekenergy.com/uploads/ota/20260723/BMS_JPLS_V38_app__0716_ota_234758.bin",
+  "apiResponse": {
+    "code": "1",
+    "content": "English",
+    "newVerion": "38",
+    "otaWay": "otaSelfBoot",
+    "data": "https://static-eu.marstekenergy.com/uploads/ota/20260723/BMS_JPLS_V38_app__0716_ota_234758.bin",
+    "english": "优化切包逻辑",
+    "chinese": "优化切包逻辑",
+    "japanese": "",
+    "remark": "优化切包逻辑",
+    "is_boot": "N",
+    "is_http": "N",
+    "size": 96256,
+    "crc": ""
+  },
+  "deviceType": "JPLS-8H",
+  "version": "38",
+  "firmwareType": null,
+  "releaseNote": "优化切包逻辑",
+  "releaseNoteDE": "Optimieren Sie die Paketschneidelogik",
+  "releaseNoteEN": "Optimize package splitting logic",
+  "archivedAt": "2026-11-27T10:40:22Z",
+  "archivedFilename": "38_JPLS-8H_BMS_JPLS_V38_app__0716_ota_234758.bin",
+  "archivedFilesize": 96256,
+  "archivedSha256": "76d64cadfb9a1d4060ee8ae23d96b4304aca491dd17969ee87a99c71c4fbf0e9",
+  "apiCrc": null,
+  "apiSize": null,
+  "verified": null,
+  "issueNumber": 77
+}

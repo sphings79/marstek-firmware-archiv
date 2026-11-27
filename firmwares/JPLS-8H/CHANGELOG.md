@@ -2,6 +2,12 @@
 
 🇬🇧 **English** · [🇩🇪 Deutsch](CHANGELOG.de.md)
 
+## v38 — 2026-11-27
+
+- Optimize package splitting logic
+
+<sub>Issue [#77](../../../../issues/77) · File `38_JPLS-8H_BMS_JPLS_V38_app__0716_ota_234758.bin` · SHA-256 `76d64cadfb9a…`</sub>
+
 ## v213 — 2026-11-23
 
 - Modify the photovoltaic open-circuit voltage threshold; the rest is consistent with 212.

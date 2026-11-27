@@ -4,6 +4,12 @@
 
 Every archived firmware version, newest first.
 
+## JPLS-8H — v38 — 2026-11-27
+
+- Optimize package splitting logic
+
+<sub>Issue [#77](issues/77) · [38_JPLS-8H_BMS_JPLS_V38_app__0716_ota_234758.bin](firmwares/JPLS-8H/38/38_JPLS-8H_BMS_JPLS_V38_app__0716_ota_234758.bin)</sub>
+
 ## VNSE3-0 — Control v401 — 2026-11-24
 
 - Block all reset operations that may be caused by network issues; for use in Ukraine only
