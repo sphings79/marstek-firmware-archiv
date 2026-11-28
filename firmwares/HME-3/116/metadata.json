@@ -14,7 +14,6 @@
     "size": null
   },
   "chinese": "1、BLE和MQTT添加ABC3相和合相数据Now数据\n2、蓝牙增加无密码WIFI配置\n3、使用新Mqtt服务器证书加密\n4、UDP协议增加电量数据",
-  "deviceName": "MTCT",
   "deviceType": "HME-3",
   "english": "",
   "otaWay": "otaSelfBoot",
