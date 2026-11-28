@@ -83,7 +83,7 @@ Beim Import gilt:
 - vorhandene Versionen bleiben unangetastet,
 - Dateien werden auf unser Namensschema `<version>_<typ>_<gerät>_<original>`
   gebracht, Struktur/Metadaten vereinheitlicht (Übersetzung, SHA-256, CRC/Größe),
-- ein `deviceName` aus der Fremdquelle wird maskiert (`De******ku`),
+- ein `deviceName` aus der Fremdquelle wird entfernt,
 - Einträge werden mit `importedFrom` markiert (in README als `↗ ref`-Link).
 
 ## Einmaliger Cleanup / Backfill (lokal)

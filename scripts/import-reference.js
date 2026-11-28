@@ -8,7 +8,7 @@
 // - Kopiert nur Versionen, die hier noch fehlen (vorhandene bleiben unangetastet).
 // - Vereinheitlicht auf die kanonische Struktur/Metadaten (Dateiname, Übersetzung,
 //   SHA-256, CRC/Größen-Verifikation) und markiert Einträge mit `importedFrom`.
-// - Maskiert Klarnamen (`deviceName`) aus der Fremdquelle.
+// - Drops the user-chosen device name (`deviceName`) from the reference source.
 //
 // Wird sowohl manuell benutzt als auch von `sync-upstream.js` (täglicher
 // Abgleich per GitHub Action) als Modul aufgerufen.
@@ -35,15 +35,6 @@ const FIRMWARE_EXTS = ['.bin', '.rbl'];
 function isFirmwareFile(name) {
   const lower = String(name).toLowerCase();
   return FIRMWARE_EXTS.some((ext) => lower.endsWith(ext));
-}
-
-// Klarnamen aus der Fremdquelle unkenntlich machen: erste zwei + letzte zwei
-// Zeichen bleiben stehen, der Rest wird zu '*' (gleiche Form wie im übrigen
-// Archiv, z. B. "MS********0c"). Zu kurze Namen ("MTCT") bleiben unverändert.
-function maskDeviceName(value) {
-  const name = String(value || '');
-  if (name.length <= 4) return name;
-  return name.slice(0, 2) + '*'.repeat(name.length - 4) + name.slice(-2);
 }
 
 // Dateiname nach dem hiesigen Schema <version>_<typ>_<gerät>_<original>,
@@ -161,7 +152,7 @@ async function importFrom(refRoot, opts = {}) {
       issueNumber: null,
       importedFrom: source,
     });
-    if (out.deviceName) out.deviceName = maskDeviceName(out.deviceName);
+    delete out.deviceName;
     fs.writeFileSync(path.join(dest, 'metadata.json'), JSON.stringify(out, null, 2) + '\n');
 
     // Preserve pre-existing manual changelog files from the reference, if any
@@ -193,7 +184,7 @@ async function importFrom(refRoot, opts = {}) {
   return summary;
 }
 
-module.exports = { importFrom, maskDeviceName, pickArchiveName };
+module.exports = { importFrom, pickArchiveName };
 
 if (require.main === module) {
   const refRoot = process.argv[2];
